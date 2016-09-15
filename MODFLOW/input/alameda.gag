@@ -1,0 +1,22 @@
+21                              NUMGAGE
+495 5 201 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Arroyo Hondo near San Jose
+39 1 202 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Arroyo de la Laguna at Verona 
+182 3 203 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   San Antonio Creek near Sunol
+368 6 204 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Calaveras Creek near Sunol
+393 12 205 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Alameda Ck above ACDD near Sunol
+384 5 206 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Alameda Ck below ACDD near Sunol
+351 6 207 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Alameda Ck below Calaveras Ck near Sunol
+282 10 208 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Alameda Ck below Welch Ck near Sunol
+144 2 209 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Alameda Ck near Niles
+-1 210 4						LAKE	UNIT	OUTTYPE	ACDD Reservoir
+-2 211 4						LAKE	UNIT	OUTTYPE	No Name Pond
+-3 212 4						LAKE	UNIT	OUTTYPE	Pond F6
+-4 213 4						LAKE	UNIT	OUTTYPE	Ready Mix Pond
+-5 214 4						LAKE	UNIT	OUTTYPE	Pond F5
+-6 215 4						LAKE	UNIT	OUTTYPE	Pond F4
+-7 216 4						LAKE	UNIT	OUTTYPE	Pond F3W
+-8 217 4						LAKE	UNIT	OUTTYPE	Pond F3E
+-9 218 4						LAKE	UNIT	OUTTYPE	Pond F2
+-10 219 4						LAKE	UNIT	OUTTYPE	Pond SMP 32
+-11 220 4						LAKE	UNIT	OUTTYPE	San Antonio Reservoir
+-12 221 4						LAKE	UNIT	OUTTYPE	Calaveras Reservoir
