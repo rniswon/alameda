@@ -23,27 +23,18 @@ data 109  ./input/lake_bathymetry/ANALYZED_f2_raster_multiSurfaceVolume.txt
 data 110  ./input/lake_bathymetry/ANALYZED_smp32_raster_multiSurfaceVolume.txt
 data 111  ./input/lake_bathymetry/ANALYZED_SanAntRes1_raster_multiSurfaceVolume.txt
 data 112  ./input/lake_bathymetry/ANALYZED_CalRes1_raster_multiSurfaceVolume.txt
-data 201 ./output/Arroyo_Hondo_near_San_Jose.out
-data 202 ./output/Arroyo_de_la_Laguna_at_Verona.out 
-data 203 ./output/San_Antonio_Creek_near_Sunol.out
-data 204 ./output/Calaveras_Creek_near_Sunol.out
-data 205 ./output/Alameda_Ck_above_ACDD_near_Sunol.out
-data 206 ./output/Alameda_Ck_below_ACDD_near_Sunol.out
-data 207 ./output/Alameda_Ck_below_Calaveras_Ck_near_Sunol.out
-data 208 ./output/Alameda_Ck_below_Welch_Ck_near_Sunol.out
-data 209 ./output/Alameda_Ck_near_Niles.out
-data 210 ./output/ACDD_Reservoir.out
-data 211 ./output/No_Name_Pond.out
-data 212 ./output/Pond_F6.out
-data 213 ./output/Ready_Mix_Pond.out
-data 214 ./output/Pond_F5.out
-data 215 ./output/Pond_F4.out
-data 216 ./output/Pond_F3W.out
-data 217 ./output/Pond_F3E.out
-data 218 ./output/Pond_F2.out
-data 219 ./output/Pond_SMP_32.out
-data 220 ./output/San_Antonio_Reservoir.out
-data 221 ./output/Calaveras_Reservoir.out
+data 201  ./output/streamflow_IndianCreek
+data 202  ./output/streamflow_SanAntonioCreekAtIndianCreekRd
+data 203  ./output/streamflow_ArroyoHondo
+data 204  ./output/streamflow_SanAntonioCreek
+data 205  ./output/streamflow_CalaverasCreek
+data 206  ./output/streamflow_AlamedaCreekAboveACDD
+data 207  ./output/streamflow_AlamedaCreekBelowACDD
+data 208  ./output/streamflow_AlamedaCreekBelowCalaverasCreek
+data 209  ./output/streamflow_AlamedaCreekBelowWelchCreek
+data 210  ./output/streamflow_AlamedaCreekNearNiles
+data 211  ./output/streamflow_AlamedaCreekAboveSanAntonioCreek
+data 212  ./output/streamflow_AlamedaCreekAboveArroyoDeLaLaguna
 
 
 
