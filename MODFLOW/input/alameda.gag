@@ -11,15 +11,15 @@
 144 2 210 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Alameda Ck near Niles
 196 11 211 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Alameda Creek above San Antonio Creek
 149 4 212 6                     GAGESEG  GAGERCH  UNIT  OUTTYPE   Alameda Creek above Arroyo de la Laguna
--4 -213 2						LAKE	UNIT	OUTTYPE	Ready Mix Pond
--5 -214 2						LAKE	UNIT	OUTTYPE	Pond F5
--6 -215 2						LAKE	UNIT	OUTTYPE	Pond F4
--7 -216 2						LAKE	UNIT	OUTTYPE	Pond F3W
--8 -217 2						LAKE	UNIT	OUTTYPE	Pond F3E
--9 -218 2						LAKE	UNIT	OUTTYPE	Pond F2
--10 -219 2					LAKE	UNIT	OUTTYPE	Pond SMP 32
--11 -220 2						LAKE	UNIT	OUTTYPE	San Antonio Reservoir
--12 -221 2						LAKE	UNIT	OUTTYPE	Calaveras Reservoir
--1 -222 2						LAKE	UNIT	OUTTYPE	ACDD Reservoir
--2 -223 2						LAKE	UNIT	OUTTYPE	No Name Pond
--3 -224 2						LAKE	UNIT	OUTTYPE	Pond F6
+-4 -213 4						LAKE	UNIT	OUTTYPE	Ready Mix Pond
+-5 -214 4						LAKE	UNIT	OUTTYPE	Pond F5
+-6 -215 4						LAKE	UNIT	OUTTYPE	Pond F4
+-7 -216 4						LAKE	UNIT	OUTTYPE	Pond F3W
+-8 -217 4						LAKE	UNIT	OUTTYPE	Pond F3E
+-9 -218 4						LAKE	UNIT	OUTTYPE	Pond F2
+-10 -219 4					LAKE	UNIT	OUTTYPE	Pond SMP 32
+-11 -220 4						LAKE	UNIT	OUTTYPE	San Antonio Reservoir
+-12 -221 4						LAKE	UNIT	OUTTYPE	Calaveras Reservoir
+-1 -222 4						LAKE	UNIT	OUTTYPE	ACDD Reservoir
+-2 -223 4						LAKE	UNIT	OUTTYPE	No Name Pond
+-3 -224 4						LAKE	UNIT	OUTTYPE	Pond F6

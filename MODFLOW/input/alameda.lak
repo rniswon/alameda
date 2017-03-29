@@ -3110,14 +3110,27 @@ CONSTANT    0.0001      LAKEBED LEAKANCE,LAYER 3
 CONSTANT    0.0001      LAKEBED LEAKANCE,LAYER 4
          0                                   ;NSLMS: Number of coalescing lake systems
   0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 2
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 3
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 4
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 5
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 6
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 7
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 8
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 9
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 10
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 10
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 11
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
