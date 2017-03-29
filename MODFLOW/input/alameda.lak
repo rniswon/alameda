@@ -3110,3 +3110,14 @@ CONSTANT    0.0001      LAKEBED LEAKANCE,LAYER 3
 CONSTANT    0.0001      LAKEBED LEAKANCE,LAYER 4
          0                                   ;NSLMS: Number of coalescing lake systems
   0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.000000  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
