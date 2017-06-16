@@ -3,10 +3,10 @@
 TABLEINPUT
 12         1                         ;NLAKES,ILKCB                
 -0.8000       100   0.00001  0.1             ;THETA,NSSITER,SSCNCR     
-896 886 936  101             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (ACDD Reservoir)  
+896 886 906  101             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (ACDD Reservoir)  
 263 178 273  102             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
 246 102 256  103             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
-246 248 256  104             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
+251 248 256  104             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
 241 221 251  105             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
 241 213 251  106             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
 245 100 255  107             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3W) 
