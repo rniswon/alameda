@@ -1,13 +1,10 @@
 GSFLOW Control File for Alameda Creek
 ####
-<<<<<<< HEAD
 print_debug
 1
 1
 -1
 ####
-=======
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 parameter_check_flag
 1
 1
@@ -36,11 +33,7 @@ aniOutON_OFF
 print_debug
 1
 1
-<<<<<<< HEAD
 14
-=======
--1
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 ####
 naniOutVars
 1
@@ -117,18 +110,11 @@ end_time
 0
 ####
 dispVar_names
-<<<<<<< HEAD
 15
 4
 runoff
 sub_cfs
 sub_gwflow
-=======
-14
-4
-runoff
-sub_cfs
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 sub_interflow
 sub_sroff
 basin_pweqv
@@ -143,20 +129,13 @@ basin_tmax
 basin_tmin
 ####
 dispVar_plot
-<<<<<<< HEAD
 15
-=======
-14
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 1
 1
 1
 2
 2
-<<<<<<< HEAD
 2
-=======
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 3
 3
 4
@@ -186,11 +165,7 @@ executable_model
 gsflow_output_file
 1
 4
-<<<<<<< HEAD
 .output/gsflow.out
-=======
-.\output\gsflow.out
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 ####
 init_vars_from_file
 1
@@ -243,17 +218,10 @@ srunoff_smidx
 nstatVars
 1
 1
-<<<<<<< HEAD
 254
 ####
 statVar_element
 254
-=======
-230
-####
-statVar_element
-230
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 4
 1
 2
@@ -485,7 +453,6 @@ statVar_element
 10
 11
 12
-<<<<<<< HEAD
 1
 2
 3
@@ -513,11 +480,6 @@ statVar_element
 ####
 statVar_names
 254
-=======
-####
-statVar_names
-230
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 4
 sub_cfs
 sub_cfs
@@ -677,7 +639,6 @@ sub_sroff
 sub_sroff
 sub_sroff
 sub_sroff
-<<<<<<< HEAD
 subinc_recharge
 subinc_recharge
 subinc_recharge
@@ -702,8 +663,6 @@ subinc_stor
 subinc_stor
 subinc_stor
 subinc_stor
-=======
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 subinc_tavgc
 subinc_tavgc
 subinc_tavgc
@@ -848,11 +807,7 @@ nsubOut_freq
 1
 ####
 nsubOutVar_names
-<<<<<<< HEAD
 29
-=======
-26
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 4
 hru_ppt
 hru_rain
@@ -879,12 +834,9 @@ ssr_to_gw
 soil_moist_tot
 ssres_flow
 ssres_stor
-<<<<<<< HEAD
 gwres_flow
 gwres_sink
 gwres_stor
-=======
->>>>>>> 8ae8b878501b2701cc92887f377d174af25e448e
 pref_flow
 ####
 nsubOutBaseFileName
