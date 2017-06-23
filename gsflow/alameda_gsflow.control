@@ -799,7 +799,7 @@ nsubOutON_OFF
 nsubOutVars
 1
 1
-29
+26
 ####
 nsubOut_freq
 1
@@ -807,7 +807,7 @@ nsubOut_freq
 1
 ####
 nsubOutVar_names
-29
+26
 4
 hru_ppt
 hru_rain
@@ -834,12 +834,9 @@ ssr_to_gw
 soil_moist_tot
 ssres_flow
 ssres_stor
-gwres_flow
-gwres_sink
-gwres_stor
 pref_flow
 ####
 nsubOutBaseFileName
 1
 4
-.\OUTPUT\PRMS\nsubOutVar\nsub.
+.\OUTPUT\PRMS\nsubOutVar\nsub
