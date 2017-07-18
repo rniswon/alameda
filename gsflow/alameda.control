@@ -58,12 +58,12 @@ csv_output_file
 model_output_file
 1
 4
-./output/PRMS/prms.out
+./output/prms/prms.out
 ####
 data_file
 1
 4
-./input/prms/alameda_data_20170216.prms
+./input/prms/alameda_data_20170531.prms
 ####
 dispGraphsBuffSize
 1
@@ -739,7 +739,7 @@ subinc_snowmelt
 stat_var_file
 1
 4
-.\OUTPUT\PRMS\statvar.dat
+.\output\prms\statvar.dat
 ####
 statsON_OFF
 1
@@ -799,7 +799,7 @@ nsubOutON_OFF
 nsubOutVars
 1
 1
-29
+30
 ####
 nsubOut_freq
 1
@@ -807,10 +807,11 @@ nsubOut_freq
 1
 ####
 nsubOutVar_names
-29
+30
 4
 hru_ppt
 hru_rain
+hru_storage
 tavgf
 tmaxf
 tminf
@@ -842,4 +843,4 @@ pref_flow
 nsubOutBaseFileName
 1
 4
-.\OUTPUT\PRMS\nsub.
+.\output\prms\nsubOutVar\nsub.
