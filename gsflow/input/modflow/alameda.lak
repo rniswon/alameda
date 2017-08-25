@@ -3,18 +3,18 @@
 TABLEINPUT
 12         1                         ;NLAKES,ILKCB                
 -0.8000       100   0.00001  0.1             ;THETA,NSSITER,SSCNCR     
-896 886 906  101             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (ACDD Reservoir)  
-269.5 178 273  102             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
-253.15 102 256  103             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
-250.84 248 256  104             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
-243.57 221 251  105             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
-246.8 213 251  106             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
+896 884.5 906  101             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (ACDD Reservoir)  
+269.5 176 273  102             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
+253.15 100.6 256  103             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
+250.84 246 256  104             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
+243.57 219.5 251  105             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
+246.8 211.3 251  106             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
 249.69 100 255  107             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3W) 
 245 75 275  108             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3E) 
-243 8 255  109             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F2) 
-232.2 118 235  110             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond SMP 32) 
-451.4 313 469  111             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (San Antonio Reservoir) 
-750 493 756  112             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Calaveras Reservoir) 
+243 7.9 255  109             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F2) 
+232.2 116.2 235  110             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond SMP 32) 
+451.4 311.6 469  111             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (San Antonio Reservoir) 
+750 491.7 756  112             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Calaveras Reservoir) 
 1         0         0               ;INPUT/OUTPUT OPTIONS        
 INTERNAL         1 (FREE)                      3    ;LAKE POSITION ARRAY,LAYER 1
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 

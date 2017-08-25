@@ -44,11 +44,14 @@ data 218   ./output/modflow/Pond_F2.out
 data 219   ./output/modflow/Pond_SMP_32.out
 data 220   ./output/modflow/San_Antonio_Reservoir.out
 data 221   ./output/modflow/Calaveras_Reservoir.out           
-data(binary) 58    ./output/modflow/heads.unf
-data(binary) 60    ./input/modflow/heads.unf
 data 222 ./output/modflow/ACDD_Reservoir.out
 data 223 ./output/modflow/No_Name_Pond.out
 data 224 ./output/modflow/Pond_F6.out
+data(binary) 58    ./output/modflow/heads.unf
+data(binary) 60    ./input/modflow/heads.unf
+data 301 ./input/modflow/streamflow_AlamedaCreekBelowACDD.txt
+data 302 ./input/modflow/streamflow_SanAntonioCreek.txt
+data 303 ./input/modflow/streamflow_CalaverasCreek.txt
 
 
 
