@@ -63,7 +63,7 @@ model_output_file
 data_file
 1
 4
-./input/prms/alameda_data_20170531.prms
+./input/prms/alameda_data_20170906.prms
 ####
 dispGraphsBuffSize
 1
