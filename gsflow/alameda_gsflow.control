@@ -180,7 +180,7 @@ ndispGraphs
 param_file
 4
 4
-./input/prms/alameda_calibration_parameters.param
+./input/prms/alameda_calibration_parameters_gsflow.param
 ./input/prms/alameda_cascade.param
 ./input/prms/alameda_default_values.param
 ./input/prms/alameda_gis_derived_parameters.param
