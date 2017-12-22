@@ -58,7 +58,7 @@ model_output_file
 data_file
 1
 4
-./input/prms/alameda_data_20170906.prms
+./input/prms/alameda_data_20170906_SanAntCkHist.prms
 ####
 dispGraphsBuffSize
 1
@@ -87,7 +87,7 @@ dispVar_element
 start_time
 6
 1
-1995
+1912
 10
 01
 0
@@ -97,7 +97,7 @@ start_time
 end_time
 6
 1
-2014
+1930
 9
 30
 0
