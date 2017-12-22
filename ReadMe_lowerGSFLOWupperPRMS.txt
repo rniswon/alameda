@@ -62,5 +62,17 @@ recharge is too high by 3%, and the percent discrepancy in the water budget is -
 Tried leaving FINF multiplier alone, increasing PET to 0.005, and leaving VKS and SURFK multipliers alone - now GWET is too low by 11%, UZF recharge is too
 high by 2%, and the percent discrepancy in the water budget is -18%.
 
-Tried leaving FINF multiplier alone, increasing PET to 0.006, and leaving VKS and SURFK multipliers alone - 
+Tried leaving FINF multiplier alone, increasing PET to 0.006, and leaving VKS and SURFK multipliers alone - now GWET is too low by 11%, UZF recharge is too
+high by 2%, and the percent discrepancy in the water budget is -18%.
 
+
+Run 9: 
+Experimental, not used, run 10 is based off of run 8
+
+
+Run 10:
+Rich lowered reservoir outflows to lower steady state lake stages
+
+
+Run 11:
+Changed DIS, LAK, and SFR files in order to match up lake min/max elevations with cell bottom elevations
