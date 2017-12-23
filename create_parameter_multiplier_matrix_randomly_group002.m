@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 % Date last updated: 10/19/2017
+=======
+% Date last updated: 10/25/2017
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 
 % Goal: 
 % The goal of this script is to create a file in which the columns contain:

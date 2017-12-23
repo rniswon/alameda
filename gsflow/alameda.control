@@ -58,7 +58,11 @@ model_output_file
 data_file
 1
 4
+<<<<<<< HEAD
 ./input/prms/alameda_data_20170906_SanAntCkHist.prms
+=======
+./input/prms/alameda_data_20170906.prms
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 ####
 dispGraphsBuffSize
 1
@@ -87,7 +91,11 @@ dispVar_element
 start_time
 6
 1
+<<<<<<< HEAD
 1912
+=======
+2010
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 10
 01
 0
@@ -97,7 +105,11 @@ start_time
 end_time
 6
 1
+<<<<<<< HEAD
 1930
+=======
+2014
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 9
 30
 0

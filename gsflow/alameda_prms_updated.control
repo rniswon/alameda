@@ -53,12 +53,24 @@ csv_output_file
 model_output_file
 1
 4
+<<<<<<< HEAD
 .\output\prms\0002\prms.out
+=======
+<<<<<<< HEAD
+.\output\prms\1760\prms.out
+=======
+.\output\prms\0760\prms.out
+>>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 ####
 data_file
 1
 4
+<<<<<<< HEAD
 ./input/prms/alameda_data_20170906_SanAntCkHist.prms
+=======
+./input/prms/alameda_data_20170906.prms
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 ####
 dispGraphsBuffSize
 1
@@ -87,7 +99,11 @@ dispVar_element
 start_time
 6
 1
+<<<<<<< HEAD
 1912
+=======
+1995
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 10
 1
 0
@@ -97,7 +113,11 @@ start_time
 end_time
 6
 1
+<<<<<<< HEAD
 1930
+=======
+2014
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 9
 30
 0
@@ -734,7 +754,15 @@ subinc_snowmelt
 stat_var_file
 1
 4
+<<<<<<< HEAD
 .\output\prms\0002\statvar.dat
+=======
+<<<<<<< HEAD
+.\output\prms\1760\statvar.dat
+=======
+.\output\prms\0760\statvar.dat
+>>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 ####
 statsON_OFF
 1
@@ -838,5 +866,13 @@ pref_flow
 nsubOutBaseFileName
 1
 4
+<<<<<<< HEAD
 .\output\prms\0002\nsubOutVar\nsub.
+=======
+<<<<<<< HEAD
+.\output\prms\1760\nsubOutVar\nsub.
+=======
+.\output\prms\0760\nsubOutVar\nsub.
+>>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
+>>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 
