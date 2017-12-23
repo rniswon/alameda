@@ -53,7 +53,11 @@ csv_output_file
 model_output_file
 1
 4
+<<<<<<< HEAD
 .\output\prms\1760\prms.out
+=======
+.\output\prms\0760\prms.out
+>>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
 ####
 data_file
 1
@@ -734,7 +738,11 @@ subinc_snowmelt
 stat_var_file
 1
 4
+<<<<<<< HEAD
 .\output\prms\1760\statvar.dat
+=======
+.\output\prms\0760\statvar.dat
+>>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
 ####
 statsON_OFF
 1
@@ -838,5 +846,9 @@ pref_flow
 nsubOutBaseFileName
 1
 4
+<<<<<<< HEAD
 .\output\prms\1760\nsubOutVar\nsub.
+=======
+.\output\prms\0760\nsubOutVar\nsub.
+>>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
 

@@ -4,7 +4,11 @@ close all
 clc
 
 % Set working directory to folder containing this .m file
+<<<<<<< HEAD
 projectFolder = 'C:\gsflow_onlyPRMS_02';   % Will need to change this if running from other locations
+=======
+projectFolder = 'C:\gsflow_onlyPRMS_01';   % Will need to change this if running from other locations
+>>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
 cd(projectFolder);   % Will need to change this if running from other locations
 
 % Set file path to gsflow batch file (must be full file path)
@@ -19,8 +23,13 @@ Analyze_betterRun = 1;   % If want to compare model results to a specified compa
 
 % MUST CHANGE THESE FOR EACH SET OF RUNS
 % Set initial and final simulation indices
+<<<<<<< HEAD
 N0 = 1021; %Initial simulation
 N = 1760; % Final simulation
+=======
+N0 = 21; %Initial simulation
+N = 760; % Final simulation
+>>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
 N1 = 20; % Set how many simulations to run before summary file is generated - should be equal to the number of multipliers in a spreadsheet
 multiplierFolder = 'random_multipliers'; % Either 'systematic_multipliers' or 'random_multipliers'
 

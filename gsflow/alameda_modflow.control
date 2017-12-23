@@ -58,7 +58,7 @@ model_output_file
 data_file
 1
 4
-./input/prms/alameda_data_20170531.prms
+./input/prms/alameda_data_20170906.prms
 ####
 dispGraphsBuffSize
 1
@@ -160,7 +160,7 @@ executable_model
 gsflow_output_file
 1
 4
-.output/gsflow.out
+./output/gsflow.out
 ####
 init_vars_from_file
 1
@@ -789,7 +789,7 @@ subbasin_flag
 nsubOutON_OFF
 1
 1
-1
+0
 ####
 nsubOutVars
 1
