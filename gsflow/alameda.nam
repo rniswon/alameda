@@ -1,11 +1,11 @@
 LIST 1   ./output/modflow/alameda.lst
-BAS6  2  ./input/modflow/alameda.bas
+BAS6  2  ./input/modflow/alameda_lowerWatershed.bas
 oc    3  ./input/modflow/alameda.oc
 dis  4  ./input/modflow/alameda.dis
 nwt  15  ./input/modflow/alameda.nwt
 upw  16  ./input/modflow/alameda.upw
-uzf  7  ./input/modflow/alameda.uzf
-sfr  8  ./input/modflow/alameda.sfr
+uzf  7  ./input/modflow/alameda_lowerWatershed.uzf
+sfr  8  ./input/modflow/alameda_lowerWatershed.sfr
 gage 9  ./input/modflow/alameda.gag
 lak  10  ./input/modflow/alameda_tr.lak
 data 11  ./output/modflow/alameda.hed
