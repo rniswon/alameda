@@ -12,3 +12,5 @@ gsflow/input/prms/alameda_calibration_parameters.param
 gsflow/input/prms/alameda_default_values.param
 gsflow/input/prms/alameda_gis_derived_parameters.param
 gsflow/alameda_prms_updated.control
+gsflow/prms_ic.out
+gsflow/gsflow.log
