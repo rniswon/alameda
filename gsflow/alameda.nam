@@ -2,6 +2,7 @@ LIST 1   ./output/modflow/alameda.lst
 BAS6  2  ./input/modflow/alameda_lowerWatershed.bas
 oc    3  ./input/modflow/alameda.oc
 dis  4  ./input/modflow/alameda.dis
+HOB  5  ./input/modflow/alameda.hob
 nwt  15  ./input/modflow/alameda.nwt
 upw  16  ./input/modflow/alameda.upw
 uzf  7  ./input/modflow/alameda_lowerWatershed.uzf
@@ -53,7 +54,7 @@ data 301 ./input/modflow/streamflow_AlamedaCreekBelowACDD.txt
 data 302 ./input/modflow/streamflow_SanAntonioCreekBelowDam.txt
 data 303 ./input/modflow/streamflow_CalaverasCreek.txt
 data 304 ./input/modflow/streamflow_ArroyoDeLaLaguna.txt
-
+data 401 ./output/hobs.out
 
 
 
