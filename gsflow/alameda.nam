@@ -54,7 +54,7 @@ data 301 ./input/modflow/streamflow_AlamedaCreekBelowACDD.txt
 data 302 ./input/modflow/streamflow_SanAntonioCreekBelowDam.txt
 data 303 ./input/modflow/streamflow_CalaverasCreek.txt
 data 304 ./input/modflow/streamflow_ArroyoDeLaLaguna.txt
-data 401 ./output/hobs.out
+data 401 ./output/modflow/hobs.out
 
 
 
