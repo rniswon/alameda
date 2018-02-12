@@ -170,7 +170,7 @@ init_vars_from_file
 modflow_name
 1
 4
-alameda.nam
+alameda_lw.nam
 ####
 ndispGraphs
 1
