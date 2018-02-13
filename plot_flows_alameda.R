@@ -49,7 +49,7 @@ sfNamesPretty <- list('Indian Creek',
                       'Alameda Creek near Niles',
                       'Alameda Creek above San Antonio Creek',
                       'Alameda Creek above Arroyo de la Laguna',
-                      'CalaverasCreekReachBelowReservoir')
+                      'Calaveras Creek - reach below reservoir')
 
 
 # read in GSFLOW-simulated streamflow data 
@@ -63,15 +63,21 @@ names(sfSim) <- sfNames
 
 
 # read in observed streamflow data 
-sfObs <- read.table('./gsflow/input/prms/alameda_data_20170906.prms', skip=36, header=FALSE, na.strings=-999)
+sfObs <- read.table('./gsflow/input/prms/alameda_data_20170906.prms', skip=36, header=FALSE, na.strings= '-999')
 sfObs <- sfObs[,1:18]  # may need to make this 19 after including Arroyo de la Laguna at Verona in output streamflow
-names(sfObs) <- c(list('year', 'month', 'day', 'hour', 'minute', 'second'), sfNames)
+names(sfObs) <- c(list('year', 'month', 'day', 'hour', 'minute', 'second'), sfNames[1:12])   # to exclude Calaveras Creek - reach below reservoir
 sfObs$date <- seq(as.Date('1995-10-01'), as.Date('2014-09-30'), by='day')
 sfObs <- subset(sfObs, subset=sfObs$date >= as.Date('2010-10-01') & sfObs$date <= as.Date('2014-09-30'))
 
 
 # read in PRMS-simulated data for Arroyo Hondo and Upper Alameda
-
+statvar <- read.table(file = './gsflow/output/prms/statvar.dat', skip = 255, header = FALSE, na.strings= '-999')
+statvarHeadings <- read.table(file = './gsflow/output/prms/statvar.dat', skip = 1, header = FALSE, 
+                              na.strings= '-999', nrows=254)
+statvarHeadingsMod <- c('obsNum', 'year', 'month', 'day', 'hour', 'minute', 'second', as.character(statvarHeadings[,1]))
+names(statvar) <- statvarHeadingsMod
+prmsSim <- statvar[,c(1:7, 10, 13)]
+names(prmsSim)[8:9] <- c("ArroyoHondo", "UpperAlameda")
 
 
 
@@ -100,22 +106,30 @@ for (i in 1:length(sfSim)){
 
 
 
-for (i in 1:length(sfObs)){
+# remove the 1461th point from certain plots
+for (i in 1:length(sfSim)){
   
-  
-  # remove the 1461th point from certain plots
-  if (i %in% c(4,5,7,8,9)){
+  if (i %in% c(4,5,7,8,9,13)){
     sfSim[[i]]$MidptFlow[1461] <- NA
   }
   
-  # calculate min and max
-  yMin <- min(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], na.rm=TRUE)
-  yMax <- max(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], na.rm=TRUE)
+}
+
+
+
+
+# plot
+for (i in 1:(length(sfSim)-1)){
+  
   
   
   if (i == 3){
     
     # also plot PRMS Arroyo Hondo streamflow here
+    
+    # calculate min and max
+    yMin <- min(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], prmsSim$ArroyoHondo, na.rm=TRUE)
+    yMax <- max(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], prmsSim$ArroyoHondo, na.rm=TRUE)
     
     # plot
     png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
@@ -127,11 +141,12 @@ for (i in 1:length(sfObs)){
          ylim = c(0, yMax + (0.05*yMax)), col='blue')
     title(ylab=expression(paste('Streamflow (', ft^3~ s^-1, ')', sep='')), line=4, cex.axis=1.5)
     lines(sfObs$date, sfObs[,(i+6)], typ='l',lty=2, col='red')
+    lines(sfObs$date, prmsSim$ArroyoHondo, typ = 'l', lty = 3, col = "green")
     grid(nx=NA, ny=NULL)
     abline(v=pretty(extendrange(sfSim[[i]]$date)),
            col='lightgray', lty='dotted')
-    legend('topright', c('Simulated','Observed'), col=c('blue','red'), 
-           lty=c(1,2), bty='n', bg='white') 
+    legend('topright', c('GSFLOW Simulated','Observed', 'PRMS simulated'), col=c('blue','red', 'green'), 
+           lty=c(1,2,3), bty='n', bg='white') 
     dev.off()
     
     # plot on log scale
@@ -144,11 +159,12 @@ for (i in 1:length(sfObs)){
          log="y", ylim = c(0.1, yMax + (0.05*yMax)), col='blue')
     title(ylab=expression(paste('Streamflow (', ft^3~ s^-1, ')', sep='')), line=4, cex.axis=1.5)
     lines(sfObs$date, sfObs[,(i+6)] + 0.1, typ='l',lty=2, col='red')
+    lines(sfObs$date, prmsSim$ArroyoHondo, typ = 'l', lty = 3, col = "green")
     grid(nx=NA, ny=NULL)
     abline(v=pretty(extendrange(sfSim[[i]]$date)),
            col='lightgray', lty='dotted')
-    legend('topright', c('Simulated','Observed'), col=c('blue','red'), 
-           lty=c(1,2), bty='n', bg='white') 
+    legend('topright', c('GSFLOW Simulated','Observed', 'PRMS simulated'), col=c('blue','red', 'green'), 
+           lty=c(1,2,3), bty='n', bg='white') 
     dev.off()
     
     
@@ -157,6 +173,10 @@ for (i in 1:length(sfObs)){
     
     # also plot CalaverasReachBelowReservoir here 
     
+    # calculate min and max
+    yMin <- min(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], sfSim[[13]]$MidptFlow / 86400, na.rm=TRUE)
+    yMax <- max(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)],  sfSim[[13]]$MidptFlow / 86400, na.rm=TRUE)
+    
     # plot
     png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
@@ -167,11 +187,12 @@ for (i in 1:length(sfObs)){
          ylim = c(0, yMax + (0.05*yMax)), col='blue')
     title(ylab=expression(paste('Streamflow (', ft^3~ s^-1, ')', sep='')), line=4, cex.axis=1.5)
     lines(sfObs$date, sfObs[,(i+6)], typ='l',lty=2, col='red')
+    lines(sfObs$date, sfSim[[13]]$MidptFlow / 86400, typ = 'l', lty = 3, col = "green")
     grid(nx=NA, ny=NULL)
     abline(v=pretty(extendrange(sfSim[[i]]$date)),
            col='lightgray', lty='dotted')
-    legend('topright', c('Simulated','Observed'), col=c('blue','red'), 
-           lty=c(1,2), bty='n', bg='white') 
+    legend('topright', c('Simulated - gauge reach','Observed', 'Simulated - reach below reservoir'), 
+           col=c('blue','red', 'green'), lty=c(1,2,3), bty='n', bg='white') 
     dev.off()
     
     # plot on log scale
@@ -184,11 +205,12 @@ for (i in 1:length(sfObs)){
          log="y", ylim = c(0.1, yMax + (0.05*yMax)), col='blue')
     title(ylab=expression(paste('Streamflow (', ft^3~ s^-1, ')', sep='')), line=4, cex.axis=1.5)
     lines(sfObs$date, sfObs[,(i+6)] + 0.1, typ='l',lty=2, col='red')
+    lines(sfObs$date, sfSim[[13]]$MidptFlow / 86400, typ = 'l', lty = 3, col = "green")
     grid(nx=NA, ny=NULL)
     abline(v=pretty(extendrange(sfSim[[i]]$date)),
            col='lightgray', lty='dotted')
-    legend('topright', c('Simulated','Observed'), col=c('blue','red'), 
-           lty=c(1,2), bty='n', bg='white') 
+    legend('topright', c('Simulated - gauge reach','Observed', 'Simulated - reach below reservoir'), 
+           col=c('blue','red', 'green'), lty=c(1,2,3), bty='n', bg='white') 
     dev.off()
     
     
@@ -197,6 +219,10 @@ for (i in 1:length(sfObs)){
     
     # also plot PRMS Upper Alameda streamflow here
     
+    # calculate min and max
+    yMin <- min(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], prmsSim$UpperAlameda, na.rm=TRUE)
+    yMax <- max(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], prmsSim$UpperAlameda, na.rm=TRUE)
+    
     # plot
     png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
@@ -207,11 +233,12 @@ for (i in 1:length(sfObs)){
          ylim = c(0, yMax + (0.05*yMax)), col='blue')
     title(ylab=expression(paste('Streamflow (', ft^3~ s^-1, ')', sep='')), line=4, cex.axis=1.5)
     lines(sfObs$date, sfObs[,(i+6)], typ='l',lty=2, col='red')
+    lines(sfObs$date, prmsSim$UpperAlameda, typ = 'l', lty = 3, col = "green")
     grid(nx=NA, ny=NULL)
     abline(v=pretty(extendrange(sfSim[[i]]$date)),
            col='lightgray', lty='dotted')
-    legend('topright', c('Simulated','Observed'), col=c('blue','red'), 
-           lty=c(1,2), bty='n', bg='white') 
+    legend('topright', c('GSFLOW Simulated','Observed', 'PRMS simulated'), col=c('blue','red', 'green'), 
+           lty=c(1,2,3), bty='n', bg='white') 
     dev.off()
     
     # plot on log scale
@@ -224,16 +251,21 @@ for (i in 1:length(sfObs)){
          log="y", ylim = c(0.1, yMax + (0.05*yMax)), col='blue')
     title(ylab=expression(paste('Streamflow (', ft^3~ s^-1, ')', sep='')), line=4, cex.axis=1.5)
     lines(sfObs$date, sfObs[,(i+6)] + 0.1, typ='l',lty=2, col='red')
+    lines(sfObs$date, prmsSim$UpperAlameda, typ = 'l', lty = 3, col = "green")
     grid(nx=NA, ny=NULL)
     abline(v=pretty(extendrange(sfSim[[i]]$date)),
            col='lightgray', lty='dotted')
-    legend('topright', c('Simulated','Observed'), col=c('blue','red'), 
-           lty=c(1,2), bty='n', bg='white') 
+    legend('topright', c('GSFLOW Simulated','Observed', 'PRMS simulated'), col=c('blue','red', 'green'), 
+           lty=c(1,2,3), bty='n', bg='white') 
     dev.off()
     
     
     
   }else {
+    
+    # calculate min and max
+    yMin <- min(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], na.rm=TRUE)
+    yMax <- max(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], na.rm=TRUE)
     
     # plot
     png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
