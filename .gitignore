@@ -14,3 +14,5 @@ gsflow/input/prms/alameda_gis_derived_parameters.param
 gsflow/alameda_prms_updated.control
 gsflow/prms_ic.out
 gsflow/gsflow.log
+gsflow/input/modflow_all/pest/ppk2fac/t.OUTPUT_reg.txt
+gsflow/input/modflow_all/pest/ppk2fac/t.OUTPUT_sd.ref.txt
