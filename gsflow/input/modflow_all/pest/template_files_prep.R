@@ -38,7 +38,7 @@ library(scales)
 
 
 # set working directory 
-setwd("C:/Users/saalem.adera.GEOG-LARSEN-WIN/Google Drive/PEST_prep/gis/stream_network_and_zones/")
+setwd("C:/pestPrep/gsflow/input/modflow_all/pest/")
 
 
 
@@ -48,11 +48,12 @@ setwd("C:/Users/saalem.adera.GEOG-LARSEN-WIN/Google Drive/PEST_prep/gis/stream_n
 ####----------------------------------- READ IN -----------------------------------####
 
 
-# read in stream zones
-zones <- read.csv(file="stream_zones.csv")
-
-# read in sfr dataset 2
-sfr <- read.csv(file="sfr_dataset2.csv")
+# read in layer K pilot point 
+pp <- list()
+pp[[1]] <- read.table("Lay_1_K_PP_List.txt", header = FALSE)
+pp[[2]] <- read.table("Lay_2_K_PP_List.txt", header = FALSE)
+pp[[3]] <- read.table("Lay_3_K_PP_List.txt", header = FALSE)
+pp[[4]] <- read.table("Lay_4_K_PP_List.txt", header = FALSE)
 
 
 
@@ -61,24 +62,31 @@ sfr <- read.csv(file="sfr_dataset2.csv")
 ####----------------------------------- CALCULATE -----------------------------------####
 
 
-numZones <- 30
-for (i in 1:numZones){
+# create output file names
+fileNames <- c("Lay_1_K_PP_List.txt.tpl",
+               "Lay_2_K_PP_List.txt.tpl",
+               "Lay_3_K_PP_List.txt.tpl",
+               "Lay_4_K_PP_List.txt.tpl")
+
+
+ppOut = list()
+for (i in 1:length(pp)){
   
-  # identify indices for each zone 
-  idx <- which(zones$strmZone == i)
+  # extract data frame
+  df <- pp[[i]]
   
-  # create STRHC1
-  sfr$STRHC1[idx] <- paste0('@strmBdK_', i, '               @')
+  # create @text        @ column
+  df$elevInsert <- paste0('@', df[,1], '               @')
+  
+  # place in output list
+  ppOut[[i]] <- df
+  
+  # export
+  write.table(df, file = fileNames[i], row.names = FALSE, col.names = FALSE, sep = " ", quote = FALSE)
   
 }
 
 
-
-
-
-####----------------------------------- EXPORT -----------------------------------####
-
-write.csv(sfr, file = "sfr_dataset2_pest.csv", row.names = FALSE)
 
 
 
