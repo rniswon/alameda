@@ -54,6 +54,8 @@ pp[[1]] <- read.table("Lay_1_K_PP_List.txt", header = FALSE)
 pp[[2]] <- read.table("Lay_2_K_PP_List.txt", header = FALSE)
 pp[[3]] <- read.table("Lay_3_K_PP_List.txt", header = FALSE)
 pp[[4]] <- read.table("Lay_4_K_PP_List.txt", header = FALSE)
+pp[[5]] <- read.table("SurfK_PP_List.txt", header = FALSE)
+
 
 
 
@@ -66,7 +68,8 @@ pp[[4]] <- read.table("Lay_4_K_PP_List.txt", header = FALSE)
 fileNames <- c("Lay_1_K_PP_List.txt.tpl",
                "Lay_2_K_PP_List.txt.tpl",
                "Lay_3_K_PP_List.txt.tpl",
-               "Lay_4_K_PP_List.txt.tpl")
+               "Lay_4_K_PP_List.txt.tpl",
+               "SurfK_PP_List.txt.tpl")
 
 
 ppOut = list()
@@ -82,7 +85,9 @@ for (i in 1:length(pp)){
   ppOut[[i]] <- df
   
   # export
-  write.table(df, file = fileNames[i], row.names = FALSE, col.names = FALSE, sep = " ", quote = FALSE)
+  write.table("ptf @", file = fileNames[i], row.names = FALSE, col.names = FALSE, sep = " ", quote = FALSE)
+  write.table(df, file = fileNames[i], row.names = FALSE, col.names = FALSE, sep = " ", quote = FALSE, 
+              append=TRUE)
   
 }
 
