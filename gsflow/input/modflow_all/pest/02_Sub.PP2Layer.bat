@@ -8,10 +8,10 @@ REM  factors calculated by PPK2FAC and pilot point values contained in a pilot
 REM  points file.
 
 REM  The following is a key for the parameters that were passed to this file.
-REM  %1 :: CP-Interpolated_%2_By_Pest.txt  where %2 = HydK  or SY
-REM  %2 :: ..\CP_PilotPts_%3.txt           where %3 = Hcond or SpYld
+REM  %1 :: Alameda-Interpolated_%2_By_Pest.txt  where %2 = HydK  or SY
+REM  %2 :: ..\Alameda_%3.txt         
 REM  %3 :: MF_Array.Lay01-%2.txt
-REM  %4 :: HydK or SY
+REM  %4 :: HydK or surfK
 
 REM  Enter name of interpolation factor file:
 echo %1                                                                               > Temp_Control_File_PP_to_2D_arrays.txt
