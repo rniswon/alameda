@@ -33,39 +33,31 @@ echo %4     >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 
 REM     For zone characterised by integer value of 0:-
 REM     Enter structure name (blank if no interpolation for this zone):
-echo %6     >> Auto_Set_Parameter_Values_For_ppk2fac.txt
-REM     Perform simple or ordinary kriging [s/o]:
-echo o    >> Auto_Set_Parameter_Values_For_ppk2fac.txt
-REM     Enter search radius:
-echo %7   >> Auto_Set_Parameter_Values_For_ppk2fac.txt
-REM     Enter minimum number of pilot points to use for interpolation:
-echo 1    >> Auto_Set_Parameter_Values_For_ppk2fac.txt
-REM     Enter maximum number of pilot points to use for interpolation:
-echo 8    >> Auto_Set_Parameter_Values_For_ppk2fac.txt
+echo                                                                                     .   >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 
 REM     For zone characterised by integer value of 2:-
 REM     Enter structure name (blank if no interpolation for this zone):
 echo %6     >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 REM     Perform simple or ordinary kriging [s/o]:
-echo o    >> Auto_Set_Parameter_Values_For_ppk2fac.txt
+echo o      >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 REM     Enter search radius:
-echo %7   >> Auto_Set_Parameter_Values_For_ppk2fac.txt
+echo %7     >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 REM     Enter minimum number of pilot points to use for interpolation:
-echo 1    >> Auto_Set_Parameter_Values_For_ppk2fac.txt
+echo 1      >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 REM     Enter maximum number of pilot points to use for interpolation:
-echo 8    >> Auto_Set_Parameter_Values_For_ppk2fac.txt
+echo 8      >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 
 REM     For zone characterised by integer value of 3:-
 REM     Enter structure name (blank if no interpolation for this zone):
 echo %6     >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 REM     Perform simple or ordinary kriging [s/o]:
-echo o    >> Auto_Set_Parameter_Values_For_ppk2fac.txt
+echo o      >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 REM     Enter search radius:
-echo %7   >> Auto_Set_Parameter_Values_For_ppk2fac.txt
+echo %7     >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 REM     Enter minimum number of pilot points to use for interpolation:
-echo 1    >> Auto_Set_Parameter_Values_For_ppk2fac.txt
+echo 1      >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 REM     Enter maximum number of pilot points to use for interpolation:
-echo 8    >> Auto_Set_Parameter_Values_For_ppk2fac.txt
+echo 8      >> Auto_Set_Parameter_Values_For_ppk2fac.txt
 
 
 REM  Enter name for interpolation factor file:
