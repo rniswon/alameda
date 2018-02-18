@@ -612,34 +612,41 @@ s12_low		128460.0774	1	Q_Obs
 * model command line
 _RunModel.bat
 * model input/output
-.\INPUT\Carmel.sfr.tpl                      .\INPUT\Carmel.sfr
+.\input\modflow_all\pest\alameda.sfr.tpl																								.\input\modflow_all\pest\alameda.sfr
+.\input\modflow_all\pest\SurfK_PP_List.txt.tpl	  																			.\input\modflow_all\pest\SurfK_PP_List.txt
+.\input\modflow_all\pest\Lay_1_K_PP_List.txt.tpl																				.\input\modflow_all\pest\Lay_1_K_PP_List.txt
+.\input\modflow_all\pest\Lay_2_K_PP_List.txt.tpl																				.\input\modflow_all\pest\Lay_2_K_PP_List.txt
+.\input\modflow_all\pest\Lay_3_K_PP_List.txt.tpl																				.\input\modflow_all\pest\Lay_3_K_PP_List.txt
+.\input\modflow_all\pest\Lay_4_K_PP_List.txt.tpl																				.\input\modflow_all\pest\Lay_4_K_PP_List.txt
+.\input\modflow_all\pest\hobs.out.ins																										.\input\modflow_all\pest\hobs.out
+.\input\modflow_all\pest\ACDD_Reservoir.out.ins																					.\input\modflow_all\pest\ACDD_Reservoir.out
+.\input\modflow_all\pest\No_Name_Pond.out.ins					 					 												.\input\modflow_all\pest\No_Name_Pond.out
+.\input\modflow_all\pest\Pond_F6.out.ins																								.\input\modflow_all\pest\Pond_F6.out
+.\input\modflow_all\pest\Ready_Mix_Pond.out.ins																					.\input\modflow_all\pest\Ready_Mix_Pond.out
+.\input\modflow_all\pest\Pond_F5.out.ins																								.\input\modflow_all\pest\Pond_F5.out
+.\input\modflow_all\pest\Pond_F4.out.ins																								.\input\modflow_all\pest\Pond_F4.out
+.\input\modflow_all\pest\Pond_F3W.out.ins																								.\input\modflow_all\pest\Pond_F3W.out
+.\input\modflow_all\pest\Pond_F3E.out.ins																								.\input\modflow_all\pest\Pond_F3E.out
+.\input\modflow_all\pest\Pond_F2.out.ins																								.\input\modflow_all\pest\Pond_F2.out
+.\input\modflow_all\pest\Pond_SMP_32.out.ins																						.\input\modflow_all\pest\Pond_SMP_32.out
+.\input\modflow_all\pest\San_Antonio_Reservoir.out.ins																	.\input\modflow_all\pest\San_Antonio_Reservoir.out
+.\input\modflow_all\pest\Calaveras_Reservoir.out.ins																		.\input\modflow_all\pest\Calaveras_Reservoir.out
+.\input\modflow_all\pest\streamflow_IndianCreek.out.ins																	.\input\modflow_all\pest\streamflow_IndianCreek.out
+.\input\modflow_all\pest\streamflow_SanAntonioCreekAtIndianCreekRd.out.ins							.\input\modflow_all\pest\streamflow_SanAntonioCreekAtIndianCreekRd.out
+.\input\modflow_all\pest\streamflow_ArroyoHondo.out.ins																	.\input\modflow_all\pest\streamflow_ArroyoHondo.out
+.\input\modflow_all\pest\streamflow_SanAntonioCreek.out.ins															.\input\modflow_all\pest\streamflow_SanAntonioCreek.out
+.\input\modflow_all\pest\streamflow_CalaverasCreek.out.ins															.\input\modflow_all\pest\streamflow_CalaverasCreek.out
+.\input\modflow_all\pest\streamflow_AlamedaCreekAboveACDD.out.ins												.\input\modflow_all\pest\streamflow_AlamedaCreekAboveACDD.out
+.\input\modflow_all\pest\streamflow_AlamedaCreekBelowACDD.out.ins												.\input\modflow_all\pest\streamflow_AlamedaCreekBelowACDD.out
+.\input\modflow_all\pest\streamflow_AlamedaCreekBelowCalaverasCreek.out.ins							.\input\modflow_all\pest\streamflow_AlamedaCreekBelowCalaverasCreek.out
+.\input\modflow_all\pest\streamflow_AlamedaCreekBelowWelchCreek.out.ins									.\input\modflow_all\pest\streamflow_AlamedaCreekBelowWelchCreek.out
+.\input\modflow_all\pest\streamflow_AlamedaCreekNearNiles.out.ins												.\input\modflow_all\pest\streamflow_AlamedaCreekNearNiles.out
+.\input\modflow_all\pest\streamflow_AlamedaCreekAboveSanAntonioCreek.out.ins						.\input\modflow_all\pest\streamflow_AlamedaCreekAboveSanAntonioCreek.out
+.\input\modflow_all\pest\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out.ins						.\input\modflow_all\pest\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
 .\INPUT\Carmel.uzf.tpl                      .\INPUT\Carmel.uzf
-.\INPUT\pest++\Lay_1_K_PP_List.txt.tpl      .\INPUT\pest++\Lay_1_K_PP_List.txt
-.\INPUT\pest++\Lay_2_K_PP_List.txt.tpl      .\INPUT\pest++\Lay_2_K_PP_List.txt
-.\INPUT\pest++\Lay_3_K_PP_List.txt.tpl      .\INPUT\pest++\Lay_3_K_PP_List.txt
-.\INPUT\pest++\SurfK_PP_List.txt.tpl        .\INPUT\pest++\SurfK_PP_List.txt
 .\INPUT\pest++\vks_PP_List.txt.tpl          .\INPUT\pest++\vks_PP_List.txt
-.\INPUT\carmel.upw.tpl                      .\INPUT\carmel.upw
 .\OUTPUT\UZF_tot.out.ins                    .\OUTPUT\UZF_tot.out
-.\OUTPUT\gages\gagBL.out.ins                .\OUTPUT\gages\gagBL.out
-.\OUTPUT\gages\gagCA.out.ins                .\OUTPUT\gages\gagCA.out
-.\OUTPUT\gages\gagCL.out.ins                .\OUTPUT\gages\gagCL.out
-.\OUTPUT\gages\gagDJ.out.ins                .\OUTPUT\gages\gagDJ.out
-.\OUTPUT\gages\gagGA.out.ins                .\OUTPUT\gages\gagGA.out
-.\OUTPUT\gages\gagGC.out.ins                .\OUTPUT\gages\gagGC.out
-.\OUTPUT\gages\gagH1.out.ins                .\OUTPUT\gages\gagH1.out
-.\OUTPUT\gages\gagHI.out.ins                .\OUTPUT\gages\gagHI.out
-.\OUTPUT\gages\gagLA.out.ins                .\OUTPUT\gages\gagLA.out
-.\OUTPUT\gages\gagLP.out.ins                .\OUTPUT\gages\gagLP.out
-.\OUTPUT\gages\gagNC.out.ins                .\OUTPUT\gages\gagNC.out
-.\OUTPUT\gages\gagPI.out.ins                .\OUTPUT\gages\gagPI.out
-.\OUTPUT\gages\gagPO.out.ins                .\OUTPUT\gages\gagPO.out
-.\OUTPUT\gages\gagRC.out.ins                .\OUTPUT\gages\gagRC.out
-.\OUTPUT\gages\gagRR.out.ins                .\OUTPUT\gages\gagRR.out
-.\OUTPUT\gages\gagSH.out.ins                .\OUTPUT\gages\gagSH.out
-.\OUTPUT\gages\gagTU.out.ins                .\OUTPUT\gages\gagTU.out
 .\OUTPUT\obs2obs.out.ins                    .\OUTPUT\obs2obs.out
-.\OUTPUT\hobs.out.ins                       .\OUTPUT\hobs.out
 .\OUTPUT\Carmel.lst.ins                     .\OUTPUT\Carmel.lst
 ++# The following is associated with PEST++ input and
 ++# is parsed using key words that can be specified in any order
