@@ -15,6 +15,7 @@ restart estimation
 * parameter groups
 strmBdK           relative   0.050  0.0   switch  2.0   parabolic
 surfK             relative   0.050  0.0   switch  2.0   parabolic
+finf              relative   0.050  0.0   switch  2.0   parabolic
 ppts_L1           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L2           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L3           relative   0.050  0.0   switch  2.0   parabolic
@@ -553,6 +554,18 @@ pp_97_L_4	log	factor	1	0.1	10	ppts_L4	1	0	1
 pp_98_L_4	log	factor	1	0.1	10	ppts_L4	1	0	1
 pp_99_L_4	log	factor	1	0.1	10	ppts_L4	1	0	1
 pp_100_L_4	log	factor	1	0.1	10	ppts_L4	1	0	1
+finf_zn_01 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_02 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_03 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_04 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_05 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_06 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_07 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_08 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_09 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_10 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_11 log factor  1 0.50  1.50  finf 1 0 1
+finf_zn_12 log factor  1 0.50  1.50  finf 1 0 1
 * observation groups
 H_Obs   
 Lake_Obs
