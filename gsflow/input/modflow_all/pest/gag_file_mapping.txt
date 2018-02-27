@@ -10,4 +10,3 @@
 10  ./output/modflow/streamflow_AlamedaCreekNearNiles
 11  ./output/modflow/streamflow_AlamedaCreekAboveSanAntonioCreek
 12  ./output/modflow/streamflow_AlamedaCreekAboveArroyoDeLaLaguna
-13  ./output/modflow/streamflow_CalaverasCreekReachBelowReservoir
