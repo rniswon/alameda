@@ -1,7 +1,7 @@
 # Alameda Creek watershed - LAK package for specifying lake bathymetry information
 # Using external text files with key word option TABLEINPUT
 TABLEINPUT
-12         1                         ;NLAKES,ILKCB                
+12         0                         ;NLAKES,ILKCB                
 -0.8000       100   0.00001  0.1             ;THETA,NSSITER,SSCNCR     
 896 884.5 906  101             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (ACDD Reservoir)  
 269.5 176 273  102             ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
