@@ -25,7 +25,7 @@ REM   %3    Enter name for output real array file:
 REM For Surface K (regulate surface discharge) of layer 1
 REM ------------------------------------------
 
-call 02_Sub.PP2Layer.bat      .\Alameda-Interpolated_%1_%2_By_ppk2fac.txt    .\%1_PP_List.txt      ..\uzf_support\%1.txt 
+call 02_Sub.PP2Layer.bat      .\Alameda-Interpolated_%1_By_ppk2fac.txt    .\%1_PP_List.txt      ..\uzf_support\%1.txt 
 cd ..\uzf_support\
 echo  702  771        >   RefArr_In.txt
 echo  %1.txt         >>   RefArr_In.txt
