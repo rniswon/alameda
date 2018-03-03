@@ -626,6 +626,7 @@ s12_low		128460.0774	1	Q_Obs
 _RunModel.bat
 * model input/output
 .\input\modflow_all\uzf_support\finf_scale_by_zn.txt.tpl                                .\input\modflow_all\uzf_support\finf_scale_by_zn.txt
+.\input\modflow_all\uzf_support\surfk.txt.tpl                                           .\input\modflow_all\uzf_support\surfk.txt
 .\input\modflow_all\pest\alameda.sfr.tpl																								.\input\modflow_all\pest\alameda.sfr
 .\input\modflow_all\pest\SurfK_PP_List.txt.tpl	  																			.\input\modflow_all\pest\SurfK_PP_List.txt
 .\input\modflow_all\pest\Lay_1_K_PP_List.txt.tpl																				.\input\modflow_all\pest\Lay_1_K_PP_List.txt
