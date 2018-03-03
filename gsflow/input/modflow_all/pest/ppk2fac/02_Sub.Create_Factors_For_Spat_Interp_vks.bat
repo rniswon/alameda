@@ -18,7 +18,7 @@ echo END STRUCTURE          >> Struct_File.%2.Variogram.txt
 echo VARIOGRAM var1         >> Struct_File.%2.Variogram.txt
 echo   VARTYPE 2            >> Struct_File.%2.Variogram.txt
 echo   BEARING 0            >> Struct_File.%2.Variogram.txt
-echo   A  1500.0            >> Struct_File.%2.Variogram.txt
+echo   A 20000.0            >> Struct_File.%2.Variogram.txt
 echo   ANISOTROPY 1.0       >> Struct_File.%2.Variogram.txt
 echo END VARIOGRAM          >> Struct_File.%2.Variogram.txt
 
@@ -33,9 +33,9 @@ REM   %5    Enter name for interpolation factor file:                           
 REM   %6    Enter structure name (blank if no interpolation for this zone):                    Variable being passed and used in  01_Sub.FACfileCreate?.bat files
 REM   %7    Enter search radius:                                                               Variable being passed and used in  01_Sub.FACfileCreate?.bat files
 
-REM                                                       %1              %2                         %3                                 %4                                  %5                           %6         %7
-REM                                                      ----    ---------------------   ----------------------------       ----------------------------    --------------------------------------       --       -------
+REM                                                       %1              %2                         %3                                 %4                                  %5                            %6         %7
+REM                                                      ----    ---------------------   ----------------------------       ----------------------------    --------------------------------------        --       -------
 
-call 03_Sub.Create_Factors_For_Spat_Interp_lay1_K.bat     %1      ..\vks_PP_List.txt      ..\Lay_1_Zone_Arr.txt           Struct_File.%2.Variogram.txt   ..\Carmel-Interpolated_%2_By_ppk2fac.txt      %2       30000.0
+call 03_Sub.Create_Factors_For_Spat_Interp_lay1_K.bat     %1      ..\vks_PP_List.txt      ..\vks_Zone_Arr.txt           Struct_File.%2.Variogram.txt   ..\Alameda-Interpolated_%2_By_ppk2fac.txt      %2       30000.0
 
 REM pause

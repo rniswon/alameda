@@ -1,5 +1,5 @@
-..\SurfK_PP_List.txt
-..\SurfK_Zone_Arr.txt
+..\vks_PP_List.txt
+..\vks_Zone_Arr.txt
  702 771
  100
 PP_1_SURFK

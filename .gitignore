@@ -15,3 +15,13 @@ gsflow/prms_ic.out
 gsflow/gsflow.log
 gsflow/input/modflow_all/pest/ppk2fac/t.OUTPUT_reg.txt
 gsflow/input/modflow_all/pest/ppk2fac/t.OUTPUT_sd.ref.txt
+gsflow/input/modflow_all/pest/ppk2fac/Struct_File.HydKh_L_1.Variogram.txt
+gsflow/input/modflow_all/pest/ppk2fac/Auto_Set_Parameter_Values_For_ppk2fac.txt
+gsflow/input/modflow_all/pest/Temp_Control_File_PP_to_2D_arrays.txt
+gsflow/input/modflow_all/pest/ppk2fac/s.report.txt
+gsflow/input/modflow_all/pest/ppk2fac/debug1.dat
+gsflow/input/modflow_all/pest/ppk2fac/Struct_File.vks.Variogram.txt
+gsflow/input/modflow_all/pest/ppk2fac/Struct_File.SurfK.Variogram.txt
+gsflow/input/modflow_all/pest/ppk2fac/Struct_File.HydKh_L_4.Variogram.txt
+gsflow/input/modflow_all/pest/ppk2fac/Struct_File.HydKh_L_3.Variogram.txt
+gsflow/input/modflow_all/pest/ppk2fac/Struct_File.HydKh_L_2.Variogram.txt
