@@ -36,9 +36,9 @@ echo ***************************************************************************
 echo .
 
 
-Call  02_Sub.Create_Factors_For_Spat_Interp_surfK.bat  ..\Alameda_GridSpecification.txt    SurfK   1
+Call  02_Sub.Create_Factors_For_Spat_Interp_vks.bat  ..\Alameda_GridSpecification.txt    vks   1
 echo .
 echo *******************************************************************************************************************
-echo Finished Interpolating Pilot Points and Writing New "Factor" File For Surface K (partition infiltration/recharge)
+echo Finished Interpolating Pilot Points and Writing New "Factor" File For vks (partition infiltration/recharge)
 echo *******************************************************************************************************************
 echo .
