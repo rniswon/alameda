@@ -15,9 +15,10 @@ REM  Call model runfile
 MF_NWT.exe alameda_all.nam
 
 REM  Perform post-processing routine #1
-cd    .\OUTPUT\
-call  obs2obs.exe obs2obs.in obs2obs.out
-cd    ..\
+cd    .\OUTPUT\modflow\subbasin_runoff\
+call  get_runoff.exe
+cd    ..\..\..\
+
 
 
 
