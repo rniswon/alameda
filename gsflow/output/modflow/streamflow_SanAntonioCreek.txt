@@ -1,2 +1,0 @@
- "GAGE No.    4:  K,I,J Coord. =     1,  183,  180;  STREAM SEGMENT =   182;  REACH =     3 "
-     "DATA: Time           Stage           Depth         GW-Head    Midpt-Flow       Stream-Loss        GW-Rech.  Chnge-UZ-Stor.   Vol.-UZ-Stor."

@@ -554,7 +554,7 @@ pp_96_L_4    log    factor    5E-13    0    5E-11    ppts_L4    1    0    1
 pp_97_L_4    log    factor    5E-13    0    5E-11    ppts_L4    1    0    1
 pp_98_L_4    log    factor    5E-13    0    5E-11    ppts_L4    1    0    1
 pp_99_L_4    log    factor    5E-13    0    5E-11    ppts_L4    1    0    1
-pp_100_L_4    log    factor    5E-13    0    5E-11    ppts_L4    1    0    1
+pp_100_L_4   log    factor    5E-13    0    5E-11    ppts_L4    1    0    1
 finf_zn_01 log factor  1 0.50  1.50  finf 1 0 1
 finf_zn_02 log factor  1 0.50  1.50  finf 1 0 1
 finf_zn_03 log factor  1 0.50  1.50  finf 1 0 1
@@ -659,6 +659,7 @@ _RunModel.bat
 .\output\modflow\streamflow_AlamedaCreekNearNiles.out.ins                               .\output\modflow\streamflow_AlamedaCreekNearNiles.out
 .\output\modflow\streamflow_AlamedaCreekAboveSanAntonioCreek.out.ins                    .\output\modflow\streamflow_AlamedaCreekAboveSanAntonioCreek.out
 .\output\modflow\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out.ins                   .\output\modflow\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
+.\output\modflow\subbasin_runoff\runoff.out.ins                                         .\output\modflow\subbasin_runoff\runoff.out
 .\INPUT\Carmel.uzf.tpl                      .\INPUT\Carmel.uzf
 .\INPUT\pest++\vks_PP_List.txt.tpl          .\INPUT\pest++\vks_PP_List.txt
 .\OUTPUT\UZF_tot.out.ins                    .\OUTPUT\UZF_tot.out
