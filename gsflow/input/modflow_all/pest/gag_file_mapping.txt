@@ -1,12 +1,12 @@
-1  ./output/modflow/streamflow_IndianCreek
-2  ./output/modflow/streamflow_SanAntonioCreekAtIndianCreekRd
-3  ./output/modflow/streamflow_ArroyoHondo
-4  ./output/modflow/streamflow_SanAntonioCreek
-5  ./output/modflow/streamflow_CalaverasCreek
-6  ./output/modflow/streamflow_AlamedaCreekAboveACDD
-7  ./output/modflow/streamflow_AlamedaCreekBelowACDD
-8  ./output/modflow/streamflow_AlamedaCreekBelowCalaverasCreek
-9  ./output/modflow/streamflow_AlamedaCreekBelowWelchCreek
+ 1  ./output/modflow/streamflow_IndianCreek
+ 2  ./output/modflow/streamflow_SanAntonioCreekAtIndianCreekRd
+ 3  ./output/modflow/streamflow_ArroyoHondo
+ 4  ./output/modflow/streamflow_SanAntonioCreek
+ 5  ./output/modflow/streamflow_CalaverasCreek
+ 6  ./output/modflow/streamflow_AlamedaCreekAboveACDD
+ 7  ./output/modflow/streamflow_AlamedaCreekBelowACDD
+ 8  ./output/modflow/streamflow_AlamedaCreekBelowCalaverasCreek
+ 9  ./output/modflow/streamflow_AlamedaCreekBelowWelchCreek
 10  ./output/modflow/streamflow_AlamedaCreekNearNiles
 11  ./output/modflow/streamflow_AlamedaCreekAboveSanAntonioCreek
 12  ./output/modflow/streamflow_AlamedaCreekAboveArroyoDeLaLaguna
