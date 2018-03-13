@@ -5,8 +5,11 @@ cd    .\INPUT\modflow_all\pest\
 call  00_MF_Call_Array_Build.bat
 cd    ..\..\..\
 
-REM  Scale finf by subasin (original finf array multiplied by scaling array)
+REM  Reformat the FINF scaling array from a single column to array format
 cd    .\INPUT\modflow_all\uzf_support\
+call  ReformARRAY.exe < RefArr_In_scale_finf.txt
+
+REM  Scale finf by subasin (original finf array multiplied by scaling array)
 call  twoarray.exe    < twoarray.in
 call  ReformARRAY.exe < RefArr_In_finf.txt
 cd    ..\..\..\
