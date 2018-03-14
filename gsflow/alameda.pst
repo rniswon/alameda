@@ -152,7 +152,7 @@ ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
          pp_98_vks       log    factor           0.01         0.0006              2            vks       1       0       1
          pp_99_vks       log    factor           0.01         0.0006              2            vks       1       0       1
         pp_100_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-          pp_1_L_1     fixed    factor            100            0.1             10        ppts_L1       1       0       1
+          pp_1_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
           pp_2_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
           pp_3_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
           pp_4_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
