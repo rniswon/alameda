@@ -36,6 +36,6 @@ REM   %7    Enter search radius:                                                
 REM                                                       %1              %2                         %3                                 %4                                  %5                            %6         %7
 REM                                                      ----    ---------------------   ----------------------------       ----------------------------    --------------------------------------        --       -------
 
-call 03_Sub.Create_Factors_For_Spat_Interp_lay1_K.bat     %1      ..\vks_PP_List.txt      ..\vks_Zone_Arr.txt           Struct_File.%2.Variogram.txt   ..\Alameda-Interpolated_%2_By_ppk2fac.txt      %2       30000.0
+call 03_Sub.Create_Factors_For_Spat_Interp_lay1_vks.bat     %1      ..\vks_PP_List.txt      ..\vks_Zone_Arr.txt               Struct_File.%2.Variogram.txt   ..\Alameda-Interpolated_%2_By_ppk2fac.txt      %2       30000.0
 
 REM pause
