@@ -52,6 +52,9 @@ ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
         strmBdK_28       log    factor           0.01         0.0006              2        strmBdK       1       0       1
         strmBdK_29       log    factor           0.01         0.0006              2        strmBdK       1       0       1
         strmBdK_30       log    factor           0.01         0.0006              2        strmBdK       1       0       1
+        strmBdK_31       log    factor           0.01         0.0006              2        strmBdK       1       0       1
+        strmBdK_32       log    factor           0.01         0.0006              2        strmBdK       1       0       1
+        strmBdK_33       log    factor           0.01         0.0006              2        strmBdK       1       0       1
           pp_1_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
           pp_2_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
           pp_3_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
