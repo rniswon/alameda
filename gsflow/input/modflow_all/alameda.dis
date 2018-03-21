@@ -1,5 +1,5 @@
 #Alameda Simulation -- Problem for GSFLOW
-4    771      702   1     4      1                NLAY  NROW   NCOL  NPER   ITMUNI  LENUNI
+4    771      702   1     4      1                NLAY  NROW   NCOL  NPER   ITMUNI (4=Days) LENUNI (1=feet)
 0   0   0   0   0   0   0   0                     LAYCBD
 CONSTANT 200.                                     DELR         
 CONSTANT 200.                                     DELC         

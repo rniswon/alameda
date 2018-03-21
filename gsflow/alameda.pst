@@ -22,550 +22,553 @@ ppts_L2           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L3           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
 * parameter data
-         strmBdK_1       log    factor          0.003         0.0001           0.02        strmBdK       1       0       1
-         strmBdK_2       log    factor          0.003         0.0001           0.02        strmBdK       1       0       1
-         strmBdK_3       log    factor          0.003         0.0001           0.02        strmBdK       1       0       1
-         strmBdK_4       log    factor          0.003         0.0001           0.02        strmBdK       1       0       1
-         strmBdK_5       log    factor          0.003         0.0001           0.02        strmBdK       1       0       1
-         strmBdK_6       log    factor          0.003         0.0001           0.02        strmBdK       1       0       1
-         strmBdK_7       log    factor          0.003         0.0001           0.02        strmBdK       1       0       1
-         strmBdK_8       log    factor          0.003         0.0001           0.02        strmBdK       1       0       1
-         strmBdK_9       log    factor          0.003         0.0001           0.02        strmBdK       1       0       1
-        strmBdK_10       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_11       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_12       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_13       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_14       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_15       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_16       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_17       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_18       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_19       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_20       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_21       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_22       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_23       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_24       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_25       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_26       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_27       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_28       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_29       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-        strmBdK_30       log    factor           0.01         0.0006              2        strmBdK       1       0       1
-          pp_1_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-          pp_2_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-          pp_3_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-          pp_4_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-          pp_5_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-          pp_6_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-          pp_7_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-          pp_8_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-          pp_9_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_10_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_11_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_12_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_13_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_14_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_15_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_16_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_17_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_18_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_19_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_20_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_21_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_22_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_23_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_24_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_25_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_26_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_27_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_28_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_29_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_30_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_31_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_32_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_33_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_34_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_35_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_36_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_37_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_38_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_39_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_40_vks       log    factor     0.00000005    0.000000005      0.0000005            vks       1       0       1
-         pp_41_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_42_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_43_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_44_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_45_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_46_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_47_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_48_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_49_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_50_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_51_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_52_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_53_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_54_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_55_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_56_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_57_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_58_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_59_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_60_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_61_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_62_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_63_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_64_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_65_vks       log    factor         0.0004        0.00004          0.001            vks       1       0       1
-         pp_66_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_67_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_68_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_69_vks       log    factor         0.0004        0.00004          0.001            vks       1       0       1
-         pp_70_vks       log    factor         0.0004        0.00004          0.001            vks       1       0       1
-         pp_71_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_72_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_73_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_74_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_75_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_76_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_77_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_78_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_79_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_80_vks       log    factor         0.0004        0.00004          0.001            vks       1       0       1
-         pp_81_vks       log    factor         0.0004        0.00004          0.001            vks       1       0       1
-         pp_82_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_83_vks       log    factor         0.0004        0.00004          0.001            vks       1       0       1
-         pp_84_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_85_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_86_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_87_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_88_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_89_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_90_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_91_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_92_vks       log    factor         0.0004        0.00004          0.001            vks       1       0       1
-         pp_93_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-         pp_94_vks       log    factor         0.0004        0.00004          0.001            vks       1       0       1
-         pp_95_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_96_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_97_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_98_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-         pp_99_vks       log    factor           0.01         0.0006              2            vks       1       0       1
-        pp_100_vks       log    factor          0.003         0.0001           0.02            vks       1       0       1
-          pp_1_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-          pp_2_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-          pp_3_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-          pp_4_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-          pp_5_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-          pp_6_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-          pp_7_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-          pp_8_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-          pp_9_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_10_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_11_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_12_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_13_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_14_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_15_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_16_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_17_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_18_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_19_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_20_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_21_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_22_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_23_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_24_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_25_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_26_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_27_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_28_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_29_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_30_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_31_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_32_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_33_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_34_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_35_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_36_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_37_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_38_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_39_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_40_L_1       log    factor           0.01         0.0006              2        ppts_L1       1       0       1
-         pp_41_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_42_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_43_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_44_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_45_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_46_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_47_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_48_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_49_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_50_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_51_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_52_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_53_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_54_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_55_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_56_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_57_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_58_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_59_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_60_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_61_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_62_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_63_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_64_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_65_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_66_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_67_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_68_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_69_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_70_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_71_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_72_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_73_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_74_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_75_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_76_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_77_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_78_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_79_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_80_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_81_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_82_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_83_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_84_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_85_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_86_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_87_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_88_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_89_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_90_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_91_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_92_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_93_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_94_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_95_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_96_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_97_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_98_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-         pp_99_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-        pp_100_L_1     fixed    factor              1            0.1             10        ppts_L1       1       0       1
-          pp_1_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-          pp_2_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-          pp_3_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-          pp_4_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-          pp_5_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-          pp_6_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-          pp_7_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-          pp_8_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-          pp_9_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_10_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_11_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_12_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_13_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_14_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_15_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_16_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_17_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_18_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_19_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_20_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_21_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_22_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_23_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_24_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_25_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_26_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_27_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_28_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_29_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_30_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_31_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_32_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_33_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_34_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_35_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_36_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_37_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_38_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_39_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_40_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_41_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_42_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_43_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_44_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_45_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_46_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_47_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_48_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_49_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_50_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_51_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_52_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_53_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_54_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_55_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_56_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_57_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_58_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_59_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_60_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_61_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_62_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_63_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_64_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_65_L_2       log    factor         0.0004        0.00004          0.001        ppts_L2       1       0       1
-         pp_66_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_67_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_68_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_69_L_2       log    factor         0.0004        0.00004          0.001        ppts_L2       1       0       1
-         pp_70_L_2       log    factor         0.0004        0.00004          0.001        ppts_L2       1       0       1
-         pp_71_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_72_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_73_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_74_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_75_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_76_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_77_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_78_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_79_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_80_L_2       log    factor         0.0004        0.00004          0.001        ppts_L2       1       0       1
-         pp_81_L_2       log    factor         0.0004        0.00004          0.001        ppts_L2       1       0       1
-         pp_82_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_83_L_2       log    factor         0.0004        0.00004          0.001        ppts_L2       1       0       1
-         pp_84_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_85_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_86_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_87_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_88_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_89_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_90_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_91_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_92_L_2       log    factor         0.0004        0.00004          0.001        ppts_L2       1       0       1
-         pp_93_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_94_L_2       log    factor         0.0004        0.00004          0.001        ppts_L2       1       0       1
-         pp_95_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_96_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-         pp_97_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_98_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-         pp_99_L_2     fixed    factor              1            0.1             10        ppts_L2       1       0       1
-        pp_100_L_2       log    factor          0.003         0.0001           0.02        ppts_L2       1       0       1
-          pp_1_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-          pp_2_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-          pp_3_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-          pp_4_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-          pp_5_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-          pp_6_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-          pp_7_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-          pp_8_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-          pp_9_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_10_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_11_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_12_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_13_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_14_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_15_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_16_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_17_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_18_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_19_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_20_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_21_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_22_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_23_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_24_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_25_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_26_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_27_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_28_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_29_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_30_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_31_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_32_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_33_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_34_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_35_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_36_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_37_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_38_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_39_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_40_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_41_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_42_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_43_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_44_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_45_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_46_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_47_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_48_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_49_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_50_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_51_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_52_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_53_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_54_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_55_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_56_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_57_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_58_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_59_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_60_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_61_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_62_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_63_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_64_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_65_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_66_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_67_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_68_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_69_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_70_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_71_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_72_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_73_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_74_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_75_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_76_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_77_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_78_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_79_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_80_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_81_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_82_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_83_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_84_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_85_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_86_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_87_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_88_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_89_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_90_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_91_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_92_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_93_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_94_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_95_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_96_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_97_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-         pp_98_L_3       log    factor     0.00000005    0.000000005      0.0000005        ppts_L3       1       0       1
-         pp_99_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-        pp_100_L_3       log    factor          5E-13          5E-14          5E-11        ppts_L3       1       0       1
-          pp_1_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-          pp_2_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-          pp_3_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-          pp_4_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-          pp_5_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-          pp_6_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-          pp_7_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-          pp_8_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-          pp_9_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_10_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_11_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_12_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_13_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_14_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_15_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_16_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_17_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_18_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_19_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_20_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_21_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_22_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_23_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_24_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_25_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_26_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_27_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_28_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_29_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_30_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_31_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_32_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_33_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_34_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_35_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_36_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_37_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_38_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_39_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_40_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_41_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_42_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_43_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_44_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_45_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_46_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_47_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_48_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_49_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_50_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_51_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_52_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_53_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_54_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_55_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_56_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_57_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_58_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_59_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_60_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_61_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_62_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_63_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_64_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_65_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_66_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_67_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_68_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_69_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_70_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_71_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_72_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_73_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_74_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_75_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_76_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_77_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_78_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_79_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_80_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_81_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_82_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_83_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_84_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_85_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_86_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_87_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_88_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_89_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_90_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_91_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_92_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_93_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_94_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_95_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_96_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_97_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_98_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-         pp_99_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-        pp_100_L_4       log    factor          5E-13          5E-14          5E-11        ppts_L4       1       0       1
-        finf_zn_01       log    factor              1           0.50           1.50           finf       1       0       1
-        finf_zn_02       log    factor              1           0.50           1.50           finf       1       0       1
-        finf_zn_03       log    factor              1           0.50           1.50           finf       1       0       1
-        finf_zn_04       log    factor              1           0.50           1.50           finf       1       0       1
-        finf_zn_05       log    factor              1           0.50           1.50           finf       1       0       1
-        finf_zn_06       log    factor              1           0.50           1.50           finf       1       0       1
-        finf_zn_07       log    factor              1           0.50           1.50           finf       1       0       1
-        finf_zn_08       log    factor              1           0.50           1.50           finf       1       0       1
-        finf_zn_09       log    factor           1.25           0.75           1.75           finf       1       0       1
-        finf_zn_10       log    factor           1.25           0.75           1.75           finf       1       0       1
-        finf_zn_11       log    factor           1.25           0.75           1.75           finf       1       0       1
-        finf_zn_12       log    factor           1.25           0.75           1.75           finf       1       0       1
-          surfK_lo       log    factor           0.04         0.0001           1.00          surfk       1       0       1
-          surfK_hi       log    factor           0.10         0.0001           1.00          surfk       1       0       1
+strmBdK_1	log	factor	850.395	28.3465	5669.3	strmBdK	1	0	1
+strmBdK_2	log	factor	850.395	28.3465	5669.3	strmBdK	1	0	1
+strmBdK_3	log	factor	850.395	28.3465	5669.3	strmBdK	1	0	1
+strmBdK_4	log	factor	850.395	28.3465	5669.3	strmBdK	1	0	1
+strmBdK_5	log	factor	850.395	28.3465	5669.3	strmBdK	1	0	1
+strmBdK_6	log	factor	850.395	28.3465	5669.3	strmBdK	1	0	1
+strmBdK_7	log	factor	850.395	28.3465	5669.3	strmBdK	1	0	1
+strmBdK_8	log	factor	850.395	28.3465	5669.3	strmBdK	1	0	1
+strmBdK_9	log	factor	850.395	28.3465	5669.3	strmBdK	1	0	1
+strmBdK_10	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_11	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_12	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_13	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_14	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_15	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_16	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_17	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_18	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_19	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_20	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_21	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_22	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_23	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_24	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_25	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_26	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_27	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_28	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_29	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_30	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_31	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_32	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+strmBdK_33	log	factor	2834.65	170.079	566930	strmBdK	1	0	1
+pp_1_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_2_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_3_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_4_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_5_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_6_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_7_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_8_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_9_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_10_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_11_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_12_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_13_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_14_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_15_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_16_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_17_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_18_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_19_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_20_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_21_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_22_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_23_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_24_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_25_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_26_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_27_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_28_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_29_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_30_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_31_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_32_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_33_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_34_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_35_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_36_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_37_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_38_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_39_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_40_vks	log	factor	0.01417325	0.001417325	0.1417325	vks	1	0	1
+pp_41_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_42_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_43_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_44_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_45_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_46_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_47_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_48_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_49_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_50_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_51_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_52_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_53_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_54_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_55_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_56_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_57_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_58_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_59_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_60_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_61_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_62_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_63_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_64_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_65_vks	log	factor	113.386	11.3386	283.465	vks	1	0	1
+pp_66_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_67_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_68_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_69_vks	log	factor	113.386	11.3386	283.465	vks	1	0	1
+pp_70_vks	log	factor	113.386	11.3386	283.465	vks	1	0	1
+pp_71_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_72_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_73_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_74_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_75_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_76_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_77_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_78_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_79_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_80_vks	log	factor	113.386	11.3386	283.465	vks	1	0	1
+pp_81_vks	log	factor	113.386	11.3386	283.465	vks	1	0	1
+pp_82_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_83_vks	log	factor	113.386	11.3386	283.465	vks	1	0	1
+pp_84_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_85_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_86_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_87_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_88_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_89_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_90_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_91_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_92_vks	log	factor	113.386	11.3386	283.465	vks	1	0	1
+pp_93_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_94_vks	log	factor	113.386	11.3386	283.465	vks	1	0	1
+pp_95_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_96_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_97_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_98_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_99_vks	log	factor	2834.65	170.079	566930	vks	1	0	1
+pp_100_vks	log	factor	850.395	28.3465	5669.3	vks	1	0	1
+pp_1_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_2_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_3_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_4_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_5_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_6_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_7_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_8_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_9_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_10_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_11_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_12_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_13_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_14_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_15_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_16_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_17_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_18_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_19_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_20_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_21_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_22_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_23_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_24_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_25_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_26_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_27_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_28_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_29_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_30_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_31_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_32_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_33_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_34_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_35_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_36_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_37_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_38_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_39_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_40_L_1	log	factor	2834.65	170.079	566930	ppts_L1	1	0	1
+pp_41_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_42_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_43_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_44_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_45_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_46_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_47_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_48_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_49_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_50_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_51_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_52_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_53_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_54_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_55_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_56_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_57_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_58_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_59_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_60_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_61_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_62_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_63_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_64_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_65_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_66_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_67_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_68_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_69_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_70_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_71_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_72_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_73_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_74_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_75_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_76_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_77_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_78_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_79_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_80_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_81_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_82_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_83_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_84_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_85_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_86_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_87_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_88_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_89_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_90_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_91_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_92_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_93_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_94_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_95_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_96_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_97_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_98_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_99_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_100_L_1	fixed	factor	283465	28346.5	2834650	ppts_L1	1	0	1
+pp_1_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_2_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_3_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_4_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_5_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_6_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_7_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_8_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_9_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_10_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_11_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_12_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_13_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_14_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_15_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_16_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_17_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_18_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_19_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_20_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_21_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_22_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_23_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_24_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_25_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_26_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_27_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_28_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_29_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_30_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_31_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_32_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_33_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_34_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_35_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_36_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_37_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_38_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_39_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_40_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_41_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_42_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_43_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_44_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_45_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_46_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_47_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_48_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_49_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_50_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_51_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_52_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_53_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_54_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_55_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_56_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_57_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_58_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_59_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_60_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_61_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_62_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_63_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_64_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_65_L_2	log	factor	113.386	11.3386	283.465	ppts_L2	1	0	1
+pp_66_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_67_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_68_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_69_L_2	log	factor	113.386	11.3386	283.465	ppts_L2	1	0	1
+pp_70_L_2	log	factor	113.386	11.3386	283.465	ppts_L2	1	0	1
+pp_71_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_72_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_73_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_74_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_75_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_76_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_77_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_78_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_79_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_80_L_2	log	factor	113.386	11.3386	283.465	ppts_L2	1	0	1
+pp_81_L_2	log	factor	113.386	11.3386	283.465	ppts_L2	1	0	1
+pp_82_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_83_L_2	log	factor	113.386	11.3386	283.465	ppts_L2	1	0	1
+pp_84_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_85_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_86_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_87_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_88_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_89_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_90_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_91_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_92_L_2	log	factor	113.386	11.3386	283.465	ppts_L2	1	0	1
+pp_93_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_94_L_2	log	factor	113.386	11.3386	283.465	ppts_L2	1	0	1
+pp_95_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_96_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_97_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_98_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_99_L_2	fixed	factor	283465	28346.5	2834650	ppts_L2	1	0	1
+pp_100_L_2	log	factor	850.395	28.3465	5669.3	ppts_L2	1	0	1
+pp_1_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_2_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_3_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_4_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_5_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_6_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_7_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_8_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_9_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_10_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_11_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_12_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_13_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_14_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_15_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_16_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_17_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_18_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_19_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_20_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_21_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_22_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_23_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_24_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_25_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_26_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_27_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_28_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_29_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_30_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_31_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_32_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_33_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_34_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_35_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_36_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_37_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_38_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_39_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_40_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_41_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_42_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_43_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_44_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_45_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_46_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_47_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_48_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_49_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_50_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_51_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_52_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_53_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_54_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_55_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_56_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_57_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_58_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_59_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_60_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_61_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_62_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_63_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_64_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_65_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_66_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_67_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_68_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_69_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_70_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_71_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_72_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_73_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_74_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_75_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_76_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_77_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_78_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_79_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_80_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_81_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_82_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_83_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_84_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_85_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_86_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_87_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_88_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_89_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_90_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_91_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_92_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_93_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_94_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_95_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_96_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_97_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_98_L_3	log	factor	0.01417325	0.001417325	0.1417325	ppts_L3	1	0	1
+pp_99_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_100_L_3	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L3	1	0	1
+pp_1_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_2_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_3_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_4_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_5_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_6_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_7_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_8_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_9_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_10_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_11_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_12_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_13_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_14_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_15_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_16_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_17_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_18_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_19_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_20_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_21_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_22_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_23_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_24_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_25_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_26_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_27_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_28_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_29_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_30_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_31_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_32_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_33_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_34_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_35_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_36_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_37_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_38_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_39_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_40_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_41_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_42_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_43_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_44_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_45_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_46_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_47_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_48_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_49_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_50_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_51_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_52_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_53_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_54_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_55_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_56_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_57_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_58_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_59_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_60_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_61_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_62_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_63_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_64_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_65_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_66_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_67_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_68_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_69_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_70_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_71_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_72_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_73_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_74_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_75_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_76_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_77_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_78_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_79_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_80_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_81_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_82_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_83_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_84_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_85_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_86_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_87_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_88_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_89_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_90_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_91_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_92_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_93_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_94_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_95_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_96_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_97_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_98_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_99_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+pp_100_L_4	log	factor	1.41733E-07	1.41733E-08	1.41733E-05	ppts_L4	1	0	1
+finf_zn_01	log	factor	283465	141732.5	425197.5	finf	1	0	1
+finf_zn_02	log	factor	283465	141732.5	425197.5	finf	1	0	1
+finf_zn_03	log	factor	283465	141732.5	425197.5	finf	1	0	1
+finf_zn_04	log	factor	283465	141732.5	425197.5	finf	1	0	1
+finf_zn_05	log	factor	283465	141732.5	425197.5	finf	1	0	1
+finf_zn_06	log	factor	283465	141732.5	425197.5	finf	1	0	1
+finf_zn_07	log	factor	283465	141732.5	425197.5	finf	1	0	1
+finf_zn_08	log	factor	283465	141732.5	425197.5	finf	1	0	1
+finf_zn_09	log	factor	354331.25	212598.75	496063.75	finf	1	0	1
+finf_zn_10	log	factor	354331.25	212598.75	496063.75	finf	1	0	1
+finf_zn_11	log	factor	354331.25	212598.75	496063.75	finf	1	0	1
+finf_zn_12	log	factor	354331.25	212598.75	496063.75	finf	1	0	1
+surfK_lo	log	factor	11338.6	28.3465	283465	surfk	1	0	1
+surfK_hi	log	factor	28346.5	28.3465	283465	surfk	1	0	1
 * observation groups
 H_Obs
 Lake_Obs
