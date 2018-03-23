@@ -11,11 +11,14 @@ OPEN/CLOSE   .\input\modflow_all\bas_support\strt_hd_3.txt       1   (free)    0
 OPEN/CLOSE   .\input\modflow_all\bas_support\strt_hd_4.txt       1   (free)    0     # STARTING HEAD Array For LAYER 4 
 
 
-
 EXTERNAL     60                   1 (BINARY)  -1 #SS HEADS FOR LAYER 1
 EXTERNAL     60                   1 (BINARY)  -1 #SS HEADS FOR LAYER 2
 EXTERNAL     60                   1 (BINARY)  -1 #SS HEADS FOR LAYER 3
 EXTERNAL     60                   1 (BINARY)  -1 #SS HEADS FOR LAYER 4
+
+
+
+
 
 
 
