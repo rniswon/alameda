@@ -25,7 +25,7 @@ cd    .\OUTPUT\modflow\subbasin_runoff\
 call  get_runoff.exe
 cd    ..\
 
-call  obs2obs.exe     < obs2obs.in obs2obs.out
+call  obs2obs.exe  obs2obs.in obs2obs.out
 cd    ..\..\
 
 
