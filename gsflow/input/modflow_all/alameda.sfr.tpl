@@ -1,5 +1,8 @@
 ptf @
-REACHINPUT             
+options
+REACHINPUT   
+tabfiles 1 1463
+end          
 10563 955 0 0 8.64E+04 1.00E-04 0 0 1 7 1 30  
 2	12	36	1	1	61	1270	0.0234	1	@strmBdK_10 @	0.3	0.2	4	0.5
 2	13	36	1	2	61	1270	0.0493	1	@strmBdK_10 @	0.3	0.2	4	0.5
@@ -13428,8 +13431,9 @@ REACHINPUT
 5.76707       ! rgn made width narrow because lake 8 has not inflow and outflow is draining too much (was 23.76707)      
 5.76707       
 955 1 -9 -7 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02     
-5.76707           ! rgn made width narrow because lake 8 has not inflow and outflow is draining too much (was 23.76707)             
+5.76707           ! rgn made width narrow because lake 8 has no inflow and outflow is draining too much (was 23.76707)             
 5.76707 
+39 1463 304   # SEGNUM NUMVAL IUNIT (streamflow_ArroyoDeLaLaguna.txt)
 -1 0 0
 -1 0 0
 -1 0 0

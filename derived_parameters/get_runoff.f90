@@ -20,41 +20,82 @@
     CHARACTER(LEN=80) line 
     CHARACTER(LEN=40) line2
     INTEGER LLOC,ISTART,ISTOP,I,IOUT,IN,iout2,numvals,iloc,intchk,Io_stat,L,isave
-    INTEGER idum, j, in2, in3, iseg, max, segnum, k
+    INTEGER idum, j, in2, in3, in4, in5, iseg, ilake, max, segnum, k, iunitfree,lakenum
     real fdum
     REAL r, totrunoff,runofftemp
-    REAL,SAVE,DIMENSION(:),POINTER :: runoff, runoffsub, runoffsum
-    INTEGER,SAVE,DIMENSION(:),POINTER :: subbasin
+    REAL,SAVE,DIMENSION(:),POINTER :: runoff, runoffsub, runoffsum, runofflake
+    INTEGER,SAVE,DIMENSION(:),POINTER :: subbasin, subbasin_lake, lake_unit_num
+    CHARACTER(LEN=80),SAVE,DIMENSION(:),POINTER :: lake_gage_names
     INTEGER,SAVE,DIMENSION(:,:),POINTER :: subbasin_trib
     INTEGER,SAVE,DIMENSION(:),POINTER :: seg
     logical :: found
     in = 8
     in2 = 9
     in3 = 10
+    in4 = 13
+    in5 = 14
+    iunitfree = 15
     iout = 11
     iout2 = 12
     Io_stat = 0
     open(in,file='SFR_streams.out')
-    open(in2,file='subbasin.txt')
+    open(in2,file='subbasin_stream.txt')
+    open(in4,file='subbasin_lake.txt')
+    open(in5,file='names_lake_gage_files.txt')
     open(in3,file='subbasin_trib.txt')
     open(iout,file='runoff.out')
     open(iout2,file='info.out')
     found = .false.
     iseg = 0
+    ilake = 0
     totrunoff = 0.0
     runofftemp = 0.0
+    runofflake = 0.0
     max = 1
     subbasin = 0
     seg = 0
+    lakenum = 0
 ! Count number of segments
     do
       read(in2,*,IOSTAT=Io_stat) line 
       if (Io_stat < 0 ) exit
       iseg = iseg + 1
     end do
-!    iseg = iseg - 1
+! Allocate segment arrays
     allocate(subbasin(iseg),seg(iseg))
     rewind(in2)
+! Count number of lakes
+    do
+      read(in4,*,IOSTAT=Io_stat) line 
+      if (Io_stat < 0 ) exit
+      ilake = ilake + 1
+    end do
+! Allocate lake arrays
+    allocate(subbasin_lake(ilake),lake_gage_names(ilake))
+    allocate(lake_unit_num(ilake),runofflake(ilake))
+    rewind(in4)
+! Read lake numbers and gage output file names that contain runoff
+    do i = 1, ilake
+      CALL URDCOM(in5, iout2, line)
+      LLOC=1
+      CALL URWORD(line, lloc, istart, istop, 2, lakenum, r, IOUT2, In5)
+      CALL URWORD(LINE,LLOC,ISTART,ISTOP,1,I,R,IOUT2,IN5)
+      lake_gage_names(lakenum) = LINE(ISTART:ISTOP)
+      open(iunitfree+i,file=lake_gage_names(lakenum))
+    end do
+!
+! Read UZF runoff values from lake gage files
+    do i = 1, ilake
+      read(in4,*)lakenum,subbasin_lake(lakenum)
+! skip 3 header lines
+      do j=1,3
+      read(iunitfree+i,*)
+      end do
+      read(iunitfree+i,*)fdum,fdum,fdum,fdum,fdum,fdum,fdum,fdum
+      runofflake(subbasin_lake(lakenum)) = runofflake(subbasin_lake(lakenum)) + fdum
+    end do
+    rewind(in4)     
+!
 ! Read segment subbasin information
     do i = 1, iseg
       read(in2,*,IOSTAT=Io_stat) idum, subbasin(i)
@@ -92,6 +133,7 @@
     rewind(in)
     allocate (runoff(i))
     runoff = 0.0
+! skip over header lines
     do i = 1, 3
       read(in,*) line
     end do
@@ -113,11 +155,17 @@
          i = i + 1
        end if
      end do
-! first total runoff by subbasin, excluding tributary subbasin inflows
+! total stream runoff by subbasin, excluding tributary subbasin inflows
      if(found) then
        do i = 1, iseg
          j = subbasin(i)
          runoffsub(j) = runoffsub(j) + runoff(i)
+       end do
+! add total lake runoff by subbasin
+       do i = 1, ilake
+         read(in4,*)lakenum,subbasin_lake(lakenum)
+         j = subbasin_lake(lakenum)       
+         runoffsub(j) = runoffsub(j) + runofflake(j)
        end do
 ! add tributary subbasin inflows
        do i = 1, max
