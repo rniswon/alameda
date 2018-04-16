@@ -12,7 +12,7 @@ CONSTANT   4.0                                                                  
 CONSTANT   0.35                                                                         # SATURATED WATER CONTENT (THTS)
 -85                                             																				# IFTUNIT
 1                                                                                       # NUZF1
-OPEN/CLOSE .\input\modflow_all\uzf_support\adjusted_finf.txt       0.75 (free)    0     # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1
+OPEN/CLOSE .\input\modflow_all\uzf_support\adjusted_finf.txt        1.0 (free)    0     # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1 RGN set finf mult to 1 4/16/2018
 1                                                                                       # NUZF2
 OPEN/CLOSE .\input\modflow_all\uzf_support\pET.txt                  1.0 (free)    0     # PET FOR STRESS PERIOD 1   # orig is 0.003556020
 1                                                                                   		# NUZF3
