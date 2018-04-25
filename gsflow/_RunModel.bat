@@ -16,7 +16,6 @@ call  ReformARRAY.exe < RefArr_In_surfK.txt
 REM  Scale finf by subasin (original finf array multiplied by scaling array)
 call  twoarray.exe    < twoarray_finf.in
 call  ReformARRAY.exe < RefArr_In_finf.txt
-cd    ..\..\..\
 
 REM  Scale pET by subasin (original pET array multiplied by scaling array)
 call  twoarray.exe    < twoarray_pET.in
