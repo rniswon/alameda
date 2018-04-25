@@ -571,7 +571,7 @@ ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
           surfK_lo       log    factor          0.001        0.00001         283465          surfk       1       0       1
           surfK_hi       log    factor              5         0.0001         283465          surfk       1       0       1
          pET_zn_01       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_02       log    factor            1.2           0.20           1.50            pET       1       0       1
+         pET_zn_02       log    factor            1.0           0.20           1.50            pET       1       0       1
          pET_zn_03       log    factor            1.0           0.20           1.50            pET       1       0       1
          pET_zn_04       log    factor            1.0           0.20           1.50            pET       1       0       1
          pET_zn_05       log    factor            1.0           0.20           1.50            pET       1       0       1
