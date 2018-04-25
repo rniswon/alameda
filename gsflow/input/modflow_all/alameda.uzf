@@ -14,7 +14,7 @@ CONSTANT   0.35                                                                 
 1                                                                                       # NUZF1
 OPEN/CLOSE .\input\modflow_all\uzf_support\adjusted_finf.txt        1.0 (free)    0     # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1 RGN set finf mult to 1 4/16/2018
 1                                                                                       # NUZF2
-OPEN/CLOSE .\input\modflow_all\uzf_support\pET.txt                  1.0 (free)    0     # PET FOR STRESS PERIOD 1   # orig is 0.003556020
+OPEN/CLOSE .\input\modflow_all\uzf_support\adjusted_pET.txt         1.0 (free)    0     # PET FOR STRESS PERIOD 1   # orig is 0.003556020
 1                                                                                   		# NUZF3
 OPEN/CLOSE .\input\modflow_all\uzf_support\extdp.txt    							1 (free)    0     # EXTDP FOR STRESS PERIOD 1
 1                                                                                       # NUZF4
