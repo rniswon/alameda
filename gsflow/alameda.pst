@@ -1,8 +1,8 @@
 pcf
 * control data
 restart estimation
-    559     49      9      0       3
-      9     26 single  point   1   0   0
+    559     50      9      0       4
+      9     27 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
  15.0  15.0 0.001  0
   0.1
@@ -586,6 +586,7 @@ ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
 H_Obs
 Lake_Obs
 Q_Obs
+GWET_Obs
 * observation data
 m01            258.8846402    1    H_Obs
 m02            254.9746918    1    H_Obs
@@ -636,6 +637,7 @@ s9_low        64988.56026     1    Q_Obs
 s10_low       2746193.826     1    Q_Obs
 s11_low       387.4064516     1    Q_Obs
 s12_low       128460.0774     1    Q_Obs
+gwet_cmp2obs   4109520000 0.001    GWET_Obs
 * model command line
 _RunModel.bat
 * model input/output
@@ -649,6 +651,7 @@ _RunModel.bat
 .\input\modflow_all\pest\Lay_3_K_PP_List.txt.tpl                       .\input\modflow_all\pest\Lay_3_K_PP_List.txt
 .\input\modflow_all\pest\Lay_4_K_PP_List.txt.tpl                       .\input\modflow_all\pest\Lay_4_K_PP_List.txt
 .\output\modflow\hobs.out.ins                                          .\output\modflow\hobs.out
+.\output\modflow\obs2obs_gwet.out.ins                                  .\output\modflow\obs2obs_gwet.out
 .\output\modflow\subbasin_runoff\ACDD_Reservoir.out.ins                .\output\modflow\subbasin_runoff\ACDD_Reservoir.out
 .\output\modflow\subbasin_runoff\No_Name_Pond.out.ins                  .\output\modflow\subbasin_runoff\No_Name_Pond.out
 .\output\modflow\subbasin_runoff\Pond_F6.out.ins                       .\output\modflow\subbasin_runoff\Pond_F6.out
