@@ -1,7 +1,7 @@
 pcf
 * control data
 restart estimation
-    559     50      9      0       4
+    558     50      9      0       4
       9     27 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
  15.0  15.0 0.001  0
@@ -42,7 +42,6 @@ ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
         strmBdK_17       log    factor            1.0              1         566930        strmBdK       1       0       1
         strmBdK_18       log    factor            1.0              1         566930        strmBdK       1       0       1
         strmBdK_19       log    factor            1.0              1         566930        strmBdK       1       0       1
-        strmBdK_20       log    factor            1.0              1         566930        strmBdK       1       0       1
         strmBdK_21       log    factor            1.0              1         566930        strmBdK       1       0       1
         strmBdK_22       log    factor            1.0              1         566930        strmBdK       1       0       1
         strmBdK_23       log    factor            1.0              1         566930        strmBdK       1       0       1
