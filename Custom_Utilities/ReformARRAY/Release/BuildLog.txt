@@ -1,0 +1,9 @@
+------ Build started: Project: ReformARRAY, Configuration: Release|Win32 ------
+
+Linking...
+Link /OUT:"Release/ReformARRAY.exe" /INCREMENTAL:NO /NOLOGO /SUBSYSTEM:CONSOLE  Release/ReformARRAY.obj
+Link: executing 'link'
+
+
+ReformARRAY build succeeded.
+
