@@ -1,0 +1,6 @@
+* model output
+.\alameda.lst.obf.ins                                                    .\alameda.lst.obf
+* equations
+GWET_compare2obs = GWET_extracted * 365
+* output
+GWET_compare2obs 

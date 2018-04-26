@@ -22,7 +22,6 @@ call  twoarray.exe    < twoarray_pET.in
 call  ReformARRAY.exe < RefArr_In_pET.txt
 cd    ..\..\..\
 
-
 REM  Call model runfile
 MF_NWT.exe alameda_all.nam
 
@@ -30,6 +29,12 @@ REM  Perform post-processing routine #1
 cd    .\OUTPUT\modflow\subbasin_runoff\
 call  get_runoff.exe
 cd    ..\
+
+REM  Peel-out GWET from .lst file for multiplying by 365
+call  inschek.exe  alameda.lst.ins alameda.lst
+
+REM  Multiply GWET from .lst file by 365 for comparing to derived observation value
+call  obs2obs.exe  obs2obs_GWET.in obs2obs_GWET.out
 
 call  obs2obs.exe  obs2obs.in obs2obs.out
 cd    ..\..\
