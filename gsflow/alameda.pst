@@ -55,106 +55,106 @@ ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
         strmBdK_31       log    factor            1.0              1         566930        strmBdK       1       0       1
         strmBdK_32       log    factor            1.0              1         566930        strmBdK       1       0       1
         strmBdK_33       log    factor            1.0              1         566930        strmBdK       1       0       1
-          pp_1_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-          pp_2_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-          pp_3_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-          pp_4_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-          pp_5_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-          pp_6_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-          pp_7_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-          pp_8_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-          pp_9_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_10_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_11_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_12_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_13_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_14_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_15_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_16_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_17_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_18_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_19_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_20_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_21_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_22_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_23_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_24_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_25_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_26_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_27_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_28_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_29_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_30_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_31_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_32_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_33_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_34_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_35_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_36_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_37_vks       log    factor       5.42E-05       1.42E-06      0.1417325            vks       1       0       1
-         pp_38_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_39_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_40_vks       log    factor       5.42E-05       1.42E-05      0.1417325            vks       1       0       1
-         pp_41_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_42_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_43_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_44_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_45_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_46_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_47_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_48_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_49_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_50_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_51_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_52_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_53_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_54_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_55_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_56_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_57_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_58_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_59_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_60_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_61_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_62_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_63_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_64_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_65_vks       log    factor            0.1           0.01        283.465            vks       1       0       1
-         pp_66_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_67_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_68_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_69_vks       log    factor            0.1           0.01        283.465            vks       1       0       1
-         pp_70_vks       log    factor            0.1           0.01        283.465            vks       1       0       1
-         pp_71_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_72_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_73_vks       log    factor           0.05          0.001         566930            vks       1       0       1
-         pp_74_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_75_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_76_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_77_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
-         pp_78_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_79_vks       log    factor           0.05          0.001         566930            vks       1       0       1
-         pp_80_vks       log    factor            0.2           0.01        283.465            vks       1       0       1
-         pp_81_vks       log    factor            0.2           0.01        283.465            vks       1       0       1
-         pp_82_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_83_vks       log    factor            0.1           0.01        283.465            vks       1       0       1
-         pp_84_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_85_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_86_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_87_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_88_vks       log    factor           0.05          0.001         566930            vks       1       0       1
-         pp_89_vks       log    factor           0.05          0.001         566930            vks       1       0       1
-         pp_90_vks       log    factor           0.05          0.001         566930            vks       1       0       1
-         pp_91_vks       log    factor           0.05          0.001         566930            vks       1       0       1
-         pp_92_vks       log    factor            0.2           0.01        283.465            vks       1       0       1
-         pp_93_vks       log    factor           0.01         0.0001         5669.3            vks       1       0       1
-         pp_94_vks       log    factor            0.2           0.01        283.465            vks       1       0       1
-         pp_95_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_96_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_97_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_98_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-         pp_99_vks       log    factor           0.01          0.001         566930            vks       1       0       1
-        pp_100_vks       log    factor          0.001         0.0001         5669.3            vks       1       0       1
+pp_1_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_2_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_3_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_4_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_5_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_6_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_7_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_8_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_9_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_10_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_11_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_12_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_13_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_14_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_15_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_16_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_17_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_18_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_19_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_20_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_21_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_22_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_23_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_24_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_25_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_26_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_27_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_28_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_29_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_30_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_31_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_32_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_33_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_34_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_35_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_36_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_37_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_38_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_39_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_40_vks log factor 2.71E-05 1.42E-05 0.1417325 vks 1 0 1
+pp_41_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_42_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_43_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_44_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_45_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_46_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_47_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_48_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_49_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_50_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_51_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_52_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_53_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_54_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_55_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_56_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_57_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_58_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_59_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_60_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_61_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_62_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_63_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_64_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_65_vks log factor 0.05 0.01 283.465 vks 1 0 1
+pp_66_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_67_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_68_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_69_vks log factor 0.05 0.01 283.465 vks 1 0 1
+pp_70_vks log factor 0.05 0.01 283.465 vks 1 0 1
+pp_71_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_72_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_73_vks log factor 0.025 0.001 566930 vks 1 0 1
+pp_74_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_75_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_76_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_77_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
+pp_78_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_79_vks log factor 0.025 0.001 566930 vks 1 0 1
+pp_80_vks log factor 0.1 0.01 283.465 vks 1 0 1
+pp_81_vks log factor 0.1 0.01 283.465 vks 1 0 1
+pp_82_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_83_vks log factor 0.05 0.01 283.465 vks 1 0 1
+pp_84_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_85_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_86_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_87_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_88_vks log factor 0.025 0.001 566930 vks 1 0 1
+pp_89_vks log factor 0.025 0.001 566930 vks 1 0 1
+pp_90_vks log factor 0.025 0.001 566930 vks 1 0 1
+pp_91_vks log factor 0.025 0.001 566930 vks 1 0 1
+pp_92_vks log factor 0.1 0.01 283.465 vks 1 0 1
+pp_93_vks log factor 0.005 0.0001 5669.3 vks 1 0 1
+pp_94_vks log factor 0.1 0.01 283.465 vks 1 0 1
+pp_95_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_96_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_97_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_98_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_99_vks log factor 0.005 0.001 566930 vks 1 0 1
+pp_100_vks log factor 0.0005 0.0001 5669.3 vks 1 0 1
           pp_1_L_1       log    factor             10              1        283.465        ppts_L1       1       0       1
           pp_2_L_1       log    factor             10              1        283.465        ppts_L1       1       0       1
           pp_3_L_1       log    factor             10              1        283.465        ppts_L1       1       0       1
@@ -567,76 +567,76 @@ ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
         finf_zn_10       log    factor            0.7           0.15           1.75           finf       1       0       1
         finf_zn_11       log    factor            0.7           0.15           1.75           finf       1       0       1
         finf_zn_12       log    factor            0.7           0.15           1.75           finf       1       0       1
-          surfK_lo       log    factor          0.001        0.00001         283465          surfk       1       0       1
-          surfK_hi       log    factor              5         0.0001         283465          surfk       1       0       1
-         pET_zn_01       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_02       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_03       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_04       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_05       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_06       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_07       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_08       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_09       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_10       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_11       log    factor            1.0           0.20           1.50            pET       1       0       1
-         pET_zn_12       log    factor            1.0           0.20           1.50            pET       1       0       1
+          surfK_lo       log    factor            0.01        0.00001         283465          surfk       1       0       1
+          surfK_hi       log    factor            0.1         0.0001         283465          surfk       1       0       1
+         pET_zn_01       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_02       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_03       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_04       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_05       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_06       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_07       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_08       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_09       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_10       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_11       log    factor            0.5           0.20           1.50            pET       1       0       1
+         pET_zn_12       log    factor            0.5           0.20           1.50            pET       1       0       1
 * observation groups
 H_Obs
 Lake_Obs
 Q_Obs
 GWET_Obs
 * observation data
-m01            258.8846402    1    H_Obs
-m02            254.9746918    1    H_Obs
-m03            244.1003864    1    H_Obs
-m04            239.2289553    1    H_Obs
-m05            230.8669452    1    H_Obs
-m06            228.2347461    1    H_Obs
-m07            221.0652632    1    H_Obs
-m08            221.5892877    1    H_Obs
-m09            220.7391918    1    H_Obs
-m10            212.2268022    1    H_Obs
-v3             310.3012885    1    H_Obs
-v4             303.7207946    1    H_Obs
-v6             295.8875685    1    H_Obs
+m01            258.8846402    1000    H_Obs
+m02            254.9746918    1000    H_Obs
+m03            244.1003864    1000    H_Obs
+m04            239.2289553    1000    H_Obs
+m05            230.8669452    1000    H_Obs
+m06            228.2347461    1000    H_Obs
+m07            221.0652632    1000    H_Obs
+m08            221.5892877    1000    H_Obs
+m09            220.7391918    1000    H_Obs
+m10            212.2268022    1000    H_Obs
+v3             310.3012885    1000    H_Obs
+v4             303.7207946    1000    H_Obs
+v6             295.8875685    1000    H_Obs
 lk_01         -999            0    Lake_Obs
 lk_02         -999            0    Lake_Obs
-lk_03         185.0164754     1    Lake_Obs
-lk_04         255.1628318     1    Lake_Obs
+lk_03         185.0164754     100    Lake_Obs
+lk_04         255.1628318     100    Lake_Obs
 lk_05         -999            0    Lake_Obs
-lk_06         233.8835657     1    Lake_Obs
-lk_07         221.4729493     1    Lake_Obs
-lk_08         168.1676086     1    Lake_Obs
-lk_09         163.238131      1    Lake_Obs
+lk_06         233.8835657     100    Lake_Obs
+lk_07         221.4729493     100    Lake_Obs
+lk_08         168.1676086     100    Lake_Obs
+lk_09         163.238131      100    Lake_Obs
 lk_10         -999            0    Lake_Obs
-lk_11         460.1810815     1    Lake_Obs
-lk_12         687.3744695     1    Lake_Obs
-s1_avg        11502           1    Q_Obs
+lk_11         460.1810815     100    Lake_Obs
+lk_12         687.3744695     100    Lake_Obs
+s1_avg        11502           0.001    Q_Obs
 s2_avg        -999            0    Q_Obs
-s3_avg        3879671.115     1    Q_Obs
-s4_avg        706218.9095     1    Q_Obs
-s5_avg        1149718.479     1    Q_Obs
-s6_avg        1699691.799     1    Q_Obs
-s7_avg        543951.2339     1    Q_Obs
-s8_avg        1335521.457     1    Q_Obs
-s9_avg        2606076.529     1    Q_Obs
-s10_avg       11912384.98     1    Q_Obs
-s11_avg       1903627.355     1    Q_Obs
-s12_avg       2232218.839     1    Q_Obs
+s3_avg        3879671.115     0.01    Q_Obs
+s4_avg        706218.9095     0.01    Q_Obs
+s5_avg        1149718.479     0.01    Q_Obs
+s6_avg        1699691.799     0.01    Q_Obs
+s7_avg        543951.2339     0.01    Q_Obs
+s8_avg        1335521.457     0.01    Q_Obs
+s9_avg        2606076.529     0.01    Q_Obs
+s10_avg       11912384.98     0.01    Q_Obs
+s11_avg       1903627.355     0.01    Q_Obs
+s12_avg       2232218.839     0.01    Q_Obs
 s1_low        -999            0    Q_Obs
 s2_low        -999            0    Q_Obs
-s3_low        159046.6553     1    Q_Obs
-s4_low        12449.03226     1    Q_Obs
-s5_low        19435.71216     1    Q_Obs
-s6_low        44973.47368     1    Q_Obs
-s7_low        25386.96774     1    Q_Obs
-s8_low        80794.16914     1    Q_Obs
-s9_low        64988.56026     1    Q_Obs
-s10_low       2746193.826     1    Q_Obs
-s11_low       387.4064516     1    Q_Obs
-s12_low       128460.0774     1    Q_Obs
-gwet_cmp2obs   4109520000 0.001    GWET_Obs
+s3_low        159046.6553     0.01    Q_Obs
+s4_low        12449.03226     0.01    Q_Obs
+s5_low        19435.71216     0.01    Q_Obs
+s6_low        44973.47368     0.01    Q_Obs
+s7_low        25386.96774     0.01    Q_Obs
+s8_low        80794.16914     0.01    Q_Obs
+s9_low        64988.56026     0.01    Q_Obs
+s10_low       2746193.826     0.01    Q_Obs
+s11_low       387.4064516     0.01    Q_Obs
+s12_low       128460.0774     0.01    Q_Obs
+gwet_cmp2obs   4109520000 0.0001    GWET_Obs
 * model command line
 _RunModel.bat
 * model input/output
