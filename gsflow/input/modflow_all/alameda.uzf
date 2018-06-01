@@ -16,6 +16,6 @@ OPEN/CLOSE .\input\modflow_all\uzf_support\adjusted_finf.txt        1.0 (free)  
 1                                                                                       # NUZF2
 OPEN/CLOSE .\input\modflow_all\uzf_support\adjusted_pET.txt         1.0 (free)    0     # PET FOR STRESS PERIOD 1   # orig is 0.003556020
 1                                                                                   		# NUZF3
-OPEN/CLOSE .\input\modflow_all\uzf_support\extdp.txt    							1 (free)    0     # EXTDP FOR STRESS PERIOD 1
+OPEN/CLOSE .\input\modflow_all\uzf_support\extdp.txt    							2 (free)    0     # EXTDP FOR STRESS PERIOD 1
 1                                                                                       # NUZF4
 CONSTANT   0.41406    																																	# EXTWC FOR STRESS PERIOD 1
