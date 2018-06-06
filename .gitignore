@@ -1,4 +1,5 @@
 gsflow/bin/
+gsflow/output_archive/
 gsflow/superceded/
 calibration_data/
 calibration_results/
