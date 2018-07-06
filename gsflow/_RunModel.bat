@@ -1,12 +1,12 @@
 REM  Preprocessing routines
 
 REM  Interpolate Kh, SurfK (all contained in one batch routine)
-cd    .\INPUT\modflow_all\pest\
+cd    .\input\modflow_lower\pest\
 call  00_MF_Call_Array_Build.bat
 cd    ..\..\..\
 
 REM  Reformat the FINF & pET scaling arrays from a single column to array format
-cd    .\INPUT\modflow_all\uzf_support\
+cd    .\input\modflow_lower\uzf_support\
 call  ReformARRAY.exe < RefArr_In_scale_finf.txt
 call  ReformARRAY.exe < RefArr_In_scale_pET.txt
 
@@ -23,7 +23,7 @@ call  ReformARRAY.exe < RefArr_In_pET.txt
 cd    ..\..\..\
 
 REM  Call model runfile
-MF_NWT.exe alameda_all.nam
+MF_NWT.exe alameda_lower_modflow.nam
 
 REM  Perform post-processing routine #1
 cd    .\OUTPUT\modflow\subbasin_runoff\

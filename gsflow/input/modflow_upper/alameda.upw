@@ -5,12 +5,12 @@
 1.0 1.0 1.0 1.0                  CHANI
 0 0 0 0                          LAYVKA
 0 0 0 0                          LAYWET
-OPEN/CLOSE   .\input\modflow_all\upw_support\Kh_lay_1.txt       1.00   (FREE)   -1      # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 1  
+OPEN/CLOSE   .\input\modflow_upper\upw_support\Kh_lay_1.txt       1.00   (FREE)   -1      # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 1  
 CONSTANT     1.0                                                                        # Ratio of Kh/Kv = VKA VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 1
-OPEN/CLOSE   .\input\modflow_all\upw_support\Kh_lay_2.txt       1.00   (FREE)   -1      # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 2 
+OPEN/CLOSE   .\input\modflow_upper\upw_support\Kh_lay_2.txt       1.00   (FREE)   -1      # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 2 
 CONSTANT     1.0                                                                        # Ratio of Kh/Kv = VKA VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 2
-OPEN/CLOSE   .\input\modflow_all\upw_support\Kh_lay_3.txt       1.00   (FREE)   -1      # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 3  
+OPEN/CLOSE   .\input\modflow_upper\upw_support\Kh_lay_3.txt       1.00   (FREE)   -1      # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 3  
 CONSTANT     1.0                                                                        # Ratio of Kh/Kv = VKA VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 3
-OPEN/CLOSE   .\input\modflow_all\upw_support\Kh_lay_4.txt       1.00   (FREE)   -1      # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 4
+OPEN/CLOSE   .\input\modflow_upper\upw_support\Kh_lay_4.txt       1.00   (FREE)   -1      # HORIZONTAL HYDRAULIC CONDUCTIVITY FOR LAYER 4
 CONSTANT     1.0                                                                        # Ratio of Kh/Kv = VKA VERTICAL HYDRAULIC CONDUCTIVITY FOR LAYER 4
     

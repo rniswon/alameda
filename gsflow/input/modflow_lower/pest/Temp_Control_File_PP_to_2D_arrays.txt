@@ -1,0 +1,10 @@
+.\Alameda-Interpolated_vks_By_ppk2fac.txt                                                                               
+f                                                                               
+.\vks_PP_List.txt                                                                              
+s                                                                               
+1e-8                                                                            
+s                                                                               
+1e8                                                                             
+..\uzf_support\vks.txt                                                                              
+f                                                                               
+0.000                                                                           

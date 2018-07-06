@@ -43,7 +43,7 @@ hru_ppt
 ani_output_file
 1
 4
-./output/prms/animation.out
+./output/animation.out
 ####
 csv_output_file
 1
@@ -53,24 +53,12 @@ csv_output_file
 model_output_file
 1
 4
-<<<<<<< HEAD
-.\output\prms\0002\prms.out
-=======
-<<<<<<< HEAD
-.\output\prms\1760\prms.out
-=======
-.\output\prms\0760\prms.out
->>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
->>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
+./output/prms/prms.out
 ####
 data_file
 1
 4
-<<<<<<< HEAD
-./input/prms/alameda_data_20170906_SanAntCkHist.prms
-=======
-./input/prms/alameda_data_20170906.prms
->>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
+./input/prms_upper/alameda_data_20170906.prms
 ####
 dispGraphsBuffSize
 1
@@ -99,13 +87,9 @@ dispVar_element
 start_time
 6
 1
-<<<<<<< HEAD
-1912
-=======
-1995
->>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
+2010
 10
-1
+01
 0
 0
 0
@@ -113,11 +97,7 @@ start_time
 end_time
 6
 1
-<<<<<<< HEAD
-1930
-=======
 2014
->>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
 9
 30
 0
@@ -170,12 +150,12 @@ potet_jh
 executable_desc
 1
 4
-GSFLOW model
+PRMS model
 ####
 executable_model
 1
 4
-.\bin\gsflowbeta.exe
+.\bin\gsflow.exe
 ####
 gsflow_output_file
 1
@@ -190,7 +170,7 @@ init_vars_from_file
 modflow_name
 1
 4
-alameda.nam
+alameda_upper.nam
 ####
 ndispGraphs
 1
@@ -200,10 +180,10 @@ ndispGraphs
 param_file
 4
 4
-./input/prms/alameda_calibration_parameters_updated.param
-./input/prms/alameda_cascade.param
-./input/prms/alameda_default_values.param
-./input/prms/alameda_gis_derived_parameters.param
+./input/prms_upper/alameda_calibration_parameters_gsflow.param
+./input/prms_upper/alameda_cascade.param
+./input/prms_upper/alameda_default_values.param
+./input/prms_upper/alameda_gis_derived_parameters.param
 ####
 precip_module
 1
@@ -654,30 +634,30 @@ sub_sroff
 sub_sroff
 sub_sroff
 sub_sroff
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-subinc_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
-sub_gwflow
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_recharge
+subinc_stor
+subinc_stor
+subinc_stor
+subinc_stor
+subinc_stor
+subinc_stor
+subinc_stor
+subinc_stor
+subinc_stor
+subinc_stor
+subinc_stor
+subinc_stor
 subinc_tavgc
 subinc_tavgc
 subinc_tavgc
@@ -754,15 +734,7 @@ subinc_snowmelt
 stat_var_file
 1
 4
-<<<<<<< HEAD
-.\output\prms\0002\statvar.dat
-=======
-<<<<<<< HEAD
-.\output\prms\1760\statvar.dat
-=======
-.\output\prms\0760\statvar.dat
->>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
->>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
+.\output\prms\statvar.dat
 ####
 statsON_OFF
 1
@@ -817,7 +789,7 @@ subbasin_flag
 nsubOutON_OFF
 1
 1
-1
+0
 ####
 nsubOutVars
 1
@@ -866,13 +838,4 @@ pref_flow
 nsubOutBaseFileName
 1
 4
-<<<<<<< HEAD
-.\output\prms\0002\nsubOutVar\nsub.
-=======
-<<<<<<< HEAD
-.\output\prms\1760\nsubOutVar\nsub.
-=======
-.\output\prms\0760\nsubOutVar\nsub.
->>>>>>> 94ef842b9f804b231bcbd21185ab0857ff7d93f4
->>>>>>> 2fd614c5b1d39a029a5b20037614310ee98a27ba
-
+.\output\prms\nsubOutVar\nsub.
