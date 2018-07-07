@@ -1369,5 +1369,7 @@ File saving options: -
 ******************************************************************************
 Error condition prevents continued PEST execution:-
 
-Cannot open model output file .\output\modflow\hobs.out.
+Unexpected end to model output file .\output\modflow\hobs.out. Instruction 
+line follows -
+"@NAME@"
 ******************************************************************************

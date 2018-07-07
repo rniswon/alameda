@@ -23,10 +23,10 @@ call  ReformARRAY.exe < RefArr_In_pET.txt
 cd    ..\..\..\
 
 REM  Call model runfile
-MF_NWT.exe alameda_lower_modflow.nam
+MF_NWT.exe alameda_lower.nam
 
 REM  Perform post-processing routine #1
-cd    .\OUTPUT\modflow\subbasin_runoff\
+cd    .\output\modflow\subbasin_runoff\
 call  get_runoff.exe
 cd    ..\
 
