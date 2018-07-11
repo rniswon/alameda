@@ -1,5 +1,6 @@
 gsflow/bin/
-gsflow/output/
+gsflow/output/prms
+gsflow/output/modflow/alameda.lst
 gsflow/output_archive/
 gsflow/superceded/
 calibration_data/
