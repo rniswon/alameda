@@ -10,7 +10,7 @@ PEST run mode:-
 Case dimensions:-
 
    Number of parameters                           :   558
-   Number of adjustable parameters                :   376
+   Number of adjustable parameters                :   240
    Number of parameter groups                     :     9
    Number of observations                         :    50
    Number of prior estimates                      :     0
@@ -474,84 +474,84 @@ pp_97_l_2    log               factor      5.81398        1.00000        283.465
 pp_98_l_2    log               factor      1.00000        1.00000        283.465    
 pp_99_l_2    log               factor      20.0000        5.00000        5669.30    
 pp_100_l_2   log               factor      5.00000        5.00000        5669.30    
-pp_1_l_3     log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_2_l_3     log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_3_l_3     log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_4_l_3     log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_5_l_3     log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_6_l_3     log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_7_l_3     log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_8_l_3     log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_9_l_3     log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_10_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_11_l_3    log               factor     9.999993E-05   1.420000E-08   1.420000E-02
-pp_12_l_3    log               factor     9.998905E-05   1.420000E-08   1.420000E-02
-pp_13_l_3    log               factor     9.995601E-05   1.420000E-08   1.420000E-02
-pp_14_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_15_l_3    log               factor     1.000421E-04   1.420000E-08   1.420000E-02
-pp_16_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_17_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_18_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_19_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_20_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_21_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_22_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_23_l_3    log               factor     9.999953E-05   1.420000E-08   1.420000E-02
-pp_24_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_25_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_26_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-02
-pp_27_l_3    log               factor     1.435992E-04   1.420000E-08   1.420000E-02
-pp_28_l_3    log               factor     1.001915E-04   1.420000E-08   1.420000E-02
-pp_29_l_3    log               factor     1.000004E-04   1.420000E-08   1.420000E-02
-pp_30_l_3    log               factor     9.960139E-05   1.420000E-08   1.420000E-02
-pp_31_l_3    log               factor     1.079039E-04   1.420000E-08   1.420000E-02
-pp_32_l_3    log               factor     1.000048E-04   1.420000E-08   1.420000E-02
+pp_1_l_3     fixed               na       1.000000E-04      na             na
+pp_2_l_3     fixed               na       1.000000E-04      na             na
+pp_3_l_3     fixed               na       1.000000E-04      na             na
+pp_4_l_3     fixed               na       1.000000E-04      na             na
+pp_5_l_3     fixed               na       1.000000E-04      na             na
+pp_6_l_3     fixed               na       1.000000E-04      na             na
+pp_7_l_3     fixed               na       1.000000E-04      na             na
+pp_8_l_3     fixed               na       1.000000E-04      na             na
+pp_9_l_3     fixed               na       1.000000E-04      na             na
+pp_10_l_3    fixed               na       1.000000E-04      na             na
+pp_11_l_3    fixed               na       9.999993E-05      na             na
+pp_12_l_3    fixed               na       9.998905E-05      na             na
+pp_13_l_3    fixed               na       9.995601E-05      na             na
+pp_14_l_3    fixed               na       1.000000E-04      na             na
+pp_15_l_3    fixed               na       1.000421E-04      na             na
+pp_16_l_3    fixed               na       1.000000E-04      na             na
+pp_17_l_3    fixed               na       1.000000E-04      na             na
+pp_18_l_3    fixed               na       1.000000E-04      na             na
+pp_19_l_3    fixed               na       1.000000E-04      na             na
+pp_20_l_3    fixed               na       1.000000E-04      na             na
+pp_21_l_3    fixed               na       1.000000E-04      na             na
+pp_22_l_3    fixed               na       1.000000E-04      na             na
+pp_23_l_3    fixed               na       9.999953E-05      na             na
+pp_24_l_3    fixed               na       1.000000E-04      na             na
+pp_25_l_3    fixed               na       1.000000E-04      na             na
+pp_26_l_3    fixed               na       1.000000E-04      na             na
+pp_27_l_3    fixed               na       1.435992E-04      na             na
+pp_28_l_3    fixed               na       1.001915E-04      na             na
+pp_29_l_3    fixed               na       1.000004E-04      na             na
+pp_30_l_3    fixed               na       9.960139E-05      na             na
+pp_31_l_3    fixed               na       1.079039E-04      na             na
+pp_32_l_3    fixed               na       1.000048E-04      na             na
 pp_33_l_3    fixed               na       9.825986E-05      na             na
-pp_34_l_3    log               factor     1.427465E-02   1.417325E-03   0.141733    
-pp_35_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-04
-pp_36_l_3    log               factor     1.491041E-02   1.417325E-03   0.141733    
-pp_37_l_3    log               factor     9.999999E-05   1.420000E-08   1.420000E-04
-pp_38_l_3    log               factor     1.000068E-04   1.420000E-08   1.420000E-04
-pp_39_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-04
-pp_40_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-04
-pp_41_l_3    log               factor     0.141731       1.417325E-03   0.141733    
-pp_42_l_3    log               factor     0.141728       1.417325E-03   0.141733    
-pp_43_l_3    log               factor     1.420000E-04   1.420000E-08   1.420000E-04
-pp_44_l_3    log               factor     0.141732       1.417325E-03   0.141733    
-pp_45_l_3    log               factor     1.000000E-04   1.420000E-08   1.420000E-04
-pp_46_l_3    log               factor     1.408657E-02   1.417325E-03   0.141733    
-pp_47_l_3    log               factor     9.999996E-05   1.420000E-08   1.420000E-04
+pp_34_l_3    fixed               na       1.427465E-02      na             na
+pp_35_l_3    fixed               na       1.000000E-04      na             na
+pp_36_l_3    fixed               na       1.491041E-02      na             na
+pp_37_l_3    fixed               na       9.999999E-05      na             na
+pp_38_l_3    fixed               na       1.000068E-04      na             na
+pp_39_l_3    fixed               na       1.000000E-04      na             na
+pp_40_l_3    fixed               na       1.000000E-04      na             na
+pp_41_l_3    fixed               na       0.141731          na             na
+pp_42_l_3    fixed               na       0.141728          na             na
+pp_43_l_3    fixed               na       1.420000E-04      na             na
+pp_44_l_3    fixed               na       0.141732          na             na
+pp_45_l_3    fixed               na       1.000000E-04      na             na
+pp_46_l_3    fixed               na       1.408657E-02      na             na
+pp_47_l_3    fixed               na       9.999996E-05      na             na
 pp_48_l_3    fixed               na       1.420000E-04      na             na
-pp_49_l_3    log               factor     9.984251E-05   1.420000E-08   1.420000E-04
-pp_50_l_3    log               factor     1.414225E-02   1.417325E-03   0.141733    
-pp_51_l_3    log               factor     1.000348E-04   1.420000E-08   1.420000E-04
-pp_52_l_3    log               factor     9.822918E-05   1.420000E-08   1.420000E-04
-pp_53_l_3    log               factor     1.413710E-02   1.417325E-03   0.141733    
-pp_54_l_3    log               factor     1.417169E-02   1.417325E-03   0.141733    
-pp_55_l_3    log               factor     1.417325E-02   1.417325E-03   0.141733    
-pp_56_l_3    log               factor     1.417324E-02   1.417325E-03   0.141733    
+pp_49_l_3    fixed               na       9.984251E-05      na             na
+pp_50_l_3    fixed               na       1.414225E-02      na             na
+pp_51_l_3    fixed               na       1.000348E-04      na             na
+pp_52_l_3    fixed               na       9.822918E-05      na             na
+pp_53_l_3    fixed               na       1.413710E-02      na             na
+pp_54_l_3    fixed               na       1.417169E-02      na             na
+pp_55_l_3    fixed               na       1.417325E-02      na             na
+pp_56_l_3    fixed               na       1.417324E-02      na             na
 pp_57_l_3    fixed               na       1.420000E-04      na             na
 pp_58_l_3    fixed               na       1.420000E-04      na             na
-pp_59_l_3    log               factor     1.417325E-02   1.417325E-03   0.141733    
+pp_59_l_3    fixed               na       1.417325E-02      na             na
 pp_60_l_3    fixed               na       1.417325E-02      na             na
 pp_61_l_3    fixed               na       1.420000E-04      na             na
 pp_62_l_3    fixed               na       1.417325E-02      na             na
 pp_63_l_3    fixed               na       1.420000E-04      na             na
 pp_64_l_3    fixed               na       1.417325E-02      na             na
 pp_65_l_3    fixed               na       1.417325E-02      na             na
-pp_66_l_3    log               factor     1.417325E-02   1.417325E-03   0.141733    
+pp_66_l_3    fixed               na       1.417325E-02      na             na
 pp_67_l_3    fixed               na       1.417325E-02      na             na
-pp_68_l_3    log               factor     1.417325E-02   1.417325E-03   0.141733    
-pp_69_l_3    log               factor     1.417325E-02   1.417325E-03   0.141733    
-pp_70_l_3    log               factor     1.417325E-02   1.417325E-03   0.141733    
-pp_71_l_3    log               factor     1.417325E-02   1.417325E-03   0.141733    
-pp_72_l_3    log               factor     1.401938E-02   1.417325E-03   0.141733    
+pp_68_l_3    fixed               na       1.417325E-02      na             na
+pp_69_l_3    fixed               na       1.417325E-02      na             na
+pp_70_l_3    fixed               na       1.417325E-02      na             na
+pp_71_l_3    fixed               na       1.417325E-02      na             na
+pp_72_l_3    fixed               na       1.401938E-02      na             na
 pp_73_l_3    fixed               na       1.370925E-02      na             na
 pp_74_l_3    fixed               na       1.417333E-03      na             na
 pp_75_l_3    fixed               na       1.389542E-02      na             na
 pp_76_l_3    fixed               na       1.417347E-03      na             na
 pp_77_l_3    fixed               na       1.810506E-03      na             na
-pp_78_l_3    log               factor     1.417415E-03   1.417325E-03   0.141733    
+pp_78_l_3    fixed               na       1.417415E-03      na             na
 pp_79_l_3    fixed               na       1.417330E-03      na             na
 pp_80_l_3    fixed               na       1.420000E-04      na             na
 pp_81_l_3    fixed               na       1.417322E-02      na             na
@@ -568,90 +568,90 @@ pp_91_l_3    fixed               na       1.417325E-02      na             na
 pp_92_l_3    fixed               na       1.417325E-02      na             na
 pp_93_l_3    fixed               na       1.417325E-02      na             na
 pp_94_l_3    fixed               na       1.420000E-04      na             na
-pp_95_l_3    log               factor     1.841975E-03   1.417325E-03   0.141733    
-pp_96_l_3    log               factor     1.417330E-03   1.417325E-03   0.141733    
-pp_97_l_3    log               factor     9.997897E-05   1.420000E-08   1.420000E-04
-pp_98_l_3    log               factor     1.417325E-02   1.417325E-03   0.141733    
-pp_99_l_3    log               factor     9.999988E-05   1.420000E-08   1.420000E-04
-pp_100_l_3   log               factor     1.000029E-04   1.420000E-08   1.420000E-04
-pp_1_l_4     log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_2_l_4     log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_3_l_4     log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_4_l_4     log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_5_l_4     log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_6_l_4     log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_7_l_4     log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_8_l_4     log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_9_l_4     log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_10_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_11_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_12_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_13_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_14_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_15_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_16_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_17_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_18_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_19_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_20_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_21_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_22_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_23_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_24_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_25_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_26_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_27_l_4    log               factor     9.999938E-06   1.420000E-08   1.000000E-04
-pp_28_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_29_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_30_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_31_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_32_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
+pp_95_l_3    fixed               na       1.841975E-03      na             na
+pp_96_l_3    fixed               na       1.417330E-03      na             na
+pp_97_l_3    fixed               na       9.997897E-05      na             na
+pp_98_l_3    fixed               na       1.417325E-02      na             na
+pp_99_l_3    fixed               na       9.999988E-05      na             na
+pp_100_l_3   fixed               na       1.000029E-04      na             na
+pp_1_l_4     fixed               na       1.000000E-05      na             na
+pp_2_l_4     fixed               na       1.000000E-05      na             na
+pp_3_l_4     fixed               na       1.000000E-05      na             na
+pp_4_l_4     fixed               na       1.000000E-05      na             na
+pp_5_l_4     fixed               na       1.000000E-05      na             na
+pp_6_l_4     fixed               na       1.000000E-05      na             na
+pp_7_l_4     fixed               na       1.000000E-05      na             na
+pp_8_l_4     fixed               na       1.000000E-05      na             na
+pp_9_l_4     fixed               na       1.000000E-05      na             na
+pp_10_l_4    fixed               na       1.000000E-05      na             na
+pp_11_l_4    fixed               na       1.000000E-05      na             na
+pp_12_l_4    fixed               na       1.000000E-05      na             na
+pp_13_l_4    fixed               na       1.000000E-05      na             na
+pp_14_l_4    fixed               na       1.000000E-05      na             na
+pp_15_l_4    fixed               na       1.000000E-05      na             na
+pp_16_l_4    fixed               na       1.000000E-05      na             na
+pp_17_l_4    fixed               na       1.000000E-05      na             na
+pp_18_l_4    fixed               na       1.000000E-05      na             na
+pp_19_l_4    fixed               na       1.000000E-05      na             na
+pp_20_l_4    fixed               na       1.000000E-05      na             na
+pp_21_l_4    fixed               na       1.000000E-05      na             na
+pp_22_l_4    fixed               na       1.000000E-05      na             na
+pp_23_l_4    fixed               na       1.000000E-05      na             na
+pp_24_l_4    fixed               na       1.000000E-05      na             na
+pp_25_l_4    fixed               na       1.000000E-05      na             na
+pp_26_l_4    fixed               na       1.000000E-05      na             na
+pp_27_l_4    fixed               na       9.999938E-06      na             na
+pp_28_l_4    fixed               na       1.000000E-05      na             na
+pp_29_l_4    fixed               na       1.000000E-05      na             na
+pp_30_l_4    fixed               na       1.000000E-05      na             na
+pp_31_l_4    fixed               na       1.000000E-05      na             na
+pp_32_l_4    fixed               na       1.000000E-05      na             na
 pp_33_l_4    fixed               na       1.000000E-05      na             na
-pp_34_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_35_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_36_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_37_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_38_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_39_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_40_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_41_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_42_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_43_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_44_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_45_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_46_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_47_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
+pp_34_l_4    fixed               na       1.000000E-05      na             na
+pp_35_l_4    fixed               na       1.000000E-05      na             na
+pp_36_l_4    fixed               na       1.000000E-05      na             na
+pp_37_l_4    fixed               na       1.000000E-05      na             na
+pp_38_l_4    fixed               na       1.000000E-05      na             na
+pp_39_l_4    fixed               na       1.000000E-05      na             na
+pp_40_l_4    fixed               na       1.000000E-05      na             na
+pp_41_l_4    fixed               na       1.000000E-05      na             na
+pp_42_l_4    fixed               na       1.000000E-05      na             na
+pp_43_l_4    fixed               na       1.000000E-05      na             na
+pp_44_l_4    fixed               na       1.000000E-05      na             na
+pp_45_l_4    fixed               na       1.000000E-05      na             na
+pp_46_l_4    fixed               na       1.000000E-05      na             na
+pp_47_l_4    fixed               na       1.000000E-05      na             na
 pp_48_l_4    fixed               na       1.000024E-05      na             na
-pp_49_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_50_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_51_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_52_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_53_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_54_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_55_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_56_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
+pp_49_l_4    fixed               na       1.000000E-05      na             na
+pp_50_l_4    fixed               na       1.000000E-05      na             na
+pp_51_l_4    fixed               na       1.000000E-05      na             na
+pp_52_l_4    fixed               na       1.000000E-05      na             na
+pp_53_l_4    fixed               na       1.000000E-05      na             na
+pp_54_l_4    fixed               na       1.000000E-05      na             na
+pp_55_l_4    fixed               na       1.000000E-05      na             na
+pp_56_l_4    fixed               na       1.000000E-05      na             na
 pp_57_l_4    fixed               na       1.000000E-05      na             na
 pp_58_l_4    fixed               na       1.000000E-05      na             na
-pp_59_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
+pp_59_l_4    fixed               na       1.000000E-05      na             na
 pp_60_l_4    fixed               na       9.999983E-06      na             na
 pp_61_l_4    fixed               na       1.000000E-05      na             na
 pp_62_l_4    fixed               na       1.000000E-05      na             na
 pp_63_l_4    fixed               na       1.000000E-05      na             na
 pp_64_l_4    fixed               na       1.000000E-05      na             na
 pp_65_l_4    fixed               na       9.999992E-06      na             na
-pp_66_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
+pp_66_l_4    fixed               na       1.000000E-05      na             na
 pp_67_l_4    fixed               na       1.000000E-05      na             na
-pp_68_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_69_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_70_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_71_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_72_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
+pp_68_l_4    fixed               na       1.000000E-05      na             na
+pp_69_l_4    fixed               na       1.000000E-05      na             na
+pp_70_l_4    fixed               na       1.000000E-05      na             na
+pp_71_l_4    fixed               na       1.000000E-05      na             na
+pp_72_l_4    fixed               na       1.000000E-05      na             na
 pp_73_l_4    fixed               na       1.007013E-05      na             na
 pp_74_l_4    fixed               na       1.000032E-05      na             na
 pp_75_l_4    fixed               na       1.000131E-05      na             na
 pp_76_l_4    fixed               na       9.999566E-06      na             na
 pp_77_l_4    fixed               na       1.127861E-05      na             na
-pp_78_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
+pp_78_l_4    fixed               na       1.000000E-05      na             na
 pp_79_l_4    fixed               na       1.001278E-05      na             na
 pp_80_l_4    fixed               na       1.000090E-05      na             na
 pp_81_l_4    fixed               na       9.999956E-06      na             na
@@ -668,12 +668,12 @@ pp_91_l_4    fixed               na       1.000000E-05      na             na
 pp_92_l_4    fixed               na       1.000000E-05      na             na
 pp_93_l_4    fixed               na       1.000000E-05      na             na
 pp_94_l_4    fixed               na       1.000000E-05      na             na
-pp_95_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_96_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_97_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_98_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_99_l_4    log               factor     1.000000E-05   1.420000E-08   1.000000E-04
-pp_100_l_4   log               factor     1.000000E-05   1.420000E-08   1.000000E-04
+pp_95_l_4    fixed               na       1.000000E-05      na             na
+pp_96_l_4    fixed               na       1.000000E-05      na             na
+pp_97_l_4    fixed               na       1.000000E-05      na             na
+pp_98_l_4    fixed               na       1.000000E-05      na             na
+pp_99_l_4    fixed               na       1.000000E-05      na             na
+pp_100_l_4   fixed               na       1.000000E-05      na             na
 finf_zn_01   fixed               na       0.807006          na             na
 finf_zn_02   fixed               na       0.469530          na             na
 finf_zn_03   fixed               na       0.511902          na             na
@@ -1270,19 +1270,19 @@ Prior information:-
 Observations:-
 
 Observation name        Observation       Weight       Group
- m01                     258.885          1.000       h_obs       
- m02                     254.975          1.000       h_obs       
- m03                     244.100          1.000       h_obs       
- m04                     239.229          1.000       h_obs       
- m05                     230.867          1.000       h_obs       
- m06                     228.235          1.000       h_obs       
- m07                     221.065          1.000       h_obs       
- m08                     221.589          1.000       h_obs       
- m09                     220.739          1.000       h_obs       
- m10                     212.227          1.000       h_obs       
- v3                      310.301          1.000       h_obs       
- v4                      303.721          1.000       h_obs       
- v6                      295.888          1.000       h_obs       
+ m01                     259.722          1.000       h_obs       
+ m02                     255.245          1.000       h_obs       
+ m03                     246.054          1.000       h_obs       
+ m04                     241.940          1.000       h_obs       
+ m05                     233.427          1.000       h_obs       
+ m06                     229.176          1.000       h_obs       
+ m07                     221.954          1.000       h_obs       
+ m08                     222.347          1.000       h_obs       
+ m09                     221.215          1.000       h_obs       
+ m10                     213.833          1.000       h_obs       
+ v3                      310.558          1.000       h_obs       
+ v4                      304.403          1.000       h_obs       
+ v6                      296.625          1.000       h_obs       
  lk_01                  -999.000          0.000       lake_obs    
  lk_02                  -999.000          0.000       lake_obs    
  lk_03                   185.016          0.000       lake_obs    
@@ -1295,30 +1295,30 @@ Observation name        Observation       Weight       Group
  lk_10                  -999.000          0.000       lake_obs    
  lk_11                   460.181          0.000       lake_obs    
  lk_12                   687.374          0.000       lake_obs    
- s1_avg                  11502.0          0.000       q_obs       
+ s1_avg                 -999.000          0.000       q_obs       
  s2_avg                 -999.000          0.000       q_obs       
- s3_avg                 3.879671E+06      0.000       q_obs       
- s4_avg                  706219.          0.000       q_obs       
- s5_avg                 1.149718E+06      0.000       q_obs       
- s6_avg                 1.699692E+06      0.000       q_obs       
- s7_avg                  543951.          0.000       q_obs       
- s8_avg                 1.335521E+06      1.000       q_obs       
- s9_avg                 2.606077E+06      1.000       q_obs       
- s10_avg                1.191238E+07      1.000       q_obs       
- s11_avg                1.903627E+06      1.000       q_obs       
- s12_avg                2.232219E+06      1.000       q_obs       
+ s3_avg                 -999.000          0.000       q_obs       
+ s4_avg                 -999.000          0.000       q_obs       
+ s5_avg                 -999.000          0.000       q_obs       
+ s6_avg                 -999.000          0.000       q_obs       
+ s7_avg                 -999.000          0.000       q_obs       
+ s8_avg                 3.430215E+06      1.000       q_obs       
+ s9_avg                 3.970044E+06      1.000       q_obs       
+ s10_avg                8.423091E+06      1.000       q_obs       
+ s11_avg                5.670312E+06      1.000       q_obs       
+ s12_avg                2.126847E+06      1.000       q_obs       
  s1_low                 -999.000          0.000       q_obs       
  s2_low                 -999.000          0.000       q_obs       
- s3_low                  159047.          0.000       q_obs       
- s4_low                  12449.0          0.000       q_obs       
- s5_low                  19435.7          0.000       q_obs       
- s6_low                  44973.5          0.000       q_obs       
- s7_low                  25387.0          0.000       q_obs       
- s8_low                  80794.2          1.000       q_obs       
- s9_low                  64988.6          1.000       q_obs       
- s10_low                2.746194E+06      1.000       q_obs       
- s11_low                 387.406          1.000       q_obs       
- s12_low                 128460.          1.000       q_obs       
+ s3_low                 -999.000          0.000       q_obs       
+ s4_low                 -999.000          0.000       q_obs       
+ s5_low                 -999.000          0.000       q_obs       
+ s6_low                 -999.000          0.000       q_obs       
+ s7_low                 -999.000          0.000       q_obs       
+ s8_low                  94524.5          1.000       q_obs       
+ s9_low                  103477.          1.000       q_obs       
+ s10_low                1.801160E+06      1.000       q_obs       
+ s11_low                 2183.56          1.000       q_obs       
+ s12_low                 94479.6          1.000       q_obs       
  gwet_cmp2obs           4.109520E+09      0.000       gwet_obs    
 
 
@@ -1369,10 +1369,10 @@ File saving options: -
 
 
 INITIAL CONDITIONS: 
-   Sum of squared weighted residuals (ie phi)               =  2.33264E+13
-   Contribution to phi from observation group "h_obs"       =   945.73    
+   Sum of squared weighted residuals (ie phi)               =  6.58678E+13
+   Contribution to phi from observation group "h_obs"       =   711.22    
    Contribution to phi from observation group "lake_obs"    =   0.0000    
-   Contribution to phi from observation group "q_obs"       =  2.33264E+13
+   Contribution to phi from observation group "q_obs"       =  6.58678E+13
    Contribution to phi from observation group "gwet_obs"    =   0.0000    
 
       Current parameter values
@@ -2514,20 +2514,20 @@ Observations ----->
 
 Observation            Measured       Calculated     Residual       Weight     Group
                        value          value
-m01                    258.885        266.522       -7.63718        1.000      h_obs       
-m02                    254.975        261.130       -6.15519        1.000      h_obs       
-m03                    244.100        258.299       -14.1986        1.000      h_obs       
-m04                    239.229        248.168       -8.93936        1.000      h_obs       
-m05                    230.867        242.927       -12.0601        1.000      h_obs       
-m06                    228.235        237.653       -9.41865        1.000      h_obs       
-m07                    221.065        228.556       -7.49042        1.000      h_obs       
-m08                    221.589        228.813       -7.22367        1.000      h_obs       
-m09                    220.739        228.474       -7.73491        1.000      h_obs       
-m10                    212.227        223.974       -11.7469        1.000      h_obs       
-v3                     310.301        307.928        2.37300        1.000      h_obs       
-v4                     303.721        299.365        4.35568        1.000      h_obs       
-v6                     295.888        294.117        1.77044        1.000      h_obs       
-lk_01                 -999.000        896.000       -1895.00        0.000      lake_obs    
+m01                    259.722        266.522       -6.80025        1.000      h_obs       
+m02                    255.245        261.130       -5.88518        1.000      h_obs       
+m03                    246.054        258.299       -12.2446        1.000      h_obs       
+m04                    241.940        248.168       -6.22852        1.000      h_obs       
+m05                    233.427        242.927       -9.50039        1.000      h_obs       
+m06                    229.176        237.653       -8.47770        1.000      h_obs       
+m07                    221.954        228.556       -6.60218        1.000      h_obs       
+m08                    222.347        228.813       -6.46556        1.000      h_obs       
+m09                    221.215        228.474       -7.25901        1.000      h_obs       
+m10                    213.833        223.974       -10.1403        1.000      h_obs       
+v3                     310.558        307.929        2.62937        1.000      h_obs       
+v4                     304.403        299.365        5.03741        1.000      h_obs       
+v6                     296.625        294.117        2.50812        1.000      h_obs       
+lk_01                 -999.000        884.500       -1883.50        0.000      lake_obs    
 lk_02                 -999.000        269.500       -1268.50        0.000      lake_obs    
 lk_03                  185.016        185.020      -3.528900E-03    0.000      lake_obs    
 lk_04                  255.163        255.200      -3.716510E-02    0.000      lake_obs    
@@ -2537,33 +2537,33 @@ lk_07                  221.473        221.500      -2.705070E-02    0.000      l
 lk_08                  168.168        168.100       6.760250E-02    0.000      lake_obs    
 lk_09                  163.238        163.200       3.813410E-02    0.000      lake_obs    
 lk_10                 -999.000        245.200       -1244.20        0.000      lake_obs    
-lk_11                  460.181        460.200      -1.893070E-02    0.000      lake_obs    
-lk_12                  687.374        687.300       7.448170E-02    0.000      lake_obs    
-s1_avg                 11502.0        0.00000        11502.0        0.000      q_obs       
+lk_11                  460.181        311.600        148.581        0.000      lake_obs    
+lk_12                  687.374        491.700        195.674        0.000      lake_obs    
+s1_avg                -999.000        0.00000       -999.000        0.000      q_obs       
 s2_avg                -999.000        0.00000       -999.000        0.000      q_obs       
-s3_avg                3.879671E+06    0.00000       3.879671E+06    0.000      q_obs       
-s4_avg                 706219.        743.815        705475.        0.000      q_obs       
-s5_avg                1.149718E+06    594.658       1.149124E+06    0.000      q_obs       
-s6_avg                1.699692E+06    5555.84       1.694136E+06    0.000      q_obs       
-s7_avg                 543951.        114.062        543837.        0.000      q_obs       
-s8_avg                1.335521E+06    264676.       1.070845E+06    1.000      q_obs       
-s9_avg                2.606077E+06    317050.       2.289027E+06    1.000      q_obs       
-s10_avg               1.191238E+07   9.283261E+06   2.629124E+06    1.000      q_obs       
-s11_avg               1.903627E+06    13321.2       1.890306E+06    1.000      q_obs       
-s12_avg               2.232219E+06    547091.       1.685128E+06    1.000      q_obs       
+s3_avg                -999.000        0.00000       -999.000        0.000      q_obs       
+s4_avg                -999.000        743.815       -1742.82        0.000      q_obs       
+s5_avg                -999.000        594.658       -1593.66        0.000      q_obs       
+s6_avg                -999.000        0.00000       -999.000        0.000      q_obs       
+s7_avg                -999.000        114.062       -1113.06        0.000      q_obs       
+s8_avg                3.430215E+06    270234.       3.159981E+06    1.000      q_obs       
+s9_avg                3.970044E+06    322603.       3.647440E+06    1.000      q_obs       
+s10_avg               8.423091E+06   9.283261E+06   -860170.        1.000      q_obs       
+s11_avg               5.670312E+06    13321.2       5.656991E+06    1.000      q_obs       
+s12_avg               2.126847E+06    547091.       1.579756E+06    1.000      q_obs       
 s1_low                -999.000        0.00000       -999.000        0.000      q_obs       
 s2_low                -999.000        0.00000       -999.000        0.000      q_obs       
-s3_low                 159047.        0.00000        159047.        0.000      q_obs       
-s4_low                 12449.0       -773.285        13222.3        0.000      q_obs       
-s5_low                 19435.7       -374.802        19810.5        0.000      q_obs       
-s6_low                 44973.5        5555.84        39417.6        0.000      q_obs       
-s7_low                 25387.0       -59.2678        25446.2        0.000      q_obs       
-s8_low                 80794.2        20687.9        60106.3        1.000      q_obs       
-s9_low                 64988.6       -11780.0        76768.5        1.000      q_obs       
-s10_low               2.746194E+06   4.277589E+06  -1.531395E+06    1.000      q_obs       
-s11_low                387.406       -413103.        413491.        1.000      q_obs       
-s12_low                128460.       -915163.       1.043624E+06    1.000      q_obs       
-gwet_cmp2obs          4.109520E+09   8.238970E+08   3.285623E+09    0.000      gwet_obs    
+s3_low                -999.000        0.00000       -999.000        0.000      q_obs       
+s4_low                -999.000       -773.285       -225.715        0.000      q_obs       
+s5_low                -999.000       -374.802       -624.198        0.000      q_obs       
+s6_low                -999.000        0.00000       -999.000        0.000      q_obs       
+s7_low                -999.000       -59.2678       -939.732        0.000      q_obs       
+s8_low                 94524.5        26405.3        68119.2        1.000      q_obs       
+s9_low                 103477.       -6122.92        109600.        1.000      q_obs       
+s10_low               1.801160E+06   4.277692E+06  -2.476532E+06    1.000      q_obs       
+s11_low                2183.56       -413000.        415183.        1.000      q_obs       
+s12_low                94479.6       -915060.       1.009540E+06    1.000      q_obs       
+gwet_cmp2obs          4.109520E+09   8.238984E+08   3.285622E+09    0.000      gwet_obs    
 
 See file alameda.res for more details of residuals in graph-ready format.
 
@@ -2572,27 +2572,27 @@ See file alameda.seo for composite observation sensitivities.
 
 Objective function ----->
 
-  Sum of squared weighted residuals (ie phi)                =  2.3326E+13
-  Contribution to phi from observation group "h_obs"        =   945.7    
+  Sum of squared weighted residuals (ie phi)                =  6.5868E+13
+  Contribution to phi from observation group "h_obs"        =   711.2    
   Contribution to phi from observation group "lake_obs"     =   0.000    
-  Contribution to phi from observation group "q_obs"        =  2.3326E+13
+  Contribution to phi from observation group "q_obs"        =  6.5868E+13
   Contribution to phi from observation group "gwet_obs"     =   0.000    
 
 
 Correlation Coefficient ----->
 
-  Correlation coefficient                                   =  0.9369    
+  Correlation coefficient                                   =  0.7158    
 
 
 Analysis of residuals ----->
 
   All residuals:-
      Number of residuals with non-zero weight                       =    23
-     Mean value of non-zero weighted residuals                      =  4.1856E+05
-     Maximum weighted residual [observation "s10_avg"]              =  2.6291E+06
-     Minimum weighted residual [observation "s10_low"]              = -1.5314E+06
-     Standard variance of weighted residuals                        =  1.0142E+12
-     Standard error of weighted residuals                           =  1.0071E+06
+     Mean value of non-zero weighted residuals                      =  5.3521E+05
+     Maximum weighted residual [observation "s11_avg"]              =  5.6570E+06
+     Minimum weighted residual [observation "s10_low"]              = -2.4765E+06
+     Standard variance of weighted residuals                        =  2.8638E+12
+     Standard error of weighted residuals                           =  1.6923E+06
 
      Note: the above variance was obtained by dividing the objective 
      function by the number of system degrees of freedom (ie. number of 
@@ -2604,11 +2604,11 @@ Analysis of residuals ----->
 
   Residuals for observation group "h_obs":-
      Number of residuals with non-zero weight                       =    13
-     Mean value of non-zero weighted residuals                      =  -6.470    
-     Maximum weighted residual [observation "v4"]                   =   4.356    
-     Minimum weighted residual [observation "m03"]                  =  -14.20    
-     "Variance" of weighted residuals                               =   72.75    
-     "Standard error" of weighted residuals                         =   8.529    
+     Mean value of non-zero weighted residuals                      =  -5.341    
+     Maximum weighted residual [observation "v4"]                   =   5.037    
+     Minimum weighted residual [observation "m03"]                  =  -12.24    
+     "Variance" of weighted residuals                               =   54.71    
+     "Standard error" of weighted residuals                         =   7.397    
 
      Note: the above "variance" was obtained by dividing the sum of squared 
      residuals by the number of items with non-zero weight.
@@ -2618,11 +2618,11 @@ Analysis of residuals ----->
 
   Residuals for observation group "q_obs":-
      Number of residuals with non-zero weight                       =    10
-     Mean value of non-zero weighted residuals                      =  9.6270E+05
-     Maximum weighted residual [observation "s10_avg"]              =  2.6291E+06
-     Minimum weighted residual [observation "s10_low"]              = -1.5314E+06
-     "Variance" of weighted residuals                               =  2.3326E+12
-     "Standard error" of weighted residuals                         =  1.5273E+06
+     Mean value of non-zero weighted residuals                      =  1.2310E+06
+     Maximum weighted residual [observation "s11_avg"]              =  5.6570E+06
+     Minimum weighted residual [observation "s10_low"]              = -2.4765E+06
+     "Variance" of weighted residuals                               =  6.5868E+12
+     "Standard error" of weighted residuals                         =  2.5665E+06
 
      Note: the above "variance" was obtained by dividing the sum of squared 
      residuals by the number of items with non-zero weight.
