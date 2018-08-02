@@ -1,0 +1,67 @@
+LIST           7      ./output/modflow/alameda.lst
+BAS6           2      ./input/modflow_lower/alameda.bas
+oc             3      ./input/modflow_lower/alameda.oc
+dis            4      ./input/modflow_lower/alameda.dis
+HOB           17      ./input/modflow_lower/alameda.hob
+nwt           15      ./input/modflow_lower/alameda.nwt
+upw           16      ./input/modflow_lower/alameda.upw
+uzf           13      ./input/modflow_lower/alameda.uzf
+sfr            8      ./input/modflow_lower/alameda.sfr
+gage           9      ./input/modflow_lower/alameda.gag
+lak           10      ./input/modflow_lower/alameda.lak
+data          11      ./output/modflow/alameda.hed
+data          12      ./output/modflow/s141_r3_alameda.out
+data          85      ./output/modflow/UZF_tot.out
+data         101      ./input/modflow_lower/lake_bathymetry/ANALYZED_acdd_raster_multiSurfaceVolume.txt
+data         102      ./input/modflow_lower/lake_bathymetry/ANALYZED_NoNm_raster_multiSurfaceVolume.txt
+data         103      ./input/modflow_lower/lake_bathymetry/ANALYZED_f6_raster_multiSurfaceVolume.txt
+data         104      ./input/modflow_lower/lake_bathymetry/ANALYZED_RdyMix_raster_multiSurfaceVolume.txt
+data         105      ./input/modflow_lower/lake_bathymetry/ANALYZED_f5_raster_multiSurfaceVolume.txt
+data         106      ./input/modflow_lower/lake_bathymetry/ANALYZED_f4_raster_multiSurfaceVolume.txt
+data         107      ./input/modflow_lower/lake_bathymetry/ANALYZED_2003Mar_mvr_pondF3W_contours_dsslv_100ft_03_polygon_adj.txt
+data         108      ./input/modflow_lower/lake_bathymetry/ANALYZED_f3e_raster_multiSurfaceVolume.txt
+data         109      ./input/modflow_lower/lake_bathymetry/ANALYZED_f2_raster_multiSurfaceVolume.txt
+data         110      ./input/modflow_lower/lake_bathymetry/ANALYZED_smp32_raster_multiSurfaceVolume.txt
+data         111      ./input/modflow_lower/lake_bathymetry/ANALYZED_SanAntRes1_raster_multiSurfaceVolume.txt
+data         112      ./input/modflow_lower/lake_bathymetry/ANALYZED_CalRes1_raster_multiSurfaceVolume.txt
+data         201      ./output/modflow/streamflow_IndianCreek.out
+data         202      ./output/modflow/streamflow_SanAntonioCreekAtIndianCreekRd.out
+data         203      ./output/modflow/streamflow_ArroyoHondo.out
+data         204      ./output/modflow/streamflow_SanAntonioCreek.out
+data         205      ./output/modflow/streamflow_CalaverasCreek.out
+data         206      ./output/modflow/streamflow_AlamedaCreekAboveACDD.out
+data         207      ./output/modflow/streamflow_AlamedaCreekBelowACDD.out
+data         208      ./output/modflow/streamflow_AlamedaCreekBelowCalaverasCreek.out
+data         209      ./output/modflow/streamflow_AlamedaCreekBelowWelchCreek.out
+data         210      ./output/modflow/streamflow_AlamedaCreekNearNiles.out
+data         211      ./output/modflow/streamflow_AlamedaCreekAboveSanAntonioCreek.out
+data         212      ./output/modflow/streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
+data         225      ./output/modflow/streamflow_CalaverasCreekReachBelowReservoir.out
+data         213      ./output/modflow/subbasin_runoff/Ready_Mix_Pond.out
+data         214      ./output/modflow/subbasin_runoff/Pond_F5.out
+data         215      ./output/modflow/subbasin_runoff/Pond_F4.out
+data         216      ./output/modflow/subbasin_runoff/Pond_F3W.out
+data         217      ./output/modflow/subbasin_runoff/Pond_F3E.out
+data         218      ./output/modflow/subbasin_runoff/Pond_F2.out
+data         219      ./output/modflow/subbasin_runoff/Pond_SMP_32.out
+data         220      ./output/modflow/subbasin_runoff/San_Antonio_Reservoir.out
+data         221      ./output/modflow/subbasin_runoff/Calaveras_Reservoir.out           
+data         222      ./output/modflow/subbasin_runoff/ACDD_Reservoir.out
+data         223      ./output/modflow/subbasin_runoff/No_Name_Pond.out
+data         224      ./output/modflow/subbasin_runoff/Pond_F6.out
+data         444      ./output/modflow/subbasin_runoff/SFR_streams.out
+data(binary)  58      ./output/modflow/heads.unf
+data(binary)  60      ./input/modflow_lower/bas_support/heads.unf
+data         301      ./input/modflow_lower/streamflow_AlamedaCreekBelowACDD_ss.txt
+data         302      ./input/modflow_lower/streamflow_SanAntonioCreekBelowDam_ss.txt
+data         303      ./input/modflow_lower/streamflow_CalaverasCreek_ss.txt
+data         304      ./input/modflow_lower/streamflow_ArroyoDeLaLaguna_ss.txt
+data         401      ./output/modflow/hobs.out
+
+
+
+
+
+
+
+

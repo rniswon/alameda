@@ -1,8 +1,7 @@
 gsflow/bin/
-gsflow/input/old
+gsflow/output/prms
 gsflow/output/modflow/alameda.lst
 gsflow/output_archive/
-gsflow/output/prms
 gsflow/superceded/
 calibration_data/
 calibration_results/
@@ -19,6 +18,7 @@ gsflow/input/prms_upper/alameda_calibration_parameters_updated.param
 gsflow/input/prms_upper/alameda_calibration_parameters.param
 gsflow/input/prms_upper/alameda_default_values.param
 gsflow/input/prms_upper/alameda_gis_derived_parameters.param
+gsflow/input/old/
 gsflow/alameda_prms_updated.control
 gsflow/prms_ic.out
 gsflow/gsflow.log

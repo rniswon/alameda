@@ -1,0 +1,21 @@
+#Alameda Simulation -- GSFLOW
+OPTIONS
+  specifysurfk
+  SEEPSURFK
+END
+3  1  1 1 0 0 7 120 1 0.1                     																					# NUZTOP IUZFOPT IRUNFLG IETFLG IUZFCB1 IUZFCB2 NTRAIL NSETS NUZGAGES SURFDEP
+OPEN/CLOSE .\input\modflow_lower\uzf_support\iuzfbnd.txt                1 (free)    6     # UZFBND
+OPEN/CLOSE .\input\modflow_lower\uzf_support\irunbnd.txt                1 (free)    6     # IRUNBND
+OPEN/CLOSE .\input\modflow_lower\uzf_support\vks.txt                  1.0 (free)    0     # VKS         
+OPEN/CLOSE .\input\modflow_lower\uzf_support\surfk.txt                1.0 (free)    0     # SURFK       
+CONSTANT   4.0                                                                          # BROOKS/COREY EPSILON (EPS)
+CONSTANT   0.35                                                                         # SATURATED WATER CONTENT (THTS)
+-85                                             																				# IFTUNIT
+1                                                                                       # NUZF1
+OPEN/CLOSE .\input\modflow_lower\uzf_support\adjusted_finf.txt        1.0 (free)    0     # INFILTRATION AT TOP OF LAYER 1 (FINF) STRESS PERIOD 1 RGN set finf mult to 1 4/16/2018
+1                                                                                       # NUZF2
+OPEN/CLOSE .\input\modflow_lower\uzf_support\adjusted_pET.txt         1.0 (free)    0     # PET FOR STRESS PERIOD 1   # orig is 0.003556020
+1                                                                                   		# NUZF3
+OPEN/CLOSE .\input\modflow_lower\uzf_support\extdp.txt    							2 (free)    0     # EXTDP FOR STRESS PERIOD 1
+1                                                                                       # NUZF4
+CONSTANT   0.41406    																																	# EXTWC FOR STRESS PERIOD 1
