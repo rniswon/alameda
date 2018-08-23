@@ -1,8 +1,8 @@
 pcf
 * control data
 restart estimation
-    558     50      9      0       4
-      9     27 single  point   1   0   0
+    570     50     10      0       4
+     12     27 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
  15.0  15.0 0.001  0
   0.1
@@ -13,6 +13,7 @@ restart estimation
        100     1E-06
          0
 * parameter groups
+lkbdlknc          relative   0.100  0.0   switch  2.0   parabolic
 strmBdK           relative   0.050  0.0   switch  2.0   parabolic
 surfK             relative   0.050  0.0   switch  2.0   parabolic
 vks               relative   0.050  0.0   switch  2.0   parabolic
@@ -23,6 +24,18 @@ ppts_L2           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L3           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
 * parameter data
+        bedlknc_01     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_02     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_03     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_04     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_05     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_06     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_07     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_08     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_09     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_10     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_11     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+        bedlknc_12     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
          strmbdk_1     fixed    factor      0.2856850          0.001         5669.3        strmbdk       1       0       1
          strmbdk_2     fixed    factor      0.8525452          0.001         5669.3        strmbdk       1       0       1
          strmbdk_3     fixed    factor      0.1191662          0.001         5669.3        strmbdk       1       0       1
@@ -640,15 +653,18 @@ gwet_cmp2obs  4109520000      0.000001    GWET_Obs
 * model command line
 _RunModel.bat
 * model input/output
-.\input\modflow_lower\uzf_support\finf_scale_by_zn.txt.tpl               .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt
-.\input\modflow_lower\uzf_support\pET_scale_by_zn.txt.tpl                .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt
-.\input\modflow_lower\alameda.sfr.tpl                                    .\input\modflow_lower\alameda.sfr
-.\input\modflow_lower\uzf_support\surfk.txt.tpl                          .\input\modflow_lower\uzf_support\surfk.txt
-.\input\modflow_lower\pest\vks_PP_List.txt.tpl                           .\input\modflow_lower\pest\vks_PP_List.txt
-.\input\modflow_lower\pest\Lay_1_K_PP_List.txt.tpl                       .\input\modflow_lower\pest\Lay_1_K_PP_List.txt
-.\input\modflow_lower\pest\Lay_2_K_PP_List.txt.tpl                       .\input\modflow_lower\pest\Lay_2_K_PP_List.txt
-.\input\modflow_lower\pest\Lay_3_K_PP_List.txt.tpl                       .\input\modflow_lower\pest\Lay_3_K_PP_List.txt
-.\input\modflow_lower\pest\Lay_4_K_PP_List.txt.tpl                       .\input\modflow_lower\pest\Lay_4_K_PP_List.txt
+.\input\modflow_lower\uzf_support\finf_scale_by_zn.txt.tpl             .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt
+.\input\modflow_lower\uzf_support\pET_scale_by_zn.txt.tpl              .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt
+.\input\modflow_lower\alameda.sfr.tpl                                  .\input\modflow_lower\alameda.sfr
+.\input\modflow_lower\uzf_support\surfk.txt.tpl                        .\input\modflow_lower\uzf_support\surfk.txt
+.\input\modflow_lower\pest\vks_PP_List.txt.tpl                         .\input\modflow_lower\pest\vks_PP_List.txt
+.\input\modflow_lower\pest\Lay_1_K_PP_List.txt.tpl                     .\input\modflow_lower\pest\Lay_1_K_PP_List.txt
+.\input\modflow_lower\pest\Lay_2_K_PP_List.txt.tpl                     .\input\modflow_lower\pest\Lay_2_K_PP_List.txt
+.\input\modflow_lower\pest\Lay_3_K_PP_List.txt.tpl                     .\input\modflow_lower\pest\Lay_3_K_PP_List.txt
+.\input\modflow_lower\pest\Lay_4_K_PP_List.txt.tpl                     .\input\modflow_lower\pest\Lay_4_K_PP_List.txt
+.\input\modflow_lower\lak_support\lkbdlknc_lay_1.txt.tpl               .\input\modlfow_lower\lak_support\lkbdlknc_lay_1.txt
+.\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt.tpl               .\input\modlfow_lower\lak_support\lkbdlknc_lay_2.txt
+.\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt.tpl               .\input\modlfow_lower\lak_support\lkbdlknc_lay_3.txt
 .\output\modflow\hobs.out.ins                                          .\output\modflow\hobs.out
 .\output\modflow\obs2obs_gwet.out.ins                                  .\output\modflow\obs2obs_gwet.out
 .\output\modflow\subbasin_runoff\ACDD_Reservoir.out.ins  							 .\output\modflow\subbasin_runoff\ACDD_Reservoir.out

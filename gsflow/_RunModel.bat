@@ -5,6 +5,13 @@ cd    .\input\modflow_lower\pest\
 call  00_MF_Call_Array_Build.bat
 cd    ..\..\..\
 
+REM  Reformat the LAK bedleakance arrays from a single column to array format
+cd    .\input\modflow_lower\lak_support\
+call  ReformARRAY.exe < RefArr_In_Lay1.txt
+call  ReformARRAY.exe < RefArr_In_Lay2.txt
+call  ReformARRAY.exe < RefArr_In_Lay3.txt
+cd    ..\..\..\
+
 REM  Reformat the FINF & pET scaling arrays from a single column to array format
 cd    .\input\modflow_lower\uzf_support\
 call  ReformARRAY.exe < RefArr_In_scale_finf.txt
