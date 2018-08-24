@@ -11711,7 +11711,7 @@ end
 383 1 368 0 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02
 24.25762
 24.25762
-384 1 376 -1 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02
+384 1 376 0 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02
 88.90875
 88.90875
 385 1 368 -12 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02
@@ -13428,8 +13428,8 @@ end
 5.76707           ! rgn made width narrow because lake 8 has no inflow and outflow is draining too much (was 23.76707)
 5.76707
 384 2 301         # SEGNUM NUMVAL IUNIT (streamflow_AlamedaCreekBelowACDD.txt)
-191 2 302         # SEGNUM NUMVAL IUNIT (streamflow_SanAntonioCreekBelowDam.txt)
-385 2 303         # SEGNUM NUMVAL IUNIT (streamflow_CalaverasCreek.txt)
+182 2 302         # SEGNUM NUMVAL IUNIT (streamflow_SanAntonioCreekBelowDam.txt)
+368 2 303         # SEGNUM NUMVAL IUNIT (streamflow_CalaverasCreek.txt)
 140 2 304         # SEGNUM NUMVAL IUNIT (streamflow_ArroyoDeLaLaguna.txt)
 -1 0 0
 -1 0 0
