@@ -643,11 +643,11 @@ s4_avg        -999            0           Q_Obs
 s5_avg        -999            0           Q_Obs
 s6_avg        -999            0           Q_Obs
 s7_avg        -999            0           Q_Obs
-s8_avg        3430215         0.001       Q_Obs
-s9_avg        3970043.654     0.001       Q_Obs
-s10_avg       8423091.148     0.001       Q_Obs
-s11_avg       5670312.498     0.001       Q_Obs
-s12_avg       2126846.951     0.001       Q_Obs
+s8_avg        2233100.774     0.001       Q_Obs
+s9_avg        2570926.064     0.001       Q_Obs
+s10_avg       8408267.599     0.001       Q_Obs
+s11_avg       2495478.947     0.001       Q_Obs
+s12_avg       3104789.913     0.001       Q_Obs
 s1_low        -999            0           Q_Obs
 s2_low        -999            0           Q_Obs
 s3_low        -999            0           Q_Obs
@@ -655,11 +655,11 @@ s4_low        -999            0           Q_Obs
 s5_low        -999            0           Q_Obs
 s6_low        -999            0           Q_Obs
 s7_low        -999            0           Q_Obs
-s8_low        94524.5042      0.001       Q_Obs
-s9_low        103476.7059     0.001       Q_Obs
-s10_low       1801159.784     0.001       Q_Obs
-s11_low       2183.563636     0.001       Q_Obs
-s12_low       94479.56757     0.001       Q_Obs
+s8_low        61328.206       0.001       Q_Obs
+s9_low        64786.994       0.001       Q_Obs
+s10_low       2604691.510     0.001       Q_Obs
+s11_low       129.135         0.001       Q_Obs
+s12_low       346056.155      0.001       Q_Obs
 gwet_cmp2obs  4109520000      0.000001    GWET_Obs
 * model command line
 _RunModel.bat
