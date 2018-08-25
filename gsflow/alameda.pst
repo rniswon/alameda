@@ -673,9 +673,9 @@ _RunModel.bat
 .\input\modflow_lower\pest\Lay_2_K_PP_List.txt.tpl                     .\input\modflow_lower\pest\Lay_2_K_PP_List.txt
 .\input\modflow_lower\pest\Lay_3_K_PP_List.txt.tpl                     .\input\modflow_lower\pest\Lay_3_K_PP_List.txt
 .\input\modflow_lower\pest\Lay_4_K_PP_List.txt.tpl                     .\input\modflow_lower\pest\Lay_4_K_PP_List.txt
-.\input\modflow_lower\lak_support\lkbdlknc_lay_1.txt.tpl               .\input\modlfow_lower\lak_support\lkbdlknc_lay_1.txt
-.\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt.tpl               .\input\modlfow_lower\lak_support\lkbdlknc_lay_2.txt
-.\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt.tpl               .\input\modlfow_lower\lak_support\lkbdlknc_lay_3.txt
+.\input\modflow_lower\lak_support\lkbdlknc_lay_1.txt.tpl               .\input\modflow_lower\lak_support\lkbdlknc_lay_1.txt
+.\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt.tpl               .\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt
+.\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt.tpl               .\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt
 .\output\modflow\hobs.out.ins                                          .\output\modflow\hobs.out
 .\output\modflow\obs2obs_gwet.out.ins                                  .\output\modflow\obs2obs_gwet.out
 .\output\modflow\subbasin_runoff\ACDD_Reservoir.out.ins  							 .\output\modflow\subbasin_runoff\ACDD_Reservoir.out
