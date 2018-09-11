@@ -25,18 +25,18 @@ OPEN/CLOSE   .\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt    1   (FREE) 
 OPEN/CLOSE   .\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt    1   (FREE)    0     # Lakebed leakance array For LAYER 3
 OPEN/CLOSE   .\input\modflow_lower\lak_support\lkbdlknc_lay_4.txt    1   (FREE)    0     # Lakebed leakance array For LAYER 4
         0                                   ;NSLMS: Number of coalescing lake systems
- 0.000000    12715.63667  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
- 0.000000    394013.8154  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 2
- 0.000000    1298855.41   0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 3
- 0.000000    340925.9498  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 4
- 0.000000    294574.7624  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 5
- 0.000000    352033.0669  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 6
- 0.000000    105049.9141  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 7
- 0.000000    228663.3369  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 8
- 0.000000    1254299.306  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 9
- 0.000000    1095221.033  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 10
- 0.000000    15097071.99  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 10
- 0.000000    21399433.42  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 11
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 2
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 3
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 4
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 5
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 6
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 7
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 8
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 9
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 10
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 10
+ 0.000000    0.33417  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 11
 -1
 -1
 -1

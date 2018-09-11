@@ -1422,11 +1422,11 @@ File saving options: -
 
 
 INITIAL CONDITIONS: 
-   Sum of squared weighted residuals (ie phi)               =  9.09330E+08
-   Contribution to phi from observation group "h_obs"       =  8.49800E+08
+   Sum of squared weighted residuals (ie phi)               =  2.86960E+22
+   Contribution to phi from observation group "h_obs"       =  5.18303E+13
    Contribution to phi from observation group "lake_obs"    =   0.0000    
-   Contribution to phi from observation group "q_obs"       =  4.95642E+07
-   Contribution to phi from observation group "gwet_obs"    =  9.96600E+06
+   Contribution to phi from observation group "q_obs"       =  2.86960E+22
+   Contribution to phi from observation group "gwet_obs"    =  9.40573E+06
 
       Current parameter values
       bedlknc_h_01    1.000000E-04
@@ -2613,19 +2613,19 @@ Observations ----->
 
 Observation            Measured       Calculated     Residual       Weight     Group
                        value          value
-m01                    259.722        271.719       -11.9978        1000.      h_obs       
-m02                    255.245        265.452       -10.2074        1000.      h_obs       
-m03                    246.054        259.744       -13.6897        1000.      h_obs       
-m04                    241.940        250.761       -8.82125        1000.      h_obs       
-m05                    233.427        243.014       -9.58680        1000.      h_obs       
-m06                    229.176        236.095       -6.91912        1000.      h_obs       
-m07                    221.954        225.633       -3.67994        1000.      h_obs       
-m08                    222.347        226.880       -4.53257        1000.      h_obs       
-m09                    221.215        226.417       -5.20182        1000.      h_obs       
-m10                    213.833        223.529       -9.69550        1000.      h_obs       
-v3                     310.558        309.446        1.11146        1000.      h_obs       
+m01                    259.722        271.686       -11.9639        1000.      h_obs       
+m02                    255.245        265.366       -10.1215        1000.      h_obs       
+m03                    246.054        259.647       -13.5925        1000.      h_obs       
+m04                    241.940        276.344       -34.4042        1000.      h_obs       
+m05                    233.427        6655.72       -6422.29        1000.      h_obs       
+m06                    229.176        423.149       -193.973        1000.      h_obs       
+m07                    221.954        280.602       -58.6481        1000.      h_obs       
+m08                    222.347        640.771       -418.424        1000.      h_obs       
+m09                    221.215        472.984       -251.768        1000.      h_obs       
+m10                    213.833        3423.71       -3209.88        1000.      h_obs       
+v3                     310.558        309.447        1.11124        1000.      h_obs       
 v4                     304.403        299.410        4.99274        1000.      h_obs       
-v6                     296.625        292.708        3.91754        1000.      h_obs       
+v6                     296.625        292.708        3.91748        1000.      h_obs       
 lk_01                 -999.000        884.500       -1883.50        0.000      lake_obs    
 lk_02                 -999.000        269.500       -1268.50        0.000      lake_obs    
 lk_03                  185.016        185.020      -3.528900E-03    0.000      lake_obs    
@@ -2646,10 +2646,10 @@ s5_avg                -999.000       1.240037E+06  -1.241036E+06    0.000      q
 s6_avg                -999.000        0.00000       -999.000        0.000      q_obs       
 s7_avg                -999.000        841359.       -842358.        0.000      q_obs       
 s8_avg                2.233101E+06   2.142554E+06    90546.6       1.0000E-03  q_obs       
-s9_avg                2.570926E+06   2.196151E+06    374776.       1.0000E-03  q_obs       
-s10_avg               8.408268E+06   1.372206E+07  -5.313789E+06   1.0000E-03  q_obs       
-s11_avg               2.495479E+06    71282.7       2.424196E+06   1.0000E-03  q_obs       
-s12_avg               3.104790E+06   1.881756E+06   1.223034E+06   1.0000E-03  q_obs       
+s9_avg                2.570926E+06   2.196158E+06    374768.       1.0000E-03  q_obs       
+s10_avg               8.408268E+06   8.480769E+13  -8.480769E+13   1.0000E-03  q_obs       
+s11_avg               2.495479E+06    293556.       2.201923E+06   1.0000E-03  q_obs       
+s12_avg               3.104790E+06   8.459098E+13  -8.459098E+13   1.0000E-03  q_obs       
 s1_low                -999.000        0.00000       -999.000        0.000      q_obs       
 s2_low                -999.000        0.00000       -999.000        0.000      q_obs       
 s3_low                -999.000        0.00000       -999.000        0.000      q_obs       
@@ -2658,11 +2658,11 @@ s5_low                -999.000       1.239861E+06  -1.240860E+06    0.000      q
 s6_low                -999.000        0.00000       -999.000        0.000      q_obs       
 s7_low                -999.000        841002.       -842001.        0.000      q_obs       
 s8_low                 61328.2       2.050354E+06  -1.989026E+06   1.0000E-03  q_obs       
-s9_low                 64787.0       2.018804E+06  -1.954017E+06   1.0000E-03  q_obs       
-s10_low               2.604692E+06   4.357140E+06  -1.752448E+06   1.0000E-03  q_obs       
-s11_low                129.135       -419005.        419134.       1.0000E-03  q_obs       
-s12_low                346056.      -1.322936E+06   1.668993E+06   1.0000E-03  q_obs       
-gwet_cmp2obs          4.109520E+09   9.526223E+08   3.156898E+09   1.0000E-06  gwet_obs    
+s9_low                 64787.0       2.018811E+06  -1.954024E+06   1.0000E-03  q_obs       
+s10_low               2.604692E+06   8.480768E+13  -8.480768E+13   1.0000E-03  q_obs       
+s11_low                129.135       -196731.        196860.       1.0000E-03  q_obs       
+s12_low                346056.       8.459098E+13  -8.459098E+13   1.0000E-03  q_obs       
+gwet_cmp2obs          4.109520E+09   1.042644E+09   3.066876E+09   1.0000E-06  gwet_obs    
 
 See file alameda.res for more details of residuals in graph-ready format.
 
@@ -2671,27 +2671,27 @@ See file alameda.seo for composite observation sensitivities.
 
 Objective function ----->
 
-  Sum of squared weighted residuals (ie phi)                =  9.0933E+08
-  Contribution to phi from observation group "h_obs"        =  8.4980E+08
+  Sum of squared weighted residuals (ie phi)                =  2.8696E+22
+  Contribution to phi from observation group "h_obs"        =  5.1830E+13
   Contribution to phi from observation group "lake_obs"     =   0.000    
-  Contribution to phi from observation group "q_obs"        =  4.9564E+07
-  Contribution to phi from observation group "gwet_obs"     =  9.9660E+06
+  Contribution to phi from observation group "q_obs"        =  2.8696E+22
+  Contribution to phi from observation group "gwet_obs"     =  9.4057E+06
 
 
 Correlation Coefficient ----->
 
-  Correlation coefficient                                   =  0.9993    
+  Correlation coefficient                                   = -0.4730    
 
 
 Analysis of residuals ----->
 
   All residuals:-
      Number of residuals with non-zero weight                       =    24
-     Mean value of non-zero weighted residuals                      =  -3165.    
+     Mean value of non-zero weighted residuals                      = -1.4117E+10
      Maximum weighted residual [observation "v4"]                   =   4993.    
-     Minimum weighted residual [observation "m03"]                  = -1.3690E+04
-     Standard variance of weighted residuals                        =  3.7889E+07
-     Standard error of weighted residuals                           =   6155.    
+     Minimum weighted residual [observation "s10_avg"]              = -8.4808E+10
+     Standard variance of weighted residuals                        =  1.1957E+21
+     Standard error of weighted residuals                           =  3.4578E+10
 
      Note: the above variance was obtained by dividing the objective 
      function by the number of system degrees of freedom (ie. number of 
@@ -2703,11 +2703,11 @@ Analysis of residuals ----->
 
   Residuals for observation group "h_obs":-
      Number of residuals with non-zero weight                       =    13
-     Mean value of non-zero weighted residuals                      =  -5716.    
+     Mean value of non-zero weighted residuals                      = -8.1654E+05
      Maximum weighted residual [observation "v4"]                   =   4993.    
-     Minimum weighted residual [observation "m03"]                  = -1.3690E+04
-     "Variance" of weighted residuals                               =  6.5369E+07
-     "Standard error" of weighted residuals                         =   8085.    
+     Minimum weighted residual [observation "m05"]                  = -6.4223E+06
+     "Variance" of weighted residuals                               =  3.9869E+12
+     "Standard error" of weighted residuals                         =  1.9967E+06
 
      Note: the above "variance" was obtained by dividing the sum of squared 
      residuals by the number of items with non-zero weight.
@@ -2717,22 +2717,22 @@ Analysis of residuals ----->
 
   Residuals for observation group "q_obs":-
      Number of residuals with non-zero weight                       =    10
-     Mean value of non-zero weighted residuals                      =  -480.9    
-     Maximum weighted residual [observation "s11_avg"]              =   2424.    
-     Minimum weighted residual [observation "s10_avg"]              =  -5314.    
-     "Variance" of weighted residuals                               =  4.9564E+06
-     "Standard error" of weighted residuals                         =   2226.    
+     Mean value of non-zero weighted residuals                      = -3.3880E+10
+     Maximum weighted residual [observation "s11_avg"]              =   2202.    
+     Minimum weighted residual [observation "s10_avg"]              = -8.4808E+10
+     "Variance" of weighted residuals                               =  2.8696E+21
+     "Standard error" of weighted residuals                         =  5.3569E+10
 
      Note: the above "variance" was obtained by dividing the sum of squared 
      residuals by the number of items with non-zero weight.
 
   Residuals for observation group "gwet_obs":-
      Number of residuals with non-zero weight                       =     1
-     Mean value of non-zero weighted residuals                      =   3157.    
-     Maximum weighted residual [observation "gwet_cmp2obs"]         =   3157.    
-     Minimum weighted residual [observation "gwet_cmp2obs"]         =   3157.    
-     "Variance" of weighted residuals                               =  9.9660E+06
-     "Standard error" of weighted residuals                         =   3157.    
+     Mean value of non-zero weighted residuals                      =   3067.    
+     Maximum weighted residual [observation "gwet_cmp2obs"]         =   3067.    
+     Minimum weighted residual [observation "gwet_cmp2obs"]         =   3067.    
+     "Variance" of weighted residuals                               =  9.4057E+06
+     "Standard error" of weighted residuals                         =   3067.    
 
      Note: the above "variance" was obtained by dividing the sum of squared 
      residuals by the number of items with non-zero weight.
