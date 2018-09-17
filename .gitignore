@@ -34,3 +34,4 @@ gsflow/input/modflow_all/pest/ppk2fac/Struct_File.SurfK.Variogram.txt
 gsflow/input/modflow_all/pest/ppk2fac/Struct_File.HydKh_L_4.Variogram.txt
 gsflow/input/modflow_all/pest/ppk2fac/Struct_File.HydKh_L_3.Variogram.txt
 gsflow/input/modflow_all/pest/ppk2fac/Struct_File.HydKh_L_2.Variogram.txt
+GIS/gw_head_contours/
