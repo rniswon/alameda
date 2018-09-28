@@ -24,29 +24,29 @@ ppts_L2           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L3           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
 * parameter data
-      bedlknc_h_01     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_02     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_03     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_04     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_05     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_06     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_07     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_08     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_09     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_10     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_11     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_h_12     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_01     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_02     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_03     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_04     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_05     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_06     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_07     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_08     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_09     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_11     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
-      bedlknc_l_12     fixed    factor      0.0001         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_01     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_02     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_03     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_04     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_05     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_06     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_07     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_08     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_09     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_10     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_11     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_12     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_01     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_02     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_03     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_04     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_05     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_06     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_07     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_08     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_09     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_11     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_12     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
          strmbdk_1     fixed    factor      0.2856850          0.001         5669.3        strmbdk       1       0       1
          strmbdk_2     fixed    factor      0.8525452          0.001         5669.3        strmbdk       1       0       1
          strmbdk_3     fixed    factor      0.1191662          0.001         5669.3        strmbdk       1       0       1
