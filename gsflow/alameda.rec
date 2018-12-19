@@ -149,24 +149,24 @@ Parameter definitions:-
 
 Name         Trans-            Change       Initial        Lower          Upper
              formation         limit        value          bound          bound
-bedlknc_h_02 fixed               na        10000.0          na             na
-bedlknc_h_03 fixed               na        10000.0          na             na
-bedlknc_h_04 fixed               na        10000.0          na             na
-bedlknc_h_05 fixed               na        10000.0          na             na
-bedlknc_h_06 fixed               na        10000.0          na             na
-bedlknc_h_07 fixed               na        10000.0          na             na
-bedlknc_h_08 fixed               na        10000.0          na             na
-bedlknc_h_09 fixed               na        10000.0          na             na
-bedlknc_h_10 fixed               na        10000.0          na             na
-bedlknc_l_02 fixed               na        10000.0          na             na
-bedlknc_l_03 fixed               na        10000.0          na             na
-bedlknc_l_04 fixed               na        10000.0          na             na
-bedlknc_l_05 fixed               na        10000.0          na             na
-bedlknc_l_06 fixed               na        10000.0          na             na
-bedlknc_l_07 fixed               na        10000.0          na             na
-bedlknc_l_08 fixed               na        10000.0          na             na
-bedlknc_l_09 fixed               na        10000.0          na             na
-bedlknc_l_10 fixed               na        10000.0          na             na
+bedlknc_h_02 fixed               na        1000.00          na             na
+bedlknc_h_03 fixed               na        1000.00          na             na
+bedlknc_h_04 fixed               na        1000.00          na             na
+bedlknc_h_05 fixed               na        1000.00          na             na
+bedlknc_h_06 fixed               na        1000.00          na             na
+bedlknc_h_07 fixed               na        1000.00          na             na
+bedlknc_h_08 fixed               na        1000.00          na             na
+bedlknc_h_09 fixed               na        1000.00          na             na
+bedlknc_h_10 fixed               na        1000.00          na             na
+bedlknc_l_02 fixed               na        1000.00          na             na
+bedlknc_l_03 fixed               na        1000.00          na             na
+bedlknc_l_04 fixed               na        1000.00          na             na
+bedlknc_l_05 fixed               na        1000.00          na             na
+bedlknc_l_06 fixed               na        1000.00          na             na
+bedlknc_l_07 fixed               na        1000.00          na             na
+bedlknc_l_08 fixed               na        1000.00          na             na
+bedlknc_l_09 fixed               na        1000.00          na             na
+bedlknc_l_10 fixed               na        1000.00          na             na
 strmbdk_1    fixed               na       0.285685          na             na
 strmbdk_2    fixed               na       0.852545          na             na
 strmbdk_3    fixed               na       0.119166          na             na
@@ -1419,24 +1419,24 @@ INITIAL CONDITIONS:
    Contribution to phi from observation group "gwet_obs"    =  1.00387E+07
 
       Current parameter values
-      bedlknc_h_02     10000.0    
-      bedlknc_h_03     10000.0    
-      bedlknc_h_04     10000.0    
-      bedlknc_h_05     10000.0    
-      bedlknc_h_06     10000.0    
-      bedlknc_h_07     10000.0    
-      bedlknc_h_08     10000.0    
-      bedlknc_h_09     10000.0    
-      bedlknc_h_10     10000.0    
-      bedlknc_l_02     10000.0    
-      bedlknc_l_03     10000.0    
-      bedlknc_l_04     10000.0    
-      bedlknc_l_05     10000.0    
-      bedlknc_l_06     10000.0    
-      bedlknc_l_07     10000.0    
-      bedlknc_l_08     10000.0    
-      bedlknc_l_09     10000.0    
-      bedlknc_l_10     10000.0    
+      bedlknc_h_02     1000.00    
+      bedlknc_h_03     1000.00    
+      bedlknc_h_04     1000.00    
+      bedlknc_h_05     1000.00    
+      bedlknc_h_06     1000.00    
+      bedlknc_h_07     1000.00    
+      bedlknc_h_08     1000.00    
+      bedlknc_h_09     1000.00    
+      bedlknc_h_10     1000.00    
+      bedlknc_l_02     1000.00    
+      bedlknc_l_03     1000.00    
+      bedlknc_l_04     1000.00    
+      bedlknc_l_05     1000.00    
+      bedlknc_l_06     1000.00    
+      bedlknc_l_07     1000.00    
+      bedlknc_l_08     1000.00    
+      bedlknc_l_09     1000.00    
+      bedlknc_l_10     1000.00    
       strmbdk_1       0.285685    
       strmbdk_2       0.852545    
       strmbdk_3       0.119166    
@@ -2009,24 +2009,24 @@ Some form or regularisation was implemented so these are not applicable.
 Parameters ----->
 
 Parameter      Estimated value
- bedlknc_h_02    10000.0    
- bedlknc_h_03    10000.0    
- bedlknc_h_04    10000.0    
- bedlknc_h_05    10000.0    
- bedlknc_h_06    10000.0    
- bedlknc_h_07    10000.0    
- bedlknc_h_08    10000.0    
- bedlknc_h_09    10000.0    
- bedlknc_h_10    10000.0    
- bedlknc_l_02    10000.0    
- bedlknc_l_03    10000.0    
- bedlknc_l_04    10000.0    
- bedlknc_l_05    10000.0    
- bedlknc_l_06    10000.0    
- bedlknc_l_07    10000.0    
- bedlknc_l_08    10000.0    
- bedlknc_l_09    10000.0    
- bedlknc_l_10    10000.0    
+ bedlknc_h_02    1000.00    
+ bedlknc_h_03    1000.00    
+ bedlknc_h_04    1000.00    
+ bedlknc_h_05    1000.00    
+ bedlknc_h_06    1000.00    
+ bedlknc_h_07    1000.00    
+ bedlknc_h_08    1000.00    
+ bedlknc_h_09    1000.00    
+ bedlknc_h_10    1000.00    
+ bedlknc_l_02    1000.00    
+ bedlknc_l_03    1000.00    
+ bedlknc_l_04    1000.00    
+ bedlknc_l_05    1000.00    
+ bedlknc_l_06    1000.00    
+ bedlknc_l_07    1000.00    
+ bedlknc_l_08    1000.00    
+ bedlknc_l_09    1000.00    
+ bedlknc_l_10    1000.00    
  strmbdk_1      0.285685    
  strmbdk_2      0.852545    
  strmbdk_3      0.119166    
@@ -2596,9 +2596,9 @@ Observation            Measured       Calculated     Residual       Weight     G
 m01                    259.722        266.065       -6.34337        1000.      h_obs       
 m02                    255.245        257.967       -2.72197        1000.      h_obs       
 m03                    246.054        258.072       -12.0174        1000.      h_obs       
-m04                    241.940        242.282      -0.342060        1000.      h_obs       
+m04                    241.940        242.282      -0.342121        1000.      h_obs       
 m05                    233.427        242.739       -9.31245        1000.      h_obs       
-m06                    229.176        234.934       -5.75867        1000.      h_obs       
+m06                    229.176        234.934       -5.75866        1000.      h_obs       
 m07                    221.954        225.515       -3.56167        1000.      h_obs       
 m08                    222.347        226.830       -4.48285        1000.      h_obs       
 m09                    221.215        226.381       -5.16570        1000.      h_obs       
@@ -2628,7 +2628,7 @@ s7_avg                -999.000        841359.       -842358.        0.000      q
 s8_avg                2.233101E+06   2.142554E+06    90546.6       1.0000E-03  q_obs       
 s9_avg                2.570926E+06   2.196158E+06    374769.       1.0000E-03  q_obs       
 s10_avg               8.408268E+06   1.368263E+07  -5.274359E+06   1.0000E-03  q_obs       
-s11_avg               2.495479E+06    43244.4       2.452235E+06   1.0000E-03  q_obs       
+s11_avg               2.495479E+06    43245.2       2.452234E+06   1.0000E-03  q_obs       
 s12_avg               3.104790E+06   1.841904E+06   1.262886E+06   1.0000E-03  q_obs       
 s1_low                -999.000        0.00000       -999.000        0.000      q_obs       
 s2_low                -999.000        0.00000       -999.000        0.000      q_obs       
