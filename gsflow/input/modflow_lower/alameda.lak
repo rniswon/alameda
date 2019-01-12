@@ -4,15 +4,15 @@ TABLEINPUT
 12         0                         ;NLAKES,ILKCB                
 -0.8000       100   0.00001  0.1     ;THETA,NSSITER,SSCNCR     
 884.5    884.5    906  101           ;STAGES,SSMN,SSMX,IUNITLAKTAB   (ACDD Reservoir)     !orginal 3/26/2018 
-269.5      176      273  102         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
-185.02   100.6      256  103         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
-255.2      246      256  104         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
-243.57   219.5      251  105         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
-233.8    211.3      251  106         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
-221.5      100      255  107         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3W) 
-168.1  80.4225      255  108         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3E) 
-163.2      7.9      255  109         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F2) 
-245.2    116.2      300  110         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond SMP 32) 
+244.4300934      176      273  102         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
+158.7607263   100.6      256  103         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
+228.2312943      246      256  104         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
+220.8470735   219.5      251  105         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
+215.3400360    211.3      251  106         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
+194.5229864      100      255  107         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3W) 
+141.0664266  80.4225      255  108         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3E) 
+135.3614892      7.9      255  109         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F2) 
+220.2180903    116.2      300  110         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond SMP 32) 
 311.6    311.6      469  111         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (San Antonio Reservoir) 
 491.7    491.7      756  112         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Calaveras Reservoir) 
 1         0         0                ;INPUT/OUTPUT OPTIONS        
