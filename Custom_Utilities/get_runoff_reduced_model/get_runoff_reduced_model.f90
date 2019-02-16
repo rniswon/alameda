@@ -38,7 +38,7 @@
     iout = 11
     iout2 = 12
     Io_stat = 0
-    open(in,file='SFR_streams.out')
+    open(in,file='sfr_full_output.txt')
     open(in2,file='subbasin_stream.txt')
     open(in4,file='subbasin_lake.txt')
     open(in5,file='names_lake_gage_files.txt')
@@ -50,7 +50,6 @@
     ilake = 0
     totrunoff = 0.0
     runofftemp = 0.0
-    runofflake = 0.0
     max = 1
     subbasin = 0
     seg = 0
@@ -72,7 +71,6 @@
     end do
 ! Allocate lake arrays
     allocate(subbasin_lake(ilake),lake_gage_names(ilake))
-    allocate(lake_unit_num(ilake),runofflake(ilake))
     rewind(in4)
 ! Read lake numbers and gage output file names that contain runoff
     do i = 1, ilake
@@ -83,6 +81,18 @@
       lake_gage_names(lakenum) = LINE(ISTART:ISTOP)
       open(iunitfree+i,file=lake_gage_names(lakenum))
     end do
+!
+! Calculate max subbasin number
+    max=1
+     do i = 1, ilake
+      read(in4,*)lakenum,subbasin_lake(lakenum)
+      if (max<subbasin_lake(lakenum)) max = subbasin_lake(lakenum)
+     end do
+     rewind(in4)
+! allocate 
+     allocate(lake_unit_num(ilake),runofflake(max))
+     runofflake = 0.0
+     lake_unit_num = 0
 !
 ! Read UZF runoff values from lake gage files
     do i = 1, ilake
@@ -97,6 +107,7 @@
     rewind(in4)     
 !
 ! Read segment subbasin information
+    max = 1
     do i = 1, iseg
       read(in2,*,IOSTAT=Io_stat) idum, subbasin(i)
       if ( subbasin(i) > max ) max = subbasin(i)
