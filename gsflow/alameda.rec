@@ -299,206 +299,206 @@ pp_97_vks    log               factor     1.000000E-03   1.000000E-03    566930.
 pp_98_vks    log               factor     1.000000E-03   1.000000E-03    566930.    
 pp_99_vks    log               factor     1.000000E-03   1.000000E-03    566930.    
 pp_100_vks   log               factor     7.822773E-03   1.000000E-04    5669.30    
-pp_1_l_1     log               factor      283.465        1.00000        283.465    
-pp_2_l_1     log               factor      1.00000        1.00000        283.465    
-pp_3_l_1     log               factor      1.00000        1.00000        283.465    
-pp_4_l_1     log               factor      1.00000        1.00000        283.465    
-pp_5_l_1     log               factor      1.00000        1.00000        283.465    
-pp_6_l_1     log               factor      10.0141        1.00000        283.465    
-pp_7_l_1     log               factor      1.00000        1.00000        283.465    
-pp_8_l_1     log               factor      1.00000        1.00000        283.465    
-pp_9_l_1     log               factor      1.00000        1.00000        283.465    
-pp_10_l_1    log               factor      1.00000        1.00000        283.465    
-pp_11_l_1    log               factor      260.394        1.00000        283.465    
-pp_12_l_1    log               factor      10.0000        1.00000        283.465    
-pp_13_l_1    log               factor      4.84785        1.00000        283.465    
-pp_14_l_1    log               factor      10.0000        1.00000        283.465    
-pp_15_l_1    log               factor      10.0000        1.00000        283.465    
-pp_16_l_1    log               factor      10.0000        1.00000        283.465    
-pp_17_l_1    log               factor      10.0076        1.00000        283.465    
-pp_18_l_1    log               factor      10.0000        1.00000        283.465    
-pp_19_l_1    log               factor      10.0000        1.00000        283.465    
-pp_20_l_1    log               factor      10.0000        1.00000        283.465    
-pp_21_l_1    log               factor      10.0000        1.00000        283.465    
-pp_22_l_1    log               factor      10.0000        1.00000        283.465    
-pp_23_l_1    log               factor      10.0000        1.00000        283.465    
-pp_24_l_1    log               factor      10.0000        1.00000        283.465    
-pp_25_l_1    log               factor      9.97845        1.00000        283.465    
-pp_26_l_1    log               factor      10.0093        1.00000        283.465    
-pp_27_l_1    log               factor      10.0000        1.00000        283.465    
-pp_28_l_1    log               factor      10.0000        1.00000        283.465    
-pp_29_l_1    log               factor      10.0000        1.00000        283.465    
-pp_30_l_1    log               factor      10.0000        1.00000        283.465    
-pp_31_l_1    log               factor      10.0014        1.00000        283.465    
-pp_32_l_1    log               factor      10.0000        1.00000        283.465    
-pp_33_l_1    fixed               na        10.0000          na             na
-pp_34_l_1    log               factor      1.00000        1.00000        283.465    
-pp_35_l_1    log               factor      9.94201        1.00000        283.465    
-pp_36_l_1    log               factor      1.00000        1.00000        283.465    
-pp_37_l_1    log               factor      1.00000        1.00000        283.465    
-pp_38_l_1    log               factor      10.0000        1.00000        283.465    
-pp_39_l_1    log               factor      10.0000        1.00000        283.465    
-pp_40_l_1    log               factor      283.465        1.00000        283.465    
-pp_41_l_1    log               factor      10.0000        1.00000        283.465    
-pp_42_l_1    log               factor      100.000        5.00000        566930.    
-pp_43_l_1    log               factor      10.0000        1.00000        283.465    
-pp_44_l_1    log               factor      10.0000        1.00000        283.465    
-pp_45_l_1    log               factor      10.0000        1.00000        283.465    
-pp_46_l_1    log               factor      100.000        5.00000        566930.    
-pp_47_l_1    log               factor      10.0000        1.00000        283.465    
-pp_48_l_1    fixed               na        10.0000          na             na
-pp_49_l_1    log               factor      10.0000        1.00000        283.465    
-pp_50_l_1    log               factor      10.0000        1.00000        283.465    
-pp_51_l_1    log               factor      10.0000        1.00000        283.465    
-pp_52_l_1    log               factor      10.0000        1.00000        283.465    
-pp_53_l_1    log               factor      100.000        5.00000        566930.    
-pp_54_l_1    log               factor      10.0000        1.00000        283.465    
-pp_55_l_1    log               factor      100.000        5.00000        566930.    
-pp_56_l_1    log               factor      100.000        5.00000        566930.    
-pp_57_l_1    fixed               na        10.0000          na             na
-pp_58_l_1    fixed               na        10.0000          na             na
-pp_59_l_1    log               factor      100.000        5.00000        566930.    
-pp_60_l_1    fixed               na        10.0000          na             na
-pp_61_l_1    fixed               na        10.0000          na             na
-pp_62_l_1    fixed               na        100.000          na             na
-pp_63_l_1    fixed               na        10.0000          na             na
-pp_64_l_1    fixed               na        100.000          na             na
-pp_65_l_1    fixed               na        10.0000          na             na
-pp_66_l_1    log               factor      100.000        5.00000        566930.    
-pp_67_l_1    fixed               na        10.0000          na             na
-pp_68_l_1    log               factor      100.000        5.00000        566930.    
-pp_69_l_1    log               factor      100.000        5.00000        566930.    
-pp_70_l_1    log               factor      100.000        5.00000        566930.    
-pp_71_l_1    log               factor      100.000        5.00000        566930.    
-pp_72_l_1    log               factor      100.000        5.00000        566930.    
-pp_73_l_1    fixed               na        100.000          na             na
-pp_74_l_1    fixed               na        10.0000          na             na
-pp_75_l_1    fixed               na        100.000          na             na
-pp_76_l_1    fixed               na        10.0000          na             na
-pp_77_l_1    fixed               na        10.0000          na             na
-pp_78_l_1    log               factor      10.0000        1.00000        283.465    
-pp_79_l_1    fixed               na        10.0000          na             na
-pp_80_l_1    fixed               na        10.0000          na             na
-pp_81_l_1    fixed               na        10.0000          na             na
-pp_82_l_1    fixed               na        10.0000          na             na
-pp_83_l_1    fixed               na        100.000          na             na
-pp_84_l_1    fixed               na        10.0000          na             na
-pp_85_l_1    fixed               na        100.000          na             na
-pp_86_l_1    fixed               na        10.0000          na             na
-pp_87_l_1    fixed               na        10.0000          na             na
-pp_88_l_1    fixed               na        100.000          na             na
-pp_89_l_1    fixed               na        10.0000          na             na
-pp_90_l_1    fixed               na        10.0000          na             na
-pp_91_l_1    fixed               na        100.000          na             na
-pp_92_l_1    fixed               na        100.000          na             na
-pp_93_l_1    fixed               na        10.0000          na             na
-pp_94_l_1    fixed               na        10.0000          na             na
-pp_95_l_1    log               factor      10.0000        1.00000        283.465    
-pp_96_l_1    log               factor      10.0000        1.00000        283.465    
-pp_97_l_1    log               factor      10.0000        1.00000        283.465    
-pp_98_l_1    log               factor      10.0000        1.00000        283.465    
-pp_99_l_1    log               factor      10.0000        1.00000        283.465    
-pp_100_l_1   log               factor      10.0000        1.00000        283.465    
-pp_1_l_2     log               factor      5.01727        1.00000        283.465    
-pp_2_l_2     log               factor      1.00000        1.00000        283.465    
-pp_3_l_2     log               factor      5.41171        5.00000        5669.30    
-pp_4_l_2     log               factor      1.00000        1.00000        283.465    
-pp_5_l_2     log               factor      1.00000        1.00000        283.465    
-pp_6_l_2     log               factor      1.00000        1.00000        283.465    
-pp_7_l_2     log               factor      5.00000        5.00000        5669.30    
-pp_8_l_2     log               factor      5.00000        5.00000        5669.30    
-pp_9_l_2     log               factor      1.09458        1.00000        283.465    
-pp_10_l_2    log               factor      1.06987        1.00000        283.465    
-pp_11_l_2    log               factor      1.00000        1.00000        283.465    
-pp_12_l_2    log               factor      5.81344        1.00000        283.465    
-pp_13_l_2    log               factor      1.00000        1.00000        283.465    
-pp_14_l_2    log               factor      5.54375        1.00000        283.465    
-pp_15_l_2    log               factor      5.00000        1.00000        283.465    
-pp_16_l_2    log               factor      4.98265        1.00000        283.465    
-pp_17_l_2    log               factor      1.00006        1.00000        283.465    
-pp_18_l_2    log               factor      5.00000        1.00000        283.465    
-pp_19_l_2    log               factor      4.99505        1.00000        283.465    
-pp_20_l_2    log               factor      1.19344        1.00000        283.465    
-pp_21_l_2    log               factor      20.0024        5.00000        5669.30    
-pp_22_l_2    log               factor      4.97700        1.00000        283.465    
-pp_23_l_2    log               factor      4.99529        1.00000        283.465    
-pp_24_l_2    log               factor      5.00000        5.00000        5669.30    
-pp_25_l_2    log               factor      20.0172        5.00000        5669.30    
-pp_26_l_2    log               factor      5.00018        1.00000        283.465    
-pp_27_l_2    log               factor      5.00000        1.00000        283.465    
-pp_28_l_2    log               factor      5.33600        1.00000        283.465    
-pp_29_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_30_l_2    log               factor      5.00020        1.00000        283.465    
-pp_31_l_2    log               factor      5.17538        1.00000        283.465    
-pp_32_l_2    log               factor      5.10481        1.00000        283.465    
-pp_33_l_2    fixed               na        5.00000          na             na
-pp_34_l_2    log               factor      5.00000        5.00000        5669.30    
-pp_35_l_2    log               factor      2.45168        1.00000        283.465    
-pp_36_l_2    log               factor      5669.30        5.00000        5669.30    
-pp_37_l_2    log               factor      1.00000        1.00000        283.465    
-pp_38_l_2    log               factor      5.00000        1.00000        283.465    
-pp_39_l_2    log               factor      5.00000        1.00000        283.465    
-pp_40_l_2    log               factor      1.01080        1.00000        283.465    
-pp_41_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_42_l_2    log               factor      20.6840        5.00000        5669.30    
-pp_43_l_2    log               factor      5.00000        1.00000        283.465    
-pp_44_l_2    log               factor      357.248        5.00000        5669.30    
-pp_45_l_2    log               factor      5.00000        1.00000        283.465    
-pp_46_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_47_l_2    log               factor      1.00000        1.00000        283.465    
-pp_48_l_2    fixed               na        5.00000          na             na
-pp_49_l_2    log               factor      1.00042        1.00000        283.465    
-pp_50_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_51_l_2    log               factor      5.00000        1.00000        283.465    
-pp_52_l_2    log               factor      8.37340        1.00000        283.465    
-pp_53_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_54_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_55_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_56_l_2    log               factor      19.4953        5.00000        5669.30    
-pp_57_l_2    fixed               na        5.00000          na             na
-pp_58_l_2    fixed               na        5.00000          na             na
-pp_59_l_2    log               factor      29.2118        5.00000        5669.30    
-pp_60_l_2    fixed               na        20.0000          na             na
-pp_61_l_2    fixed               na        5.00000          na             na
-pp_62_l_2    fixed               na        20.0000          na             na
-pp_63_l_2    fixed               na        5.00000          na             na
-pp_64_l_2    fixed               na        20.0000          na             na
-pp_65_l_2    fixed               na        26.9222          na             na
-pp_66_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_67_l_2    fixed               na        5.99978          na             na
-pp_68_l_2    log               factor      5.02742        5.00000        5669.30    
-pp_69_l_2    log               factor      5.12395        5.00000        5669.30    
-pp_70_l_2    log               factor      5.00000        5.00000        5669.30    
-pp_71_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_72_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_73_l_2    fixed               na        20.0000          na             na
-pp_74_l_2    fixed               na        20.0000          na             na
-pp_75_l_2    fixed               na        20.0000          na             na
-pp_76_l_2    fixed               na        20.0000          na             na
-pp_77_l_2    fixed               na        1.00627          na             na
-pp_78_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_79_l_2    fixed               na        5.00000          na             na
-pp_80_l_2    fixed               na        172.485          na             na
-pp_81_l_2    fixed               na        5.00144          na             na
-pp_82_l_2    fixed               na        5.00000          na             na
-pp_83_l_2    fixed               na        5.00000          na             na
-pp_84_l_2    fixed               na        20.0000          na             na
-pp_85_l_2    fixed               na        20.0000          na             na
-pp_86_l_2    fixed               na        20.0000          na             na
-pp_87_l_2    fixed               na        5.00155          na             na
-pp_88_l_2    fixed               na        20.0000          na             na
-pp_89_l_2    fixed               na        20.0000          na             na
-pp_90_l_2    fixed               na        5.00889          na             na
-pp_91_l_2    fixed               na        20.0000          na             na
-pp_92_l_2    fixed               na        44.1786          na             na
-pp_93_l_2    fixed               na        283.465          na             na
-pp_94_l_2    fixed               na        4.91623          na             na
-pp_95_l_2    log               factor      5.00000        1.00000        283.465    
-pp_96_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_97_l_2    log               factor      5.81399        1.00000        283.465    
-pp_98_l_2    log               factor      1.00000        1.00000        283.465    
-pp_99_l_2    log               factor      20.0000        5.00000        5669.30    
-pp_100_l_2   log               factor      5.00285        5.00000        5669.30    
+pp_1_l_1     log               factor      200.000        1.00000        283.465    
+pp_2_l_1     log               factor      200.000        1.00000        283.465    
+pp_3_l_1     log               factor      200.000        1.00000        283.465    
+pp_4_l_1     log               factor      200.000        1.00000        283.465    
+pp_5_l_1     log               factor      200.000        1.00000        283.465    
+pp_6_l_1     log               factor      200.000        1.00000        283.465    
+pp_7_l_1     log               factor      200.000        1.00000        283.465    
+pp_8_l_1     log               factor      200.000        1.00000        283.465    
+pp_9_l_1     log               factor      200.000        1.00000        283.465    
+pp_10_l_1    log               factor      200.000        1.00000        283.465    
+pp_11_l_1    log               factor      200.000        1.00000        283.465    
+pp_12_l_1    log               factor      200.000        1.00000        283.465    
+pp_13_l_1    log               factor      200.000        1.00000        283.465    
+pp_14_l_1    log               factor      200.000        1.00000        283.465    
+pp_15_l_1    log               factor      200.000        1.00000        283.465    
+pp_16_l_1    log               factor      200.000        1.00000        283.465    
+pp_17_l_1    log               factor      200.000        1.00000        283.465    
+pp_18_l_1    log               factor      200.000        1.00000        283.465    
+pp_19_l_1    log               factor      200.000        1.00000        283.465    
+pp_20_l_1    log               factor      200.000        1.00000        283.465    
+pp_21_l_1    log               factor      200.000        1.00000        283.465    
+pp_22_l_1    log               factor      200.000        1.00000        283.465    
+pp_23_l_1    log               factor      200.000        1.00000        283.465    
+pp_24_l_1    log               factor      200.000        1.00000        283.465    
+pp_25_l_1    log               factor      200.000        1.00000        283.465    
+pp_26_l_1    log               factor      200.000        1.00000        283.465    
+pp_27_l_1    log               factor      200.000        1.00000        283.465    
+pp_28_l_1    log               factor      200.000        1.00000        283.465    
+pp_29_l_1    log               factor      200.000        1.00000        283.465    
+pp_30_l_1    log               factor      200.000        1.00000        283.465    
+pp_31_l_1    log               factor      200.000        1.00000        283.465    
+pp_32_l_1    log               factor      200.000        1.00000        283.465    
+pp_33_l_1    fixed               na        200.000          na             na
+pp_34_l_1    log               factor      200.000        1.00000        283.465    
+pp_35_l_1    log               factor      200.000        1.00000        283.465    
+pp_36_l_1    log               factor      200.000        1.00000        283.465    
+pp_37_l_1    log               factor      200.000        1.00000        283.465    
+pp_38_l_1    log               factor      200.000        1.00000        283.465    
+pp_39_l_1    log               factor      200.000        1.00000        283.465    
+pp_40_l_1    log               factor      200.000        1.00000        283.465    
+pp_41_l_1    log               factor      200.000        1.00000        283.465    
+pp_42_l_1    log               factor      200.000        5.00000        566930.    
+pp_43_l_1    log               factor      200.000        1.00000        283.465    
+pp_44_l_1    log               factor      200.000        1.00000        283.465    
+pp_45_l_1    log               factor      200.000        1.00000        283.465    
+pp_46_l_1    log               factor      200.000        5.00000        566930.    
+pp_47_l_1    log               factor      200.000        1.00000        283.465    
+pp_48_l_1    fixed               na        200.000          na             na
+pp_49_l_1    log               factor      200.000        1.00000        283.465    
+pp_50_l_1    log               factor      200.000        1.00000        283.465    
+pp_51_l_1    log               factor      200.000        1.00000        283.465    
+pp_52_l_1    log               factor      200.000        1.00000        283.465    
+pp_53_l_1    log               factor      200.000        5.00000        566930.    
+pp_54_l_1    log               factor      200.000        1.00000        283.465    
+pp_55_l_1    log               factor      200.000        5.00000        566930.    
+pp_56_l_1    log               factor      200.000        5.00000        566930.    
+pp_57_l_1    fixed               na        200.000          na             na
+pp_58_l_1    fixed               na        200.000          na             na
+pp_59_l_1    log               factor      200.000        5.00000        566930.    
+pp_60_l_1    fixed               na        200.000          na             na
+pp_61_l_1    fixed               na        200.000          na             na
+pp_62_l_1    fixed               na        200.000          na             na
+pp_63_l_1    fixed               na        200.000          na             na
+pp_64_l_1    fixed               na        200.000          na             na
+pp_65_l_1    fixed               na        200.000          na             na
+pp_66_l_1    log               factor      200.000        5.00000        566930.    
+pp_67_l_1    fixed               na        200.000          na             na
+pp_68_l_1    log               factor      200.000        5.00000        566930.    
+pp_69_l_1    log               factor      200.000        5.00000        566930.    
+pp_70_l_1    log               factor      200.000        5.00000        566930.    
+pp_71_l_1    log               factor      200.000        5.00000        566930.    
+pp_72_l_1    log               factor      200.000        5.00000        566930.    
+pp_73_l_1    fixed               na        200.000          na             na
+pp_74_l_1    fixed               na        200.000          na             na
+pp_75_l_1    fixed               na        200.000          na             na
+pp_76_l_1    fixed               na        200.000          na             na
+pp_77_l_1    fixed               na        200.000          na             na
+pp_78_l_1    log               factor      200.000        1.00000        283.465    
+pp_79_l_1    fixed               na        200.000          na             na
+pp_80_l_1    fixed               na        200.000          na             na
+pp_81_l_1    fixed               na        200.000          na             na
+pp_82_l_1    fixed               na        200.000          na             na
+pp_83_l_1    fixed               na        200.000          na             na
+pp_84_l_1    fixed               na        200.000          na             na
+pp_85_l_1    fixed               na        200.000          na             na
+pp_86_l_1    fixed               na        200.000          na             na
+pp_87_l_1    fixed               na        200.000          na             na
+pp_88_l_1    fixed               na        200.000          na             na
+pp_89_l_1    fixed               na        200.000          na             na
+pp_90_l_1    fixed               na        200.000          na             na
+pp_91_l_1    fixed               na        200.000          na             na
+pp_92_l_1    fixed               na        200.000          na             na
+pp_93_l_1    fixed               na        200.000          na             na
+pp_94_l_1    fixed               na        200.000          na             na
+pp_95_l_1    log               factor      200.000        1.00000        283.465    
+pp_96_l_1    log               factor      200.000        1.00000        283.465    
+pp_97_l_1    log               factor      200.000        1.00000        283.465    
+pp_98_l_1    log               factor      200.000        1.00000        283.465    
+pp_99_l_1    log               factor      200.000        1.00000        283.465    
+pp_100_l_1   log               factor      200.000        1.00000        283.465    
+pp_1_l_2     log               factor      200.000        1.00000        283.465    
+pp_2_l_2     log               factor      200.000        1.00000        283.465    
+pp_3_l_2     log               factor      200.000        5.00000        5669.30    
+pp_4_l_2     log               factor      200.000        1.00000        283.465    
+pp_5_l_2     log               factor      200.000        1.00000        283.465    
+pp_6_l_2     log               factor      200.000        1.00000        283.465    
+pp_7_l_2     log               factor      200.000        5.00000        5669.30    
+pp_8_l_2     log               factor      200.000        5.00000        5669.30    
+pp_9_l_2     log               factor      200.000        1.00000        283.465    
+pp_10_l_2    log               factor      200.000        1.00000        283.465    
+pp_11_l_2    log               factor      200.000        1.00000        283.465    
+pp_12_l_2    log               factor      200.000        1.00000        283.465    
+pp_13_l_2    log               factor      200.000        1.00000        283.465    
+pp_14_l_2    log               factor      200.000        1.00000        283.465    
+pp_15_l_2    log               factor      200.000        1.00000        283.465    
+pp_16_l_2    log               factor      200.000        1.00000        283.465    
+pp_17_l_2    log               factor      200.000        1.00000        283.465    
+pp_18_l_2    log               factor      200.000        1.00000        283.465    
+pp_19_l_2    log               factor      200.000        1.00000        283.465    
+pp_20_l_2    log               factor      200.000        1.00000        283.465    
+pp_21_l_2    log               factor      200.000        5.00000        5669.30    
+pp_22_l_2    log               factor      200.000        1.00000        283.465    
+pp_23_l_2    log               factor      200.000        1.00000        283.465    
+pp_24_l_2    log               factor      200.000        5.00000        5669.30    
+pp_25_l_2    log               factor      200.000        5.00000        5669.30    
+pp_26_l_2    log               factor      200.000        1.00000        283.465    
+pp_27_l_2    log               factor      200.000        1.00000        283.465    
+pp_28_l_2    log               factor      200.000        1.00000        283.465    
+pp_29_l_2    log               factor      200.000        5.00000        5669.30    
+pp_30_l_2    log               factor      200.000        1.00000        283.465    
+pp_31_l_2    log               factor      200.000        1.00000        283.465    
+pp_32_l_2    log               factor      200.000        1.00000        283.465    
+pp_33_l_2    fixed               na        200.000          na             na
+pp_34_l_2    log               factor      200.000        5.00000        5669.30    
+pp_35_l_2    log               factor      200.000        1.00000        283.465    
+pp_36_l_2    log               factor      200.000        5.00000        5669.30    
+pp_37_l_2    log               factor      200.000        1.00000        283.465    
+pp_38_l_2    log               factor      200.000        1.00000        283.465    
+pp_39_l_2    log               factor      200.000        1.00000        283.465    
+pp_40_l_2    log               factor      200.000        1.00000        283.465    
+pp_41_l_2    log               factor      200.000        5.00000        5669.30    
+pp_42_l_2    log               factor      200.000        5.00000        5669.30    
+pp_43_l_2    log               factor      200.000        1.00000        283.465    
+pp_44_l_2    log               factor      200.000        5.00000        5669.30    
+pp_45_l_2    log               factor      200.000        1.00000        283.465    
+pp_46_l_2    log               factor      200.000        5.00000        5669.30    
+pp_47_l_2    log               factor      200.000        1.00000        283.465    
+pp_48_l_2    fixed               na        200.000          na             na
+pp_49_l_2    log               factor      200.000        1.00000        283.465    
+pp_50_l_2    log               factor      200.000        5.00000        5669.30    
+pp_51_l_2    log               factor      200.000        1.00000        283.465    
+pp_52_l_2    log               factor      200.000        1.00000        283.465    
+pp_53_l_2    log               factor      200.000        5.00000        5669.30    
+pp_54_l_2    log               factor      200.000        5.00000        5669.30    
+pp_55_l_2    log               factor      200.000        5.00000        5669.30    
+pp_56_l_2    log               factor      200.000        5.00000        5669.30    
+pp_57_l_2    fixed               na        200.000          na             na
+pp_58_l_2    fixed               na        200.000          na             na
+pp_59_l_2    log               factor      200.000        5.00000        5669.30    
+pp_60_l_2    fixed               na        200.000          na             na
+pp_61_l_2    fixed               na        200.000          na             na
+pp_62_l_2    fixed               na        200.000          na             na
+pp_63_l_2    fixed               na        200.000          na             na
+pp_64_l_2    fixed               na        200.000          na             na
+pp_65_l_2    fixed               na        200.000          na             na
+pp_66_l_2    log               factor      200.000        5.00000        5669.30    
+pp_67_l_2    fixed               na        200.000          na             na
+pp_68_l_2    log               factor      200.000        5.00000        5669.30    
+pp_69_l_2    log               factor      200.000        5.00000        5669.30    
+pp_70_l_2    log               factor      200.000        5.00000        5669.30    
+pp_71_l_2    log               factor      200.000        5.00000        5669.30    
+pp_72_l_2    log               factor      200.000        5.00000        5669.30    
+pp_73_l_2    fixed               na        200.000          na             na
+pp_74_l_2    fixed               na        200.000          na             na
+pp_75_l_2    fixed               na        200.000          na             na
+pp_76_l_2    fixed               na        200.000          na             na
+pp_77_l_2    fixed               na        200.000          na             na
+pp_78_l_2    log               factor      200.000        5.00000        5669.30    
+pp_79_l_2    fixed               na        200.000          na             na
+pp_80_l_2    fixed               na        200.000          na             na
+pp_81_l_2    fixed               na        200.000          na             na
+pp_82_l_2    fixed               na        200.000          na             na
+pp_83_l_2    fixed               na        200.000          na             na
+pp_84_l_2    fixed               na        200.000          na             na
+pp_85_l_2    fixed               na        200.000          na             na
+pp_86_l_2    fixed               na        200.000          na             na
+pp_87_l_2    fixed               na        200.000          na             na
+pp_88_l_2    fixed               na        200.000          na             na
+pp_89_l_2    fixed               na        200.000          na             na
+pp_90_l_2    fixed               na        200.000          na             na
+pp_91_l_2    fixed               na        200.000          na             na
+pp_92_l_2    fixed               na        200.000          na             na
+pp_93_l_2    fixed               na        200.000          na             na
+pp_94_l_2    fixed               na        200.000          na             na
+pp_95_l_2    log               factor      200.000        1.00000        283.465    
+pp_96_l_2    log               factor      200.000        5.00000        5669.30    
+pp_97_l_2    log               factor      200.000        1.00000        283.465    
+pp_98_l_2    log               factor      200.000        1.00000        283.465    
+pp_99_l_2    log               factor      200.000        5.00000        5669.30    
+pp_100_l_2   log               factor      200.000        5.00000        5669.30    
 pp_1_l_3     fixed               na       1.000000E-04      na             na
 pp_2_l_3     fixed               na       1.000000E-04      na             na
 pp_3_l_3     fixed               na       1.000000E-04      na             na
@@ -1412,10 +1412,10 @@ File saving options: -
 
 
 INITIAL CONDITIONS: 
-   Sum of squared weighted residuals (ie phi)               =  5.66528E+08
-   Contribution to phi from observation group "h_obs"       =  5.07028E+08
+   Sum of squared weighted residuals (ie phi)               =  5.02530E+08
+   Contribution to phi from observation group "h_obs"       =  4.39385E+08
    Contribution to phi from observation group "lake_obs"    =   0.0000    
-   Contribution to phi from observation group "q_obs"       =  4.94618E+07
+   Contribution to phi from observation group "q_obs"       =  5.31064E+07
    Contribution to phi from observation group "gwet_obs"    =  1.00387E+07
 
       Current parameter values
@@ -1569,206 +1569,206 @@ INITIAL CONDITIONS:
       pp_98_vks       1.000000E-03
       pp_99_vks       1.000000E-03
       pp_100_vks      7.822773E-03
-      pp_1_l_1         283.465    
-      pp_2_l_1         1.00000    
-      pp_3_l_1         1.00000    
-      pp_4_l_1         1.00000    
-      pp_5_l_1         1.00000    
-      pp_6_l_1         10.0141    
-      pp_7_l_1         1.00000    
-      pp_8_l_1         1.00000    
-      pp_9_l_1         1.00000    
-      pp_10_l_1        1.00000    
-      pp_11_l_1        260.394    
-      pp_12_l_1        10.0000    
-      pp_13_l_1        4.84785    
-      pp_14_l_1        10.0000    
-      pp_15_l_1        10.0000    
-      pp_16_l_1        10.0000    
-      pp_17_l_1        10.0076    
-      pp_18_l_1        10.0000    
-      pp_19_l_1        10.0000    
-      pp_20_l_1        10.0000    
-      pp_21_l_1        10.0000    
-      pp_22_l_1        10.0000    
-      pp_23_l_1        10.0000    
-      pp_24_l_1        10.0000    
-      pp_25_l_1        9.97845    
-      pp_26_l_1        10.0093    
-      pp_27_l_1        10.0000    
-      pp_28_l_1        10.0000    
-      pp_29_l_1        10.0000    
-      pp_30_l_1        10.0000    
-      pp_31_l_1        10.0014    
-      pp_32_l_1        10.0000    
-      pp_33_l_1        10.0000    
-      pp_34_l_1        1.00000    
-      pp_35_l_1        9.94201    
-      pp_36_l_1        1.00000    
-      pp_37_l_1        1.00000    
-      pp_38_l_1        10.0000    
-      pp_39_l_1        10.0000    
-      pp_40_l_1        283.465    
-      pp_41_l_1        10.0000    
-      pp_42_l_1        100.000    
-      pp_43_l_1        10.0000    
-      pp_44_l_1        10.0000    
-      pp_45_l_1        10.0000    
-      pp_46_l_1        100.000    
-      pp_47_l_1        10.0000    
-      pp_48_l_1        10.0000    
-      pp_49_l_1        10.0000    
-      pp_50_l_1        10.0000    
-      pp_51_l_1        10.0000    
-      pp_52_l_1        10.0000    
-      pp_53_l_1        100.000    
-      pp_54_l_1        10.0000    
-      pp_55_l_1        100.000    
-      pp_56_l_1        100.000    
-      pp_57_l_1        10.0000    
-      pp_58_l_1        10.0000    
-      pp_59_l_1        100.000    
-      pp_60_l_1        10.0000    
-      pp_61_l_1        10.0000    
-      pp_62_l_1        100.000    
-      pp_63_l_1        10.0000    
-      pp_64_l_1        100.000    
-      pp_65_l_1        10.0000    
-      pp_66_l_1        100.000    
-      pp_67_l_1        10.0000    
-      pp_68_l_1        100.000    
-      pp_69_l_1        100.000    
-      pp_70_l_1        100.000    
-      pp_71_l_1        100.000    
-      pp_72_l_1        100.000    
-      pp_73_l_1        100.000    
-      pp_74_l_1        10.0000    
-      pp_75_l_1        100.000    
-      pp_76_l_1        10.0000    
-      pp_77_l_1        10.0000    
-      pp_78_l_1        10.0000    
-      pp_79_l_1        10.0000    
-      pp_80_l_1        10.0000    
-      pp_81_l_1        10.0000    
-      pp_82_l_1        10.0000    
-      pp_83_l_1        100.000    
-      pp_84_l_1        10.0000    
-      pp_85_l_1        100.000    
-      pp_86_l_1        10.0000    
-      pp_87_l_1        10.0000    
-      pp_88_l_1        100.000    
-      pp_89_l_1        10.0000    
-      pp_90_l_1        10.0000    
-      pp_91_l_1        100.000    
-      pp_92_l_1        100.000    
-      pp_93_l_1        10.0000    
-      pp_94_l_1        10.0000    
-      pp_95_l_1        10.0000    
-      pp_96_l_1        10.0000    
-      pp_97_l_1        10.0000    
-      pp_98_l_1        10.0000    
-      pp_99_l_1        10.0000    
-      pp_100_l_1       10.0000    
-      pp_1_l_2         5.01727    
-      pp_2_l_2         1.00000    
-      pp_3_l_2         5.41171    
-      pp_4_l_2         1.00000    
-      pp_5_l_2         1.00000    
-      pp_6_l_2         1.00000    
-      pp_7_l_2         5.00000    
-      pp_8_l_2         5.00000    
-      pp_9_l_2         1.09458    
-      pp_10_l_2        1.06987    
-      pp_11_l_2        1.00000    
-      pp_12_l_2        5.81344    
-      pp_13_l_2        1.00000    
-      pp_14_l_2        5.54375    
-      pp_15_l_2        5.00000    
-      pp_16_l_2        4.98265    
-      pp_17_l_2        1.00006    
-      pp_18_l_2        5.00000    
-      pp_19_l_2        4.99505    
-      pp_20_l_2        1.19344    
-      pp_21_l_2        20.0024    
-      pp_22_l_2        4.97700    
-      pp_23_l_2        4.99529    
-      pp_24_l_2        5.00000    
-      pp_25_l_2        20.0172    
-      pp_26_l_2        5.00018    
-      pp_27_l_2        5.00000    
-      pp_28_l_2        5.33600    
-      pp_29_l_2        20.0000    
-      pp_30_l_2        5.00020    
-      pp_31_l_2        5.17538    
-      pp_32_l_2        5.10481    
-      pp_33_l_2        5.00000    
-      pp_34_l_2        5.00000    
-      pp_35_l_2        2.45168    
-      pp_36_l_2        5669.30    
-      pp_37_l_2        1.00000    
-      pp_38_l_2        5.00000    
-      pp_39_l_2        5.00000    
-      pp_40_l_2        1.01080    
-      pp_41_l_2        20.0000    
-      pp_42_l_2        20.6840    
-      pp_43_l_2        5.00000    
-      pp_44_l_2        357.248    
-      pp_45_l_2        5.00000    
-      pp_46_l_2        20.0000    
-      pp_47_l_2        1.00000    
-      pp_48_l_2        5.00000    
-      pp_49_l_2        1.00042    
-      pp_50_l_2        20.0000    
-      pp_51_l_2        5.00000    
-      pp_52_l_2        8.37340    
-      pp_53_l_2        20.0000    
-      pp_54_l_2        20.0000    
-      pp_55_l_2        20.0000    
-      pp_56_l_2        19.4953    
-      pp_57_l_2        5.00000    
-      pp_58_l_2        5.00000    
-      pp_59_l_2        29.2118    
-      pp_60_l_2        20.0000    
-      pp_61_l_2        5.00000    
-      pp_62_l_2        20.0000    
-      pp_63_l_2        5.00000    
-      pp_64_l_2        20.0000    
-      pp_65_l_2        26.9222    
-      pp_66_l_2        20.0000    
-      pp_67_l_2        5.99978    
-      pp_68_l_2        5.02742    
-      pp_69_l_2        5.12395    
-      pp_70_l_2        5.00000    
-      pp_71_l_2        20.0000    
-      pp_72_l_2        20.0000    
-      pp_73_l_2        20.0000    
-      pp_74_l_2        20.0000    
-      pp_75_l_2        20.0000    
-      pp_76_l_2        20.0000    
-      pp_77_l_2        1.00627    
-      pp_78_l_2        20.0000    
-      pp_79_l_2        5.00000    
-      pp_80_l_2        172.485    
-      pp_81_l_2        5.00144    
-      pp_82_l_2        5.00000    
-      pp_83_l_2        5.00000    
-      pp_84_l_2        20.0000    
-      pp_85_l_2        20.0000    
-      pp_86_l_2        20.0000    
-      pp_87_l_2        5.00155    
-      pp_88_l_2        20.0000    
-      pp_89_l_2        20.0000    
-      pp_90_l_2        5.00889    
-      pp_91_l_2        20.0000    
-      pp_92_l_2        44.1786    
-      pp_93_l_2        283.465    
-      pp_94_l_2        4.91623    
-      pp_95_l_2        5.00000    
-      pp_96_l_2        20.0000    
-      pp_97_l_2        5.81399    
-      pp_98_l_2        1.00000    
-      pp_99_l_2        20.0000    
-      pp_100_l_2       5.00285    
+      pp_1_l_1         200.000    
+      pp_2_l_1         200.000    
+      pp_3_l_1         200.000    
+      pp_4_l_1         200.000    
+      pp_5_l_1         200.000    
+      pp_6_l_1         200.000    
+      pp_7_l_1         200.000    
+      pp_8_l_1         200.000    
+      pp_9_l_1         200.000    
+      pp_10_l_1        200.000    
+      pp_11_l_1        200.000    
+      pp_12_l_1        200.000    
+      pp_13_l_1        200.000    
+      pp_14_l_1        200.000    
+      pp_15_l_1        200.000    
+      pp_16_l_1        200.000    
+      pp_17_l_1        200.000    
+      pp_18_l_1        200.000    
+      pp_19_l_1        200.000    
+      pp_20_l_1        200.000    
+      pp_21_l_1        200.000    
+      pp_22_l_1        200.000    
+      pp_23_l_1        200.000    
+      pp_24_l_1        200.000    
+      pp_25_l_1        200.000    
+      pp_26_l_1        200.000    
+      pp_27_l_1        200.000    
+      pp_28_l_1        200.000    
+      pp_29_l_1        200.000    
+      pp_30_l_1        200.000    
+      pp_31_l_1        200.000    
+      pp_32_l_1        200.000    
+      pp_33_l_1        200.000    
+      pp_34_l_1        200.000    
+      pp_35_l_1        200.000    
+      pp_36_l_1        200.000    
+      pp_37_l_1        200.000    
+      pp_38_l_1        200.000    
+      pp_39_l_1        200.000    
+      pp_40_l_1        200.000    
+      pp_41_l_1        200.000    
+      pp_42_l_1        200.000    
+      pp_43_l_1        200.000    
+      pp_44_l_1        200.000    
+      pp_45_l_1        200.000    
+      pp_46_l_1        200.000    
+      pp_47_l_1        200.000    
+      pp_48_l_1        200.000    
+      pp_49_l_1        200.000    
+      pp_50_l_1        200.000    
+      pp_51_l_1        200.000    
+      pp_52_l_1        200.000    
+      pp_53_l_1        200.000    
+      pp_54_l_1        200.000    
+      pp_55_l_1        200.000    
+      pp_56_l_1        200.000    
+      pp_57_l_1        200.000    
+      pp_58_l_1        200.000    
+      pp_59_l_1        200.000    
+      pp_60_l_1        200.000    
+      pp_61_l_1        200.000    
+      pp_62_l_1        200.000    
+      pp_63_l_1        200.000    
+      pp_64_l_1        200.000    
+      pp_65_l_1        200.000    
+      pp_66_l_1        200.000    
+      pp_67_l_1        200.000    
+      pp_68_l_1        200.000    
+      pp_69_l_1        200.000    
+      pp_70_l_1        200.000    
+      pp_71_l_1        200.000    
+      pp_72_l_1        200.000    
+      pp_73_l_1        200.000    
+      pp_74_l_1        200.000    
+      pp_75_l_1        200.000    
+      pp_76_l_1        200.000    
+      pp_77_l_1        200.000    
+      pp_78_l_1        200.000    
+      pp_79_l_1        200.000    
+      pp_80_l_1        200.000    
+      pp_81_l_1        200.000    
+      pp_82_l_1        200.000    
+      pp_83_l_1        200.000    
+      pp_84_l_1        200.000    
+      pp_85_l_1        200.000    
+      pp_86_l_1        200.000    
+      pp_87_l_1        200.000    
+      pp_88_l_1        200.000    
+      pp_89_l_1        200.000    
+      pp_90_l_1        200.000    
+      pp_91_l_1        200.000    
+      pp_92_l_1        200.000    
+      pp_93_l_1        200.000    
+      pp_94_l_1        200.000    
+      pp_95_l_1        200.000    
+      pp_96_l_1        200.000    
+      pp_97_l_1        200.000    
+      pp_98_l_1        200.000    
+      pp_99_l_1        200.000    
+      pp_100_l_1       200.000    
+      pp_1_l_2         200.000    
+      pp_2_l_2         200.000    
+      pp_3_l_2         200.000    
+      pp_4_l_2         200.000    
+      pp_5_l_2         200.000    
+      pp_6_l_2         200.000    
+      pp_7_l_2         200.000    
+      pp_8_l_2         200.000    
+      pp_9_l_2         200.000    
+      pp_10_l_2        200.000    
+      pp_11_l_2        200.000    
+      pp_12_l_2        200.000    
+      pp_13_l_2        200.000    
+      pp_14_l_2        200.000    
+      pp_15_l_2        200.000    
+      pp_16_l_2        200.000    
+      pp_17_l_2        200.000    
+      pp_18_l_2        200.000    
+      pp_19_l_2        200.000    
+      pp_20_l_2        200.000    
+      pp_21_l_2        200.000    
+      pp_22_l_2        200.000    
+      pp_23_l_2        200.000    
+      pp_24_l_2        200.000    
+      pp_25_l_2        200.000    
+      pp_26_l_2        200.000    
+      pp_27_l_2        200.000    
+      pp_28_l_2        200.000    
+      pp_29_l_2        200.000    
+      pp_30_l_2        200.000    
+      pp_31_l_2        200.000    
+      pp_32_l_2        200.000    
+      pp_33_l_2        200.000    
+      pp_34_l_2        200.000    
+      pp_35_l_2        200.000    
+      pp_36_l_2        200.000    
+      pp_37_l_2        200.000    
+      pp_38_l_2        200.000    
+      pp_39_l_2        200.000    
+      pp_40_l_2        200.000    
+      pp_41_l_2        200.000    
+      pp_42_l_2        200.000    
+      pp_43_l_2        200.000    
+      pp_44_l_2        200.000    
+      pp_45_l_2        200.000    
+      pp_46_l_2        200.000    
+      pp_47_l_2        200.000    
+      pp_48_l_2        200.000    
+      pp_49_l_2        200.000    
+      pp_50_l_2        200.000    
+      pp_51_l_2        200.000    
+      pp_52_l_2        200.000    
+      pp_53_l_2        200.000    
+      pp_54_l_2        200.000    
+      pp_55_l_2        200.000    
+      pp_56_l_2        200.000    
+      pp_57_l_2        200.000    
+      pp_58_l_2        200.000    
+      pp_59_l_2        200.000    
+      pp_60_l_2        200.000    
+      pp_61_l_2        200.000    
+      pp_62_l_2        200.000    
+      pp_63_l_2        200.000    
+      pp_64_l_2        200.000    
+      pp_65_l_2        200.000    
+      pp_66_l_2        200.000    
+      pp_67_l_2        200.000    
+      pp_68_l_2        200.000    
+      pp_69_l_2        200.000    
+      pp_70_l_2        200.000    
+      pp_71_l_2        200.000    
+      pp_72_l_2        200.000    
+      pp_73_l_2        200.000    
+      pp_74_l_2        200.000    
+      pp_75_l_2        200.000    
+      pp_76_l_2        200.000    
+      pp_77_l_2        200.000    
+      pp_78_l_2        200.000    
+      pp_79_l_2        200.000    
+      pp_80_l_2        200.000    
+      pp_81_l_2        200.000    
+      pp_82_l_2        200.000    
+      pp_83_l_2        200.000    
+      pp_84_l_2        200.000    
+      pp_85_l_2        200.000    
+      pp_86_l_2        200.000    
+      pp_87_l_2        200.000    
+      pp_88_l_2        200.000    
+      pp_89_l_2        200.000    
+      pp_90_l_2        200.000    
+      pp_91_l_2        200.000    
+      pp_92_l_2        200.000    
+      pp_93_l_2        200.000    
+      pp_94_l_2        200.000    
+      pp_95_l_2        200.000    
+      pp_96_l_2        200.000    
+      pp_97_l_2        200.000    
+      pp_98_l_2        200.000    
+      pp_99_l_2        200.000    
+      pp_100_l_2       200.000    
       pp_1_l_3        1.000000E-04
       pp_2_l_3        1.000000E-04
       pp_3_l_3        1.000000E-04
@@ -2159,206 +2159,206 @@ Parameter      Estimated value
  pp_98_vks      1.000000E-03
  pp_99_vks      1.000000E-03
  pp_100_vks     7.822773E-03
- pp_1_l_1        283.465    
- pp_2_l_1        1.00000    
- pp_3_l_1        1.00000    
- pp_4_l_1        1.00000    
- pp_5_l_1        1.00000    
- pp_6_l_1        10.0141    
- pp_7_l_1        1.00000    
- pp_8_l_1        1.00000    
- pp_9_l_1        1.00000    
- pp_10_l_1       1.00000    
- pp_11_l_1       260.394    
- pp_12_l_1       10.0000    
- pp_13_l_1       4.84785    
- pp_14_l_1       10.0000    
- pp_15_l_1       10.0000    
- pp_16_l_1       10.0000    
- pp_17_l_1       10.0076    
- pp_18_l_1       10.0000    
- pp_19_l_1       10.0000    
- pp_20_l_1       10.0000    
- pp_21_l_1       10.0000    
- pp_22_l_1       10.0000    
- pp_23_l_1       10.0000    
- pp_24_l_1       10.0000    
- pp_25_l_1       9.97845    
- pp_26_l_1       10.0093    
- pp_27_l_1       10.0000    
- pp_28_l_1       10.0000    
- pp_29_l_1       10.0000    
- pp_30_l_1       10.0000    
- pp_31_l_1       10.0014    
- pp_32_l_1       10.0000    
- pp_33_l_1       10.0000    
- pp_34_l_1       1.00000    
- pp_35_l_1       9.94201    
- pp_36_l_1       1.00000    
- pp_37_l_1       1.00000    
- pp_38_l_1       10.0000    
- pp_39_l_1       10.0000    
- pp_40_l_1       283.465    
- pp_41_l_1       10.0000    
- pp_42_l_1       100.000    
- pp_43_l_1       10.0000    
- pp_44_l_1       10.0000    
- pp_45_l_1       10.0000    
- pp_46_l_1       100.000    
- pp_47_l_1       10.0000    
- pp_48_l_1       10.0000    
- pp_49_l_1       10.0000    
- pp_50_l_1       10.0000    
- pp_51_l_1       10.0000    
- pp_52_l_1       10.0000    
- pp_53_l_1       100.000    
- pp_54_l_1       10.0000    
- pp_55_l_1       100.000    
- pp_56_l_1       100.000    
- pp_57_l_1       10.0000    
- pp_58_l_1       10.0000    
- pp_59_l_1       100.000    
- pp_60_l_1       10.0000    
- pp_61_l_1       10.0000    
- pp_62_l_1       100.000    
- pp_63_l_1       10.0000    
- pp_64_l_1       100.000    
- pp_65_l_1       10.0000    
- pp_66_l_1       100.000    
- pp_67_l_1       10.0000    
- pp_68_l_1       100.000    
- pp_69_l_1       100.000    
- pp_70_l_1       100.000    
- pp_71_l_1       100.000    
- pp_72_l_1       100.000    
- pp_73_l_1       100.000    
- pp_74_l_1       10.0000    
- pp_75_l_1       100.000    
- pp_76_l_1       10.0000    
- pp_77_l_1       10.0000    
- pp_78_l_1       10.0000    
- pp_79_l_1       10.0000    
- pp_80_l_1       10.0000    
- pp_81_l_1       10.0000    
- pp_82_l_1       10.0000    
- pp_83_l_1       100.000    
- pp_84_l_1       10.0000    
- pp_85_l_1       100.000    
- pp_86_l_1       10.0000    
- pp_87_l_1       10.0000    
- pp_88_l_1       100.000    
- pp_89_l_1       10.0000    
- pp_90_l_1       10.0000    
- pp_91_l_1       100.000    
- pp_92_l_1       100.000    
- pp_93_l_1       10.0000    
- pp_94_l_1       10.0000    
- pp_95_l_1       10.0000    
- pp_96_l_1       10.0000    
- pp_97_l_1       10.0000    
- pp_98_l_1       10.0000    
- pp_99_l_1       10.0000    
- pp_100_l_1      10.0000    
- pp_1_l_2        5.01727    
- pp_2_l_2        1.00000    
- pp_3_l_2        5.41171    
- pp_4_l_2        1.00000    
- pp_5_l_2        1.00000    
- pp_6_l_2        1.00000    
- pp_7_l_2        5.00000    
- pp_8_l_2        5.00000    
- pp_9_l_2        1.09458    
- pp_10_l_2       1.06987    
- pp_11_l_2       1.00000    
- pp_12_l_2       5.81344    
- pp_13_l_2       1.00000    
- pp_14_l_2       5.54375    
- pp_15_l_2       5.00000    
- pp_16_l_2       4.98265    
- pp_17_l_2       1.00006    
- pp_18_l_2       5.00000    
- pp_19_l_2       4.99505    
- pp_20_l_2       1.19344    
- pp_21_l_2       20.0024    
- pp_22_l_2       4.97700    
- pp_23_l_2       4.99529    
- pp_24_l_2       5.00000    
- pp_25_l_2       20.0172    
- pp_26_l_2       5.00018    
- pp_27_l_2       5.00000    
- pp_28_l_2       5.33600    
- pp_29_l_2       20.0000    
- pp_30_l_2       5.00020    
- pp_31_l_2       5.17538    
- pp_32_l_2       5.10481    
- pp_33_l_2       5.00000    
- pp_34_l_2       5.00000    
- pp_35_l_2       2.45168    
- pp_36_l_2       5669.30    
- pp_37_l_2       1.00000    
- pp_38_l_2       5.00000    
- pp_39_l_2       5.00000    
- pp_40_l_2       1.01080    
- pp_41_l_2       20.0000    
- pp_42_l_2       20.6840    
- pp_43_l_2       5.00000    
- pp_44_l_2       357.248    
- pp_45_l_2       5.00000    
- pp_46_l_2       20.0000    
- pp_47_l_2       1.00000    
- pp_48_l_2       5.00000    
- pp_49_l_2       1.00042    
- pp_50_l_2       20.0000    
- pp_51_l_2       5.00000    
- pp_52_l_2       8.37340    
- pp_53_l_2       20.0000    
- pp_54_l_2       20.0000    
- pp_55_l_2       20.0000    
- pp_56_l_2       19.4953    
- pp_57_l_2       5.00000    
- pp_58_l_2       5.00000    
- pp_59_l_2       29.2118    
- pp_60_l_2       20.0000    
- pp_61_l_2       5.00000    
- pp_62_l_2       20.0000    
- pp_63_l_2       5.00000    
- pp_64_l_2       20.0000    
- pp_65_l_2       26.9222    
- pp_66_l_2       20.0000    
- pp_67_l_2       5.99978    
- pp_68_l_2       5.02742    
- pp_69_l_2       5.12395    
- pp_70_l_2       5.00000    
- pp_71_l_2       20.0000    
- pp_72_l_2       20.0000    
- pp_73_l_2       20.0000    
- pp_74_l_2       20.0000    
- pp_75_l_2       20.0000    
- pp_76_l_2       20.0000    
- pp_77_l_2       1.00627    
- pp_78_l_2       20.0000    
- pp_79_l_2       5.00000    
- pp_80_l_2       172.485    
- pp_81_l_2       5.00144    
- pp_82_l_2       5.00000    
- pp_83_l_2       5.00000    
- pp_84_l_2       20.0000    
- pp_85_l_2       20.0000    
- pp_86_l_2       20.0000    
- pp_87_l_2       5.00155    
- pp_88_l_2       20.0000    
- pp_89_l_2       20.0000    
- pp_90_l_2       5.00889    
- pp_91_l_2       20.0000    
- pp_92_l_2       44.1786    
- pp_93_l_2       283.465    
- pp_94_l_2       4.91623    
- pp_95_l_2       5.00000    
- pp_96_l_2       20.0000    
- pp_97_l_2       5.81399    
- pp_98_l_2       1.00000    
- pp_99_l_2       20.0000    
- pp_100_l_2      5.00285    
+ pp_1_l_1        200.000    
+ pp_2_l_1        200.000    
+ pp_3_l_1        200.000    
+ pp_4_l_1        200.000    
+ pp_5_l_1        200.000    
+ pp_6_l_1        200.000    
+ pp_7_l_1        200.000    
+ pp_8_l_1        200.000    
+ pp_9_l_1        200.000    
+ pp_10_l_1       200.000    
+ pp_11_l_1       200.000    
+ pp_12_l_1       200.000    
+ pp_13_l_1       200.000    
+ pp_14_l_1       200.000    
+ pp_15_l_1       200.000    
+ pp_16_l_1       200.000    
+ pp_17_l_1       200.000    
+ pp_18_l_1       200.000    
+ pp_19_l_1       200.000    
+ pp_20_l_1       200.000    
+ pp_21_l_1       200.000    
+ pp_22_l_1       200.000    
+ pp_23_l_1       200.000    
+ pp_24_l_1       200.000    
+ pp_25_l_1       200.000    
+ pp_26_l_1       200.000    
+ pp_27_l_1       200.000    
+ pp_28_l_1       200.000    
+ pp_29_l_1       200.000    
+ pp_30_l_1       200.000    
+ pp_31_l_1       200.000    
+ pp_32_l_1       200.000    
+ pp_33_l_1       200.000    
+ pp_34_l_1       200.000    
+ pp_35_l_1       200.000    
+ pp_36_l_1       200.000    
+ pp_37_l_1       200.000    
+ pp_38_l_1       200.000    
+ pp_39_l_1       200.000    
+ pp_40_l_1       200.000    
+ pp_41_l_1       200.000    
+ pp_42_l_1       200.000    
+ pp_43_l_1       200.000    
+ pp_44_l_1       200.000    
+ pp_45_l_1       200.000    
+ pp_46_l_1       200.000    
+ pp_47_l_1       200.000    
+ pp_48_l_1       200.000    
+ pp_49_l_1       200.000    
+ pp_50_l_1       200.000    
+ pp_51_l_1       200.000    
+ pp_52_l_1       200.000    
+ pp_53_l_1       200.000    
+ pp_54_l_1       200.000    
+ pp_55_l_1       200.000    
+ pp_56_l_1       200.000    
+ pp_57_l_1       200.000    
+ pp_58_l_1       200.000    
+ pp_59_l_1       200.000    
+ pp_60_l_1       200.000    
+ pp_61_l_1       200.000    
+ pp_62_l_1       200.000    
+ pp_63_l_1       200.000    
+ pp_64_l_1       200.000    
+ pp_65_l_1       200.000    
+ pp_66_l_1       200.000    
+ pp_67_l_1       200.000    
+ pp_68_l_1       200.000    
+ pp_69_l_1       200.000    
+ pp_70_l_1       200.000    
+ pp_71_l_1       200.000    
+ pp_72_l_1       200.000    
+ pp_73_l_1       200.000    
+ pp_74_l_1       200.000    
+ pp_75_l_1       200.000    
+ pp_76_l_1       200.000    
+ pp_77_l_1       200.000    
+ pp_78_l_1       200.000    
+ pp_79_l_1       200.000    
+ pp_80_l_1       200.000    
+ pp_81_l_1       200.000    
+ pp_82_l_1       200.000    
+ pp_83_l_1       200.000    
+ pp_84_l_1       200.000    
+ pp_85_l_1       200.000    
+ pp_86_l_1       200.000    
+ pp_87_l_1       200.000    
+ pp_88_l_1       200.000    
+ pp_89_l_1       200.000    
+ pp_90_l_1       200.000    
+ pp_91_l_1       200.000    
+ pp_92_l_1       200.000    
+ pp_93_l_1       200.000    
+ pp_94_l_1       200.000    
+ pp_95_l_1       200.000    
+ pp_96_l_1       200.000    
+ pp_97_l_1       200.000    
+ pp_98_l_1       200.000    
+ pp_99_l_1       200.000    
+ pp_100_l_1      200.000    
+ pp_1_l_2        200.000    
+ pp_2_l_2        200.000    
+ pp_3_l_2        200.000    
+ pp_4_l_2        200.000    
+ pp_5_l_2        200.000    
+ pp_6_l_2        200.000    
+ pp_7_l_2        200.000    
+ pp_8_l_2        200.000    
+ pp_9_l_2        200.000    
+ pp_10_l_2       200.000    
+ pp_11_l_2       200.000    
+ pp_12_l_2       200.000    
+ pp_13_l_2       200.000    
+ pp_14_l_2       200.000    
+ pp_15_l_2       200.000    
+ pp_16_l_2       200.000    
+ pp_17_l_2       200.000    
+ pp_18_l_2       200.000    
+ pp_19_l_2       200.000    
+ pp_20_l_2       200.000    
+ pp_21_l_2       200.000    
+ pp_22_l_2       200.000    
+ pp_23_l_2       200.000    
+ pp_24_l_2       200.000    
+ pp_25_l_2       200.000    
+ pp_26_l_2       200.000    
+ pp_27_l_2       200.000    
+ pp_28_l_2       200.000    
+ pp_29_l_2       200.000    
+ pp_30_l_2       200.000    
+ pp_31_l_2       200.000    
+ pp_32_l_2       200.000    
+ pp_33_l_2       200.000    
+ pp_34_l_2       200.000    
+ pp_35_l_2       200.000    
+ pp_36_l_2       200.000    
+ pp_37_l_2       200.000    
+ pp_38_l_2       200.000    
+ pp_39_l_2       200.000    
+ pp_40_l_2       200.000    
+ pp_41_l_2       200.000    
+ pp_42_l_2       200.000    
+ pp_43_l_2       200.000    
+ pp_44_l_2       200.000    
+ pp_45_l_2       200.000    
+ pp_46_l_2       200.000    
+ pp_47_l_2       200.000    
+ pp_48_l_2       200.000    
+ pp_49_l_2       200.000    
+ pp_50_l_2       200.000    
+ pp_51_l_2       200.000    
+ pp_52_l_2       200.000    
+ pp_53_l_2       200.000    
+ pp_54_l_2       200.000    
+ pp_55_l_2       200.000    
+ pp_56_l_2       200.000    
+ pp_57_l_2       200.000    
+ pp_58_l_2       200.000    
+ pp_59_l_2       200.000    
+ pp_60_l_2       200.000    
+ pp_61_l_2       200.000    
+ pp_62_l_2       200.000    
+ pp_63_l_2       200.000    
+ pp_64_l_2       200.000    
+ pp_65_l_2       200.000    
+ pp_66_l_2       200.000    
+ pp_67_l_2       200.000    
+ pp_68_l_2       200.000    
+ pp_69_l_2       200.000    
+ pp_70_l_2       200.000    
+ pp_71_l_2       200.000    
+ pp_72_l_2       200.000    
+ pp_73_l_2       200.000    
+ pp_74_l_2       200.000    
+ pp_75_l_2       200.000    
+ pp_76_l_2       200.000    
+ pp_77_l_2       200.000    
+ pp_78_l_2       200.000    
+ pp_79_l_2       200.000    
+ pp_80_l_2       200.000    
+ pp_81_l_2       200.000    
+ pp_82_l_2       200.000    
+ pp_83_l_2       200.000    
+ pp_84_l_2       200.000    
+ pp_85_l_2       200.000    
+ pp_86_l_2       200.000    
+ pp_87_l_2       200.000    
+ pp_88_l_2       200.000    
+ pp_89_l_2       200.000    
+ pp_90_l_2       200.000    
+ pp_91_l_2       200.000    
+ pp_92_l_2       200.000    
+ pp_93_l_2       200.000    
+ pp_94_l_2       200.000    
+ pp_95_l_2       200.000    
+ pp_96_l_2       200.000    
+ pp_97_l_2       200.000    
+ pp_98_l_2       200.000    
+ pp_99_l_2       200.000    
+ pp_100_l_2      200.000    
  pp_1_l_3       1.000000E-04
  pp_2_l_3       1.000000E-04
  pp_3_l_3       1.000000E-04
@@ -2593,29 +2593,29 @@ Observations ----->
 
 Observation            Measured       Calculated     Residual       Weight     Group
                        value          value
-m01                    259.722        266.065       -6.34337        1000.      h_obs       
-m02                    255.245        257.967       -2.72197        1000.      h_obs       
-m03                    246.054        258.072       -12.0174        1000.      h_obs       
-m04                    241.940        242.282      -0.342121        1000.      h_obs       
-m05                    233.427        242.739       -9.31245        1000.      h_obs       
-m06                    229.176        234.934       -5.75866        1000.      h_obs       
-m07                    221.954        225.515       -3.56167        1000.      h_obs       
-m08                    222.347        226.830       -4.48285        1000.      h_obs       
-m09                    221.215        226.381       -5.16570        1000.      h_obs       
-m10                    213.833        223.528       -9.69446        1000.      h_obs       
-v3                     310.558        309.447        1.11124        1000.      h_obs       
-v4                     304.403        299.410        4.99274        1000.      h_obs       
-v6                     296.625        292.707        3.91797        1000.      h_obs       
+m01                    259.722        263.882       -4.16045        1000.      h_obs       
+m02                    255.245        253.780        1.46437        1000.      h_obs       
+m03                    246.054        248.751       -2.69706        1000.      h_obs       
+m04                    241.940        240.742        1.19801        1000.      h_obs       
+m05                    233.427        238.583       -5.15643        1000.      h_obs       
+m06                    229.176        238.300       -9.12389        1000.      h_obs       
+m07                    221.954        229.333       -7.37997        1000.      h_obs       
+m08                    222.347        230.026       -7.67891        1000.      h_obs       
+m09                    221.215        228.572       -7.35692        1000.      h_obs       
+m10                    213.833        223.541       -9.70795        1000.      h_obs       
+v3                     310.558        310.450       0.108101        1000.      h_obs       
+v4                     304.403        299.573        4.82968        1000.      h_obs       
+v6                     296.625        292.594        4.03141        1000.      h_obs       
 lk_01                 -999.000        884.500       -1883.50        0.000      lake_obs    
-lk_02                 -999.000        269.500       -1268.50        0.000      lake_obs    
-lk_03                  185.016        185.020      -3.528900E-03    0.000      lake_obs    
-lk_04                  255.163        255.200      -3.716510E-02    0.000      lake_obs    
-lk_05                 -999.000        243.570       -1242.57        0.000      lake_obs    
-lk_06                  233.884        233.800       8.356260E-02    0.000      lake_obs    
-lk_07                  221.473        221.500      -2.705070E-02    0.000      lake_obs    
-lk_08                  168.168        168.100       6.760250E-02    0.000      lake_obs    
-lk_09                  163.238        163.200       3.813410E-02    0.000      lake_obs    
-lk_10                 -999.000        245.200       -1244.20        0.000      lake_obs    
+lk_02                 -999.000        244.430       -1243.43        0.000      lake_obs    
+lk_03                  185.016        158.761        26.2557        0.000      lake_obs    
+lk_04                  255.163        228.231        26.9315        0.000      lake_obs    
+lk_05                 -999.000        220.847       -1219.85        0.000      lake_obs    
+lk_06                  233.884        215.340        18.5435        0.000      lake_obs    
+lk_07                  221.473        194.523        26.9500        0.000      lake_obs    
+lk_08                  168.168        141.066        27.1012        0.000      lake_obs    
+lk_09                  163.238        135.361        27.8766        0.000      lake_obs    
+lk_10                 -999.000        220.218       -1219.22        0.000      lake_obs    
 lk_11                  460.181        311.600        148.581        0.000      lake_obs    
 lk_12                  687.374        491.700        195.674        0.000      lake_obs    
 s1_avg                -999.000        0.00000       -999.000        0.000      q_obs       
@@ -2624,24 +2624,24 @@ s3_avg                -999.000        0.00000       -999.000        0.000      q
 s4_avg                -999.000        512858.       -513857.        0.000      q_obs       
 s5_avg                -999.000       1.240037E+06  -1.241036E+06    0.000      q_obs       
 s6_avg                -999.000        0.00000       -999.000        0.000      q_obs       
-s7_avg                -999.000        841359.       -842358.        0.000      q_obs       
-s8_avg                2.233101E+06   2.142554E+06    90546.6       1.0000E-03  q_obs       
-s9_avg                2.570926E+06   2.196158E+06    374769.       1.0000E-03  q_obs       
-s10_avg               8.408268E+06   1.368263E+07  -5.274359E+06   1.0000E-03  q_obs       
-s11_avg               2.495479E+06    43245.2       2.452234E+06   1.0000E-03  q_obs       
-s12_avg               3.104790E+06   1.841904E+06   1.262886E+06   1.0000E-03  q_obs       
+s7_avg                -999.000        841163.       -842162.        0.000      q_obs       
+s8_avg                2.233101E+06   2.139225E+06    93876.3       1.0000E-03  q_obs       
+s9_avg                2.570926E+06   2.203920E+06    367006.       1.0000E-03  q_obs       
+s10_avg               8.408268E+06   1.395427E+07  -5.545999E+06   1.0000E-03  q_obs       
+s11_avg               2.495479E+06    0.00000       2.495479E+06   1.0000E-03  q_obs       
+s12_avg               3.104790E+06   1.965582E+06   1.139208E+06   1.0000E-03  q_obs       
 s1_low                -999.000        0.00000       -999.000        0.000      q_obs       
 s2_low                -999.000        0.00000       -999.000        0.000      q_obs       
 s3_low                -999.000        0.00000       -999.000        0.000      q_obs       
 s4_low                -999.000        509127.       -510126.        0.000      q_obs       
 s5_low                -999.000       1.239861E+06  -1.240860E+06    0.000      q_obs       
 s6_low                -999.000        0.00000       -999.000        0.000      q_obs       
-s7_low                -999.000        841002.       -842001.        0.000      q_obs       
-s8_low                 61328.2       2.050354E+06  -1.989026E+06   1.0000E-03  q_obs       
-s9_low                 64787.0       2.018805E+06  -1.954018E+06   1.0000E-03  q_obs       
-s10_low               2.604692E+06   4.496500E+06  -1.891808E+06   1.0000E-03  q_obs       
-s11_low                129.135       -437413.        437542.       1.0000E-03  q_obs       
-s12_low                346056.      -1.184014E+06   1.530070E+06   1.0000E-03  q_obs       
+s7_low                -999.000        840807.       -841806.        0.000      q_obs       
+s8_low                 61328.2       2.047024E+06  -1.985696E+06   1.0000E-03  q_obs       
+s9_low                 64787.0       2.026567E+06  -1.961780E+06   1.0000E-03  q_obs       
+s10_low               2.604692E+06   4.767048E+06  -2.162356E+06   1.0000E-03  q_obs       
+s11_low                129.135       -480658.        480787.       1.0000E-03  q_obs       
+s12_low                346056.      -1.061428E+06   1.407484E+06   1.0000E-03  q_obs       
 gwet_cmp2obs          4.109520E+09   9.411273E+08   3.168393E+09   1.0000E-06  gwet_obs    
 
 See file alameda.res for more details of residuals in graph-ready format.
@@ -2651,10 +2651,10 @@ See file alameda.seo for composite observation sensitivities.
 
 Objective function ----->
 
-  Sum of squared weighted residuals (ie phi)                =  5.6653E+08
-  Contribution to phi from observation group "h_obs"        =  5.0703E+08
+  Sum of squared weighted residuals (ie phi)                =  5.0253E+08
+  Contribution to phi from observation group "h_obs"        =  4.3939E+08
   Contribution to phi from observation group "lake_obs"     =   0.000    
-  Contribution to phi from observation group "q_obs"        =  4.9462E+07
+  Contribution to phi from observation group "q_obs"        =  5.3106E+07
   Contribution to phi from observation group "gwet_obs"     =  1.0039E+07
 
 
@@ -2667,11 +2667,11 @@ Analysis of residuals ----->
 
   All residuals:-
      Number of residuals with non-zero weight                       =    24
-     Mean value of non-zero weighted residuals                      =  -2132.    
-     Maximum weighted residual [observation "v4"]                   =   4993.    
-     Minimum weighted residual [observation "m03"]                  = -1.2017E+04
-     Standard variance of weighted residuals                        =  2.3605E+07
-     Standard error of weighted residuals                           =   4859.    
+     Mean value of non-zero weighted residuals                      =  -1839.    
+     Maximum weighted residual [observation "v4"]                   =   4830.    
+     Minimum weighted residual [observation "m10"]                  =  -9708.    
+     Standard variance of weighted residuals                        =  2.0939E+07
+     Standard error of weighted residuals                           =   4576.    
 
      Note: the above variance was obtained by dividing the objective 
      function by the number of system degrees of freedom (ie. number of 
@@ -2683,11 +2683,11 @@ Analysis of residuals ----->
 
   Residuals for observation group "h_obs":-
      Number of residuals with non-zero weight                       =    13
-     Mean value of non-zero weighted residuals                      =  -3798.    
-     Maximum weighted residual [observation "v4"]                   =   4993.    
-     Minimum weighted residual [observation "m03"]                  = -1.2017E+04
-     "Variance" of weighted residuals                               =  3.9002E+07
-     "Standard error" of weighted residuals                         =   6245.    
+     Mean value of non-zero weighted residuals                      =  -3202.    
+     Maximum weighted residual [observation "v4"]                   =   4830.    
+     Minimum weighted residual [observation "m10"]                  =  -9708.    
+     "Variance" of weighted residuals                               =  3.3799E+07
+     "Standard error" of weighted residuals                         =   5814.    
 
      Note: the above "variance" was obtained by dividing the sum of squared 
      residuals by the number of items with non-zero weight.
@@ -2697,11 +2697,11 @@ Analysis of residuals ----->
 
   Residuals for observation group "q_obs":-
      Number of residuals with non-zero weight                       =    10
-     Mean value of non-zero weighted residuals                      =  -496.1    
-     Maximum weighted residual [observation "s11_avg"]              =   2452.    
-     Minimum weighted residual [observation "s10_avg"]              =  -5274.    
-     "Variance" of weighted residuals                               =  4.9462E+06
-     "Standard error" of weighted residuals                         =   2224.    
+     Mean value of non-zero weighted residuals                      =  -567.2    
+     Maximum weighted residual [observation "s11_avg"]              =   2495.    
+     Minimum weighted residual [observation "s10_avg"]              =  -5546.    
+     "Variance" of weighted residuals                               =  5.3106E+06
+     "Standard error" of weighted residuals                         =   2304.    
 
      Note: the above "variance" was obtained by dividing the sum of squared 
      residuals by the number of items with non-zero weight.

@@ -6,7 +6,10 @@
 ####--------------------------- notes -------------------------####
 
 # Need to remove all comments from datasets 2, 4b, and 4c in sfr 
-# file in order for this code to work properly
+# file in order for this code to work properly - alternatively could 
+# use regular expressions to extract all comments following !
+
+# should set stringsAsFactors=FALSE when reading in all data
 
 
 ####--------------------------- set up -------------------------####
@@ -34,7 +37,7 @@ rm(list=ls())
 # load libraries
 library(tidyverse)
 library(plyr)
-library(dplyr)
+#library(dplyr)
 library(ggplot2)
 library(reshape2)
 library(stringr)
@@ -45,7 +48,8 @@ library(sp)
 
 
 # set working directory 
-setwd("C:/workspace/troubleshooting_pest/check_009/experiment")
+#setwd("C:/workspace/troubleshooting_pest/check_009/experiment")
+setwd("C:/git_repos/alameda/pestPrep")
 
 
 
