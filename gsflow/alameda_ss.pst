@@ -657,7 +657,7 @@ s11_low       129.135         0.001       Q_Obs
 s12_low       346056.155      0.001       Q_Obs
 gwet_cmp2obs  4109520000      0.000001    GWET_Obs
 * model command line
-_RunModel.bat
+_RunModel_ss.bat
 * model input/output
 .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt.tpl             .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt
 .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt.tpl              .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt
@@ -673,31 +673,31 @@ _RunModel.bat
 .\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt.tpl               .\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt
 .\output\modflow\hobs.out.ins                                          .\output\modflow\hobs.out
 .\output\modflow\obs2obs_gwet.out.ins                                  .\output\modflow\obs2obs_gwet.out
-.\output\modflow\subbasin_runoff\ACDD_Reservoir.out.ins  							 .\output\modflow\subbasin_runoff\ACDD_Reservoir.out
-.\output\modflow\subbasin_runoff\No_Name_Pond.out.ins                  .\output\modflow\subbasin_runoff\No_Name_Pond.out
-.\output\modflow\subbasin_runoff\Pond_F6.out.ins                       .\output\modflow\subbasin_runoff\Pond_F6.out
-.\output\modflow\subbasin_runoff\Ready_Mix_Pond.out.ins                .\output\modflow\subbasin_runoff\Ready_Mix_Pond.out
-.\output\modflow\subbasin_runoff\Pond_F5.out.ins                       .\output\modflow\subbasin_runoff\Pond_F5.out
-.\output\modflow\subbasin_runoff\Pond_F4.out.ins                       .\output\modflow\subbasin_runoff\Pond_F4.out
-.\output\modflow\subbasin_runoff\Pond_F3W.out.ins                      .\output\modflow\subbasin_runoff\Pond_F3W.out
-.\output\modflow\subbasin_runoff\Pond_F3E.out.ins                      .\output\modflow\subbasin_runoff\Pond_F3E.out
-.\output\modflow\subbasin_runoff\Pond_F2.out.ins                       .\output\modflow\subbasin_runoff\Pond_F2.out
-.\output\modflow\subbasin_runoff\Pond_SMP_32.out.ins                   .\output\modflow\subbasin_runoff\Pond_SMP_32.out
-.\output\modflow\subbasin_runoff\San_Antonio_Reservoir.out.ins         .\output\modflow\subbasin_runoff\San_Antonio_Reservoir.out
-.\output\modflow\subbasin_runoff\Calaveras_Reservoir.out.ins           .\output\modflow\subbasin_runoff\Calaveras_Reservoir.out
+.\output\modflow\subbasin_runoff\ACDD_Reservoir_ss.out.ins  							 .\output\modflow\subbasin_runoff\ACDD_Reservoir.out
+.\output\modflow\subbasin_runoff\No_Name_Pond_ss.out.ins                  .\output\modflow\subbasin_runoff\No_Name_Pond.out
+.\output\modflow\subbasin_runoff\Pond_F6_ss.out.ins                       .\output\modflow\subbasin_runoff\Pond_F6.out
+.\output\modflow\subbasin_runoff\Ready_Mix_Pond_ss.out.ins                .\output\modflow\subbasin_runoff\Ready_Mix_Pond.out
+.\output\modflow\subbasin_runoff\Pond_F5_ss.out.ins                       .\output\modflow\subbasin_runoff\Pond_F5.out
+.\output\modflow\subbasin_runoff\Pond_F4_ss.out.ins                       .\output\modflow\subbasin_runoff\Pond_F4.out
+.\output\modflow\subbasin_runoff\Pond_F3W_ss.out.ins                      .\output\modflow\subbasin_runoff\Pond_F3W.out
+.\output\modflow\subbasin_runoff\Pond_F3E_ss.out.ins                      .\output\modflow\subbasin_runoff\Pond_F3E.out
+.\output\modflow\subbasin_runoff\Pond_F2_ss.out.ins                       .\output\modflow\subbasin_runoff\Pond_F2.out
+.\output\modflow\subbasin_runoff\Pond_SMP_32_ss.out.ins                   .\output\modflow\subbasin_runoff\Pond_SMP_32.out
+.\output\modflow\subbasin_runoff\San_Antonio_Reservoir_ss.out.ins         .\output\modflow\subbasin_runoff\San_Antonio_Reservoir.out
+.\output\modflow\subbasin_runoff\Calaveras_Reservoir_ss.out.ins           .\output\modflow\subbasin_runoff\Calaveras_Reservoir.out
 .\output\modflow\obs2obs.out.ins                                       .\output\modflow\obs2obs.out
-.\output\modflow\streamflow_AlamedaCreekAboveACDD.out.ins              .\output\modflow\streamflow_AlamedaCreekAboveACDD.out
-.\output\modflow\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out.ins  .\output\modflow\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
-.\output\modflow\streamflow_AlamedaCreekAboveSanAntonioCreek.out.ins   .\output\modflow\streamflow_AlamedaCreekAboveSanAntonioCreek.out
-.\output\modflow\streamflow_AlamedaCreekBelowACDD.out.ins              .\output\modflow\streamflow_AlamedaCreekBelowACDD.out
-.\output\modflow\streamflow_AlamedaCreekBelowCalaverasCreek.out.ins    .\output\modflow\streamflow_AlamedaCreekBelowCalaverasCreek.out
-.\output\modflow\streamflow_AlamedaCreekBelowWelchCreek.out.ins        .\output\modflow\streamflow_AlamedaCreekBelowWelchCreek.out
-.\output\modflow\streamflow_AlamedaCreekNearNiles.out.ins              .\output\modflow\streamflow_AlamedaCreekNearNiles.out
-.\output\modflow\streamflow_ArroyoHondo.out.ins                        .\output\modflow\streamflow_ArroyoHondo.out
-.\output\modflow\streamflow_CalaverasCreek.out.ins                     .\output\modflow\streamflow_CalaverasCreek.out
-.\output\modflow\streamflow_IndianCreek.out.ins                        .\output\modflow\streamflow_IndianCreek.out
-.\output\modflow\streamflow_SanAntonioCreek.out.ins                    .\output\modflow\streamflow_SanAntonioCreek.out
-.\output\modflow\streamflow_SanAntonioCreekAtIndianCreekRd.out.ins     .\output\modflow\streamflow_SanAntonioCreekAtIndianCreekRd.out
+.\output\modflow\streamflow_AlamedaCreekAboveACDD_ss.out.ins              .\output\modflow\streamflow_AlamedaCreekAboveACDD.out
+.\output\modflow\streamflow_AlamedaCreekAboveArroyoDeLaLaguna_ss.out.ins  .\output\modflow\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
+.\output\modflow\streamflow_AlamedaCreekAboveSanAntonioCreek_ss.out.ins   .\output\modflow\streamflow_AlamedaCreekAboveSanAntonioCreek.out
+.\output\modflow\streamflow_AlamedaCreekBelowACDD_ss.out.ins              .\output\modflow\streamflow_AlamedaCreekBelowACDD.out
+.\output\modflow\streamflow_AlamedaCreekBelowCalaverasCreek_ss.out.ins    .\output\modflow\streamflow_AlamedaCreekBelowCalaverasCreek.out
+.\output\modflow\streamflow_AlamedaCreekBelowWelchCreek_ss.out.ins        .\output\modflow\streamflow_AlamedaCreekBelowWelchCreek.out
+.\output\modflow\streamflow_AlamedaCreekNearNiles_ss.out.ins              .\output\modflow\streamflow_AlamedaCreekNearNiles.out
+.\output\modflow\streamflow_ArroyoHondo_ss.out.ins                        .\output\modflow\streamflow_ArroyoHondo.out
+.\output\modflow\streamflow_CalaverasCreek_ss.out.ins                     .\output\modflow\streamflow_CalaverasCreek.out
+.\output\modflow\streamflow_IndianCreek_ss.out.ins                        .\output\modflow\streamflow_IndianCreek.out
+.\output\modflow\streamflow_SanAntonioCreek_ss.out.ins                    .\output\modflow\streamflow_SanAntonioCreek.out
+.\output\modflow\streamflow_SanAntonioCreekAtIndianCreekRd_ss.out.ins     .\output\modflow\streamflow_SanAntonioCreekAtIndianCreekRd.out
 ++# The following is associated with PEST++ input and
 ++# is parsed using key words that can be specified in any order
 ++ MAX_N_SUPER(1) SUPER_EIGTHRES(1.0e-7)
