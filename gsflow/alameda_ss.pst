@@ -671,7 +671,7 @@ _RunModel_ss.bat
 .\input\modflow_lower\lak_support\lkbdlknc_lay_1.txt.tpl               .\input\modflow_lower\lak_support\lkbdlknc_lay_1.txt
 .\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt.tpl               .\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt
 .\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt.tpl               .\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt
-.\output\modflow\hobs.out.ins                                          .\output\modflow\hobs.out
+.\output\modflow\hobs_ss.out.ins                                          .\output\modflow\hobs.out
 .\output\modflow\obs2obs_gwet.out.ins                                  .\output\modflow\obs2obs_gwet.out
 .\output\modflow\subbasin_runoff\ACDD_Reservoir_ss.out.ins  							 .\output\modflow\subbasin_runoff\ACDD_Reservoir.out
 .\output\modflow\subbasin_runoff\No_Name_Pond_ss.out.ins                  .\output\modflow\subbasin_runoff\No_Name_Pond.out
