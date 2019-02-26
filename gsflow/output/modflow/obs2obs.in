@@ -1,16 +1,16 @@
 * model output
-.\streamflow_IndianCreek.out.ins                                         .\streamflow_IndianCreek.out
-.\streamflow_SanAntonioCreekAtIndianCreekRd.out.ins                      .\streamflow_SanAntonioCreekAtIndianCreekRd.out
-.\streamflow_ArroyoHondo.out.ins                                         .\streamflow_ArroyoHondo.out
-.\streamflow_SanAntonioCreek.out.ins                                     .\streamflow_SanAntonioCreek.out
-.\streamflow_CalaverasCreek.out.ins                                      .\streamflow_CalaverasCreek.out
-.\streamflow_AlamedaCreekAboveACDD.out.ins                               .\streamflow_AlamedaCreekAboveACDD.out
-.\streamflow_AlamedaCreekBelowACDD.out.ins                               .\streamflow_AlamedaCreekBelowACDD.out
-.\streamflow_AlamedaCreekBelowCalaverasCreek.out.ins                     .\streamflow_AlamedaCreekBelowCalaverasCreek.out
-.\streamflow_AlamedaCreekBelowWelchCreek.out.ins                         .\streamflow_AlamedaCreekBelowWelchCreek.out
-.\streamflow_AlamedaCreekNearNiles.out.ins                               .\streamflow_AlamedaCreekNearNiles.out
-.\streamflow_AlamedaCreekAboveSanAntonioCreek.out.ins                    .\streamflow_AlamedaCreekAboveSanAntonioCreek.out
-.\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out.ins                   .\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
+.\streamflow_IndianCreek_ss.out.ins                                         .\streamflow_IndianCreek.out
+.\streamflow_SanAntonioCreekAtIndianCreekRd_ss.out.ins                      .\streamflow_SanAntonioCreekAtIndianCreekRd.out
+.\streamflow_ArroyoHondo_ss.out.ins                                         .\streamflow_ArroyoHondo.out
+.\streamflow_SanAntonioCreek_ss.out.ins                                     .\streamflow_SanAntonioCreek.out
+.\streamflow_CalaverasCreek_ss.out.ins                                      .\streamflow_CalaverasCreek.out
+.\streamflow_AlamedaCreekAboveACDD_ss.out.ins                               .\streamflow_AlamedaCreekAboveACDD.out
+.\streamflow_AlamedaCreekBelowACDD_ss.out.ins                               .\streamflow_AlamedaCreekBelowACDD.out
+.\streamflow_AlamedaCreekBelowCalaverasCreek_ss.out.ins                     .\streamflow_AlamedaCreekBelowCalaverasCreek.out
+.\streamflow_AlamedaCreekBelowWelchCreek_ss.out.ins                         .\streamflow_AlamedaCreekBelowWelchCreek.out
+.\streamflow_AlamedaCreekNearNiles_ss.out.ins                               .\streamflow_AlamedaCreekNearNiles.out
+.\streamflow_AlamedaCreekAboveSanAntonioCreek_ss.out.ins                    .\streamflow_AlamedaCreekAboveSanAntonioCreek.out
+.\streamflow_AlamedaCreekAboveArroyoDeLaLaguna_ss.out.ins                   .\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
 .\subbasin_runoff\runoff.out.ins                                         .\subbasin_runoff\runoff.out
 * equations
 s1_low  = s1_avg  - s1_runoff

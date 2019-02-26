@@ -1,10 +1,10 @@
-.\Alameda-Interpolated_HydKh_L_3_By_ppk2fac.txt                                                                               
+.\Alameda-Interpolated_vks_By_ppk2fac.txt                                                                               
 f                                                                               
-.\Lay_3_K_PP_List.txt                                                                              
+.\vks_PP_List.txt                                                                              
 s                                                                               
 1e-8                                                                            
 s                                                                               
 1e8                                                                             
-..\upw_support\Kh_Lay_3.txt                                                                              
+..\uzf_support\vks.txt                                                                              
 f                                                                               
 0.000                                                                           
