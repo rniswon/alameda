@@ -6,7 +6,7 @@ HOB           17      ./input/modflow_lower/alameda_ss.hob
 nwt           15      ./input/modflow_lower/alameda.nwt
 upw           16      ./input/modflow_lower/alameda.upw
 uzf           13      ./input/modflow_lower/alameda.uzf
-sfr            8      ./input/modflow_lower/alameda.sfr
+sfr            8      ./input/modflow_lower/alameda_ss.sfr
 gage           9      ./input/modflow_lower/alameda.gag
 lak           10      ./input/modflow_lower/alameda.lak
 #data          11     ./output/modflow/alameda.hed

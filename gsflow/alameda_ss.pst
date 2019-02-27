@@ -661,7 +661,7 @@ _RunModel_ss.bat
 * model input/output
 .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt.tpl             .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt
 .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt.tpl              .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt
-.\input\modflow_lower\alameda.sfr.tpl                                  .\input\modflow_lower\alameda.sfr
+.\input\modflow_lower\alameda_ss.sfr.tpl                               .\input\modflow_lower\alameda_ss.sfr
 .\input\modflow_lower\uzf_support\surfk.txt.tpl                        .\input\modflow_lower\uzf_support\surfk.txt
 .\input\modflow_lower\pest\vks_PP_List.txt.tpl                         .\input\modflow_lower\pest\vks_PP_List.txt
 .\input\modflow_lower\pest\Lay_1_K_PP_List.txt.tpl                     .\input\modflow_lower\pest\Lay_1_K_PP_List.txt
