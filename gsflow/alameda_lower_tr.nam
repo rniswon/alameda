@@ -5,7 +5,7 @@ dis            4      ./input/modflow_lower/alameda_tr.dis
 HOB           17      ./input/modflow_lower/alameda_tr.hob
 nwt           15      ./input/modflow_lower/alameda.nwt
 upw           16      ./input/modflow_lower/alameda_tr.upw
-uzf           13      ./input/modflow_lower/alameda.uzf
+uzf           13      ./input/modflow_lower/alameda_tr.uzf
 sfr            8      ./input/modflow_lower/alameda_tr.sfr
 gage           9      ./input/modflow_lower/alameda.gag
 lak           10      ./input/modflow_lower/alameda.lak
