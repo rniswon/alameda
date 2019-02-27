@@ -1,7 +1,7 @@
 LIST           7      ./output/modflow/alameda.lst
 BAS6           2      ./input/modflow_lower/alameda.bas
 oc             3      ./input/modflow_lower/alameda.oc
-dis            4      ./input/modflow_lower/alameda.dis
+dis            4      ./input/modflow_lower/alameda_tr.dis
 HOB           17      ./input/modflow_lower/alameda_tr.hob
 nwt           15      ./input/modflow_lower/alameda.nwt
 upw           16      ./input/modflow_lower/alameda.upw
