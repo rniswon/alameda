@@ -1,0 +1,52 @@
+# Alameda Creek watershed - LAK package for specifying lake bathymetry information
+# Using external text files with key word option TABLEINPUT
+TABLEINPUT
+12         0                         ;NLAKES,ILKCB                
+-0.8000       100   0.00001  0.1     ;THETA,NSSITER,SSCNCR     
+884.5        101         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (ACDD Reservoir)     !orginal 3/26/2018 
+244.4300934  102         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
+158.7607263  103         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
+228.2312943  104         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
+220.8470735  105         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
+215.3400360  106         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
+194.5229864  107         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3W) 
+141.0664266  108         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3E) 
+135.3614892  109         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F2) 
+220.2180903  110         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond SMP 32) 
+311.6        111         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (San Antonio Reservoir) 
+491.7        112         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Calaveras Reservoir) 
+1         0         0                ;INPUT/OUTPUT OPTIONS        
+OPEN/CLOSE   .\input\modflow_lower\lak_support\lakarr_1.txt          1   (FREE)    3     # Lakebed leakance array For LAYER 1
+OPEN/CLOSE   .\input\modflow_lower\lak_support\lakarr_2.txt          1   (FREE)    3     # Lakebed leakance array For LAYER 2
+OPEN/CLOSE   .\input\modflow_lower\lak_support\lakarr_3.txt          1   (FREE)    3     # Lakebed leakance array For LAYER 3
+OPEN/CLOSE   .\input\modflow_lower\lak_support\lakarr_4.txt          1   (FREE)    3     # Lakebed leakance array For LAYER 4
+OPEN/CLOSE   .\input\modflow_lower\lak_support\lkbdlknc_lay_1.txt    1   (FREE)    0     # Lakebed leakance array For LAYER 1
+OPEN/CLOSE   .\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt    1   (FREE)    0     # Lakebed leakance array For LAYER 2
+OPEN/CLOSE   .\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt    1   (FREE)    0     # Lakebed leakance array For LAYER 3
+OPEN/CLOSE   .\input\modflow_lower\lak_support\lkbdlknc_lay_4.txt    1   (FREE)    0     # Lakebed leakance array For LAYER 4
+        0                                   ;NSLMS: Number of coalescing lake systems
+ 0.00487693    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 1
+ 0.00481901    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 2
+ 0.00477614    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 3
+ 0.00483140    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 4
+ 0.00475231    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 5
+ 0.00477019    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 6
+ 0.00425733    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 7
+ 0.00440738    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 8
+ 0.00426059    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 9
+ 0.00439250    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 10
+ 0.00404036    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 11
+ 0.00476311    0.011139  0.000000  0.0000     ;PPT,ET,Runoff,Withdrawl rates from lake 12
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
