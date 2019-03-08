@@ -18,7 +18,7 @@ Case dimensions:-
 
 Model command line(s):-
 
-   _RunModel_tr.bat
+   _RunModel_tr_gsflow.bat
 
 
 Jacobian command line:-

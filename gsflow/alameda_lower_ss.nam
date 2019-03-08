@@ -8,7 +8,7 @@ upw           16      ./input/modflow_lower/alameda_ss.upw
 uzf           13      ./input/modflow_lower/alameda_ss.uzf
 sfr            8      ./input/modflow_lower/alameda_ss.sfr
 gage           9      ./input/modflow_lower/alameda.gag
-lak           10      ./input/modflow_lower/alameda.lak
+lak           10      ./input/modflow_lower/alameda_ss.lak
 #data          11     ./output/modflow/alameda.hed
 data          12      ./output/modflow/s141_r3_alameda.out
 data          85      ./output/modflow/UZF_tot.out
