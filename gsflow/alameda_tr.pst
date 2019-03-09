@@ -1,7 +1,7 @@
 pcf
 * control data
 restart estimation
-    576     50     10      0       4
+    576   5909     10      0       4
      12     27 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
  15.0  15.0 0.001  0
