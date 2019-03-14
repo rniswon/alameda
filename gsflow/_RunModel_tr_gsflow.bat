@@ -32,6 +32,15 @@ cd    ..\..\..\
 REM  Call model runfile
 gsflow.exe alameda_lower_gsflow.control
 
+REM  Peel-out GWET from .lst file for multiplying by 365
+cd    .\output\modflow\
+call  inschek.exe  alameda.lst.ins alameda.lst
+
+REM  Multiply GWET from .lst file by 365 for comparing to derived observation value
+call  obs2obs.exe  obs2obs_GWET.in obs2obs_GWET.out
+
+call  obs2obs.exe  obs2obs.in obs2obs.out
+cd    ..\..\
 
 
 
