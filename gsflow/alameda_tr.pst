@@ -6438,7 +6438,7 @@ s12_20140929 0 0.001 Q_Obs
 s12_20140930 0 0.001 Q_Obs
 gwet_cmp2obs  4109520000      0    GWET_Obs
 * model command line
-_RunModel_tr_modflow.bat
+_RunModel_tr_gsflow.bat
 * model input/output
 .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt.tpl                .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt
 .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt.tpl                 .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt
