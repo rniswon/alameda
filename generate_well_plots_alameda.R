@@ -4,7 +4,7 @@
 rm(list=ls())
 
 # set working directory
-setwd('C:/gsflow_lowerGSFLOWupperPRMS')
+setwd('C:/git_repos/alameda/pestPrep')
 
 
 ####------------------------- READ IN ------------------------------####
@@ -37,7 +37,7 @@ for(i in (1:length(gwNames))){
   
   # plot
   if(nrow(wel)!=0){
-    png(paste('./R_outputs/plots/gw_',gwNames[i],'.png',sep=''), height=600, width=700, res=130)
+    png(paste('./pre_calibration_plots/gw_',gwNames[i],'.png',sep=''), height=600, width=700, res=130)
     plot(wel$date, wel$sim, col="blue", typ='l', xlab='Date', ylab='Head (ft)', 
          ylim=c(yMin - (0.05*yMin), (yMax+(0.05*yMax))), las=1,
          main = paste0('Groundwater Well: ', gwNames[i]))

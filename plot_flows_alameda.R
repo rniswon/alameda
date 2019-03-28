@@ -16,7 +16,7 @@
 rm(list=ls())
 
 # set working directory
-setwd('C:/gsflow_lowerGSFLOWupperPRMS')
+setwd('C:/git_repos/alameda/pestPrep')
 
 
 ####------------------------- READ IN ------------------------------####
@@ -33,8 +33,7 @@ sfNames <- list('streamflow_IndianCreek',
                 'streamflow_AlamedaCreekBelowWelchCreek',
                 'streamflow_AlamedaCreekNearNiles',
                 'streamflow_AlamedaCreekAboveSanAntonioCreek',
-                'streamflow_AlamedaCreekAboveArroyoDeLaLaguna',
-                'streamflow_CalaverasCreekReachBelowReservoir')
+                'streamflow_AlamedaCreekAboveArroyoDeLaLaguna')
 
 # create list of streamflow gauging station names for plotting
 sfNamesPretty <- list('Indian Creek',
@@ -48,14 +47,13 @@ sfNamesPretty <- list('Indian Creek',
                       'Alameda Creek below Welch Creek',
                       'Alameda Creek near Niles',
                       'Alameda Creek above San Antonio Creek',
-                      'Alameda Creek above Arroyo de la Laguna',
-                      'Calaveras Creek - reach below reservoir')
+                      'Alameda Creek above Arroyo de la Laguna')
 
 
 # read in GSFLOW-simulated streamflow data 
 sfSim <- list()
 for (i in 1:length(sfNames)){
-  sfSim[[i]] <- read.table(paste0('./gsflow/output/modflow/', sfNames[[i]]), 
+  sfSim[[i]] <- read.table(paste0('./gsflow/output/modflow/', sfNames[[i]], '.out'), 
                            skip=2, header=FALSE, na.strings=-999,
                            col.names=c('Time','Stage','Depth','GWHead','MidptFlow','StreamLoss','GWRech','ChngeUZStor','VolUZStor'))
 }
@@ -63,21 +61,21 @@ names(sfSim) <- sfNames
 
 
 # read in observed streamflow data 
-sfObs <- read.table('./gsflow/input/prms/alameda_data_20170906.prms', skip=36, header=FALSE, na.strings= '-999')
+sfObs <- read.table('./gsflow/input/prms_lower/alameda_data_20170906.prms', skip=36, header=FALSE, na.strings= '-999')
 sfObs <- sfObs[,1:18]  # may need to make this 19 after including Arroyo de la Laguna at Verona in output streamflow
 names(sfObs) <- c(list('year', 'month', 'day', 'hour', 'minute', 'second'), sfNames[1:12])   # to exclude Calaveras Creek - reach below reservoir
 sfObs$date <- seq(as.Date('1995-10-01'), as.Date('2014-09-30'), by='day')
 sfObs <- subset(sfObs, subset=sfObs$date >= as.Date('2010-10-01') & sfObs$date <= as.Date('2014-09-30'))
 
-
-# read in PRMS-simulated data for Arroyo Hondo and Upper Alameda
-statvar <- read.table(file = './gsflow/output/prms/statvar.dat', skip = 255, header = FALSE, na.strings= '-999')
-statvarHeadings <- read.table(file = './gsflow/output/prms/statvar.dat', skip = 1, header = FALSE, 
-                              na.strings= '-999', nrows=254)
-statvarHeadingsMod <- c('obsNum', 'year', 'month', 'day', 'hour', 'minute', 'second', as.character(statvarHeadings[,1]))
-names(statvar) <- statvarHeadingsMod
-prmsSim <- statvar[,c(1:7, 10, 13)]
-names(prmsSim)[8:9] <- c("ArroyoHondo", "UpperAlameda")
+# 
+# # read in PRMS-simulated data for Arroyo Hondo and Upper Alameda
+# statvar <- read.table(file = './gsflow/output/prms/statvar.dat', skip = 255, header = FALSE, na.strings= '-999')
+# statvarHeadings <- read.table(file = './gsflow/output/prms/statvar.dat', skip = 1, header = FALSE, 
+#                               na.strings= '-999', nrows=254)
+# statvarHeadingsMod <- c('obsNum', 'year', 'month', 'day', 'hour', 'minute', 'second', as.character(statvarHeadings[,1]))
+# names(statvar) <- statvarHeadingsMod
+# prmsSim <- statvar[,c(1:7, 10, 13)]
+# names(prmsSim)[8:9] <- c("ArroyoHondo", "UpperAlameda")
 
 
 
@@ -108,11 +106,11 @@ for (i in 1:length(sfSim)){
 
 # remove the 1461th point from certain plots
 for (i in 1:length(sfSim)){
-  
+
   if (i %in% c(4,5,7,8,9,13)){
     sfSim[[i]]$MidptFlow[1461] <- NA
   }
-  
+
 }
 
 
@@ -132,7 +130,7 @@ for (i in 1:(length(sfSim)-1)){
     yMax <- max(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], prmsSim$ArroyoHondo, na.rm=TRUE)
     
     # plot
-    png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
+    png(filename = paste0('./pre_calibration_plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
     plot(sfSim[[i]]$date, sfSim[[i]]$MidptFlow / 86400, 
          main = paste0('Streamflow: ', sfNamesPretty[[i]]),
@@ -150,7 +148,7 @@ for (i in 1:(length(sfSim)-1)){
     dev.off()
     
     # plot on log scale
-    png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '_log.png'), width=6.5, height=4.5, units='in', res=140)
+    png(filename = paste0('./pre_calibration_plots/00', i, sfNames[[i]], '_log.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
     plot(sfSim[[i]]$date, (sfSim[[i]]$MidptFlow / 86400) + 0.1, 
          main = paste0('Streamflow: ', sfNamesPretty[[i]]),
@@ -178,7 +176,7 @@ for (i in 1:(length(sfSim)-1)){
     yMax <- max(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)],  sfSim[[13]]$MidptFlow / 86400, na.rm=TRUE)
     
     # plot
-    png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
+    png(filename = paste0('./pre_calibration_plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
     plot(sfSim[[i]]$date, sfSim[[i]]$MidptFlow / 86400, 
          main = paste0('Streamflow: ', sfNamesPretty[[i]]),
@@ -196,7 +194,7 @@ for (i in 1:(length(sfSim)-1)){
     dev.off()
     
     # plot on log scale
-    png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '_log.png'), width=6.5, height=4.5, units='in', res=140)
+    png(filename = paste0('./pre_calibration_plots/00', i, sfNames[[i]], '_log.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
     plot(sfSim[[i]]$date, (sfSim[[i]]$MidptFlow / 86400) + 0.1, 
          main = paste0('Streamflow: ', sfNamesPretty[[i]]),
@@ -224,7 +222,7 @@ for (i in 1:(length(sfSim)-1)){
     yMax <- max(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], prmsSim$UpperAlameda, na.rm=TRUE)
     
     # plot
-    png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
+    png(filename = paste0('./pre_calibration_plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
     plot(sfSim[[i]]$date, sfSim[[i]]$MidptFlow / 86400, 
          main = paste0('Streamflow: ', sfNamesPretty[[i]]),
@@ -242,7 +240,7 @@ for (i in 1:(length(sfSim)-1)){
     dev.off()
     
     # plot on log scale
-    png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '_log.png'), width=6.5, height=4.5, units='in', res=140)
+    png(filename = paste0('./pre_calibration_plots/00', i, sfNames[[i]], '_log.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
     plot(sfSim[[i]]$date, (sfSim[[i]]$MidptFlow / 86400) + 0.1, 
          main = paste0('Streamflow: ', sfNamesPretty[[i]]),
@@ -268,7 +266,7 @@ for (i in 1:(length(sfSim)-1)){
     yMax <- max(sfSim[[i]]$MidptFlow / 86400, sfObs[,(i+6)], na.rm=TRUE)
     
     # plot
-    png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
+    png(filename = paste0('./pre_calibration_plots/00', i, sfNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
     plot(sfSim[[i]]$date, sfSim[[i]]$MidptFlow / 86400, 
          main = paste0('Streamflow: ', sfNamesPretty[[i]]),
@@ -285,7 +283,7 @@ for (i in 1:(length(sfSim)-1)){
     dev.off()
     
     # plot on log scale
-    png(filename = paste0('./R_outputs/plots/00', i, sfNames[[i]], '_log.png'), width=6.5, height=4.5, units='in', res=140)
+    png(filename = paste0('./pre_calibration_plots/00', i, sfNames[[i]], '_log.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
     plot(sfSim[[i]]$date, (sfSim[[i]]$MidptFlow / 86400) + 0.1, 
          main = paste0('Streamflow: ', sfNamesPretty[[i]]),

@@ -1,10 +1,12 @@
 gsflow/bin/
 gsflow/output/prms
 gsflow/output/modflow/alameda.lst
+gsflow/output/gsflow.out
 gsflow/output_archive/
 gsflow/superceded/
 calibration_data/
 calibration_results/
+pre_calibration_plots/
 R_outputs/
 superceded/
 update_parameter_file/

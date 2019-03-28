@@ -1,0 +1,219 @@
+#---- Set up ---------------------------------------------------####
+
+# clean up
+rm(list=ls())
+
+# set working directory
+setwd('C:/git_repos/alameda/pestPrep')
+
+
+# assign simulation start and end dates
+start_date <- '2010-10-01'
+end_date <- '2014-09-30'
+
+
+# create list of streamflow gauging station names
+sf_names <- list('streamflow_AlamedaCreekBelowCalaverasCreek',
+                'streamflow_AlamedaCreekBelowWelchCreek',
+                'streamflow_AlamedaCreekNearNiles',
+                'streamflow_AlamedaCreekAboveSanAntonioCreek',
+                'streamflow_AlamedaCreekAboveArroyoDeLaLaguna')
+
+# create list of streamflow gauging station names for plotting
+sf_names_pretty <- list('Alameda Creek below Calaveras Creek',
+                      'Alameda Creek below Welch Creek',
+                      'Alameda Creek near Niles',
+                      'Alameda Creek above San Antonio Creek',
+                      'Alameda Creek above Arroyo de la Laguna')
+
+# precip names
+precip_names <- list('san_antonio', 
+                     'mount_hamilton',
+                     'alameda_east',
+                     'calaveras',
+                     'sunol')
+
+
+
+
+#---- Read in ---------------------------------------------------####
+
+# read in simulated and observed groundwater
+hobs <- read.table('./gsflow/output/modflow/hobs.out', header=FALSE, 
+                   skip=1, col.names=c('sim','obs','name'))
+
+
+# read in simulated streamflow
+sf_sim <- list()
+for (i in 1:length(sf_names)){
+  sf_sim[[i]] <- read.table(paste0('./gsflow/output/modflow/', sf_names[[i]], '.out'), 
+                           skip=2, header=FALSE, na.strings=-999,
+                           col.names=c('Time','Stage','Depth','GWHead','MidptFlow',
+                                       'StreamLoss','GWRech','ChngeUZStor','VolUZStor'))
+}
+
+
+# read in observed streamflow and precip
+sf_obs <- read.table('./gsflow/input/prms_lower/alameda_data_20170906.prms', 
+                     skip=36, header=FALSE, na.strings= '-999')
+
+
+
+#---- Reformat groundwater ---------------------------------------------------####
+
+hobs$name <- as.character(hobs$name)
+hobs$id   <- sapply(strsplit(hobs[,'name'], "\\_"), `[[`, 1)
+hobs$date <- sapply(strsplit(hobs[,'name'], "\\_"), `[[`, 2)
+hobs$date <- as.Date(hobs$date, "%Y%m%d")
+gw_names <- unique(hobs$id)
+
+
+
+
+#---- Reformat simulated streamflow ---------------------------------------------------####
+
+# assign names
+names(sf_sim) <- sf_names
+
+# assign time stamp to simulated values 
+sf_dates <- seq(as.Date(start_date), as.Date(end_date), by='day')
+
+# Check to make sure their lengths are equivalent before merging:
+for (i in 1:length(sf_sim)){
+  
+  if (length(sf_dates == nrow(sf_sim[[i]]))){
+    
+    sf_sim[[i]]$date <- sf_dates
+  }
+  
+}
+
+
+
+#---- Reformat observed streamflow and precip ---------------------------------------------------####
+
+
+sf_obs <- sf_obs[,c(1:6, 14:18, 20:24)]  
+names(sf_obs) <- c(list('year', 'month', 'day', 'hour', 'minute', 'second'), sf_names, precip_names)   
+sf_obs$date <- seq(as.Date('1995-10-01'), as.Date('2014-09-30'), by='day')
+sf_obs <- subset(sf_obs, subset=sf_obs$date >= as.Date(start_date) & sf_obs$date <= as.Date(end_date))
+
+
+
+
+#---- Plot groundwater with precip---------------------------------------------------####
+
+
+for(i in (1:length(gw_names))){
+  
+  # subset
+  wel <- subset(hobs, hobs$id==gw_names[i])
+  
+  # calculate min and max
+  y_min <- min(wel$sim, wel$obs, na.rm=TRUE)
+  y_max <- max(wel$sim, wel$obs, na.rm=TRUE)
+  
+  # plot
+  if(nrow(wel)!=0){
+    
+    png(paste('./pre_calibration_plots/gw_',gw_names[i],'.png',sep=''), height=600, width=700, res=130)
+    par(mar=c(5,4,4,5) + 0.1)
+    
+    plot(wel$date, wel$sim, col="blue", typ='l', xlab='Date', ylab='Head (ft)', 
+         ylim=c(y_min - (0.05*y_min), (y_max+(0.05*y_max))), las=1,
+         main = paste0('Groundwater Well: ', gw_names[i]))
+    lines(wel$date, wel$obs, col='red')
+    
+    par(new=TRUE)
+    plot(sf_obs$date, sf_obs$san_antonio, type='l', lty=3, col="palegoldenrod", xaxt="n", yaxt="n", xlab="", 
+         ylab="", ylim=rev(range(sf_obs$san_antonio)))
+    axis(4)
+    mtext("Precipitation (inches)", side=4, line=3)
+  
+    grid(nx=NA, ny=NULL)
+    abline(v=pretty(extendrange(wel$date)),
+           col='lightgray', lty='dotted')    
+    legend("topright", c('Sim. flow', 'Obs. flow', 'Precip.'), col=c('blue','red', 'palegoldenrod'), lty=c(1,1,3), bty='n')
+    dev.off()
+    
+  }
+  
+}
+
+
+
+
+
+#---- Plot streamflow with precip ---------------------------------------------------####
+
+
+
+# plot
+for (i in 1:length(sf_sim)){
+  
+  
+  # calculate min and max - regular scale
+  y_min <- min(sf_sim[[i]]$MidptFlow / 86400, sf_obs[,(i+6)], na.rm=TRUE)
+  y_max <- max(sf_sim[[i]]$MidptFlow / 86400, sf_obs[,(i+6)], na.rm=TRUE)
+  
+
+  # plot on regular scale
+  png(filename = paste0('./pre_calibration_plots/00', i, '_', sf_names[[i]], '.png'), 
+      width=6.5, height=4.5, units='in', res=140)
+  par(mar=c(5,6,4,5) + 0.1)
+  
+  plot(sf_sim[[i]]$date, sf_sim[[i]]$MidptFlow / 86400, 
+       main = paste0('Streamflow: ', sf_names_pretty[[i]]),
+       typ='l', xaxs='i', yaxs='i', xlab="Date",
+       ylab=NA, las=1,
+       ylim = c(0, y_max + (0.05*y_max)), col='blue')
+  title(ylab=expression(paste('Streamflow (', ft^3~ s^-1, ')', sep='')), line=4, cex.axis=1.5)
+  lines(sf_obs$date, sf_obs[,(i+6)], typ='l',lty=2, col='red')
+  
+  par(new=TRUE)
+  plot(sf_obs$date, sf_obs$san_antonio, type='l', lty=3, col="palegoldenrod", xaxt="n", yaxt="n", xlab="", 
+       ylab="", ylim=rev(range(sf_obs$san_antonio)))
+  axis(4)
+  mtext("Precipitation (inches)", side=4, line=3)
+  
+  grid(nx=NA, ny=NULL)
+  abline(v=pretty(extendrange(sf_sim[[i]]$date)),
+         col='lightgray', lty='dotted')
+  legend('topright', c('Sim. flow','Obs. flow', 'Precip.'), col=c('blue','red', 'palegoldenrod'), 
+         lty=c(1,2,3), bty='n', bg='white') 
+  dev.off()
+  
+  
+  
+  
+  # plot on log scale
+  png(filename = paste0('./pre_calibration_plots/00', i, '_', sf_names[[i]], '_log.png'), 
+      width=6.5, height=4.5, units='in', res=140)
+  par(mar=c(5,6,4,5) + 0.1)
+  
+  plot(sf_sim[[i]]$date, (sf_sim[[i]]$MidptFlow / 86400) + 0.1,
+       main = paste0('Streamflow: ', sf_names_pretty[[i]]),
+       typ='l', xlab='Date', xaxs='i', yaxs='i',
+       ylab=NA, las=1,
+       log="y", ylim = c(0.1, y_max + (0.05*y_max)), col='blue')
+  title(ylab=expression(paste('log[ Streamflow (', ft^3~ s^-1, ') ]', sep='')), line=4, cex.axis=1.5)
+  lines(sf_obs$date, sf_obs[,(i+6)] + 0.1, typ='l',lty=2, col='red')
+  
+  par(new=TRUE)
+  plot(sf_obs$date, sf_obs$san_antonio, type='l', lty=3, col="palegoldenrod", xaxt="n", yaxt="n", xlab="", 
+       ylab="", ylim=rev(range(sf_obs$san_antonio)))
+  axis(4)
+  mtext("Precipitation (inches)", side=4, line=3)
+  
+  grid(nx=NA, ny=NULL)
+  abline(v=pretty(extendrange(sf_sim[[i]]$date)),
+         col='lightgray', lty='dotted')
+  legend('topright', c('Sim. flow','Obs. flow', 'Precip.'), col=c('blue','red', 'palegoldenrod'),
+         lty=c(1,2,3), bty='n', bg='white')
+  dev.off()
+
+  
+}
+
+
+
