@@ -8,7 +8,7 @@ setwd('C:/git_repos/alameda/pestPrep')
 
 
 # assign simulation start and end dates
-start_date <- '2010-10-01'
+start_date <- '2008-10-01'
 end_date <- '2014-09-30'
 
 
