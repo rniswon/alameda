@@ -1,6 +1,6 @@
 options
 REACHINPUT
-tabfiles 4 2190
+tabfiles 4 2191
 end
 10558 955 0 0 8.64E+04 1.00E-04 0 444 1 7 1 30
 2 12 36 1 1 61 1270 0.0234 1 3.0146980E+00 0.3 0.2 4 0.5
@@ -13427,10 +13427,10 @@ end
 955 1 -9 -7 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02
 5.76707           ! rgn made width narrow because lake 8 has no inflow and outflow is draining too much (was 23.76707)
 5.76707
-384 2 301         # SEGNUM NUMVAL IUNIT (streamflow_AlamedaCreekBelowACDD.txt)
-182 2 302         # SEGNUM NUMVAL IUNIT (streamflow_SanAntonioCreekBelowDam.txt)
-368 2 303         # SEGNUM NUMVAL IUNIT (streamflow_CalaverasCreek.txt)
-140 2 304         # SEGNUM NUMVAL IUNIT (streamflow_ArroyoDeLaLaguna.txt)
+384 2191 301         # SEGNUM NUMVAL IUNIT (streamflow_AlamedaCreekBelowACDD.txt)
+182 2191 302         # SEGNUM NUMVAL IUNIT (streamflow_SanAntonioCreekBelowDam.txt)
+368 2191 303         # SEGNUM NUMVAL IUNIT (streamflow_CalaverasCreek.txt)
+140 2191 304         # SEGNUM NUMVAL IUNIT (streamflow_ArroyoDeLaLaguna.txt)
 -1 0 0
 -1 0 0
 -1 0 0

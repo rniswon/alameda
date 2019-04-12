@@ -133,7 +133,7 @@ for(i in (1:length(gw_names))){
     grid(nx=NA, ny=NULL)
     abline(v=pretty(extendrange(wel$date)),
            col='lightgray', lty='dotted')    
-    legend("topright", c('Sim. flow', 'Obs. flow', 'Precip.'), col=c('blue','red', 'palegoldenrod'), lty=c(1,1,3), bty='n')
+    legend("topright", c('Sim. head', 'Obs. head', 'Precip.'), col=c('blue','red', 'palegoldenrod'), lty=c(1,1,3), bty='n')
     dev.off()
     
   }
