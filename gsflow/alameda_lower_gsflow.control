@@ -178,12 +178,13 @@ ndispGraphs
 6
 ####
 param_file
-4
+5
 4
 ./input/prms_lower/alameda_calibration_parameters_gsflow.param
 ./input/prms_lower/alameda_cascade.param
 ./input/prms_lower/alameda_default_values.param
 ./input/prms_lower/alameda_gis_derived_parameters.param
+./input/prms_lower/ssr2gw_rate_scaled.param
 ####
 precip_module
 1
