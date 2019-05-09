@@ -4,7 +4,7 @@
 rm(list=ls())
 
 # set working directory
-setwd('C:/gsflow_lowerGSFLOWupperPRMS')
+setwd('C:/git_repos/alameda/pestPrep')
 
 
 
@@ -46,7 +46,7 @@ lakeNamesPretty <- list('ACDD Reservoir',
 # read in simulated lake stages
 lakeSim <- list()
 for (i in 1:length(lakeNames)){
-  lakeSim[[i]] <- read.table(paste0('./gsflow/output/modflow/', lakeNames[[i]], '.out'), 
+  lakeSim[[i]] <- read.table(paste0('./gsflow/output/modflow/subbasin_runoff/', lakeNames[[i]], '.out'), 
                            skip=3, header=FALSE, na.strings= '-999', blank.lines.skip = TRUE,
                            col.names=c('Time','Stage','Volume','Vol Change','Precip','Evap','LAK-Runoff',
                                        'UZF-Runoff', 'GW-Inflw', 'GW-Outflw', 'LAK-to-UZF', 'SW-Inflw', 
@@ -58,7 +58,7 @@ names(lakeSim) <- lakeNames
 
 
 # read in observed lake stages
-lakeObs <- read.csv(file = 'lakeStageAllWideCut.csv', header=TRUE, na.strings='-999')
+lakeObs <- read.csv(file = './GIS/lakes/lakeStageAllWideCut_2008.csv', header=TRUE, na.strings='-999')
 lakeObs$date <- as.Date(lakeObs$date)
 lakeObs <- data.frame(date = lakeObs$date, ymd = lakeObs$ymd, ACDD = NA, NoNamePond = NA, pondF6 = lakeObs$F6,
                       readyMixPond = lakeObs$ReadyMix, pondF5 = NA, pondF4 = lakeObs$F4, pondF3W = lakeObs$F3W,
@@ -86,7 +86,7 @@ for (i in 1:length(lakeSim)){
     
     
     # plot
-    png(filename = paste0('./R_outputs/plots/stage_00', i, '_', lakeNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
+    png(filename = paste0('./pre_calibration_plots/stage_00', i, '_', lakeNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
     par(mar=c(5,6,4,2))
     plot(lakeObs$date, lakeSim[[i]]$Stage, 
          main = paste0('Lake ',i, ': ', lakeNamesPretty[[i]]),
