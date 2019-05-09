@@ -1,5 +1,4 @@
 gsflow/bin/
-!gsflow/input/prms_lowerscale_params.exe
 gsflow/output/prms
 gsflow/output/modflow/alameda.lst
 gsflow/output/gsflow.out
