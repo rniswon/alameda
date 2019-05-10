@@ -29,6 +29,11 @@ call  twoarray.exe    < twoarray_pET.in
 call  ReformARRAY.exe < RefArr_In_pET.txt
 cd    ..\..\..\
 
+REM Scale ssr2gw_rate by subbasin
+cd .\input\prms_lower\
+call scale_params.exe
+cd ..\..\
+
 REM  Call model runfile
 gsflow.exe alameda_lower_gsflow.control
 
