@@ -1,0 +1,1842 @@
+pcf
+* control data
+restart estimation
+    588   1166     10      0       4
+     13     26 single  point   1   0   0
+  5.0  -3.0   0.3  0.03    10
+ 15.0  15.0 0.001  0
+  0.1
+   0  0.01     3     3  0.01     3
+    1     1     1
+* singular value decomposition
+         1
+       100     1E-06
+         0
+* parameter groups
+ssr2gw_scale      relative   0.100  0.0   switch  2.0   parabolic
+lkbdlknc          relative   0.100  0.0   switch  2.0   parabolic
+strmBdK           relative   0.050  0.0   switch  2.0   parabolic
+surfK             relative   0.050  0.0   switch  2.0   parabolic
+vks               relative   0.050  0.0   switch  2.0   parabolic
+finf              relative   0.050  0.0   switch  2.0   parabolic
+pET               relative   0.050  0.0   switch  2.0   parabolic
+ppts_L1           relative   0.050  0.0   switch  2.0   parabolic
+ppts_L2           relative   0.050  0.0   switch  2.0   parabolic
+ppts_L3           relative   0.050  0.0   switch  2.0   parabolic
+ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
+* parameter data
+      ssr2gw_scale_01  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_02  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_03  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_04  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_05  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_06  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_07  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_08  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_09  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_10  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_11  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_scale_12  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      bedlknc_h_02     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_03     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_04     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_05     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_06     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_07     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_08     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_09     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_h_10     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_02     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_03     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_04     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_05     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_06     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_07     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_08     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_09     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+      bedlknc_l_10     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
+         strmbdk_1     fixed    factor      0.2856850          0.001         5669.3        strmbdk       1       0       1
+         strmbdk_2     fixed    factor      0.8525452          0.001         5669.3        strmbdk       1       0       1
+         strmbdk_3     fixed    factor      0.1191662          0.001         5669.3        strmbdk       1       0       1
+         strmbdk_4     fixed    factor      0.4267345          0.001         5669.3        strmbdk       1       0       1
+         strmbdk_5     fixed    factor      0.1908048          0.001         5669.3        strmbdk       1       0       1
+         strmbdk_6     fixed    factor      0.4254548          0.001         5669.3        strmbdk       1       0       1
+         strmbdk_7     fixed    factor      0.2500717          0.001         5669.3        strmbdk       1       0       1
+         strmbdk_8       log    factor      0.4661083          0.001         5669.3        strmbdk       1       0       1
+         strmbdk_9       log    factor       2.935240          0.001         5669.3        strmbdk       1       0       1
+        strmbdk_10       log    factor       3.014698              1         566930        strmbdk       1       0       1
+        strmbdk_11       log    factor       17.46298              1         566930        strmbdk       1       0       1
+        strmbdk_12       log    factor       15.00411              1         566930        strmbdk       1       0       1
+        strmbdk_13       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_14       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_15       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_16       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_17       log    factor       1.000001              1         566930        strmbdk       1       0       1
+        strmbdk_18       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_19       log    factor       1.000001              1         566930        strmbdk       1       0       1
+        strmbdk_21       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_22       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_23       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_24       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_25       log    factor       1.157322              1         566930        strmbdk       1       0       1
+        strmbdk_26       log    factor       1.167631              1         566930        strmbdk       1       0       1
+        strmbdk_27       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_28       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_29       log    factor       1.000090              1         566930        strmbdk       1       0       1
+        strmbdk_30       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_31       log    factor       1.001354              1         566930        strmbdk       1       0       1
+        strmbdk_32       log    factor       1.000000              1         566930        strmbdk       1       0       1
+        strmbdk_33       log    factor       1.000010              1         566930        strmbdk       1       0       1
+pp_1_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_2_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_3_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_4_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_5_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_6_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_7_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_8_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_9_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_10_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_11_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_12_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_13_vks log factor 2.72E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_14_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_15_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_16_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_17_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_18_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_19_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_20_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_21_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_22_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_23_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_24_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_25_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_26_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_27_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_28_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_29_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_30_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_31_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_32_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_33_vks fixed factor 1.00E-03 0.001 566930 vks 1 0 1
+pp_34_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_35_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_36_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_37_vks log factor 2.71E-05 1.42E-06 0.1417325 vks 1 0 1
+pp_38_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_39_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_40_vks log factor 2.71E-05 1.42E-05 0.1417325 vks 1 0 1
+pp_41_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_42_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_43_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_44_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_45_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_46_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_47_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_48_vks fixed factor 6.99E-03 0.001 566930 vks 1 0 1
+pp_49_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_50_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_51_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_52_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_53_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_54_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_55_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_56_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_57_vks fixed factor 5.00E-03 0.001 566930 vks 1 0 1
+pp_58_vks fixed factor 5.00E-03 0.001 566930 vks 1 0 1
+pp_59_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_60_vks fixed factor 5.00E-03 0.001 566930 vks 1 0 1
+pp_61_vks fixed factor 5.00E-03 0.001 566930 vks 1 0 1
+pp_62_vks fixed factor 5.00E-03 0.001 566930 vks 1 0 1
+pp_63_vks fixed factor 1.06E-03 0.001 566930 vks 1 0 1
+pp_64_vks fixed factor 8.94E-02 0.001 566930 vks 1 0 1
+pp_65_vks fixed factor 5.00E-02 0.01 283.465 vks 1 0 1
+pp_66_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_67_vks fixed factor 5.09E-03 0.001 566930 vks 1 0 1
+pp_68_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_69_vks log factor 4.00E+01 0.01 283.465 vks 1 0 1
+pp_70_vks log factor 4.00E+01 0.01 283.465 vks 1 0 1
+pp_71_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_72_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_73_vks fixed factor 1.190572 0.001 566930 vks 1 0 1
+pp_74_vks fixed factor 6.84E-03 0.001 566930 vks 1 0 1
+pp_75_vks fixed factor 7.13E-03 0.001 566930 vks 1 0 1
+pp_76_vks fixed factor 6.85E-02 0.001 566930 vks 1 0 1
+pp_77_vks fixed factor 4.85E-04 0.0001 5669.3 vks 1 0 1
+pp_78_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_79_vks fixed factor 3.12E-02 0.001 566930 vks 1 0 1
+pp_80_vks fixed factor 0.1 0.01 283.465 vks 1 0 1
+pp_81_vks fixed factor 0.1 0.01 283.465 vks 1 0 1
+pp_82_vks fixed factor 8.89E-02 0.001 566930 vks 1 0 1
+pp_83_vks fixed factor 5.00E-02 0.01 283.465 vks 1 0 1
+pp_84_vks fixed factor 7.05E-03 0.001 566930 vks 1 0 1
+pp_85_vks fixed factor 5.349497 0.001 566930 vks 1 0 1
+pp_86_vks fixed factor 5.00E-03 0.001 566930 vks 1 0 1
+pp_87_vks fixed factor 5.00E-03 0.001 566930 vks 1 0 1
+pp_88_vks fixed factor 2.50E-02 0.001 566930 vks 1 0 1
+pp_89_vks fixed factor 2.50E-02 0.001 566930 vks 1 0 1
+pp_90_vks fixed factor 2.50E-02 0.001 566930 vks 1 0 1
+pp_91_vks fixed factor 2.50E-02 0.001 566930 vks 1 0 1
+pp_92_vks fixed factor 0.1 0.01 283.465 vks 1 0 1
+pp_93_vks fixed factor 5.00E-03 0.0001 5669.3 vks 1 0 1
+pp_94_vks fixed factor 0.1 0.01 283.465 vks 1 0 1
+pp_95_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_96_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_97_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_98_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_99_vks log factor 4.00E+01 0.001 566930 vks 1 0 1
+pp_100_vks log factor 4.00E+01 0.0001 5669.3 vks 1 0 1
+pp_1_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_2_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_3_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_4_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_5_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_6_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_7_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_8_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_9_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_10_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_11_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_12_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_13_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_14_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_15_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_16_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_17_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_18_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_19_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_20_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_21_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_22_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_23_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_24_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_25_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_26_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_27_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_28_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_29_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_30_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_31_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_32_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_33_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_34_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_35_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_36_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_37_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_38_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_39_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_40_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_41_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_42_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_43_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_44_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_45_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_46_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_47_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_48_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_49_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_50_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_51_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_52_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_53_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_54_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_55_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_56_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_57_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_58_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_59_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_60_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_61_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_62_l_1 fixed factor 200 5 566930 ppts_l1 1 0 1
+pp_63_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_64_l_1 fixed factor 200 5 566930 ppts_l1 1 0 1
+pp_65_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_66_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_67_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_68_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_69_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_70_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_71_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_72_l_1 log factor 200 5 566930 ppts_l1 1 0 1
+pp_73_l_1 fixed factor 200 5 566930 ppts_l1 1 0 1
+pp_74_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_75_l_1 fixed factor 200 5 566930 ppts_l1 1 0 1
+pp_76_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_77_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_78_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_79_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_80_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_81_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_82_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_83_l_1 fixed factor 200 5 566930 ppts_l1 1 0 1
+pp_84_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_85_l_1 fixed factor 200 5 566930 ppts_l1 1 0 1
+pp_86_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_87_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_88_l_1 fixed factor 200 5 566930 ppts_l1 1 0 1
+pp_89_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_90_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_91_l_1 fixed factor 200 5 566930 ppts_l1 1 0 1
+pp_92_l_1 fixed factor 200 5 566930 ppts_l1 1 0 1
+pp_93_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_94_l_1 fixed factor 200 1 283.465 ppts_l1 1 0 1
+pp_95_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_96_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_97_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_98_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_99_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_100_l_1 log factor 200 1 283.465 ppts_l1 1 0 1
+pp_1_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_2_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_3_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_4_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_5_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_6_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_7_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_8_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_9_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_10_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_11_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_12_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_13_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_14_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_15_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_16_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_17_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_18_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_19_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_20_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_21_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_22_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_23_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_24_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_25_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_26_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_27_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_28_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_29_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_30_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_31_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_32_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_33_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_34_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_35_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_36_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_37_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_38_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_39_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_40_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_41_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_42_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_43_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_44_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_45_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_46_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_47_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_48_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_49_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_50_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_51_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_52_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_53_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_54_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_55_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_56_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_57_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_58_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_59_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_60_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_61_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_62_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_63_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_64_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_65_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_66_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_67_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_68_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_69_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_70_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_71_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_72_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_73_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_74_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_75_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_76_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_77_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_78_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_79_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_80_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_81_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_82_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_83_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_84_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_85_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_86_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_87_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_88_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_89_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_90_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_91_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_92_l_2 fixed factor 200 5 5669.3 ppts_l2 1 0 1
+pp_93_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_94_l_2 fixed factor 200 1 283.465 ppts_l2 1 0 1
+pp_95_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_96_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_97_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_98_l_2 log factor 200 1 283.465 ppts_l2 1 0 1
+pp_99_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+pp_100_l_2 log factor 200 5 5669.3 ppts_l2 1 0 1
+          pp_1_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+          pp_2_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+          pp_3_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+          pp_4_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+          pp_5_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+          pp_6_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+          pp_7_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+          pp_8_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+          pp_9_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_10_l_3     fixed    factor  1.0000001E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_11_l_3     fixed    factor  9.9999931E-05       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_12_l_3     fixed    factor  9.9989045E-05       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_13_l_3     fixed    factor  9.9956010E-05       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_14_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_15_l_3     fixed    factor  1.0004206E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_16_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_17_l_3     fixed    factor  1.0000009E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_18_l_3     fixed    factor  1.0000002E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_19_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_20_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_21_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_22_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_23_l_3     fixed    factor  9.9999533E-05       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_24_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_25_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_26_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_27_l_3     fixed    factor  1.4359915E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_28_l_3     fixed    factor  1.0019153E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_29_l_3     fixed    factor  1.0000040E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_30_l_3     fixed    factor  9.9601391E-05       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_31_l_3     fixed    factor  1.0790394E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_32_l_3     fixed    factor  1.0000479E-04       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_33_l_3     fixed    factor  9.8259856E-05       1.42e-08       1.42e-02        ppts_l3       1       0       1
+         pp_34_l_3     fixed    factor  1.4274651E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_35_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_36_l_3     fixed    factor  1.4910407E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_37_l_3     fixed    factor  9.9999994E-05       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_38_l_3     fixed    factor  1.0000675E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_39_l_3     fixed    factor  1.0000001E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_40_l_3     fixed    factor  1.0000000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_41_l_3     fixed    factor      0.1417308    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_42_l_3     fixed    factor      0.1417280    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_43_l_3     fixed    factor  1.4200000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_44_l_3     fixed    factor      0.1417320    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_45_l_3     fixed    factor  1.0000003E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_46_l_3     fixed    factor  1.4086570E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_47_l_3     fixed    factor  9.9999961E-05       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_48_l_3     fixed    factor  1.4200000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_49_l_3     fixed    factor  9.9842507E-05       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_50_l_3     fixed    factor  1.4142253E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_51_l_3     fixed    factor  1.0003484E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_52_l_3     fixed    factor  9.8229182E-05       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_53_l_3     fixed    factor  1.4137096E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_54_l_3     fixed    factor  1.4171685E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_55_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_56_l_3     fixed    factor  1.4173242E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_57_l_3     fixed    factor  1.4200000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_58_l_3     fixed    factor  1.4200000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_59_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_60_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_61_l_3     fixed    factor  1.4200000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_62_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_63_l_3     fixed    factor  1.4200000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_64_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_65_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_66_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_67_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_68_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_69_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_70_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_71_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_72_l_3     fixed    factor  1.4019382E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_73_l_3     fixed    factor  1.3709251E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_74_l_3     fixed    factor  1.4173329E-03    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_75_l_3     fixed    factor  1.3895418E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_76_l_3     fixed    factor  1.4173471E-03    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_77_l_3     fixed    factor  1.8105056E-03    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_78_l_3     fixed    factor  1.4174154E-03    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_79_l_3     fixed    factor  1.4173300E-03    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_80_l_3     fixed    factor  1.4200000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_81_l_3     fixed    factor  1.4173222E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_82_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_83_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_84_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_85_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_86_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_87_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_88_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_89_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_90_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_91_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_92_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_93_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_94_l_3     fixed    factor  1.4200000E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_95_l_3     fixed    factor  1.8419748E-03    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_96_l_3     fixed    factor  1.4173300E-03    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_97_l_3     fixed    factor  9.9978965E-05       1.42e-08       1.42e-04        ppts_l3       1       0       1
+         pp_98_l_3     fixed    factor  1.4173250E-02    0.001417325      0.1417325        ppts_l3       1       0       1
+         pp_99_l_3     fixed    factor  9.9999878E-05       1.42e-08       1.42e-04        ppts_l3       1       0       1
+        pp_100_l_3     fixed    factor  1.0000294E-04       1.42e-08       1.42e-04        ppts_l3       1       0       1
+          pp_1_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+          pp_2_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+          pp_3_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+          pp_4_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+          pp_5_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+          pp_6_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+          pp_7_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+          pp_8_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+          pp_9_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_10_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_11_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_12_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_13_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_14_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_15_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_16_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_17_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_18_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_19_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_20_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_21_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_22_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_23_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_24_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_25_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_26_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_27_l_4     fixed    factor  9.9999378E-06       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_28_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_29_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_30_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_31_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_32_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_33_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_34_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_35_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_36_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_37_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_38_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_39_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_40_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_41_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_42_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_43_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_44_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_45_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_46_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_47_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_48_l_4     fixed    factor  1.0000243E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_49_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_50_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_51_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_52_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_53_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_54_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_55_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_56_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_57_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_58_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_59_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_60_l_4     fixed    factor  9.9999826E-06       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_61_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_62_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_63_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_64_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_65_l_4     fixed    factor  9.9999920E-06       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_66_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_67_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_68_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_69_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_70_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_71_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_72_l_4     fixed    factor  9.9999999E-06       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_73_l_4     fixed    factor  1.0070127E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_74_l_4     fixed    factor  1.0000323E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_75_l_4     fixed    factor  1.0001309E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_76_l_4     fixed    factor  9.9995658E-06       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_77_l_4     fixed    factor  1.1278611E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_78_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_79_l_4     fixed    factor  1.0012781E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_80_l_4     fixed    factor  1.0000898E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_81_l_4     fixed    factor  9.9999563E-06       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_82_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_83_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_84_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_85_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_86_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_87_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_88_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_89_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_90_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_91_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_92_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_93_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_94_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_95_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_96_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_97_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_98_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+         pp_99_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+        pp_100_l_4     fixed    factor  1.0000000E-05       1.42e-08       1.00e-04        ppts_l4       1       0       1
+        finf_zn_01     fixed    factor      0.8070056           0.15           1.75           finf       1       0       1
+        finf_zn_02     fixed    factor      0.4695300           0.15           1.75           finf       1       0       1
+        finf_zn_03     fixed    factor      0.5119016           0.15           1.75           finf       1       0       1
+        finf_zn_04     fixed    factor      0.6067146           0.15           1.75           finf       1       0       1
+        finf_zn_05     fixed    factor      0.1500000           0.15           1.75           finf       1       0       1
+        finf_zn_06     fixed    factor      0.4846876           0.15           1.75           finf       1       0       1
+        finf_zn_07     fixed    factor      0.1500000           0.15           1.75           finf       1       0       1
+        finf_zn_08       log    factor      0.1500000           0.15           1.75           finf       1       0       1
+        finf_zn_09       log    factor      0.1500000           0.15           1.75           finf       1       0       1
+        finf_zn_10       log    factor       1.716783           0.15           1.75           finf       1       0       1
+        finf_zn_11       log    factor       1.750000           0.15           1.75           finf       1       0       1
+        finf_zn_12       log    factor       1.750000           0.15           1.75           finf       1       0       1
+          surfk_lo       log    factor  1.4100698E-02        0.00001         283465          surfk       1       0       1
+          surfk_hi       log    factor  8.9950553E-02         0.0001         283465          surfk       1       0       1
+         pet_zn_01     fixed    factor       1.500000           0.20           1.50            pet       1       0       1
+         pet_zn_02     fixed    factor       1.499990           0.20           1.50            pet       1       0       1
+         pet_zn_03     fixed    factor      0.2010196           0.20           1.50            pet       1       0       1
+         pet_zn_04     fixed    factor       1.500000           0.20           1.50            pet       1       0       1
+         pet_zn_05     fixed    factor       1.346400           0.20           1.50            pet       1       0       1
+         pet_zn_06     fixed    factor      0.2000084           0.20           1.50            pet       1       0       1
+         pet_zn_07     fixed    factor      0.5000005           0.20           1.50            pet       1       0       1
+         pet_zn_08       log    factor      0.2000000           0.20           1.50            pet       1       0       1
+         pet_zn_09       log    factor      0.2000000           0.20           1.50            pet       1       0       1
+         pet_zn_10       log    factor       1.500000           0.20           1.50            pet       1       0       1
+         pet_zn_11       log    factor       1.500000           0.20           1.50            pet       1       0       1
+         pet_zn_12       log    factor       1.482674           0.20           1.50            pet       1       0       1
+* observation groups
+H_Obs
+Lake_Obs
+Q_Obs
+GWET_Obs
+* observation data
+m01_20101107 253.92 1000 H_Obs
+m01_20101115 258.3 1000 H_Obs
+m01_20110203 268.87 1000 H_Obs
+m01_20110315 261.6 1000 H_Obs
+m01_20110401 271.28 1000 H_Obs
+m01_20111013 255.12 1000 H_Obs
+m01_20111014 255.12 1000 H_Obs
+m01_20111015 255.12 1000 H_Obs
+m01_20111016 255.12 1000 H_Obs
+m01_20111209 256.76 1000 H_Obs
+m01_20111220 256.26 1000 H_Obs
+m01_20111221 256.26 1000 H_Obs
+m01_20111222 256.26 1000 H_Obs
+m01_20111223 256.26 1000 H_Obs
+m01_20120203 257.7 1000 H_Obs
+m01_20120401 268.77 1000 H_Obs
+m01_20120924 254.81 1000 H_Obs
+m01_20121027 256.56 1000 H_Obs
+m01_20121229 268.88 1000 H_Obs
+m01_20130713 256.15 1000 H_Obs
+m01_20130818 255.18 1000 H_Obs
+m01_20130927 255.79 1000 H_Obs
+m01_20131105 255.05 1000 H_Obs
+m01_20131118 257.24 1000 H_Obs
+m01_20131210 255.09 1000 H_Obs
+m01_20140302 265.84 1000 H_Obs
+m01_20140331 259.07 1000 H_Obs
+m01_20140409 260.32 1000 H_Obs
+m01_20140410 260.32 1000 H_Obs
+m01_20140930 253.95 1000 H_Obs
+m02_20101029 249.13 1000 H_Obs
+m02_20110315 257.07 1000 H_Obs
+m02_20110401 267.02 1000 H_Obs
+m02_20110901 249.5 1000 H_Obs
+m02_20110926 248.82 1000 H_Obs
+m02_20111015 249.47 1000 H_Obs
+m02_20111104 249.05 1000 H_Obs
+m02_20111209 250.18 1000 H_Obs
+m02_20111227 249.6 1000 H_Obs
+m02_20120129 251.48 1000 H_Obs
+m02_20120221 250.28 1000 H_Obs
+m02_20120401 265.2 1000 H_Obs
+m02_20120711 250.03 1000 H_Obs
+m02_20120806 253.82 1000 H_Obs
+m02_20120911 251.4 1000 H_Obs
+m02_20121026 256.54 1000 H_Obs
+m02_20130109 266 1000 H_Obs
+m02_20130218 258.74 1000 H_Obs
+m02_20130702 256.92 1000 H_Obs
+m02_20130805 258.8 1000 H_Obs
+m02_20130818 256.5 1000 H_Obs
+m02_20130927 258.17 1000 H_Obs
+m02_20131104 256.74 1000 H_Obs
+m02_20140129 249.25 1000 H_Obs
+m02_20140130 249.25 1000 H_Obs
+m02_20140302 263.67 1000 H_Obs
+m02_20140331 254.37 1000 H_Obs
+m02_20140413 254.93 1000 H_Obs
+m02_20140629 248.17 1000 H_Obs
+m02_20140728 250.07 1000 H_Obs
+m03_20110315 244.76 1000 H_Obs
+m03_20110402 259.52 1000 H_Obs
+m03_20120623 241.1 1000 H_Obs
+m03_20120624 241.1 1000 H_Obs
+m03_20120711 241.83 1000 H_Obs
+m03_20120712 241.83 1000 H_Obs
+m03_20120715 241.83 1000 H_Obs
+m03_20121004 239.68 1000 H_Obs
+m03_20121021 239.84 1000 H_Obs
+m03_20121111 239.5 1000 H_Obs
+m03_20121224 253.44 1000 H_Obs
+m03_20130328 243.2 1000 H_Obs
+m03_20130421 243.91 1000 H_Obs
+m03_20130422 243.91 1000 H_Obs
+m03_20130517 243.16 1000 H_Obs
+m03_20130602 244.06 1000 H_Obs
+m03_20130709 243.1 1000 H_Obs
+m03_20130727 244.12 1000 H_Obs
+m03_20130728 244.12 1000 H_Obs
+m03_20130829 242.92 1000 H_Obs
+m03_20131008 244.36 1000 H_Obs
+m03_20140105 243.03 1000 H_Obs
+m03_20140118 243.38 1000 H_Obs
+m03_20140119 243.38 1000 H_Obs
+m03_20140131 243 1000 H_Obs
+m03_20140304 247.3 1000 H_Obs
+m03_20140629 242.86 1000 H_Obs
+m03_20140728 244.35 1000 H_Obs
+m04_20101119 236.56 1000 H_Obs
+m04_20110326 251.86 1000 H_Obs
+m04_20120115 236.39 1000 H_Obs
+m04_20120116 236.39 1000 H_Obs
+m04_20120117 236.39 1000 H_Obs
+m04_20120122 236.66 1000 H_Obs
+m04_20120314 236.32 1000 H_Obs
+m04_20120401 248.28 1000 H_Obs
+m04_20120928 236.4 1000 H_Obs
+m04_20120929 236.4 1000 H_Obs
+m04_20120930 236.4 1000 H_Obs
+m04_20121026 236.41 1000 H_Obs
+m04_20121223 247.86 1000 H_Obs
+m04_20130903 236.72 1000 H_Obs
+m04_20130904 236.72 1000 H_Obs
+m04_20130905 236.72 1000 H_Obs
+m04_20130911 236.72 1000 H_Obs
+m04_20130912 236.72 1000 H_Obs
+m04_20131028 236.96 1000 H_Obs
+m04_20131029 236.96 1000 H_Obs
+m04_20131119 236.81 1000 H_Obs
+m04_20131207 236.88 1000 H_Obs
+m04_20140107 236.7 1000 H_Obs
+m04_20140108 236.7 1000 H_Obs
+m04_20140109 236.7 1000 H_Obs
+m04_20140110 236.7 1000 H_Obs
+m04_20140111 236.7 1000 H_Obs
+m04_20140112 236.7 1000 H_Obs
+m04_20140302 246.99 1000 H_Obs
+m04_20140418 237.34 1000 H_Obs
+m04_20140419 237.34 1000 H_Obs
+m04_20140510 237.65 1000 H_Obs
+m04_20140605 236.63 1000 H_Obs
+m04_20140626 237.37 1000 H_Obs
+m04_20140627 237.37 1000 H_Obs
+m05_20101216 225.37 1000 H_Obs
+m05_20101217 225.37 1000 H_Obs
+m05_20110326 245.81 1000 H_Obs
+m05_20111115 225.28 1000 H_Obs
+m05_20111116 225.28 1000 H_Obs
+m05_20120109 228.34 1000 H_Obs
+m05_20120110 228.34 1000 H_Obs
+m05_20120320 225.15 1000 H_Obs
+m05_20120321 225.15 1000 H_Obs
+m05_20120402 236.77 1000 H_Obs
+m05_20120803 224.17 1000 H_Obs
+m05_20120809 228.08 1000 H_Obs
+m05_20120911 224.28 1000 H_Obs
+m05_20120912 224.28 1000 H_Obs
+m05_20121007 227.14 1000 H_Obs
+m05_20121120 224.89 1000 H_Obs
+m05_20121224 238.17 1000 H_Obs
+m05_20130302 229.17 1000 H_Obs
+m05_20130413 232.85 1000 H_Obs
+m05_20130613 230.99 1000 H_Obs
+m05_20130704 231.4 1000 H_Obs
+m05_20130705 231.4 1000 H_Obs
+m05_20130807 229.32 1000 H_Obs
+m05_20130903 231.65 1000 H_Obs
+m05_20131001 230.16 1000 H_Obs
+m05_20131027 231.8 1000 H_Obs
+m05_20131028 231.8 1000 H_Obs
+m05_20131204 229.55 1000 H_Obs
+m05_20131223 231.07 1000 H_Obs
+m05_20131224 231.07 1000 H_Obs
+m05_20140107 229.87 1000 H_Obs
+m05_20140108 229.87 1000 H_Obs
+m05_20140302 235.62 1000 H_Obs
+m05_20140404 230.48 1000 H_Obs
+m05_20140510 232.98 1000 H_Obs
+m05_20140605 230.89 1000 H_Obs
+m05_20140626 232.88 1000 H_Obs
+m06_20111212 223.91 1000 H_Obs
+m06_20111231 226.29 1000 H_Obs
+m06_20120207 224.15 1000 H_Obs
+m06_20120402 234.3 1000 H_Obs
+m06_20120617 224.28 1000 H_Obs
+m06_20120802 223.77 1000 H_Obs
+m06_20120820 230.78 1000 H_Obs
+m06_20120910 224.28 1000 H_Obs
+m06_20121005 229.94 1000 H_Obs
+m06_20121118 225.37 1000 H_Obs
+m06_20121224 238.71 1000 H_Obs
+m06_20130217 225.01 1000 H_Obs
+m06_20130218 225.01 1000 H_Obs
+m06_20130317 231.84 1000 H_Obs
+m06_20130605 230.92 1000 H_Obs
+m06_20130711 229.53 1000 H_Obs
+m06_20130812 226.1 1000 H_Obs
+m06_20130902 232.93 1000 H_Obs
+m06_20131026 231.97 1000 H_Obs
+m06_20131027 231.97 1000 H_Obs
+m06_20131127 227.84 1000 H_Obs
+m06_20131223 230.35 1000 H_Obs
+m06_20140110 228.11 1000 H_Obs
+m06_20140302 231.52 1000 H_Obs
+m06_20140411 227.6 1000 H_Obs
+m06_20140510 228.37 1000 H_Obs
+m06_20140605 227.38 1000 H_Obs
+m06_20140626 228.01 1000 H_Obs
+m06_20140725 227 1000 H_Obs
+m06_20140930 226.94 1000 H_Obs
+m07_20111213 220.25 1000 H_Obs
+m07_20111231 220.86 1000 H_Obs
+m07_20120101 220.86 1000 H_Obs
+m07_20120129 220.91 1000 H_Obs
+m07_20120227 220.47 1000 H_Obs
+m07_20120415 222.91 1000 H_Obs
+m07_20120805 219.68 1000 H_Obs
+m07_20120826 221.76 1000 H_Obs
+m07_20120827 221.76 1000 H_Obs
+m07_20121003 220.02 1000 H_Obs
+m07_20121121 220.05 1000 H_Obs
+m07_20121122 220.05 1000 H_Obs
+m07_20121123 220.05 1000 H_Obs
+m07_20121124 220.05 1000 H_Obs
+m07_20121224 225.13 1000 H_Obs
+m07_20130308 220.69 1000 H_Obs
+m07_20130413 222.02 1000 H_Obs
+m07_20130414 222.02 1000 H_Obs
+m07_20130523 221.18 1000 H_Obs
+m07_20130606 222.22 1000 H_Obs
+m07_20130717 222.42 1000 H_Obs
+m07_20130827 220.1 1000 H_Obs
+m07_20131027 222.63 1000 H_Obs
+m07_20131028 222.63 1000 H_Obs
+m07_20131219 220.53 1000 H_Obs
+m07_20131220 220.53 1000 H_Obs
+m07_20131225 221.58 1000 H_Obs
+m07_20140123 220.52 1000 H_Obs
+m07_20140303 222 1000 H_Obs
+m07_20140422 220.55 1000 H_Obs
+m07_20140423 220.55 1000 H_Obs
+m07_20140510 221.15 1000 H_Obs
+m07_20140605 220.49 1000 H_Obs
+m07_20140731 220.16 1000 H_Obs
+m07_20140824 220.46 1000 H_Obs
+m07_20140825 220.46 1000 H_Obs
+m07_20140925 220.23 1000 H_Obs
+m08_20101007 222.35 1000 H_Obs
+m08_20101027 222.14 1000 H_Obs
+m08_20101028 222.14 1000 H_Obs
+m08_20101229 223.9 1000 H_Obs
+m08_20110215 222.67 1000 H_Obs
+m08_20110326 227.82 1000 H_Obs
+m08_20110924 222.06 1000 H_Obs
+m08_20111004 222.32 1000 H_Obs
+m08_20111006 222.32 1000 H_Obs
+m08_20111007 222.32 1000 H_Obs
+m08_20111213 220.28 1000 H_Obs
+m08_20120128 221.1 1000 H_Obs
+m08_20120229 220.59 1000 H_Obs
+m08_20120414 223.56 1000 H_Obs
+m08_20120614 220.63 1000 H_Obs
+m08_20120722 219.74 1000 H_Obs
+m08_20121003 219.89 1000 H_Obs
+m08_20121025 220.27 1000 H_Obs
+m08_20121026 220.27 1000 H_Obs
+m08_20121121 219.95 1000 H_Obs
+m08_20121122 219.95 1000 H_Obs
+m08_20121224 225.44 1000 H_Obs
+m08_20130308 220.89 1000 H_Obs
+m08_20130412 222.42 1000 H_Obs
+m08_20130523 221.1 1000 H_Obs
+m08_20130606 222.37 1000 H_Obs
+m08_20130717 222.58 1000 H_Obs
+m08_20130828 219.9 1000 H_Obs
+m08_20131027 222.76 1000 H_Obs
+m08_20131028 222.76 1000 H_Obs
+m08_20131218 220.41 1000 H_Obs
+m08_20131219 220.41 1000 H_Obs
+m08_20131224 221.76 1000 H_Obs
+m08_20140123 220.39 1000 H_Obs
+m08_20140303 222.27 1000 H_Obs
+m08_20140423 220.54 1000 H_Obs
+m08_20140510 221.05 1000 H_Obs
+m08_20140605 220.35 1000 H_Obs
+m08_20140731 219.96 1000 H_Obs
+m08_20140913 219.99 1000 H_Obs
+m09_20101007 221.37 1000 H_Obs
+m09_20101126 221.33 1000 H_Obs
+m09_20101217 220.74 1000 H_Obs
+m09_20101218 220.74 1000 H_Obs
+m09_20101229 222.14 1000 H_Obs
+m09_20110326 226.17 1000 H_Obs
+m09_20110327 226.17 1000 H_Obs
+m09_20110624 220.96 1000 H_Obs
+m09_20110806 221.32 1000 H_Obs
+m09_20110824 220.85 1000 H_Obs
+m09_20110924 220.87 1000 H_Obs
+m09_20110929 220.87 1000 H_Obs
+m09_20111006 221.13 1000 H_Obs
+m09_20111214 219.89 1000 H_Obs
+m09_20111217 219.89 1000 H_Obs
+m09_20111218 219.89 1000 H_Obs
+m09_20120102 220.24 1000 H_Obs
+m09_20120112 219.89 1000 H_Obs
+m09_20120129 220.27 1000 H_Obs
+m09_20120224 220.06 1000 H_Obs
+m09_20120227 220.06 1000 H_Obs
+m09_20120229 220.06 1000 H_Obs
+m09_20120414 222.15 1000 H_Obs
+m09_20120805 219.01 1000 H_Obs
+m09_20120830 220.92 1000 H_Obs
+m09_20120925 219.64 1000 H_Obs
+m09_20121102 220.12 1000 H_Obs
+m09_20121123 219.62 1000 H_Obs
+m09_20121124 219.62 1000 H_Obs
+m09_20121125 219.62 1000 H_Obs
+m09_20121126 219.62 1000 H_Obs
+m09_20121127 219.62 1000 H_Obs
+m09_20121224 224.17 1000 H_Obs
+m09_20130306 220.13 1000 H_Obs
+m09_20130414 221.14 1000 H_Obs
+m09_20130415 221.14 1000 H_Obs
+m09_20130523 220.58 1000 H_Obs
+m09_20130601 220.58 1000 H_Obs
+m09_20130602 220.58 1000 H_Obs
+m09_20130606 221.21 1000 H_Obs
+m09_20130704 220.78 1000 H_Obs
+m09_20130802 221.39 1000 H_Obs
+m09_20130803 221.39 1000 H_Obs
+m09_20130827 219.6 1000 H_Obs
+m09_20131027 221.65 1000 H_Obs
+m09_20131028 221.65 1000 H_Obs
+m09_20131101 221.65 1000 H_Obs
+m09_20131225 220.83 1000 H_Obs
+m09_20140123 219.89 1000 H_Obs
+m09_20140303 221.06 1000 H_Obs
+m09_20140422 219.76 1000 H_Obs
+m09_20140510 220.5 1000 H_Obs
+m09_20140605 219.77 1000 H_Obs
+m09_20140731 219.56 1000 H_Obs
+m09_20140801 219.56 1000 H_Obs
+m09_20140807 219.56 1000 H_Obs
+m09_20140902 219.95 1000 H_Obs
+m10_20120115 211.04 1000 H_Obs
+m10_20120116 211.04 1000 H_Obs
+m10_20120117 211.04 1000 H_Obs
+m10_20120121 215.49 1000 H_Obs
+m10_20120227 211.34 1000 H_Obs
+m10_20120413 217.76 1000 H_Obs
+m10_20120815 210.24 1000 H_Obs
+m10_20120915 211.06 1000 H_Obs
+m10_20121223 219.62 1000 H_Obs
+m10_20130319 211.61 1000 H_Obs
+m10_20130320 211.61 1000 H_Obs
+m10_20130408 212.92 1000 H_Obs
+m10_20130530 211.36 1000 H_Obs
+m10_20130604 211.36 1000 H_Obs
+m10_20130606 213.35 1000 H_Obs
+m10_20130706 211.38 1000 H_Obs
+m10_20130804 216.19 1000 H_Obs
+m10_20130913 211.04 1000 H_Obs
+m10_20131029 216.44 1000 H_Obs
+m10_20131030 216.44 1000 H_Obs
+m10_20131031 216.44 1000 H_Obs
+m10_20140125 211.22 1000 H_Obs
+m10_20140302 215.7 1000 H_Obs
+m10_20140605 210.39 1000 H_Obs
+m10_20140722 211.07 1000 H_Obs
+m10_20140829 210.89 1000 H_Obs
+m10_20140918 210.61 1000 H_Obs
+v3_20101229 313.44 1000 H_Obs
+v3_20110110 310.18 1000 H_Obs
+v3_20110214 310.79 1000 H_Obs
+v3_20110314 310.76 1000 H_Obs
+v3_20110324 316.58 1000 H_Obs
+v3_20110714 311.22 1000 H_Obs
+v3_20110819 310.44 1000 H_Obs
+v3_20110820 310.44 1000 H_Obs
+v3_20110930 309.37 1000 H_Obs
+v3_20111005 310.43 1000 H_Obs
+v3_20111106 310.46 1000 H_Obs
+v3_20120121 311.41 1000 H_Obs
+v3_20120204 310.43 1000 H_Obs
+v3_20120205 310.43 1000 H_Obs
+v3_20120206 310.43 1000 H_Obs
+v3_20120310 310.47 1000 H_Obs
+v3_20120311 310.47 1000 H_Obs
+v3_20120312 310.47 1000 H_Obs
+v3_20120413 313.66 1000 H_Obs
+v3_20120712 310.21 1000 H_Obs
+v3_20120804 310.29 1000 H_Obs
+v3_20120831 309.24 1000 H_Obs
+v3_20120908 310.32 1000 H_Obs
+v3_20121018 310.2 1000 H_Obs
+v3_20121223 316.6 1000 H_Obs
+v3_20130716 309.18 1000 H_Obs
+v3_20130810 309.51 1000 H_Obs
+v3_20130920 306.88 1000 H_Obs
+v3_20131207 310.14 1000 H_Obs
+v3_20140104 309.72 1000 H_Obs
+v3_20140105 309.72 1000 H_Obs
+v3_20140228 311.98 1000 H_Obs
+v3_20140321 309.73 1000 H_Obs
+v3_20140322 309.73 1000 H_Obs
+v3_20140323 309.73 1000 H_Obs
+v3_20140324 309.73 1000 H_Obs
+v3_20140401 312.18 1000 H_Obs
+v3_20140510 309.98 1000 H_Obs
+v3_20140605 309.23 1000 H_Obs
+v3_20140711 309.75 1000 H_Obs
+v3_20140803 307.58 1000 H_Obs
+v3_20140904 307.64 1000 H_Obs
+v3_20140905 307.64 1000 H_Obs
+v3_20140925 309.51 1000 H_Obs
+v3_20140928 309.51 1000 H_Obs
+v3_20140929 309.51 1000 H_Obs
+v3_20140930 309.51 1000 H_Obs
+v4_20101204 304.88 1000 H_Obs
+v4_20101229 306.4 1000 H_Obs
+v4_20110214 305.18 1000 H_Obs
+v4_20110313 305.2 1000 H_Obs
+v4_20110314 305.2 1000 H_Obs
+v4_20110326 309.57 1000 H_Obs
+v4_20110820 304.72 1000 H_Obs
+v4_20111004 299.9 1000 H_Obs
+v4_20111121 304.83 1000 H_Obs
+v4_20111122 304.83 1000 H_Obs
+v4_20111205 303.73 1000 H_Obs
+v4_20111206 303.73 1000 H_Obs
+v4_20120121 305.05 1000 H_Obs
+v4_20120204 304.72 1000 H_Obs
+v4_20120206 304.72 1000 H_Obs
+v4_20120413 306.5 1000 H_Obs
+v4_20120716 302.42 1000 H_Obs
+v4_20120805 304.43 1000 H_Obs
+v4_20120907 299.64 1000 H_Obs
+v4_20120922 304.24 1000 H_Obs
+v4_20121021 300.83 1000 H_Obs
+v4_20121223 308.22 1000 H_Obs
+v4_20130813 300.13 1000 H_Obs
+v4_20130922 298.63 1000 H_Obs
+v4_20131207 305.04 1000 H_Obs
+v4_20140225 304.94 1000 H_Obs
+v4_20140301 305.85 1000 H_Obs
+v4_20140402 305.44 1000 H_Obs
+v4_20140510 305.02 1000 H_Obs
+v4_20140807 298.67 1000 H_Obs
+v4_20140930 302.57 1000 H_Obs
+v6_20101009 291.92 1000 H_Obs
+v6_20101125 291.93 1000 H_Obs
+v6_20101229 301.76 1000 H_Obs
+v6_20110111 300.55 1000 H_Obs
+v6_20110314 299.01 1000 H_Obs
+v6_20110326 303.34 1000 H_Obs
+v6_20111004 292.66 1000 H_Obs
+v6_20111128 294.96 1000 H_Obs
+v6_20111209 294.34 1000 H_Obs
+v6_20120401 301.67 1000 H_Obs
+v6_20120717 293.85 1000 H_Obs
+v6_20120806 294.36 1000 H_Obs
+v6_20120907 292.62 1000 H_Obs
+v6_20120908 292.62 1000 H_Obs
+v6_20120927 294.03 1000 H_Obs
+v6_20120928 294.03 1000 H_Obs
+v6_20121022 293.26 1000 H_Obs
+v6_20121223 302.55 1000 H_Obs
+v6_20130813 292.92 1000 H_Obs
+v6_20130923 291.54 1000 H_Obs
+v6_20131219 295.13 1000 H_Obs
+v6_20140106 294.89 1000 H_Obs
+v6_20140107 294.89 1000 H_Obs
+v6_20140302 300.01 1000 H_Obs
+v6_20140408 298.41 1000 H_Obs
+v6_20140819 291.57 1000 H_Obs
+lk_01_20101001 -999 0 Lake_Obs
+lk_02_20101001 -999 0 Lake_Obs
+lk_03_20110504 177.2391667 0 Lake_Obs
+lk_03_20130508 218.1661458 0 Lake_Obs
+lk_04_20110412 257.9766667 0 Lake_Obs
+lk_04_20110712 256.3389583 0 Lake_Obs
+lk_04_20110727 259.076875 0 Lake_Obs
+lk_04_20110810 256.3008333 0 Lake_Obs
+lk_04_20110906 257.5140625 0 Lake_Obs
+lk_04_20111006 254.7954167 0 Lake_Obs
+lk_04_20111107 256.5104167 0 Lake_Obs
+lk_04_20111219 255.4960417 0 Lake_Obs
+lk_04_20120112 255.104375 0 Lake_Obs
+lk_04_20120120 253.535 0 Lake_Obs
+lk_04_20120217 252.8851042 0 Lake_Obs
+lk_04_20120302 255.3416667 0 Lake_Obs
+lk_04_20120323 252.99375 0 Lake_Obs
+lk_04_20120410 257.7127083 0 Lake_Obs
+lk_04_20120503 254.4370833 0 Lake_Obs
+lk_04_20120515 257.4814583 0 Lake_Obs
+lk_04_20120530 254.8878125 0 Lake_Obs
+lk_04_20120615 256.5366667 0 Lake_Obs
+lk_04_20120703 253.4083333 0 Lake_Obs
+lk_04_20120914 255.4142708 0 Lake_Obs
+lk_04_20121014 254.3145833 0 Lake_Obs
+lk_04_20121104 256.2441667 0 Lake_Obs
+lk_04_20121110 254.6823958 0 Lake_Obs
+lk_04_20121204 256.7442708 0 Lake_Obs
+lk_04_20121215 254.3145833 0 Lake_Obs
+lk_04_20130123 252.8873958 0 Lake_Obs
+lk_04_20130226 256.1229167 0 Lake_Obs
+lk_04_20130325 260.1185417 0 Lake_Obs
+lk_04_20130418 254.7770833 0 Lake_Obs
+lk_04_20130513 258.6225 0 Lake_Obs
+lk_04_20130601 254.598125 0 Lake_Obs
+lk_04_20130707 257.0015625 0 Lake_Obs
+lk_04_20130726 253.5040625 0 Lake_Obs
+lk_04_20130826 256.0951042 0 Lake_Obs
+lk_04_20131104 257.0923958 0 Lake_Obs
+lk_04_20131205 256.4390625 0 Lake_Obs
+lk_04_20131216 257.466875 0 Lake_Obs
+lk_04_20140117 254.3001042 0 Lake_Obs
+lk_04_20140129 256.6115625 0 Lake_Obs
+lk_04_20140228 251.7832292 0 Lake_Obs
+lk_04_20140311 254.1357292 0 Lake_Obs
+lk_04_20140326 252.4251042 0 Lake_Obs
+lk_04_20140407 255.08625 0 Lake_Obs
+lk_04_20140425 251.5172917 0 Lake_Obs
+lk_04_20140512 253.3221875 0 Lake_Obs
+lk_04_20140530 251.70875 0 Lake_Obs
+lk_04_20140610 253.9152083 0 Lake_Obs
+lk_04_20140730 248.3663542 0 Lake_Obs
+lk_04_20140908 251.5395833 0 Lake_Obs
+lk_04_20140919 249.7205208 0 Lake_Obs
+lk_05_20101001 -999 0 Lake_Obs
+lk_06_20110530 249.05375 0 Lake_Obs
+lk_06_20111101 227.7060417 0 Lake_Obs
+lk_06_20120125 232.4203125 0 Lake_Obs
+lk_06_20121128 223.2523958 0 Lake_Obs
+lk_06_20130202 233.7977083 0 Lake_Obs
+lk_06_20130306 232.2115625 0 Lake_Obs
+lk_06_20130421 234.0803125 0 Lake_Obs
+lk_06_20130612 232.8033333 0 Lake_Obs
+lk_06_20130705 233.6353125 0 Lake_Obs
+lk_06_20130807 232.59875 0 Lake_Obs
+lk_06_20130831 233.6602083 0 Lake_Obs
+lk_06_20130911 233.14875 0 Lake_Obs
+lk_06_20131027 234.5973958 0 Lake_Obs
+lk_06_20131122 233.1535417 0 Lake_Obs
+lk_06_20131226 234.323125 0 Lake_Obs
+lk_06_20140105 233.6063542 0 Lake_Obs
+lk_06_20140228 236.0569792 0 Lake_Obs
+lk_06_20140310 237.394375 0 Lake_Obs
+lk_06_20140411 234.9236458 0 Lake_Obs
+lk_06_20140510 236.4111458 0 Lake_Obs
+lk_06_20140609 234.9026042 0 Lake_Obs
+lk_06_20140627 236.1778125 0 Lake_Obs
+lk_07_20110327 233.5002083 0 Lake_Obs
+lk_07_20110603 227.0180208 0 Lake_Obs
+lk_07_20110612 229.0229167 0 Lake_Obs
+lk_07_20110924 205.6608333 0 Lake_Obs
+lk_07_20111027 219.033125 0 Lake_Obs
+lk_07_20120302 217.6108333 0 Lake_Obs
+lk_07_20120330 206.9809375 0 Lake_Obs
+lk_07_20120426 221.1601042 0 Lake_Obs
+lk_07_20120803 204.910625 0 Lake_Obs
+lk_07_20120905 209.8875 0 Lake_Obs
+lk_07_20120917 206.0559375 0 Lake_Obs
+lk_07_20121101 214.505 0 Lake_Obs
+lk_07_20121129 208.2153125 0 Lake_Obs
+lk_07_20130124 224.4052083 0 Lake_Obs
+lk_07_20130225 212.0282292 0 Lake_Obs
+lk_07_20130509 227.5797917 0 Lake_Obs
+lk_07_20130514 226.1865625 0 Lake_Obs
+lk_07_20130707 231.5971875 0 Lake_Obs
+lk_07_20130804 222.9154167 0 Lake_Obs
+lk_07_20130902 227.4757292 0 Lake_Obs
+lk_07_20130927 222.0848958 0 Lake_Obs
+lk_07_20131118 229.4210417 0 Lake_Obs
+lk_07_20140221 233.7066667 0 Lake_Obs
+lk_07_20140328 216.9598958 0 Lake_Obs
+lk_07_20140523 232.6970833 0 Lake_Obs
+lk_07_20140606 230.4528125 0 Lake_Obs
+lk_07_20140626 232.4659375 0 Lake_Obs
+lk_07_20140802 220.358125 0 Lake_Obs
+lk_07_20140906 216.3508333 0 Lake_Obs
+lk_08_20110325 210.7965625 0 Lake_Obs
+lk_08_20110713 210.0876042 0 Lake_Obs
+lk_08_20110808 199.6097917 0 Lake_Obs
+lk_08_20110919 207.734375 0 Lake_Obs
+lk_09_20130305 160.4858333 0 Lake_Obs
+lk_09_20130604 161.0991667 0 Lake_Obs
+lk_09_20130727 158.408125 0 Lake_Obs
+lk_10_20101001 -999 0 Lake_Obs
+lk_11_20101001 464.9 0 Lake_Obs
+lk_11_20101002 464.9 0 Lake_Obs
+lk_11_20101003 464.9 0 Lake_Obs
+lk_11_20101004 464.9 0 Lake_Obs
+lk_11_20101005 464.9 0 Lake_Obs
+lk_11_20101006 464.9 0 Lake_Obs
+lk_11_20101227 460.6 0 Lake_Obs
+lk_11_20101228 460.6 0 Lake_Obs
+lk_11_20110119 461.4 0 Lake_Obs
+lk_11_20110128 461.2 0 Lake_Obs
+lk_11_20110129 461.2 0 Lake_Obs
+lk_11_20110205 461.2 0 Lake_Obs
+lk_11_20110326 469.1 0 Lake_Obs
+lk_11_20110605 459.8 0 Lake_Obs
+lk_11_20110606 459.8 0 Lake_Obs
+lk_11_20110708 467.5 0 Lake_Obs
+lk_11_20110709 467.5 0 Lake_Obs
+lk_11_20110710 467.5 0 Lake_Obs
+lk_11_20110823 464.8 0 Lake_Obs
+lk_11_20110824 464.8 0 Lake_Obs
+lk_11_20110829 464.8 0 Lake_Obs
+lk_11_20110830 464.8 0 Lake_Obs
+lk_11_20110831 464.8 0 Lake_Obs
+lk_11_20110908 465.5 0 Lake_Obs
+lk_11_20110909 465.5 0 Lake_Obs
+lk_11_20110910 465.5 0 Lake_Obs
+lk_11_20110911 465.5 0 Lake_Obs
+lk_11_20110912 465.5 0 Lake_Obs
+lk_11_20110913 465.5 0 Lake_Obs
+lk_11_20110914 465.5 0 Lake_Obs
+lk_11_20111017 465 0 Lake_Obs
+lk_11_20111018 465 0 Lake_Obs
+lk_11_20111019 465 0 Lake_Obs
+lk_11_20111020 465 0 Lake_Obs
+lk_11_20111021 465 0 Lake_Obs
+lk_11_20111102 466.9 0 Lake_Obs
+lk_11_20111103 466.9 0 Lake_Obs
+lk_11_20120117 463.1 0 Lake_Obs
+lk_11_20120313 457.4 0 Lake_Obs
+lk_11_20120428 464.6 0 Lake_Obs
+lk_11_20120604 465.6 0 Lake_Obs
+lk_11_20120831 455.6 0 Lake_Obs
+lk_11_20120901 455.6 0 Lake_Obs
+lk_11_20120902 455.6 0 Lake_Obs
+lk_11_20120903 455.6 0 Lake_Obs
+lk_11_20120904 455.6 0 Lake_Obs
+lk_11_20121006 459.4 0 Lake_Obs
+lk_11_20121129 454.8 0 Lake_Obs
+lk_11_20121130 454.8 0 Lake_Obs
+lk_11_20121201 454.8 0 Lake_Obs
+lk_11_20121202 454.8 0 Lake_Obs
+lk_11_20121205 454.8 0 Lake_Obs
+lk_11_20130126 463.5 0 Lake_Obs
+lk_11_20130127 463.5 0 Lake_Obs
+lk_11_20130128 463.5 0 Lake_Obs
+lk_11_20130129 463.5 0 Lake_Obs
+lk_11_20130130 463.5 0 Lake_Obs
+lk_11_20130131 463.5 0 Lake_Obs
+lk_11_20130201 463.5 0 Lake_Obs
+lk_11_20130424 448.2 0 Lake_Obs
+lk_11_20130514 450.8 0 Lake_Obs
+lk_11_20130531 449.9 0 Lake_Obs
+lk_11_20130601 449.9 0 Lake_Obs
+lk_11_20130602 449.9 0 Lake_Obs
+lk_11_20130907 460.6 0 Lake_Obs
+lk_11_20130908 460.6 0 Lake_Obs
+lk_11_20130909 460.6 0 Lake_Obs
+lk_11_20130910 460.6 0 Lake_Obs
+lk_11_20130911 460.6 0 Lake_Obs
+lk_11_20131220 452.8 0 Lake_Obs
+lk_11_20131221 452.8 0 Lake_Obs
+lk_11_20140104 454.7 0 Lake_Obs
+lk_11_20140124 447.7 0 Lake_Obs
+lk_11_20140306 456.6 0 Lake_Obs
+lk_11_20140307 456.6 0 Lake_Obs
+lk_11_20140308 456.6 0 Lake_Obs
+lk_11_20140309 456.6 0 Lake_Obs
+lk_11_20140310 456.6 0 Lake_Obs
+lk_11_20140318 456.6 0 Lake_Obs
+lk_11_20140319 456.6 0 Lake_Obs
+lk_11_20140325 456.2 0 Lake_Obs
+lk_11_20140326 456.2 0 Lake_Obs
+lk_11_20140424 456 0 Lake_Obs
+lk_11_20140425 456 0 Lake_Obs
+lk_11_20140426 456 0 Lake_Obs
+lk_11_20140427 456 0 Lake_Obs
+lk_11_20140428 456 0 Lake_Obs
+lk_11_20140429 456 0 Lake_Obs
+lk_11_20140624 466.3 0 Lake_Obs
+lk_11_20140625 466.3 0 Lake_Obs
+lk_11_20140626 466.3 0 Lake_Obs
+lk_11_20140627 466.3 0 Lake_Obs
+lk_11_20140628 466.3 0 Lake_Obs
+lk_11_20140629 466.3 0 Lake_Obs
+lk_12_20101103 697.3 0 Lake_Obs
+lk_12_20110108 710.5 0 Lake_Obs
+lk_12_20110109 710.5 0 Lake_Obs
+lk_12_20110215 704.2 0 Lake_Obs
+lk_12_20110327 732.9 0 Lake_Obs
+lk_12_20110808 703.1 0 Lake_Obs
+lk_12_20110930 701.9 0 Lake_Obs
+lk_12_20111001 701.9 0 Lake_Obs
+lk_12_20111013 702.3 0 Lake_Obs
+lk_12_20111105 697.9 0 Lake_Obs
+lk_12_20111124 698.3 0 Lake_Obs
+lk_12_20120120 679.5 0 Lake_Obs
+lk_12_20120308 682 0 Lake_Obs
+lk_12_20120312 682 0 Lake_Obs
+lk_12_20120313 682 0 Lake_Obs
+lk_12_20120327 678.4 0 Lake_Obs
+lk_12_20120415 684.5 0 Lake_Obs
+lk_12_20120511 683.6 0 Lake_Obs
+lk_12_20120512 683.6 0 Lake_Obs
+lk_12_20120513 683.6 0 Lake_Obs
+lk_12_20120514 683.6 0 Lake_Obs
+lk_12_20120515 683.6 0 Lake_Obs
+lk_12_20120517 683.6 0 Lake_Obs
+lk_12_20120518 683.6 0 Lake_Obs
+lk_12_20120519 683.6 0 Lake_Obs
+lk_12_20120520 683.6 0 Lake_Obs
+lk_12_20120521 683.6 0 Lake_Obs
+lk_12_20120522 683.6 0 Lake_Obs
+lk_12_20120523 683.6 0 Lake_Obs
+lk_12_20120524 683.6 0 Lake_Obs
+lk_12_20120526 683.6 0 Lake_Obs
+lk_12_20120527 683.6 0 Lake_Obs
+lk_12_20120528 683.6 0 Lake_Obs
+lk_12_20120529 683.6 0 Lake_Obs
+lk_12_20120530 683.6 0 Lake_Obs
+lk_12_20120531 683.6 0 Lake_Obs
+lk_12_20120601 683.6 0 Lake_Obs
+lk_12_20120602 683.6 0 Lake_Obs
+lk_12_20120603 683.6 0 Lake_Obs
+lk_12_20120604 683.6 0 Lake_Obs
+lk_12_20120605 683.6 0 Lake_Obs
+lk_12_20120606 683.6 0 Lake_Obs
+lk_12_20120607 683.6 0 Lake_Obs
+lk_12_20120608 683.6 0 Lake_Obs
+lk_12_20120609 683.6 0 Lake_Obs
+lk_12_20120614 683.05 0 Lake_Obs
+lk_12_20121028 681.4 0 Lake_Obs
+lk_12_20121109 681.5 0 Lake_Obs
+lk_12_20121110 681.5 0 Lake_Obs
+lk_12_20121118 681.3 0 Lake_Obs
+lk_12_20121119 681.3 0 Lake_Obs
+lk_12_20121120 681.3 0 Lake_Obs
+lk_12_20121121 681.3 0 Lake_Obs
+lk_12_20121124 681.3 0 Lake_Obs
+lk_12_20121125 681.3 0 Lake_Obs
+lk_12_20121126 681.3 0 Lake_Obs
+lk_12_20121127 681.3 0 Lake_Obs
+lk_12_20121128 681.3 0 Lake_Obs
+lk_12_20121129 681.3 0 Lake_Obs
+lk_12_20121227 688.9 0 Lake_Obs
+lk_12_20121228 688.9 0 Lake_Obs
+lk_12_20130213 676 0 Lake_Obs
+lk_12_20130214 676 0 Lake_Obs
+lk_12_20130215 676 0 Lake_Obs
+lk_12_20130216 676 0 Lake_Obs
+lk_12_20130217 676 0 Lake_Obs
+lk_12_20130218 676 0 Lake_Obs
+lk_12_20130219 676 0 Lake_Obs
+lk_12_20130220 676 0 Lake_Obs
+lk_12_20130329 677 0 Lake_Obs
+lk_12_20130330 677 0 Lake_Obs
+lk_12_20130331 677 0 Lake_Obs
+lk_12_20130407 678.5 0 Lake_Obs
+lk_12_20130408 678.5 0 Lake_Obs
+lk_12_20130409 678.5 0 Lake_Obs
+lk_12_20130410 678.5 0 Lake_Obs
+lk_12_20130411 678.5 0 Lake_Obs
+lk_12_20130502 678 0 Lake_Obs
+lk_12_20130503 677.8 0 Lake_Obs
+lk_12_20130524 678.3 0 Lake_Obs
+lk_12_20130624 678.9 0 Lake_Obs
+lk_12_20131114 675.8 0 Lake_Obs
+lk_12_20131115 675.8 0 Lake_Obs
+lk_12_20131116 675.8 0 Lake_Obs
+lk_12_20131117 675.8 0 Lake_Obs
+lk_12_20131118 675.8 0 Lake_Obs
+lk_12_20131119 675.8 0 Lake_Obs
+lk_12_20131120 675.8 0 Lake_Obs
+lk_12_20131124 675.8 0 Lake_Obs
+lk_12_20131125 675.8 0 Lake_Obs
+lk_12_20131126 675.8 0 Lake_Obs
+lk_12_20131208 676 0 Lake_Obs
+lk_12_20131209 676 0 Lake_Obs
+lk_12_20131210 676 0 Lake_Obs
+lk_12_20131211 676 0 Lake_Obs
+lk_12_20131212 676 0 Lake_Obs
+lk_12_20131213 676 0 Lake_Obs
+lk_12_20140203 673.3 0 Lake_Obs
+lk_12_20140417 677.2 0 Lake_Obs
+lk_12_20140418 677.2 0 Lake_Obs
+lk_12_20140419 677.2 0 Lake_Obs
+lk_12_20140420 677.2 0 Lake_Obs
+lk_12_20140428 677.1 0 Lake_Obs
+lk_12_20140429 677.1 0 Lake_Obs
+lk_12_20140430 677.2 0 Lake_Obs
+lk_12_20140501 677.2 0 Lake_Obs
+lk_12_20140502 677.2 0 Lake_Obs
+lk_12_20140503 677.2 0 Lake_Obs
+lk_12_20140504 677.2 0 Lake_Obs
+lk_12_20140505 677.2 0 Lake_Obs
+lk_12_20140506 677.2 0 Lake_Obs
+lk_12_20140507 677.2 0 Lake_Obs
+lk_12_20140508 677.2 0 Lake_Obs
+lk_12_20140509 677.2 0 Lake_Obs
+lk_12_20140510 677.2 0 Lake_Obs
+lk_12_20140511 677.2 0 Lake_Obs
+lk_12_20140512 677.2 0 Lake_Obs
+lk_12_20140513 677.2 0 Lake_Obs
+lk_12_20140514 677.2 0 Lake_Obs
+lk_12_20140515 677.2 0 Lake_Obs
+lk_12_20140516 677.2 0 Lake_Obs
+lk_12_20140517 677.2 0 Lake_Obs
+lk_12_20140518 677.2 0 Lake_Obs
+lk_12_20140519 677.2 0 Lake_Obs
+lk_12_20140520 677.2 0 Lake_Obs
+lk_12_20140521 677.2 0 Lake_Obs
+lk_12_20140522 677.2 0 Lake_Obs
+lk_12_20140523 677.2 0 Lake_Obs
+lk_12_20140524 677.2 0 Lake_Obs
+lk_12_20140525 677.2 0 Lake_Obs
+lk_12_20140526 677.2 0 Lake_Obs
+lk_12_20140527 677.2 0 Lake_Obs
+lk_12_20140528 677.2 0 Lake_Obs
+lk_12_20140529 677.2 0 Lake_Obs
+lk_12_20140530 677.2 0 Lake_Obs
+lk_12_20140531 677.2 0 Lake_Obs
+lk_12_20140601 677.2 0 Lake_Obs
+s1_20101001	-999	0	Q_obs
+s2_20101001	-999	0	Q_obs
+s3_20090217	128621952	0	Q_Obs
+s3_20090222	8724672	0	Q_Obs
+s3_20090223	35929440	0	Q_Obs
+s3_20090301	6531840	0	Q_Obs
+s3_20090303	149794272	0	Q_Obs
+s3_20090321	2751840	0	Q_Obs
+s3_20090322	6092064	0	Q_Obs
+s3_20090703	124416	0	Q_Obs
+s3_20091014	7437312	0	Q_Obs
+s3_20091113	171936	0	Q_Obs
+s3_20091213	5791392	0	Q_Obs
+s3_20091231	469152	0	Q_Obs
+s3_20100120	133579584	0	Q_Obs
+s3_20100202	2587680	0	Q_Obs
+s3_20100209	6855840	0	Q_Obs
+s3_20100222	1556928	0	Q_Obs
+s3_20100226	36535104	0	Q_Obs
+s3_20100301	12911616	0	Q_Obs
+s3_20100303	31237056	0	Q_Obs
+s3_20100311	5996160	0	Q_Obs
+s3_20100313	13037760	0	Q_Obs
+s3_20100403	2304288	0	Q_Obs
+s3_20100405	22620384	0	Q_Obs
+s3_20100410	3624480	0	Q_Obs
+s3_20100412	59718816	0	Q_Obs
+s3_20100419	5204736	0	Q_Obs
+s3_20100421	6705504	0	Q_Obs
+s3_20100820	107136	0	Q_Obs
+s3_20101219	55186272	0	Q_Obs
+s3_20101224	4023648	0	Q_Obs
+s3_20101229	69146784	0	Q_Obs
+s3_20110101	7149600	0	Q_Obs
+s3_20110102	21149856	0	Q_Obs
+s3_20110126	1044576	0	Q_Obs
+s3_20110218	68232672	0	Q_Obs
+s3_20110223	8277120	0	Q_Obs
+s3_20110225	164165184	0	Q_Obs
+s3_20110305	4463424	0	Q_Obs
+s3_20110307	5633280	0	Q_Obs
+s3_20110312	2714688	0	Q_Obs
+s3_20110320	152988480	0	Q_Obs
+s3_20110322	34261920	0	Q_Obs
+s3_20110324	200391840	0	Q_Obs
+s3_20110928	79488	0	Q_Obs
+s3_20120317	16475616	0	Q_Obs
+s3_20120330	2550528	0	Q_Obs
+s3_20120401	11244960	0	Q_Obs
+s3_20120411	1493856	0	Q_Obs
+s3_20120413	58681152	0	Q_Obs
+s3_20120808	18144	0	Q_Obs
+s3_20121202	98070048	0	Q_Obs
+s3_20121212	1085184	0	Q_Obs
+s3_20121223	117178272	0	Q_Obs
+s3_20130730	19872	0	Q_Obs
+s3_20140228	16561152	0	Q_Obs
+s4_20081002	0	0	Q_Obs
+s4_20081208	0	0	Q_Obs
+s4_20090217	13907520	0	Q_Obs
+s4_20090224	1995840	0	Q_Obs
+s4_20090303	18682560	0	Q_Obs
+s4_20090811	0	0	Q_Obs
+s4_20100120	16110720	0	Q_Obs
+s4_20100207	797760	0	Q_Obs
+s4_20100226	5921280	0	Q_Obs
+s4_20100301	2007360	0	Q_Obs
+s4_20100303	6223680	0	Q_Obs
+s4_20100323	645120	0	Q_Obs
+s4_20100412	4855680	0	Q_Obs
+s4_20100815	0	0	Q_Obs
+s4_20101219	10471680	0	Q_Obs
+s4_20101223	1247040	0	Q_Obs
+s4_20101229	11439360	0	Q_Obs
+s4_20110123	204480	0	Q_Obs
+s4_20110218	8000640	0	Q_Obs
+s4_20110223	1630080	0	Q_Obs
+s4_20110225	17591040	0	Q_Obs
+s4_20110308	1048320	0	Q_Obs
+s4_20110320	20445120	0	Q_Obs
+s4_20110322	7378560	0	Q_Obs
+s4_20110324	22046400	0	Q_Obs
+s4_20111005	17280	0	Q_Obs
+s4_20120413	7424640	0	Q_Obs
+s4_20120807	0	0	Q_Obs
+s4_20121202	9334079.997	0	Q_Obs
+s4_20121212	144000	0	Q_Obs
+s4_20121223	16640640	0	Q_Obs
+s4_20131113	0	0	Q_Obs
+s4_20140930	0	0	Q_Obs
+s5_20110326	71197920	0	Q_Obs
+s5_20110408	18833472	0	Q_Obs
+s5_20110413	18885312	0	Q_Obs
+s5_20110509	8577792	0	Q_Obs
+s5_20120229	3456	0	Q_Obs
+s5_20121229	17561664	0	Q_Obs
+s6_20081002	0	0	Q_Obs
+s6_20090217	35677152	0	Q_Obs
+s6_20090222	2561760	0	Q_Obs
+s6_20090223	5841504	0	Q_Obs
+s6_20090301	2392416	0	Q_Obs
+s6_20090303	61768224	0	Q_Obs
+s6_20090812	4320	0	Q_Obs
+s6_20100120	45471456	0	Q_Obs
+s6_20100222	1055808	0	Q_Obs
+s6_20100226	18050688	0	Q_Obs
+s6_20100301	4285440	0	Q_Obs
+s6_20100303	18849888	0	Q_Obs
+s6_20100311	2649888	0	Q_Obs
+s6_20100312	7047648	0	Q_Obs
+s6_20100403	1352160	0	Q_Obs
+s6_20100405	7486560	0	Q_Obs
+s6_20100408	2133216	0	Q_Obs
+s6_20100412	15037056	0	Q_Obs
+s6_20100816	21600	0	Q_Obs
+s6_20101219	34090848	0	Q_Obs
+s6_20101224	2269728	0	Q_Obs
+s6_20101228	23134464	0	Q_Obs
+s6_20110215	441504	0	Q_Obs
+s6_20110218	22483872	0	Q_Obs
+s6_20110223	3777408	0	Q_Obs
+s6_20110225	50671872	0	Q_Obs
+s6_20110309	2107296	0	Q_Obs
+s6_20110320	42144192	0	Q_Obs
+s6_20110322	13708224	0	Q_Obs
+s6_20110324	70757280	0	Q_Obs
+s6_20110923	12096	0	Q_Obs
+s6_20120316	6594912	0	Q_Obs
+s6_20120324	539136	0	Q_Obs
+s6_20120401	5998752	0	Q_Obs
+s6_20120411	649728	0	Q_Obs
+s6_20120413	16958592	0	Q_Obs
+s6_20120808	6912	0	Q_Obs
+s6_20121202	32731776	0	Q_Obs
+s6_20121212	332640	0	Q_Obs
+s6_20121223	58064256	0	Q_Obs
+s6_20130729	0	0	Q_Obs
+s6_20140301	5400000	0	Q_Obs
+s6_20140930	0	0	Q_Obs
+s7_20101219	6502464	0	Q_Obs
+s7_20101223	39744	0	Q_Obs
+s7_20101228	14121216	0	Q_Obs
+s7_20110123	24192	0	Q_Obs
+s7_20110218	7863264	0	Q_Obs
+s7_20110223	26784	0	Q_Obs
+s7_20110225	34013088	0	Q_Obs
+s7_20110307	38016	0	Q_Obs
+s7_20110320	38070432	0	Q_Obs
+s7_20110322	14884128	0	Q_Obs
+s7_20110324	59163264	0	Q_Obs
+s7_20110930	10368	0	Q_Obs
+s7_20120401	5263488	0	Q_Obs
+s7_20120407	628128	0	Q_Obs
+s7_20120413	7647264	0	Q_Obs
+s7_20120807	6912	0	Q_Obs
+s7_20121202	26822880	0	Q_Obs
+s7_20121212	304992	0	Q_Obs
+s7_20121223	62158752	0	Q_Obs
+s7_20130729	0	0	Q_Obs
+s7_20140301	4960224	0	Q_Obs
+s7_20140930	0	0	Q_Obs
+s8_20090217	5069952	0.001	Q_Obs
+s8_20091001	6048	0.001	Q_Obs
+s8_20100120	21983616	0.001	Q_Obs
+s8_20100222	588384	0.001	Q_Obs
+s8_20100226	23486112	0.001	Q_Obs
+s8_20100301	4602528	0.001	Q_Obs
+s8_20100303	29673216	0.001	Q_Obs
+s8_20100309	3004128	0.001	Q_Obs
+s8_20100312	10686816	0.001	Q_Obs
+s8_20100403	1200096	0.001	Q_Obs
+s8_20100405	10056096	0.001	Q_Obs
+s8_20100408	2096064	0.001	Q_Obs
+s8_20100412	20168352	0.001	Q_Obs
+s8_20100418	2786400	0.001	Q_Obs
+s8_20100421	4389120	0.001	Q_Obs
+s8_20100820	36288	0.001	Q_Obs
+s8_20101219	11941344	0.001	Q_Obs
+s8_20101223	208224	0.001	Q_Obs
+s8_20101228	24379488	0.001	Q_Obs
+s8_20110218	8445600	0.001	Q_Obs
+s8_20110223	1300320	0.001	Q_Obs
+s8_20110225	51280992	0.001	Q_Obs
+s8_20110308	247968	0.001	Q_Obs
+s8_20110320	53506656	0.001	Q_Obs
+s8_20110322	20168352	0.001	Q_Obs
+s8_20110326	100971360	0.001	Q_Obs
+s8_20111024	10368	0.001	Q_Obs
+s8_20120401	6618240	0.001	Q_Obs
+s8_20120411	908064	0.001	Q_Obs
+s8_20120413	13072320	0.001	Q_Obs
+s8_20120808	75168	0.001	Q_Obs
+s8_20121202	42601248	0.001	Q_Obs
+s8_20121212	318816	0.001	Q_Obs
+s8_20121223	84195936	0.001	Q_Obs
+s8_20130106	16638048	0.001	Q_Obs
+s8_20130810	17280	0.001	Q_Obs
+s8_20140301	5520960	0.001	Q_Obs
+s9_20081002	5184	0.001	Q_Obs
+s9_20090217	6414336	0.001	Q_Obs
+s9_20090223	601344	0.001	Q_Obs
+s9_20090303	145493280	0.001	Q_Obs
+s9_20090817	38016	0.001	Q_Obs
+s9_20100120	29109024	0.001	Q_Obs
+s9_20100222	1288224	0.001	Q_Obs
+s9_20100226	23718528	0.001	Q_Obs
+s9_20100301	5756832	0.001	Q_Obs
+s9_20100303	28999296	0.001	Q_Obs
+s9_20100311	3319488	0.001	Q_Obs
+s9_20100312	8525952	0.001	Q_Obs
+s9_20100403	1258848	0.001	Q_Obs
+s9_20100405	9952416	0.001	Q_Obs
+s9_20100409	1899072	0.001	Q_Obs
+s9_20100412	17491680	0.001	Q_Obs
+s9_20100816	70848	0.001	Q_Obs
+s9_20101219	14882400	0.001	Q_Obs
+s9_20101223	301536	0.001	Q_Obs
+s9_20101228	24006240	0.001	Q_Obs
+s9_20110218	10429344	0.001	Q_Obs
+s9_20110223	1422144	0.001	Q_Obs
+s9_20110225	63592128	0.001	Q_Obs
+s9_20110315	1479168	0.001	Q_Obs
+s9_20110320	52280640	0.001	Q_Obs
+s9_20110322	16654464	0.001	Q_Obs
+s9_20110326	124315776	0.001	Q_Obs
+s9_20110515	6063552	0.001	Q_Obs
+s9_20111031	45792	0.001	Q_Obs
+s9_20120401	7592832	0.001	Q_Obs
+s9_20120411	949536	0.001	Q_Obs
+s9_20120413	16263936	0.001	Q_Obs
+s9_20120808	65664	0.001	Q_Obs
+s9_20121202	71743104	0.001	Q_Obs
+s9_20121212	603072	0.001	Q_Obs
+s9_20121223	114486048	0.001	Q_Obs
+s9_20121225	17607456	0.001	Q_Obs
+s9_20130810	50112	0.001	Q_Obs
+s9_20140301	5832000	0.001	Q_Obs
+s9_20140616	47520	0.001	Q_Obs
+s10_20081101	29287008	0.001	Q_Obs
+s10_20081225	28099008	0.001	Q_Obs
+s10_20090108	2166048	0.001	Q_Obs
+s10_20090122	31244832	0.001	Q_Obs
+s10_20090202	4892832	0.001	Q_Obs
+s10_20090217	70784064	0.001	Q_Obs
+s10_20090301	12324960	0.001	Q_Obs
+s10_20090303	192463776	0.001	Q_Obs
+s10_20091012	1251936	0.001	Q_Obs
+s10_20091013	193662144	0.001	Q_Obs
+s10_20091213	32442336	0.001	Q_Obs
+s10_20100117	2098656	0.001	Q_Obs
+s10_20100120	188978400	0.001	Q_Obs
+s10_20100222	8765280	0.001	Q_Obs
+s10_20100226	60295104	0.001	Q_Obs
+s10_20100301	43148160	0.001	Q_Obs
+s10_20100303	134963712	0.001	Q_Obs
+s10_20100312	30810240	0.001	Q_Obs
+s10_20100323	4975776	0.001	Q_Obs
+s10_20100404	30695328	0.001	Q_Obs
+s10_20100410	5019840	0.001	Q_Obs
+s10_20100412	47189952	0.001	Q_Obs
+s10_20100719	1442880	0.001	Q_Obs
+s10_20101024	26086752	0.001	Q_Obs
+s10_20101106	1400544	0.001	Q_Obs
+s10_20101120	32491584	0.001	Q_Obs
+s10_20101204	2000160	0.001	Q_Obs
+s10_20101219	123071616	0.001	Q_Obs
+s10_20101223	6028992	0.001	Q_Obs
+s10_20101229	74525184	0.001	Q_Obs
+s10_20110122	2996352	0.001	Q_Obs
+s10_20110219	59981472	0.001	Q_Obs
+s10_20110222	8132832	0.001	Q_Obs
+s10_20110225	143036064	0.001	Q_Obs
+s10_20110308	5499360	0.001	Q_Obs
+s10_20110320	189819072	0.001	Q_Obs
+s10_20110322	108152928	0.001	Q_Obs
+s10_20110324	529947360	0.001	Q_Obs
+s10_20110901	2417472	0.001	Q_Obs
+s10_20120120	45556992	0.001	Q_Obs
+s10_20120218	2958336	0.001	Q_Obs
+s10_20120316	41235264	0.001	Q_Obs
+s10_20120319	3414528	0.001	Q_Obs
+s10_20120325	29992032	0.001	Q_Obs
+s10_20120404	4726944	0.001	Q_Obs
+s10_20120413	91382688	0.001	Q_Obs
+s10_20120806	1192320	0.001	Q_Obs
+s10_20121202	212644224	0.001	Q_Obs
+s10_20121213	2574720	0.001	Q_Obs
+s10_20121223	230618016	0.001	Q_Obs
+s10_20130609	2053728	0.001	Q_Obs
+s10_20131120	30740256	0.001	Q_Obs
+s10_20131230	947808	0.001	Q_Obs
+s10_20140209	43003008	0.001	Q_Obs
+s10_20140218	1139616	0.001	Q_Obs
+s10_20140228	45569088	0.001	Q_Obs
+s10_20140615	1313280	0.001	Q_Obs
+s11_20100303	27233280	0.001	Q_Obs
+s11_20100311	1785024	0.001	Q_Obs
+s11_20100313	5953824	0.001	Q_Obs
+s11_20100324	54432	0.001	Q_Obs
+s11_20100405	8048160	0.001	Q_Obs
+s11_20100408	1125792	0.001	Q_Obs
+s11_20100412	16010784	0.001	Q_Obs
+s11_20100816	0	0.001	Q_Obs
+s11_20101219	11448864	0.001	Q_Obs
+s11_20101223	0	0.001	Q_Obs
+s11_20101227	0	0.001	Q_Obs
+s11_20101229	16503264	0.001	Q_Obs
+s11_20110123	708480	0.001	Q_Obs
+s11_20110218	6861024	0.001	Q_Obs
+s11_20110222	519264	0.001	Q_Obs
+s11_20110225	66833856	0.001	Q_Obs
+s11_20110308	11232	0.001	Q_Obs
+s11_20110320	64792224	0.001	Q_Obs
+s11_20110322	16007328	0.001	Q_Obs
+s11_20110326	149001984	0.001	Q_Obs
+s11_20110429	12418272	0.001	Q_Obs
+s11_20110501	12629952	0.001	Q_Obs
+s11_20111023	0	0.001	Q_Obs
+s11_20120401	6528384	0.001	Q_Obs
+s11_20120407	0	0.001	Q_Obs
+s11_20120413	16886016	0.001	Q_Obs
+s11_20120808	0	0.001	Q_Obs
+s11_20121201	0	0.001	Q_Obs
+s11_20121202	65670912	0.001	Q_Obs
+s11_20121212	0	0.001	Q_Obs
+s11_20121223	132166080	0.001	Q_Obs
+s11_20121225	18226080	0.001	Q_Obs
+s11_20130106	16761600	0.001	Q_Obs
+s11_20130113	15507072	0.001	Q_Obs
+s11_20131124	0	0.001	Q_Obs
+s11_20140930	0	0.001	Q_Obs
+s12_20100303	43943040	0.001	Q_Obs
+s12_20100308	2279232	0.001	Q_Obs
+s12_20100312	7255008	0.001	Q_Obs
+s12_20100324	957312	0.001	Q_Obs
+s12_20100405	9282816	0.001	Q_Obs
+s12_20100408	1931904	0.001	Q_Obs
+s12_20100412	20290176	0.001	Q_Obs
+s12_20100816	262656	0.001	Q_Obs
+s12_20101219	12417408	0.001	Q_Obs
+s12_20101223	368928	0.001	Q_Obs
+s12_20101229	22667904	0.001	Q_Obs
+s12_20110123	967680	0.001	Q_Obs
+s12_20110218	8639136	0.001	Q_Obs
+s12_20110222	1105920	0.001	Q_Obs
+s12_20110225	68295744	0.001	Q_Obs
+s12_20110308	910656	0.001	Q_Obs
+s12_20110320	72229536	0.001	Q_Obs
+s12_20110322	22248864	0.001	Q_Obs
+s12_20110326	158740992	0.001	Q_Obs
+s12_20110501	17008704	0.001	Q_Obs
+s12_20110515	5776704	0.001	Q_Obs
+s12_20111023	17280	0.001	Q_Obs
+s12_20120401	6632064	0.001	Q_Obs
+s12_20120407	11232	0.001	Q_Obs
+s12_20120413	18991584	0.001	Q_Obs
+s12_20120808	0	0.001	Q_Obs
+s12_20121201	0	0.001	Q_Obs
+s12_20121202	58280256	0.001	Q_Obs
+s12_20121223	125784576	0.001	Q_Obs
+s12_20121225	19575648	0.001	Q_Obs
+s12_20130104	17994528	0.001	Q_Obs
+s12_20130106	18588096	0.001	Q_Obs
+s12_20131124	0	0.001	Q_Obs
+s12_20140930	0	0.001	Q_Obs
+gwet_cmp2obs  4109520000      0    GWET_Obs
+* model command line
+_RunModel_tr_gsflow.bat
+* model input/output
+.\input\prms_lower\scale_ssr2gw_rate.dat.tpl                              .\input\prms_lower\scale_ssr2gw_rate.dat
+.\input\modflow_lower\uzf_support\finf_scale_by_zn.txt.tpl                .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt
+.\input\modflow_lower\uzf_support\pET_scale_by_zn.txt.tpl                 .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt
+.\input\modflow_lower\alameda_tr.sfr.tpl                                  .\input\modflow_lower\alameda_tr.sfr
+.\input\modflow_lower\uzf_support\surfk.txt.tpl                           .\input\modflow_lower\uzf_support\surfk.txt
+.\input\modflow_lower\pest\vks_PP_List.txt.tpl                            .\input\modflow_lower\pest\vks_PP_List.txt
+.\input\modflow_lower\pest\Lay_1_K_PP_List.txt.tpl                        .\input\modflow_lower\pest\Lay_1_K_PP_List.txt
+.\input\modflow_lower\pest\Lay_2_K_PP_List.txt.tpl                        .\input\modflow_lower\pest\Lay_2_K_PP_List.txt
+.\input\modflow_lower\pest\Lay_3_K_PP_List.txt.tpl                        .\input\modflow_lower\pest\Lay_3_K_PP_List.txt
+.\input\modflow_lower\pest\Lay_4_K_PP_List.txt.tpl                        .\input\modflow_lower\pest\Lay_4_K_PP_List.txt
+.\input\modflow_lower\lak_support\lkbdlknc_lay_1.txt.tpl                  .\input\modflow_lower\lak_support\lkbdlknc_lay_1.txt
+.\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt.tpl                  .\input\modflow_lower\lak_support\lkbdlknc_lay_2.txt
+.\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt.tpl                  .\input\modflow_lower\lak_support\lkbdlknc_lay_3.txt
+.\output\modflow\hobs_tr.out.ins                                          .\output\modflow\hobs.out
+.\output\modflow\obs2obs_gwet.out.ins                                  .\output\modflow\obs2obs_gwet.out
+.\output\modflow\subbasin_runoff\ACDD_Reservoir_tr.out.ins         .\output\modflow\subbasin_runoff\ACDD_Reservoir.out
+.\output\modflow\subbasin_runoff\No_Name_Pond_tr.out.ins                  .\output\modflow\subbasin_runoff\No_Name_Pond.out
+.\output\modflow\subbasin_runoff\Pond_F6_tr.out.ins                       .\output\modflow\subbasin_runoff\Pond_F6.out
+.\output\modflow\subbasin_runoff\Ready_Mix_Pond_tr.out.ins                .\output\modflow\subbasin_runoff\Ready_Mix_Pond.out
+.\output\modflow\subbasin_runoff\Pond_F5_tr.out.ins                       .\output\modflow\subbasin_runoff\Pond_F5.out
+.\output\modflow\subbasin_runoff\Pond_F4_tr.out.ins                       .\output\modflow\subbasin_runoff\Pond_F4.out
+.\output\modflow\subbasin_runoff\Pond_F3W_tr.out.ins                      .\output\modflow\subbasin_runoff\Pond_F3W.out
+.\output\modflow\subbasin_runoff\Pond_F3E_tr.out.ins                      .\output\modflow\subbasin_runoff\Pond_F3E.out
+.\output\modflow\subbasin_runoff\Pond_F2_tr.out.ins                       .\output\modflow\subbasin_runoff\Pond_F2.out
+.\output\modflow\subbasin_runoff\Pond_SMP_32_tr.out.ins                   .\output\modflow\subbasin_runoff\Pond_SMP_32.out
+.\output\modflow\subbasin_runoff\San_Antonio_Reservoir_tr.out.ins         .\output\modflow\subbasin_runoff\San_Antonio_Reservoir.out
+.\output\modflow\subbasin_runoff\Calaveras_Reservoir_tr.out.ins           .\output\modflow\subbasin_runoff\Calaveras_Reservoir.out
+.\output\modflow\streamflow_AlamedaCreekAboveACDD_tr.out.ins              .\output\modflow\streamflow_AlamedaCreekAboveACDD.out
+.\output\modflow\streamflow_AlamedaCreekAboveArroyoDeLaLaguna_tr.out.ins  .\output\modflow\streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
+.\output\modflow\streamflow_AlamedaCreekAboveSanAntonioCreek_tr.out.ins   .\output\modflow\streamflow_AlamedaCreekAboveSanAntonioCreek.out
+.\output\modflow\streamflow_AlamedaCreekBelowACDD_tr.out.ins              .\output\modflow\streamflow_AlamedaCreekBelowACDD.out
+.\output\modflow\streamflow_AlamedaCreekBelowCalaverasCreek_tr.out.ins    .\output\modflow\streamflow_AlamedaCreekBelowCalaverasCreek.out
+.\output\modflow\streamflow_AlamedaCreekBelowWelchCreek_tr.out.ins        .\output\modflow\streamflow_AlamedaCreekBelowWelchCreek.out
+.\output\modflow\streamflow_AlamedaCreekNearNiles_tr.out.ins              .\output\modflow\streamflow_AlamedaCreekNearNiles.out
+.\output\modflow\streamflow_ArroyoHondo_tr.out.ins                        .\output\modflow\streamflow_ArroyoHondo.out
+.\output\modflow\streamflow_CalaverasCreek_tr.out.ins                     .\output\modflow\streamflow_CalaverasCreek.out
+.\output\modflow\streamflow_IndianCreek_tr.out.ins                        .\output\modflow\streamflow_IndianCreek.out
+.\output\modflow\streamflow_SanAntonioCreek_tr.out.ins                    .\output\modflow\streamflow_SanAntonioCreek.out
+.\output\modflow\streamflow_SanAntonioCreekAtIndianCreekRd_tr.out.ins     .\output\modflow\streamflow_SanAntonioCreekAtIndianCreekRd.out
+++# The following is associated with PEST++ input and
+++# is parsed using key words that can be specified in any order
+++ MAX_N_SUPER(1) SUPER_EIGTHRES(1.0e-7)
+++ N_ITER_BASE(1) N_ITER_SUPER(0)
+++ SVD_PACK(redsvd)
+++ MAX_SUPER_FRZ_ITER(5) MAX_REG_ITER(5)
+++ MAT_INV(JTQJ)
+++ SUPER_RELPARMAX(20)
+++ MAX_RUN_FAIL(3)
+++ LAMBDAS(0.01,0.1,1,10)
+++ ITERATION_SUMMARY(TRUE)
+++ DER_FORGIVE(TRUE)
+++ UPGRADE_BOUNDS(CHEAP)

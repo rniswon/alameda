@@ -81,8 +81,8 @@ for (i in 1:length(lakeSim)){
     
     
     # calculate min and max
-    yMin <- min(lakeSim[[i]]$Stage, lakeObs[,i+2], na.rm=TRUE)
-    yMax <- max(lakeSim[[i]]$Stage, lakeObs[,i+2], na.rm=TRUE)
+    yMin <- min(lakeSim[[i]]$Stage, lakeObs[,(i+2)], na.rm=TRUE)
+    yMax <- max(lakeSim[[i]]$Stage, lakeObs[,(i+2)], na.rm=TRUE)
     
     
     # plot
@@ -92,7 +92,7 @@ for (i in 1:length(lakeSim)){
          main = paste0('Lake ',i, ': ', lakeNamesPretty[[i]]),
          typ='l', xaxs='i', yaxs='i', xlab="Date",
          ylab=NA, las=1,
-         ylim = c(yMin, yMax + (0.05*yMax)), col='blue')
+         ylim = c((yMin-(0.05*yMin)), (yMax + (0.05*yMax))), col='blue')
     title(ylab='Lake stage (ft)', line=4, cex.axis=1.5)
     lines(lakeObs$date, lakeObs[,(i+2)], typ='l',lty=2, col='red')
     grid(nx=NA, ny=NULL)
