@@ -1,8 +1,8 @@
 pcf
 * control data
 restart estimation
-    588   1166     10      0       4
-     13     26 single  point   1   0   0
+    576   1166     10      0       4
+     12     26 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
  15.0  15.0 0.001  0
   0.1
@@ -13,7 +13,6 @@ restart estimation
        100     1E-06
          0
 * parameter groups
-ssr2gw_scale      relative   0.100  0.0   switch  2.0   parabolic
 lkbdlknc          relative   0.100  0.0   switch  2.0   parabolic
 strmBdK           relative   0.050  0.0   switch  2.0   parabolic
 surfK             relative   0.050  0.0   switch  2.0   parabolic
@@ -25,18 +24,6 @@ ppts_L2           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L3           relative   0.050  0.0   switch  2.0   parabolic
 ppts_L4           relative   0.050  0.0   switch  2.0   parabolic
 * parameter data
-      ssr2gw_scale_01  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_02  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_03  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_04  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_05  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_06  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_07  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_08  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_09  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_10  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_11  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_12  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
       bedlknc_h_02     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
       bedlknc_h_03     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
       bedlknc_h_04     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
@@ -1788,7 +1775,6 @@ gwet_cmp2obs  4109520000      0    GWET_Obs
 * model command line
 _RunModel_tr_gsflow.bat
 * model input/output
-.\input\prms_lower\scale_ssr2gw_rate.dat.tpl                              .\input\prms_lower\scale_ssr2gw_rate.dat
 .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt.tpl                .\input\modflow_lower\uzf_support\finf_scale_by_zn.txt
 .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt.tpl                 .\input\modflow_lower\uzf_support\pET_scale_by_zn.txt
 .\input\modflow_lower\alameda_tr.sfr.tpl                                  .\input\modflow_lower\alameda_tr.sfr
