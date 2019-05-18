@@ -25,18 +25,18 @@ ppts_l2           relative   0.050  0.0   switch  2.0   parabolic
 ppts_l3           relative   0.050  0.0   switch  2.0   parabolic
 ppts_l4           relative   0.050  0.0   switch  2.0   parabolic
 * parameter data
-      ssr2gw_scale_01  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_02  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_03  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_04  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_05  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_06  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_07  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_08  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_09  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_10  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_11  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
-      ssr2gw_scale_12  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_01  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_02  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_03  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_04  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_05  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_06  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_07  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_08  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_09  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_10  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_11  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
+      ssr2gw_12  fixed    factor        10           0.1               1000         ssr2gw_scale   1       0       1 
       bedlknc_h_02     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
       bedlknc_h_03     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
       bedlknc_h_04     fixed    factor        1000         0.0000001         1000.0       lkbdlknc       1       0       1    
