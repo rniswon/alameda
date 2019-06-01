@@ -46,3 +46,15 @@ GIS/hru_params_all_HRU_ID.shp
 GIS/hru_params_all_HRU_ID.shp.xml
 GIS/hru_params_all_HRU_ID.shx
 GIS/geology/
+GIS/alam_df.csv
+GIS/alam_df_sp.dbf
+GIS/alam_df_sp.prj
+GIS/alam_df_sp.shp
+GIS/alam_df_sp.shx
+GIS/streams/streams_20190522.dbf
+GIS/streams/streams_20190522.prj
+GIS/streams/streams_20190522.sbn
+GIS/streams/streams_20190522.sbx
+GIS/streams/streams_20190522.shp
+GIS/streams/streams_20190522.shx
+

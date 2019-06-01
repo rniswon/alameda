@@ -2,17 +2,17 @@
 # Using external text files with key word option TABLEINPUT
 TABLEINPUT
 12         0                         ;NLAKES,ILKCB                
--0.8000       100   0.00001  0.1     ;THETA,NSSITER,SSCNCR     
+-0.8000      100   0.00001  0.1     ;THETA,NSSITER,SSCNCR     
 884.5        101         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (ACDD Reservoir)     !orginal 3/26/2018 
-244.4300934  102         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
-158.7607263  103         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
-228.2312943  104         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
-220.8470735  105         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
-215.3400360  106         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
-194.5229864  107         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3W) 
-141.0664266  108         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3E) 
-135.3614892  109         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F2) 
-220.2180903  110         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond SMP 32) 
+251          102         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
+245          103         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
+248          104         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
+240          105         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
+240          106         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
+245          107         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3W) 
+245          108         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3E) 
+245          109         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F2) 
+227          110         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond SMP 32) 
 311.6        111         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (San Antonio Reservoir) 
 491.7        112         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Calaveras Reservoir) 
 1         0         0                ;INPUT/OUTPUT OPTIONS        

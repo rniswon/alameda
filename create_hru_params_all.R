@@ -35,14 +35,14 @@ rm(list=ls())
 
 
 # load libraries
-library(tidyverse)
 library(plyr)
+library(tidyverse)
 #library(dplyr)
-library(ggplot2)
+#library(ggplot2)
 library(reshape2)
 library(stringr)
-library(plotly)
-library(shiny)
+#library(plotly)
+#library(shiny)
 library(rgdal)
 library(sp)
 
