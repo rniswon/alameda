@@ -4,15 +4,15 @@ TABLEINPUT
 12         0                         ;NLAKES,ILKCB                
 -0.8000      100   0.00001  0.1     ;THETA,NSSITER,SSCNCR     
 884.5        101         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (ACDD Reservoir)     !orginal 3/26/2018 
-226          102         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
-150          103         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
-220          104         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
-230          105         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
-225          106         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
-150          107         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3W) 
-130          108         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3E) 
-58          109         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F2) 
-166          110         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond SMP 32) 
+177          102         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (No Name Pond) 
+101.6          103         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F6) 
+188          104         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Ready Mix Pond) 
+220.5          105         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F5) 
+212.3          106         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F4) 
+101          107         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3W) 
+81.5          108         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F3E) 
+8.9          109         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond F2) 
+117.2          110         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Pond SMP 32) 
 311.6        111         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (San Antonio Reservoir) 
 491.7        112         ;STAGES,SSMN,SSMX,IUNITLAKTAB   (Calaveras Reservoir) 
 1         0         0                ;INPUT/OUTPUT OPTIONS        
