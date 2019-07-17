@@ -10,6 +10,8 @@ sfr            8      ./input/modflow_lower/alameda_tr.sfr
 gage           9      ./input/modflow_lower/alameda.gag
 lak           10      ./input/modflow_lower/alameda_tr.lak
 #data          11     ./output/modflow/alameda.hed
+IWRT          93   ./output/modflow/restartdata1.out        
+#IRED            94   .\input\modflow\restartdata1.in
 data          12      ./output/modflow/s141_r3_alameda.out
 data          85      ./output/modflow/UZF_tot.out
 data         101      ./input/modflow_lower/lake_bathymetry/ANALYZED_acdd_raster_multiSurfaceVolume.txt
