@@ -165,7 +165,7 @@ gsflow_output_file
 init_vars_from_file
 1
 1
-0
+1
 ####
 modflow_name
 1
@@ -199,7 +199,7 @@ alameda.parprt
 save_vars_to_file
 1
 1
-1
+0
 ####
 solrad_module
 1
@@ -770,7 +770,7 @@ stats_output_file
 var_init_file
 1
 4
-vars
+./input/prms_lower/prms_ic.in
 ####
 rpt_days
 1
