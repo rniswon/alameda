@@ -64,7 +64,7 @@ ppts_l4           relative   0.050  0.0   switch  2.0   parabolic
          strmbdk_7     fixed    factor      0.2500717          0.001         5669.3        strmbdk       1       0       1
          strmbdk_8       log    factor      0.4661083          0.001         5669.3        strmbdk       1       0       1
          strmbdk_9       log    factor       2.935240          0.001         5669.3        strmbdk       1       0       1
-        strmbdk_10       log    factor       3.014698              1         566930        strmbdk       1       0       1
+        strmbdk_10       log    factor       6.0146980E+00         1         566930        strmbdk       1       0       1
         strmbdk_11       log    factor       17.46298              1         566930        strmbdk       1       0       1
         strmbdk_12       log    factor       15.00411              1         566930        strmbdk       1       0       1
         strmbdk_13       log    factor       1.000000              1         566930        strmbdk       1       0       1
