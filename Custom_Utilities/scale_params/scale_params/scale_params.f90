@@ -116,7 +116,7 @@
             READ(IN,'(A)') LINE
             WRITE(out2,'(A)') TRIM(adjustl(line))
         end do
-        do i = 1, 6 !write header lines
+        do i = 1, 5 !write header lines
             READ(IN,'(A)') LINE
             WRITE(out2,'(A)') TRIM(adjustl(line))
         end do
