@@ -41,8 +41,8 @@ library(tidyr)
 
 
 # Set working directory
-setwd("F:/SunolValleyProject/GSFLOW/Applications/SunolValley/Input_preparation/PEST_prep/prep_transient_pest_files")
-
+#setwd("F:/SunolValleyProject/GSFLOW/Applications/SunolValley/Input_preparation/PEST_prep/prep_transient_pest_files")
+setwd("C:/git_repos/alameda/pestPrep/data_prep/prep_transient_pest_files")
 
 
 
@@ -51,7 +51,7 @@ setwd("F:/SunolValleyProject/GSFLOW/Applications/SunolValley/Input_preparation/P
 
 
 # read in streamflow data
-prms_data <- read.csv("./observational_data/alameda_data_20170906.csv", header=TRUE, na.strings = "-999")
+prms_data <- read.csv("./observational_data/alameda_data_20191021.csv", header=TRUE, na.strings = "-999")
 
 
 
@@ -317,8 +317,8 @@ bottoms_df <- runs_all[bottoms, ]
 tops_df <- runs_all[tops, ]
 
 # call the minima and maxima as such
-bottoms_df <- rename(bottoms_df, minima = value)
-tops_df <- rename(tops_df, maxima = value)
+bottoms_df <- dplyr::rename(bottoms_df, minima = value)
+tops_df <- dplyr::rename(tops_df, maxima = value)
 
 
 # join with sf_long by site and date
