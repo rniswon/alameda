@@ -51,7 +51,7 @@ setwd("C:/git_repos/alameda/pestPrep/data_prep/prep_transient_pest_files")
 
 
 # read in streamflow data
-prms_data <- read.csv("./observational_data/alameda_data_20191021.csv", header=TRUE, na.strings = "-999")
+prms_data <- read.csv("./observational_data/alameda_data_20191115.csv", header=TRUE, na.strings = "-999")
 
 
 
@@ -63,7 +63,7 @@ prms_data <- read.csv("./observational_data/alameda_data_20191021.csv", header=T
 
 
 # drop all non-streamflow or date columns
-sf_wide <- prms_data[, c(1:19)]
+sf_wide <- prms_data[, c(1:20)]
 sf_wide <- sf_wide %>% 
   select(., -hour, -minute, -second)
 
@@ -191,7 +191,7 @@ sf_long <- na.omit(sf_long)
 sf_long$value_cut <- sf_long$value
 
 # create vector of flow cutoff values 
-flow_cutoff <- c(50, 50, 50, 50, 50, 50, 50, 50, 300, 50, 50, 200)
+flow_cutoff <- c(50, 50, 50, 50, 50, 50, 50, 50, 300, 50, 50, 200, 5)
 
 sites <- unique(sf_long$variable)
 num_sites <- length(sites)
@@ -398,7 +398,7 @@ sf_min_max <- sf_min_max %>%
   dplyr::mutate(., date_char = gsub("-", "", as.character(date))) 
 
 # create a site ID column
-site_id <- paste0("s", c(1,3:13))   # because San Antonio Creek at Indican Creek Rd got dropped above
+site_id <- paste0("s", c(1,3:14))   # because San Antonio Creek at Indican Creek Rd got dropped above
 sf_min_max$site_id <- "NA"
 for (i in 1:length(sites)){
   

@@ -9,8 +9,8 @@ uzf           13      ./input/modflow_lower/alameda_tr.uzf
 sfr            8      ./input/modflow_lower/alameda_tr.sfr
 gage           9      ./input/modflow_lower/alameda.gag
 lak           10      ./input/modflow_lower/alameda_tr.lak
-#data          11     ./output/modflow/alameda.hed
-#IWRT          93   ./output/modflow/restartdata1.out        
+data          11     ./output/modflow/alameda.hed
+IWRT          93   ./output/modflow/restartdata1.out        
 IRED         94   ./input/modflow_lower/restartdata1.in
 data          12      ./output/modflow/s141_r3_alameda.out
 data          85      ./output/modflow/UZF_tot.out
@@ -39,6 +39,7 @@ data         210      ./output/modflow/streamflow_AlamedaCreekNearNiles.out
 data         211      ./output/modflow/streamflow_AlamedaCreekAboveSanAntonioCreek.out
 data         212      ./output/modflow/streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
 data         225      ./output/modflow/streamflow_CalaverasCreekReachBelowReservoir.out
+data 				 226			./output/modflow/streamflow_AlamedaCreekAtSAPSbridge.out
 data         213      ./output/modflow/subbasin_runoff/Ready_Mix_Pond.out
 data         214      ./output/modflow/subbasin_runoff/Pond_F5.out
 data         215      ./output/modflow/subbasin_runoff/Pond_F4.out
@@ -64,6 +65,9 @@ data         307      ./input/modflow_lower/discharge_f3w.txt
 data         308      ./input/modflow_lower/discharge_f4.txt
 data         309      ./input/modflow_lower/discharge_f6.txt
 data         310      ./input/modflow_lower/discharge_smp32.txt
+data         311      ./input/modflow_lower/discharge_no_name_pond.txt
+data         312      ./input/modflow_lower/discharge_ready_mix_pond.txt
+data         313      ./input/modflow_lower/discharge_f5.txt
 data         401      ./output/modflow/hobs.out
 
 

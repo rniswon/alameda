@@ -32,29 +32,38 @@
 # install packages
 #install.packages("tidyverse")
 
+
 # load packages
 library(tidyverse)
+library(lubridate)
+
 
 # set working directory
 setwd("C:/git_repos/alameda/pestPrep")
+
 
 # assign simulation start and end dates
 start_date <- '2008-10-01'
 end_date <- '2014-09-30'
 
+
 # create list of streamflow gauging station names
 sf_names <- list('streamflow_AlamedaCreekBelowCalaverasCreek',
                  'streamflow_AlamedaCreekBelowWelchCreek',
+                 'streamflow_AlamedaCreekAtSAPSbridge',
                  'streamflow_AlamedaCreekAboveSanAntonioCreek',
                  'streamflow_AlamedaCreekAboveArroyoDeLaLaguna',
                  'streamflow_AlamedaCreekNearNiles')
 
+
 # create list of streamflow gauging station names for plotting
 sf_names_pretty <- list('Alameda Creek below Calaveras Creek',
                         'Alameda Creek below Welch Creek',
+                        'Alameda Creek at SAPS bridge',
                         'Alameda Creek above San Antonio Creek',
                         'Alameda Creek above Arroyo de la Laguna',
                         'Alameda Creek near Niles')
+
 
 # precip names
 precip_names <- list('san_antonio', 
@@ -64,9 +73,8 @@ precip_names <- list('san_antonio',
                      'sunol')
 
 
-# create list of streamflow gauging station names
-lakeNames <- list('ACDD_Reservoir',
-                  'No_Name_Pond',
+# create list of lake names
+lakeNames <- list('No_Name_Pond',
                   'Pond_F6',
                   'Ready_Mix_Pond',
                   'Pond_F5',
@@ -74,14 +82,11 @@ lakeNames <- list('ACDD_Reservoir',
                   'Pond_F3W',
                   'Pond_F3E',
                   'Pond_F2',
-                  'Pond_SMP_32',
-                  'San_Antonio_Reservoir',
-                  'Calaveras_Reservoir')
+                  'Pond_SMP_32')
 
 
-# create list of streamflow gauging station names for plotting
-lakeNamesPretty <- list('ACDD Reservoir',
-                        'No Name Pond',
+# create list of lake names for plotting
+lakeNamesPretty <- list('No Name Pond',
                         'Pond F6',
                         'Ready Mix Pond',
                         'Pond F5',
@@ -89,9 +94,9 @@ lakeNamesPretty <- list('ACDD Reservoir',
                         'Pond F3W',
                         'Pond F3E',
                         'Pond F2',
-                        'Pond SMP 32',
-                        'San Antonio Reservoir',
-                        'Calaveras Reservoir')
+                        'Pond SMP 32')
+
+
 
 
 
@@ -114,7 +119,7 @@ for (i in 1:length(sf_names)){
 
 
 # read in observed streamflow and precip
-sf_obs <- read.table('./gsflow/input/prms_lower/alameda_data_20170906.prms', 
+sf_obs <- read.table('./gsflow/input/prms_lower/alameda_data_20191115.prms', 
                      skip=36, header=FALSE, na.strings= '-999')
 
 
@@ -128,7 +133,6 @@ for (i in 1:length(lakeNames)){
                                          'SW-Outflw', 'Withdrawal', 'Lake-Inflx', 'Total-Cond', 'Percent_Err'))
 }
 names(lakeSim) <- lakeNames
-lakeSim <- lakeSim[2:10]
 
 
 
@@ -139,6 +143,8 @@ lakeObs$date <- as.Date(lakeObs$date)
 lakeObs <- data.frame(date = lakeObs$date, ymd = lakeObs$ymd, NoNamePond = NA, pondF6 = lakeObs$F6,
                       readyMixPond = lakeObs$ReadyMix, pondF5 = NA, pondF4 = lakeObs$F4, pondF3W = lakeObs$F3W,
                       pondF3E = lakeObs$F3E, pondF2 = lakeObs$F2, pondSMP32 = NA)
+
+
 
 
 
@@ -183,7 +189,7 @@ for (i in 1:length(sf_sim)){
 #---- Reformat observed streamflow and precip ---------------------------------------------------####
 
 
-sf_obs <- sf_obs[,c(1:6, 14,15,17,18,16, 20:24)]  
+sf_obs <- sf_obs[,c(1:6, 14,15,20,17,18,16, 21:25)]  
 names(sf_obs) <- c(list('year', 'month', 'day', 'hour', 'minute', 'second'), sf_names, precip_names)   
 sf_obs$date <- seq(as.Date('1995-10-01'), as.Date('2014-09-30'), by='day')
 sf_obs <- subset(sf_obs, subset=sf_obs$date >= as.Date(start_date) & sf_obs$date <= as.Date(end_date))
@@ -245,7 +251,7 @@ sf_obs_sim <- sf_obs_sim %>%
 
 
 
-#---- Plot monthly mean groundwater heads for each year------------------------------------------------------------------####
+#---- Plot monthly mean groundwater heads for each year-------------------------------------####
 
 # create month and year columns
 hobs_my <- hobs %>%
@@ -326,7 +332,7 @@ sf_annual_sum <- sf_obs_sim %>%
 for (i in 1:length(sf_names)){
   
   # open plotting device
-  file_name <- paste0("./analyze_gsflow_outputs/plots/sf_annual_sum_", gw_names[i], ".jpg")
+  file_name <- paste0("./analyze_gsflow_outputs/plots/sf_annual_sum_", sf_names[i], ".jpg")
   jpeg(filename=file_name, width = 8, height = 8, 
        units = "in", quality = 75, res = 300) 
   
@@ -351,6 +357,8 @@ for (i in 1:length(sf_names)){
 
 
   
+
+
 
 
 #---- Plot monthly mean streamflow for each year ---------------------------------------------------####
@@ -498,7 +506,50 @@ dev.off()
 
 
 
-#---- Plot daily groundwater with precip---------------------------------------------------####
+# #---- Plot daily groundwater with precip---------------------------------------------------####
+# 
+# 
+# for(i in (1:length(gw_names))){
+#   
+#   # subset
+#   wel <- subset(hobs, hobs$id==gw_names[i])
+#   
+#   # calculate min and max
+#   y_min <- min(wel$sim, wel$obs, na.rm=TRUE)
+#   y_max <- max(wel$sim, wel$obs, na.rm=TRUE)
+#   
+#   # plot
+#   if(nrow(wel)!=0){
+#     
+#     png(paste('./analyze_gsflow_outputs/plots/gw_daily_',gw_names[i],'.png',sep=''), height=600, width=700, res=130)
+#     par(mar=c(5,4,4,5) + 0.1)
+#     
+#     plot(wel$date, wel$sim, col="blue", typ='l', xlab='Date', ylab='Head (ft)', 
+#          ylim=c(y_min - (0.05*y_min), (y_max+(0.05*y_max))), las=1,
+#          main = paste0('Groundwater Well: ', gw_names[i]))
+#     lines(wel$date, wel$obs, col='red')
+#     
+#     par(new=TRUE)
+#     plot(sf_obs$date, sf_obs$san_antonio, type='l', lty=3, col="palegoldenrod", xaxt="n", yaxt="n", xlab="", 
+#          ylab="", ylim=rev(range(sf_obs$san_antonio)))
+#     axis(4)
+#     mtext("Precipitation (inches)", side=4, line=3)
+#     
+#     grid(nx=NA, ny=NULL)
+#     abline(v=pretty(extendrange(wel$date)),
+#            col='lightgray', lty='dotted')    
+#     legend("topright", c('Sim. head', 'Obs. head', 'Precip.'), col=c('blue','red', 'palegoldenrod'), lty=c(1,1,3), bty='n')
+#     dev.off()
+#     
+#   }
+#   
+# }
+# 
+
+
+
+
+#---- Plot daily groundwater with Welch Creek streamflow ---------------------------------------------------####
 
 
 for(i in (1:length(gw_names))){
@@ -513,7 +564,7 @@ for(i in (1:length(gw_names))){
   # plot
   if(nrow(wel)!=0){
     
-    png(paste('./analyze_gsflow_outputs/plots/gw_',gw_names[i],'.png',sep=''), height=600, width=700, res=130)
+    png(paste('./analyze_gsflow_outputs/plots/gw_daily_',gw_names[i],'.png',sep=''), height=600, width=700, res=130)
     par(mar=c(5,4,4,5) + 0.1)
     
     plot(wel$date, wel$sim, col="blue", typ='l', xlab='Date', ylab='Head (ft)', 
@@ -522,20 +573,49 @@ for(i in (1:length(gw_names))){
     lines(wel$date, wel$obs, col='red')
     
     par(new=TRUE)
-    plot(sf_obs$date, sf_obs$san_antonio, type='l', lty=3, col="palegoldenrod", xaxt="n", yaxt="n", xlab="", 
-         ylab="", ylim=rev(range(sf_obs$san_antonio)))
+    plot(sf_obs$date, sf_obs$streamflow_AlamedaCreekBelowWelchCreek, type='l', lty=3, col="palegoldenrod", xaxt="n", yaxt="n", xlab="", 
+         ylab="", ylim=rev(range(sf_obs$streamflow_AlamedaCreekBelowWelchCreek, na.rm=TRUE)))
     axis(4)
-    mtext("Precipitation (inches)", side=4, line=3)
+    mtext("Streamflow (cfs)", side=4, line=3)
     
     grid(nx=NA, ny=NULL)
     abline(v=pretty(extendrange(wel$date)),
            col='lightgray', lty='dotted')    
-    legend("topright", c('Sim. head', 'Obs. head', 'Precip.'), col=c('blue','red', 'palegoldenrod'), lty=c(1,1,3), bty='n')
+    legend("topright", c('Sim. head', 'Obs. head', 'Streamflow'), col=c('blue','red', 'palegoldenrod'), lty=c(1,1,3), bty='n')
     dev.off()
     
   }
   
 }
+
+
+
+
+
+#---- Plot observed San Antonio precip with observed Welch Creek flow ---------------------------------------------------####
+
+
+png('./analyze_gsflow_outputs/plots/observed_san_antonio_precip_welch_creek_flow.png', height=600, width=700, res=130)
+par(mar=c(5,4,4,5) + 0.1)
+
+plot(sf_obs$date, sf_obs$streamflow_AlamedaCreekBelowWelchCreek, col="blue", typ='l', xlab='Date', ylab='Streamflow (cfs)', las=1,
+     main = 'Observed San Antonio precip. and Welch Creek flow')
+lines(sf_obs$date, sf_obs$streamflow_AlamedaCreekBelowWelchCreek, col='blue', lwd=2)
+
+par(new=TRUE)
+plot(sf_obs$date, sf_obs$san_antonio, type='l', lty=3, col="palegoldenrod", xaxt="n", yaxt="n", xlab="", 
+     ylab="", ylim=rev(range(sf_obs$san_antonio, na.rm=TRUE)))
+axis(4)
+mtext("Precipitation (in)", side=4, line=3)
+
+grid(nx=NA, ny=NULL)
+abline(v=pretty(extendrange(wel$date)),
+       col='lightgray', lty='dotted')    
+legend("topright", c('Streamflow',  'Precipitation'), col=c('blue', 'palegoldenrod'), 
+       lty=c(1,3), bty='n', lwd=c(2,1))
+dev.off()
+
+
 
 
 
@@ -615,6 +695,11 @@ for (i in 1:length(sf_sim)){
 
 
 
+
+
+
+
+
 #----- Plot daily simulated vs. observed lake stages ---------------------------------------------####
 
 
@@ -629,10 +714,10 @@ for (i in 1:length(lakeSim)){
   
   
   # plot
-  png(filename = paste0('./analyze_gsflow_outputs/plots/stage_00', i, '_', lakeNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
+  png(filename = paste0('./analyze_gsflow_outputs/plots/lake_00', i+1, '_', lakeNames[[i]], '.png'), width=6.5, height=4.5, units='in', res=140)
   par(mar=c(5,6,4,2))
   plot(lakeObs$date, lakeSim[[i]]$Stage, 
-       main = paste0('Lake ',i, ': ', lakeNamesPretty[[i]]),
+       main = paste0('Lake ',i+1, ': ', lakeNamesPretty[[i]]),
        typ='l', xaxs='i', yaxs='i', xlab="Date",
        ylab=NA, las=1,
        ylim = c((yMin-(0.05*yMin)), (yMax + (0.05*yMax))), col='blue')

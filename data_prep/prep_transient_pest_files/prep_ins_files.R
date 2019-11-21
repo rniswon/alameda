@@ -201,12 +201,13 @@ write.table(gw_ins, file="./modflow_files/ins_files/gw_transient.txt", row.names
 
 
 # loop through streamflow 
-sf_id <- paste0("s", 1:12)
+sf_id <- paste0("s", c(1:12,14))
 sf_names <- paste0("streamflow_", c("IndianCreek_tr", "SanAntonioCreekAtIndianCreekRd_tr", "ArroyoHondo_tr", 
                                     "SanAntonioCreek_tr", "CalaverasCreek_tr", "AlamedaCreekAboveACDD_tr", 
                                     "AlamedaCreekBelowACDD_tr", "AlamedaCreekBelowCalaverasCreek_tr",
                                     "AlamedaCreekBelowWelchCreek_tr", "AlamedaCreekNearNiles_tr", 
-                                    "AlamedaCreekAboveSanAntonioCreek_tr", "AlamedaCreekAboveArroyoDeLaLaguna_tr"), 
+                                    "AlamedaCreekAboveSanAntonioCreek_tr", "AlamedaCreekAboveArroyoDeLaLaguna_tr",
+                                    "AlamedaCreekAtSAPSbridge_tr"), 
                    ".out.ins")
 sf_second_row <- "@Midpt-Flow@"
 sf_line_loc <- "69:84"
