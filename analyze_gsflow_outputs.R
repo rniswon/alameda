@@ -6,10 +6,14 @@
 # 3) monthly mean streamflow for each year
 # 4) Alameda Ck at Welch Ck and at San Antonio Ck flows when Alameda Ck at Welch Ck < 100 cfs: 
 #    plotted on same plot
-# 5) plot streamflow losses between Welch Ck and San Antonio Ck by subtracting Welch Ck minus San Antonio Ck
-# 6) daily groundwater heads 
-# 7) daily streamflows
-# 8) daily lake stages
+# 5) Alameda Ck at Welch Ck and at SAPS bridge flows when Alameda Ck at Welch Ck < 100 cfs: plotted on same plots
+# 6) Alameda Ck at SAPS bridge and Alameda Ck at San Antonio Ck flows when Alameda Ck at Welch Ck < 100 cfs: plotted on same plots
+# 7) plot streamflow losses between Welch Ck and San Antonio Ck by subtracting Welch Ck minus San Antonio Ck
+# 8) plot streamflow losses between Welch Ck and Saps Bridge by subtracting Welch Ck minus Saps Bridge
+# 9) plot streamflow losses between Saps Bridge and San Antonio Ck by subtracting Saps Bridge minus San Antonio Ck 
+# 10) daily groundwater heads 
+# 11) daily streamflows
+# 12) daily lake stages
 
 
 # Calculate metrics for each of the plots above: 
@@ -404,6 +408,7 @@ for (i in 1:length(sf_names)){
 
 
 
+
 #---- Plot daily Alameda Ck at Welch Ck and at San Antonio Ck flows when Alameda Ck at Welch Ck < 100 cfs (on same plot) --------####
 
 # prep simulated flow
@@ -463,6 +468,130 @@ dev.off()
 
 
 
+
+#---- Plot daily Alameda Ck at Welch Ck and at SAPS Bridge flows when Alameda Ck at Welch Ck < 100 cfs (on same plot) --------####
+
+
+# prep simulated flow
+df_sim <- sf_obs_sim %>%
+  dplyr::filter(., type=="sim", id %in% c("streamflow_AlamedaCreekBelowWelchCreek", "streamflow_AlamedaCreekAtSAPSbridge")) %>%
+  spread(., key=id, value=value) %>%
+  dplyr::filter(., streamflow_AlamedaCreekBelowWelchCreek < 100) %>%
+  gather(., key=id, value=value, streamflow_AlamedaCreekBelowWelchCreek, streamflow_AlamedaCreekAtSAPSbridge) %>%
+  mutate(., type="sim")
+
+
+# prep observed flow
+df_obs <- sf_obs_sim %>%
+  dplyr::filter(., type=="obs", id %in% c("streamflow_AlamedaCreekBelowWelchCreek", "streamflow_AlamedaCreekAtSAPSbridge")) %>%
+  spread(., key=id, value=value) %>%
+  dplyr::filter(., streamflow_AlamedaCreekBelowWelchCreek < 100) %>%
+  gather(., key=id, value=value, streamflow_AlamedaCreekBelowWelchCreek, streamflow_AlamedaCreekAtSAPSbridge) %>%
+  mutate(., type="obs")
+
+# place in one data frame
+df_sim_obs <- bind_rows(df_obs, df_sim)
+
+# plot on normal scale
+file_name <- paste0("./analyze_gsflow_outputs/plots/sf_welch_saps_lt100cfs.jpg")
+jpeg(filename=file_name, width = 8, height = 8, 
+     units = "in", quality = 75, res = 300) 
+this_plot <- df_sim_obs %>% 
+  ggplot(data=.) +
+  geom_point(aes(x=date, y=value, color=id)) +
+  facet_wrap(~type, nrow=2) +
+  theme_bw() + 
+  theme(legend.title = element_blank()) + 
+  ggtitle(paste0("Flows at Alameda Ck at Welch Ck and SAPS bridge when flow < 100 cfs at Welch Ck")) + 
+  xlab("\nDate") + 
+  ylab("Streamflow (cfs)\n") 
+print(this_plot)
+dev.off()
+
+# plot on log scale
+file_name <- paste0("./analyze_gsflow_outputs/plots/sf_welch_saps_lt100cfs_log.jpg")
+jpeg(filename=file_name, width = 8, height = 8, 
+     units = "in", quality = 75, res = 300) 
+this_plot <- df_sim_obs %>% 
+  ggplot(data=.) +
+  geom_point(aes(x=date, y=value, color=id)) +
+  facet_wrap(~type, nrow=2) +
+  scale_y_log10() + 
+  theme_bw() + 
+  theme(legend.title = element_blank()) + 
+  ggtitle(paste0("Flows at Alameda Ck at Welch Ck and SAPS bridge when flow < 100 cfs at Welch Ck, log scale")) + 
+  xlab("\nDate") + 
+  ylab("Streamflow (cfs)\n") 
+print(this_plot)
+dev.off()
+
+
+
+
+
+#---- Plot daily Alameda Ck at SAPS bridge and at San Antonio Ck flows when Alameda Ck at Welch Ck < 100 cfs (on same plot) --------####
+
+
+
+# prep simulated flow
+df_sim <- sf_obs_sim %>%
+  dplyr::filter(., type=="sim", id %in% c("streamflow_AlamedaCreekBelowWelchCreek", "streamflow_AlamedaCreekAtSAPSbridge", "streamflow_AlamedaCreekAboveSanAntonioCreek")) %>%
+  spread(., key=id, value=value) %>%
+  dplyr::filter(., streamflow_AlamedaCreekBelowWelchCreek < 100) %>%
+  gather(., key=id, value=value, streamflow_AlamedaCreekAtSAPSbridge, streamflow_AlamedaCreekAboveSanAntonioCreek) %>%
+  mutate(., type="sim")
+
+
+# prep observed flow
+df_obs <- sf_obs_sim %>%
+  dplyr::filter(., type=="obs", id %in% c("streamflow_AlamedaCreekBelowWelchCreek", "streamflow_AlamedaCreekAtSAPSbridge", "streamflow_AlamedaCreekAboveSanAntonioCreek")) %>%
+  spread(., key=id, value=value) %>%
+  dplyr::filter(., streamflow_AlamedaCreekBelowWelchCreek < 100) %>%
+  gather(., key=id, value=value, streamflow_AlamedaCreekAtSAPSbridge, streamflow_AlamedaCreekAboveSanAntonioCreek) %>%
+  mutate(., type="obs")
+
+# place in one data frame
+df_sim_obs <- bind_rows(df_obs, df_sim) %>%
+  dplyr::filter(., id != streamflow_AlamedaCreekBelowWelchCreek)
+
+# plot on normal scale
+file_name <- paste0("./analyze_gsflow_outputs/plots/sf_saps_sanant_lt100cfs.jpg")
+jpeg(filename=file_name, width = 8, height = 8, 
+     units = "in", quality = 75, res = 300) 
+this_plot <- df_sim_obs %>% 
+  ggplot(data=.) +
+  geom_point(aes(x=date, y=value, color=id)) +
+  facet_wrap(~type, nrow=2) +
+  theme_bw() + 
+  theme(legend.title = element_blank()) + 
+  ggtitle(paste0("Flows at Alameda Ck at SAPS bridge and San Antonio Ck when flow < 100 cfs at Welch Ck")) + 
+  xlab("\nDate") + 
+  ylab("Streamflow (cfs)\n") 
+print(this_plot)
+dev.off()
+
+# plot on log scale
+file_name <- paste0("./analyze_gsflow_outputs/plots/sf_saps_sanant_lt100cfs_log.jpg")
+jpeg(filename=file_name, width = 8, height = 8, 
+     units = "in", quality = 75, res = 300) 
+this_plot <- df_sim_obs %>% 
+  ggplot(data=.) +
+  geom_point(aes(x=date, y=value, color=id)) +
+  facet_wrap(~type, nrow=2) +
+  scale_y_log10() + 
+  theme_bw() + 
+  theme(legend.title = element_blank()) + 
+  ggtitle(paste0("Flows at Alameda Ck at SAPS bridge and San Antonio Ck when flow < 100 cfs at Welch Ck, log scale")) + 
+  xlab("\nDate") + 
+  ylab("Streamflow (cfs)\n") 
+print(this_plot)
+dev.off()
+
+
+
+
+
+
 #---- Plot streamflow losses between Welch Ck and San Antonio Ck ---------------------------------------------------####
 
 # prep simulated flow
@@ -501,6 +630,95 @@ this_plot <- df_sim_obs %>%
   ylab("Streamflow difference (cfs)\n") 
 print(this_plot)
 dev.off()
+
+
+
+
+
+
+#---- Plot streamflow losses between Welch Ck and SAPS bridge ---------------------------------------------------####
+
+
+# prep simulated flow
+df_sim <- sf_obs_sim %>%
+  dplyr::filter(., type=="sim", id %in% c("streamflow_AlamedaCreekBelowWelchCreek", "streamflow_AlamedaCreekAtSAPSbridge")) %>%
+  spread(., key=id, value=value) %>%
+  mutate(., diff = streamflow_AlamedaCreekAtSAPSbridge - streamflow_AlamedaCreekBelowWelchCreek) %>%
+  gather(., key=id, value=value, diff) %>%
+  mutate(., type="sim")
+
+
+# prep observed flow
+df_obs <- sf_obs_sim %>%
+  dplyr::filter(., type=="obs", id %in% c("streamflow_AlamedaCreekBelowWelchCreek", "streamflow_AlamedaCreekAtSAPSbridge")) %>%
+  spread(., key=id, value=value) %>%
+  mutate(., diff = streamflow_AlamedaCreekAtSAPSbridge - streamflow_AlamedaCreekBelowWelchCreek) %>%
+  gather(., key=id, value=value, diff) %>%
+  mutate(., type="obs")
+
+# place in one data frame together
+df_sim_obs <- bind_rows(df_obs, df_sim)
+
+
+# plot
+file_name <- paste0("./analyze_gsflow_outputs/plots/sf_saps_minus_welch.jpg")
+jpeg(filename=file_name, width = 12, height = 8, 
+     units = "in", quality = 75, res = 300) 
+this_plot <- df_sim_obs %>% 
+  ggplot(data=.) +
+  geom_point(aes(x=date, y=value, color=type), shape=1) +
+  facet_wrap(~hyd_year, scales="free") + 
+  theme_bw() + 
+  theme(legend.title = element_blank()) + 
+  ggtitle(paste0("Flow difference: (Alameda Ck at SAPS bridge) - (Alameda Ck at Welch Ck)")) + 
+  xlab("\nDate") + 
+  ylab("Streamflow difference (cfs)\n") 
+print(this_plot)
+dev.off()
+
+
+
+#---- Plot streamflow losses between SAPS bridge and San Antonio Ck ---------------------------------------------------####
+
+
+
+# prep simulated flow
+df_sim <- sf_obs_sim %>%
+  dplyr::filter(., type=="sim", id %in% c("streamflow_AlamedaCreekAtSAPSbridge", "streamflow_AlamedaCreekAboveSanAntonioCreek")) %>%
+  spread(., key=id, value=value) %>%
+  mutate(., diff = streamflow_AlamedaCreekAboveSanAntonioCreek - streamflow_AlamedaCreekAtSAPSbridge) %>%
+  gather(., key=id, value=value, diff) %>%
+  mutate(., type="sim")
+
+
+# prep observed flow
+df_obs <- sf_obs_sim %>%
+  dplyr::filter(., type=="obs", id %in% c("streamflow_AlamedaCreekAtSAPSbridge", "streamflow_AlamedaCreekAboveSanAntonioCreek")) %>%
+  spread(., key=id, value=value) %>%
+  mutate(., diff = streamflow_AlamedaCreekAboveSanAntonioCreek - streamflow_AlamedaCreekAtSAPSbridge) %>%
+  gather(., key=id, value=value, diff) %>%
+  mutate(., type="obs")
+
+# place in one data frame together
+df_sim_obs <- bind_rows(df_obs, df_sim)
+
+
+# plot
+file_name <- paste0("./analyze_gsflow_outputs/plots/sf_sanant_minus_saps.jpg")
+jpeg(filename=file_name, width = 12, height = 8, 
+     units = "in", quality = 75, res = 300) 
+this_plot <- df_sim_obs %>% 
+  ggplot(data=.) +
+  geom_point(aes(x=date, y=value, color=type), shape=1) +
+  facet_wrap(~hyd_year, scales="free") + 
+  theme_bw() + 
+  theme(legend.title = element_blank()) + 
+  ggtitle(paste0("Flow difference: (Alameda Ck at San Antonio Ck) - (Alameda Ck at SAPS bridge)")) + 
+  xlab("\nDate") + 
+  ylab("Streamflow difference (cfs)\n") 
+print(this_plot)
+dev.off()
+
 
 
 
