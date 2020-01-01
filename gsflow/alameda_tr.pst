@@ -93,7 +93,7 @@ pp_3_vks	log	factor	10000	1.42E-06	10000	vks	1	0	1
 pp_4_vks	log	factor	10000	1.42E-06	10000	vks	1	0	1
 pp_5_vks	log	factor	100	1.42E-06	10000	vks	1	0	1
 pp_6_vks	log	factor	100	1.42E-06	10000	vks	1	0	1
-pp_7_vks	log	factor	100	1.42E-06	10000	vks	1	0	1
+pp_7_vks	log	factor	10	1.42E-06	10000	vks	1	0	1
 pp_8_vks	log	factor	100	1.42E-06	10000	vks	1	0	1
 pp_9_vks	log	factor	100	1.42E-06	10000	vks	1	0	1
 pp_10_vks	log	factor	100	1.42E-06	10000	vks	1	0	1
@@ -122,8 +122,8 @@ pp_32_vks	log	factor	1.94E+01	0.0001	5669.3	vks	1	0	1
 pp_33_vks	fixed	factor	2.00E-03	0.001	566930	vks	1	0	1
 pp_34_vks	log	factor	9.37E-05	1.42E-06	0.1417325	vks	1	0	1
 pp_35_vks	log	factor	100	1.42E-06	10000	vks	1	0	1
-pp_36_vks	log	factor	100	1.42E-06	10000	vks	1	0	1
-pp_37_vks	log	factor	100	1.42E-06	10000	vks	1	0	1
+pp_36_vks	log	factor	10	1.42E-06	10000	vks	1	0	1
+pp_37_vks	log	factor	10	1.42E-06	10000	vks	1	0	1
 pp_38_vks	log	factor	2.07E+02	0.001	566930	vks	1	0	1
 pp_39_vks	log	factor	2.70E+02	0.001	566930	vks	1	0	1
 pp_40_vks	log	factor	100	1.42E-05	0.1417325	vks	1	0	1
