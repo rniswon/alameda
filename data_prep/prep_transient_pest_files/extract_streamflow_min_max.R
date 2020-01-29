@@ -398,7 +398,7 @@ sf_min_max <- sf_min_max %>%
   dplyr::mutate(., date_char = gsub("-", "", as.character(date))) 
 
 # create a site ID column
-site_id <- paste0("s", c(1,3:14))   # because San Antonio Creek at Indican Creek Rd got dropped above
+site_id <- paste0("s", c(1,3:14))   # because San Antonio Creek at Indian Creek Rd got dropped above
 sf_min_max$site_id <- "NA"
 for (i in 1:length(sites)){
   

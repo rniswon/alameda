@@ -47,7 +47,7 @@ setwd("C:/git_repos/alameda/pestPrep")
 
 
 # assign simulation start and end dates
-start_date <- '2008-10-01'
+start_date <- '2010-10-01'
 end_date <- '2014-09-30'
 
 
@@ -142,7 +142,7 @@ names(lakeSim) <- lakeNames
 
 
 # read in observed lake stages
-lakeObs <- read.csv(file = './GIS/lakes/lakeStageAllWideCut_2008.csv', header=TRUE, na.strings='-999')
+lakeObs <- read.csv(file = './GIS/lakes/lakeStageAllWideCut_2010.csv', header=TRUE, na.strings='-999')
 lakeObs$date <- as.Date(lakeObs$date)
 lakeObs <- data.frame(date = lakeObs$date, ymd = lakeObs$ymd, NoNamePond = NA, pondF6 = lakeObs$F6,
                       readyMixPond = lakeObs$ReadyMix, pondF5 = NA, pondF4 = lakeObs$F4, pondF3W = lakeObs$F3W,

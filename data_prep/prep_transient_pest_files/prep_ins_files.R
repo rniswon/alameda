@@ -66,6 +66,29 @@ lake <- read.table("./modflow_files/pst_control_file_obs/lake_stage_obs_for_pst.
 
 
 
+#---- Remove observations before 10/1/2010 ------------------------------------------------------------------####
+
+
+# NOTE: only have observations before 10/1/2010 for streamflow, so code only handles streamflow dataset
+
+# duplicate combined date/id column
+sf_date <- sf
+sf_date$id_date <- sf$V1
+
+# create separate date column
+sf_date <- separate(sf_date, col=V1, into=c("id", "date"), sep="_")
+sf_date$date <- ymd(sf_date$date)
+
+# filter to only keep dates +> 10/1/2010
+sf_date <- sf_date %>%
+  dplyr::filter(., date >= ymd(20101001))
+
+# place back in original format
+sf <- data.frame(V1=sf_date$id_date, V2=sf_date$V2, V3=sf_date$V3, V4=sf_date$V4)
+
+
+
+
 
 #---- Write function to do the reformatting ------------------------------------------------------------------####
 
@@ -105,7 +128,7 @@ create_pest_ins_file_sf_lake <- function(df, line_loc, second_row, idx=NULL, typ
   }
   
   # create vector of number of lines to advance
-  obs_date <- c(ymd(20080930), obs_date)
+  obs_date <- c(ymd(20100930), obs_date)
   line_advance <- diff(obs_date)
   line_advance <- paste0("l", line_advance)
   
