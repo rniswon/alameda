@@ -393,6 +393,11 @@ sf_min_max$value <- sf_min_max$value * num_seconds_per_day
 #---- Prep for pest control file export ----------------------------------------------------------####
 
 
+# only keep dates >= 10/1/2010
+sf_min_max <- sf_min_max %>% 
+  dplyr::filter(., date >= ymd("20101001"))
+
+
 # create a character version of the date
 sf_min_max <- sf_min_max %>% 
   dplyr::mutate(., date_char = gsub("-", "", as.character(date))) 
@@ -421,6 +426,6 @@ sf_min_max <- sf_min_max %>%
 #---- Export for pest control file ----------------------------------------------------------####
 
 
-write.table(sf_min_max, file = "./modflow_files/pst_control_file_obs/streamflow_obs_for_pst.txt", row.names = FALSE, col.names=FALSE, quote=FALSE)
+write.table(sf_min_max, file = "./modflow_files/pst_control_file_obs/streamflow_obs_for_pst_2010.txt", row.names = FALSE, col.names=FALSE, quote=FALSE)
 
 
