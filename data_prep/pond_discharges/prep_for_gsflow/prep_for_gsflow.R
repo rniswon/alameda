@@ -24,7 +24,7 @@ library(tidyverse)
 #---- Read in --------------------------------------------------------------------------------#
 
 f2 <- read.csv("./f2_discharge.csv")
-f4 <- read.csv("f4_discharge.csv")
+f4 <- read.csv("./f4_discharge.csv")
 
 
 
@@ -77,7 +77,7 @@ f2$Q_cfs[idx] <- 1e-5
 
 discharge_smp32 <- data.frame(id=0:2190, Q_cfs = rep(0, 2191))
 discharge_f6 <- discharge_smp32
-discharge_f4 <- discharge_smp32
+#discharge_f4 <- discharge_smp32
 discharge_f3w <- discharge_smp32
 discharge_f3e <- discharge_smp32
 
@@ -93,7 +93,7 @@ write.table(discharge_smp32, "../tabfiles_for_gsflow/discharge_smp32.txt", col.n
 
 write.table(discharge_f6, "../tabfiles_for_gsflow/discharge_f6.txt", col.names=FALSE, row.names=FALSE)
 
-write.table(discharge_f4, "../tabfiles_for_gsflow/discharge_f4.txt", col.names=FALSE, row.names=FALSE)
+#write.table(discharge_f4, "../tabfiles_for_gsflow/discharge_f4.txt", col.names=FALSE, row.names=FALSE)
 
 write.table(discharge_f3w, "../tabfiles_for_gsflow/discharge_f3w.txt", col.names=FALSE, row.names=FALSE)
 
