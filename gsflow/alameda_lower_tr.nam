@@ -38,7 +38,7 @@ data         209      ./output/modflow/streamflow_AlamedaCreekBelowWelchCreek.ou
 data         210      ./output/modflow/streamflow_AlamedaCreekNearNiles.out
 data         211      ./output/modflow/streamflow_AlamedaCreekAboveSanAntonioCreek.out
 data         212      ./output/modflow/streamflow_AlamedaCreekAboveArroyoDeLaLaguna.out
-data         225      ./output/modflow/streamflow_CalaverasCreekReachBelowReservoir.out
+data         225      ./output/modflow/streamflow_pond_F2_drainage_segment.out
 data 				 226			./output/modflow/streamflow_AlamedaCreekAtSAPSbridge.out
 data         213      ./output/modflow/subbasin_runoff/Ready_Mix_Pond.out
 data         214      ./output/modflow/subbasin_runoff/Pond_F5.out
