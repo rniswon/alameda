@@ -69,6 +69,8 @@ data         311      ./input/modflow_lower/discharge_no_name_pond.txt
 data         312      ./input/modflow_lower/discharge_ready_mix_pond.txt
 data         313      ./input/modflow_lower/discharge_f5.txt
 data         401      ./output/modflow/hobs.out
+data(binary)  61			./output/modflow/lake_cbc_budget.unf
+data(binary)  63      ./output/modflow/upw_cbc_budget.unf
 
 
 

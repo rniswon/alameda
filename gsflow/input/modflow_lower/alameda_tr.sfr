@@ -10563,9 +10563,9 @@ end
 1 183 162 954 1 74 254 0.00103 1 0 0.3 0.2 4 0.5   !RGN lake 8
 1 183 159 955 1 74 254 0.00103 1 0 0.3 0.2 4 0.5   !RGN lake 7
 3 163 143 956 1 74 126.2 0.001 1 0 0.3 0.2 4 0.5
-3 195 163 957 1 74 160 0.001 1 0 0.3 0.2 4 0.5
-3 187 160 958 1 74 230 0.001 1 0 0.3 0.2 4 0.5
-3 183 159 959 1 74 225 0.001 1 0 0.3 0.2 4 0.5
+3 195 163 957 1 74 260 0.001 1 0 0.3 0.2 4 0.5
+3 187 160 958 1 74 250 0.001 1 0 0.3 0.2 4 0.5
+3 183 159 959 1 74 245 0.001 1 0 0.3 0.2 4 0.5
 3 183 162 960 1 74 195 0.001 1 0 0.3 0.2 4 0.5
 3 209 162 961 1 74 186 0.001 1 0 0.3 0.2 4 0.5
 3 192 149 962 1 74 258.347 0.001 1 0 0.3 0.2 4 0.5
@@ -13431,7 +13431,7 @@ end
 953 1 215 -2 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02
 23.76707
 23.76707
-954 1 -7 -8 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02
+954 1 0 -8 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02
 5.76707       ! rgn made width narrow because lake 8 has not inflow and outflow is draining too much (was 23.76707)
 5.76707
 955 1 -9 -7 0.00E+00 0.00E+00 0.00E+00 0.00E+00 4.00E-02
@@ -13468,15 +13468,15 @@ end
 182 2191 302         # SEGNUM NUMVAL IUNIT (streamflow_SanAntonioCreekBelowDam.txt)
 368 2191 303         # SEGNUM NUMVAL IUNIT (streamflow_CalaverasCreek.txt)
 140 2191 304         # SEGNUM NUMVAL IUNIT (streamflow_ArroyoDeLaLaguna.txt)
-964 2191 305         # SEGNUM NUMVAL IUNIT (discharge_f2.txt)
-960 2191 306         # SEGNUM NUMVAL IUNIT (discharge_f3e.txt)
-959 2191 307         # SEGNUM NUMVAL IUNIT (discharge_f3w.txt)
-958 2191 308         # SEGNUM NUMVAL IUNIT (discharge_f4.txt)
-957 2191 309         # SEGNUM NUMVAL IUNIT (discharge_f6.txt)
-956 2191 310         # SEGNUM NUMVAL IUNIT (discharge_smp32.txt)
-961 2191 311         # SEGNUM NUMVAL IUNIT (discharge_no_name_pond.txt)
-962 2191 312         # SEGNUM NUMVAL IUNIT (discharge_ready_mix_pond.txt)
-963 2191 313         # SEGNUM NUMVAL IUNIT (discharge_f5.txt)
+964 2191 305         # SEGNUM NUMVAL IUNIT (discharge_f2.txt, pond 9)
+960 2191 306         # SEGNUM NUMVAL IUNIT (discharge_f3e.txt, pond 8)
+959 2191 307         # SEGNUM NUMVAL IUNIT (discharge_f3w.txt, pond 7)
+958 2191 308         # SEGNUM NUMVAL IUNIT (discharge_f4.txt, pond 6)
+957 2191 309         # SEGNUM NUMVAL IUNIT (discharge_f6.txt, pond 3)
+956 2191 310         # SEGNUM NUMVAL IUNIT (discharge_smp32.txt, pond 10)
+961 2191 311         # SEGNUM NUMVAL IUNIT (discharge_no_name_pond.txt, pond 2)
+962 2191 312         # SEGNUM NUMVAL IUNIT (discharge_ready_mix_pond.txt, pond 4)
+963 2191 313         # SEGNUM NUMVAL IUNIT (discharge_f5.txt, pond 5)
 -1 0 0
 -1 0 0
 -1 0 0

@@ -134,7 +134,8 @@ gag <- gag[2:14]
 
 
 # read in .hob file - groundwater wells
-hob <- read.table("./gsflow/input/modflow_lower/alameda_tr.hob", skip=2, sep=" ")
+hob <- read.table("./gsflow/input/modflow_lower/alameda_tr.hob", skip=2)
+#hob <- separate(hob, col=1, into=c(paste0("V", 1:10)))
 hob <- separate(hob, col=1, into=c("col1", "col2"))
 
 
@@ -157,10 +158,10 @@ num_row <- 771
 num_col <- 702
 
 # for sfr file
-start_dataset_02 <- 6
-end_dataset_02 <- 10563
-start_dataset_04bc <- 10565
-end_dataset_04bc <- 13429
+start_dataset_02 <- 7
+end_dataset_02 <- 10573
+start_dataset_04bc <- 10575
+end_dataset_04bc <- 13466
 
 
 
@@ -480,7 +481,7 @@ alam_df$thick_lay_04 <- alam_df$dis_bttm_lyr_03 - alam_df$dis_bttm_lyr_04
 ####--------------------------- join alam_df with spatial data -------------------------####
 
 # merge
-alam_df_sp <- merge(hru_params_all_hru_id, alam_df, by='HRU_ID')
+alam_df_sp <- sp::merge(hru_params_all_hru_id, alam_df, by='HRU_ID', duplicateGeoms=TRUE)
 
 
 
