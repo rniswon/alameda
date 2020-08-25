@@ -417,9 +417,15 @@ gag <- data.frame(gag[,c(1:2)], stream_gauge = c(1:13))
 
 ####--------------------------- reformat hob arrays -------------------------####
 
-
+# name hobs columns
 hob_names <- c("gw_well", "date", "hobs_layer", "hobs_row", "hobs_column", "irefsp","toffset", "roff", "coff", "hobs")
 names(hob) <- hob_names
+
+# summarize hobs
+hob_summarize <- hob %>%
+  dplyr::select(., -date) %>%
+  group_by(., gw_well, hobs_row, hobs_column) %>%
+  summarize_all(., mean)
 
 
 
@@ -452,8 +458,8 @@ df_w_gag <- full_join(df_w_sfr, gag, by = c("iseg" = "gageseg", "ireach" = "gage
 
 
 # # merge with .hob 
-# df_w_hob <- full_join(df_w_gag, hob, by = c("hru_row" = "hobs_row", "hru_col" = "hobs_column"))
-df_w_hob <- df_w_gag
+df_w_hob <- full_join(df_w_gag, hob_summarize, by = c("hru_row" = "hobs_row", "hru_col" = "hobs_column"))
+#df_w_hob <- df_w_gag
 
 # convert all -9999 or -999 to NA
 set_na <- function(x, na_val){
@@ -468,6 +474,11 @@ alam_df <- as.data.frame(sapply(alam_df, set_na, -999))
 
 
 # add layer thickness columns
+alam_df$dis_top_lyr_01 <- as.numeric(alam_df$dis_top_lyr_01)
+alam_df$dis_bttm_lyr_01 <- as.numeric(alam_df$dis_bttm_lyr_01)
+alam_df$dis_bttm_lyr_02 <- as.numeric(alam_df$dis_bttm_lyr_02)
+alam_df$dis_bttm_lyr_03 <- as.numeric(alam_df$dis_bttm_lyr_03)
+alam_df$dis_bttm_lyr_04 <- as.numeric(alam_df$dis_bttm_lyr_04)
 alam_df$thick_lay_01 <- alam_df$dis_top_lyr_01 - alam_df$dis_bttm_lyr_01
 alam_df$thick_lay_02 <- alam_df$dis_bttm_lyr_01 - alam_df$dis_bttm_lyr_02
 alam_df$thick_lay_03 <- alam_df$dis_bttm_lyr_02 - alam_df$dis_bttm_lyr_03
@@ -480,9 +491,13 @@ alam_df$thick_lay_04 <- alam_df$dis_bttm_lyr_03 - alam_df$dis_bttm_lyr_04
 
 ####--------------------------- join alam_df with spatial data -------------------------####
 
+# set variable types
+numeric_cols <- names(alam_df)[c(1:68, 70:79)]
+alam_df[numeric_cols] <- sapply(alam_df[numeric_cols], as.numeric)
+
+
 # merge
 alam_df_sp <- sp::merge(hru_params_all_hru_id, alam_df, by='HRU_ID', duplicateGeoms=TRUE)
-
 
 
 
