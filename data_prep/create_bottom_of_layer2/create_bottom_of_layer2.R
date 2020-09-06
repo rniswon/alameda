@@ -55,7 +55,7 @@ num_col <- 702
 #---- read in ----------------------------------------------------------------####
 
 # read in HRU params dataset with updated bottom of layer 2
-alam_df <- read.csv("./GIS/updating_lyr2/alam_df_sp_updated_lyr2_elev1.txt", sep=",")
+alam_df <- read.csv("./GIS/updating_lyr2_v1/alam_df_sp_lyr2_v2.txt", sep=",")
 
 
 # read in assigned interpolation point values
@@ -72,11 +72,11 @@ interp_df <- read.csv("./GIS/updating_lyr2/points_interpolate_from_nof5_addpts.t
 alam_df <- alam_df %>%
   dplyr::filter(., iseg <=955) %>%
   dplyr::arrange(., HRU_ID) %>%
-  mutate(., dsbl02_lk = case_when(dsbl02_lk == 0 ~ -9999,
-                                   dsbl02_lk > 0 ~ dsbl02_lk))
+  mutate(., dsbl02_new = case_when(dsbl02_new == 0 ~ -9999,
+                                   dsbl02_new > 0 ~ dsbl02_new))
 
 # extract updated bottom of layer 2
-elev_lyr2 <- round(alam_df$dsbl02_lk, digits=2)
+elev_lyr2 <- round(alam_df$dsbl02_new, digits=2)
 elev_lyr2 <- matrix(elev_lyr2, nrow = num_row, ncol = num_col, byrow=TRUE)
 
 
@@ -84,7 +84,7 @@ elev_lyr2 <- matrix(elev_lyr2, nrow = num_row, ncol = num_col, byrow=TRUE)
 
 #---- export -------------------------------------------------------------------####
 
-write.table(elev_lyr2, "./GIS/updating_lyr2/bottom_lyr_02_elev_updated1.txt", 
+write.table(elev_lyr2, "./GIS/updating_lyr2_v1/bottom_lyr_02_elev.txt", 
             row.names=FALSE, col.names=FALSE)
 
 
