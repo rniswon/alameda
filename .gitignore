@@ -63,6 +63,7 @@ gsflow/input/prms_lower/prms_ic.in
 gsflow/input/modflow_lower/restartdata1.in
 GIS/cell_by_cell_budget
 GIS/updating_lyr2
+GIS/updating_lyr2_v1
 GIS/alam_df_sp_subbasins_11_and_12.dbf
 GIS/alam_df_sp_subbasins_11_and_12.prj
 GIS/alam_df_sp_subbasins_11_and_12.sbn
