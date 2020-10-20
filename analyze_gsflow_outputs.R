@@ -14,6 +14,7 @@
 # 10) daily groundwater heads 
 # 11) daily streamflows
 # 12) daily lake stages
+# 13) groundwater inflow and outflow from all ponds
 
 
 # Calculate metrics for each of the plots above: 
@@ -950,4 +951,62 @@ for (i in 1:length(lakeSim)){
   
   
 }
+
+
+
+
+#----- Plot groundwater and surface water inflow/outflow for all lakes ---------------------------------------------####
+
+# create simulated lake data frame
+lake_sim <- bind_rows(lakeSim, .id="id")
+
+# loop through lakes
+lake_names <- unique(lake_sim$id)
+for (i in 1:length(lake_names)){
+  
+  # filter by lake
+  df <- lake_sim %>%
+    dplyr::filter(., id == lake_names[i])
+  
+  # add date column 
+  df$date <- lakeObs$date
+  
+  # reformat to long format
+  df <- gather(df, key="variable", value="value", -date, -id, -Time)
+  
+  # filter by variable (only keep gw in/out and surface water in/out)
+  var_for_plotting <- c("GW.Inflw", "GW.Outflw", "SW.Inflw", "SW.Outflw")
+  df <- df %>%
+    dplyr::filter(., variable %in% var_for_plotting)
+  
+  # calculate annual cumulative sum and convert units to acre-ft
+  conversion_factor_cuft_to_aft <- 43560
+  df <- df %>%
+    mutate(year = year(date),
+           month = month(date),
+           hyd_year = case_when(month %in% c(10,11,12) ~ year + 1,
+                                month %in% c(1:9) ~ year)) %>%
+    group_by(., id, variable, hyd_year) %>%
+    dplyr::arrange(., date, .by_group=TRUE) %>%
+    mutate(., cum_sum = cumsum(value) / conversion_factor_cuft_to_aft)
+    
+  
+  # plot time series using ggplot, facet by variable
+  png(filename = paste0('./analyze_gsflow_outputs/plots/lake_fluxes_00', 
+                        i+1, '_', lakeNames[[i]], '.png'), 
+      width=6.5, height=6.5, units='in', res=140)
+  this_plot <- ggplot(data=df, aes(x=date, y=cum_sum)) +
+    geom_line() +
+    facet_wrap(~variable, ncol=1) + 
+    theme_bw() +
+    ggtitle(lake_names[i]) +
+    xlab("Date") +
+    ylab("Cumulative annual lake fluxes (acre-ft)")
+  print(this_plot)
+  dev.off()
+  
+  
+  
+}
+
 

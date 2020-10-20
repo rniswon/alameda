@@ -770,7 +770,7 @@ temp_laps
 var_save_file
 1
 4
-prms_ic.out
+./output/prms/prms_ic.out
 ####
 stats_output_file
 1

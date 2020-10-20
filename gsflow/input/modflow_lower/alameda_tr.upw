@@ -1,5 +1,5 @@
 # Alameda starting K values
-0   -9999.    0     0            IUPWCB  HDRY   NPUPW  IPHDRY
+63   -9999.    0     0            IUPWCB  HDRY   NPUPW  IPHDRY
 1 1 1 1                          LAYTYP
 2 2 2 2                          LAYAVG
 1.0 1.0 1.0 1.0                  CHANI

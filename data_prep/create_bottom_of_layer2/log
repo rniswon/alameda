@@ -1,0 +1,5 @@
+202007291122   0     0     0saalem.adera C:\git_repos\alameda\pestPrep\data_prep\create_bottom_of_layer2\lyr2_elev = TREND(points_interpolate_from_nof5,  'lyr2_elev', 1,
+202007291127   1     0     0saalem.adera C:\git_repos\alameda\pestPrep\data_prep\create_bottom_of_layer2\lyr2ElevTrnd = TREND(points_interpolate_from_nof5,  'lyr2_elev',
+202007291130   0     0     0saalem.adera C:\git_repos\alameda\pestPrep\data_prep\create_bottom_of_layer2\lyr2ElevIDW = IDW(points_interpolate_from_nof5,  'lyr2_elev', #,
+202007291138   0     0     0saalem.adera C:\git_repos\alameda\pestPrep\data_prep\create_bottom_of_layer2\lyr2ElevSpl = SPLINE(points_interpolate_from_nof5,  'lyr2_elev',
+202008041309   0     0     0saalem.adera C:\GIT_RE~1\alameda\pestPrep\DATA_P~1\CREATE~2\lyr2elevttr3_shp.shp = GRIDPOINTSHAPE(C:\git_repos\alameda\pestPrep\data_prep\cre
