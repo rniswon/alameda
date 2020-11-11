@@ -1,7 +1,7 @@
 pcf
 * control data
 restart estimation
-    588   1147     11      0       4
+    588   1147     11      0       8
      13     27 single  point   1   0   0
   5.0  -3.0   0.3  0.03    10
  15.0  15.0 0.001  0
@@ -62,11 +62,11 @@ strmbdk_4	fixed	factor   0.4267350      0.001	5669.3	strmbdk	1	0	1
 strmbdk_5	fixed	factor   0.1908050      0.001	5669.3	strmbdk	1	0	1
 strmbdk_6	fixed	factor   0.4254550      0.001	5669.3	strmbdk	1	0	1
 strmbdk_7	fixed	factor   0.2500720      0.001	5669.3	strmbdk	1	0	1
-strmbdk_8	log	factor   0.4658184      0.001	5669.3	strmbdk	1	0	1
-strmbdk_9	log	factor    3.414199      0.001	5669.3	strmbdk	1	0	1
-strmbdk_10	log	factor    6.013428      1	566930	strmbdk	1	0	1
-strmbdk_11	log	factor    17.47313      1	566930	strmbdk	1	0	1
-strmbdk_12	log	factor    8.597693      1	566930	strmbdk	1	0	1
+strmbdk_8	fixed	factor   0.4658184      0.001	5669.3	strmbdk	1	0	1
+strmbdk_9	fixed	factor    3.414199      0.001	5669.3	strmbdk	1	0	1
+strmbdk_10	fixed	factor    6.013428      1	566930	strmbdk	1	0	1
+strmbdk_11	fixed	factor    17.47313      1	566930	strmbdk	1	0	1
+strmbdk_12	fixed	factor    8.597693      1	566930	strmbdk	1	0	1
 strmbdk_13	log	factor    57.29862      1	566930	strmbdk	1	0	1
 strmbdk_14	log	factor    79.09973      1	566930	strmbdk	1	0	1
 strmbdk_15	log	factor    79.12393      1	566930	strmbdk	1	0	1
@@ -79,14 +79,14 @@ strmbdk_22	log	factor    115.2387      1	566930	strmbdk	1	0	1
 strmbdk_23	log	factor    93.46241      1	566930	strmbdk	1	0	1
 strmbdk_24	log	factor    95.70194      1	566930	strmbdk	1	0	1
 strmbdk_25	log	factor    123.7813      1	566930	strmbdk	1	0	1
-strmbdk_26	log	factor    99.96391      1	566930	strmbdk	1	0	1
-strmbdk_27	log	factor    100.0739      1	566930	strmbdk	1	0	1
-strmbdk_28	log	factor    100.0015      1	566930	strmbdk	1	0	1
-strmbdk_29	log	factor    62.39936      1	566930	strmbdk	1	0	1
-strmbdk_30	log	factor    100.0268      1	566930	strmbdk	1	0	1
-strmbdk_31	log	factor    100.0485      1	566930	strmbdk	1	0	1
-strmbdk_32	log	factor    99.93751      1	566930	strmbdk	1	0	1
-strmbdk_33	log	factor    99.99905      1	566930	strmbdk	1	0	1
+strmbdk_26	fixed	factor    99.96391      1	566930	strmbdk	1	0	1
+strmbdk_27	fixed	factor    100.0739      1	566930	strmbdk	1	0	1
+strmbdk_28	fixed	factor    100.0015      1	566930	strmbdk	1	0	1
+strmbdk_29	fixed	factor    62.39936      1	566930	strmbdk	1	0	1
+strmbdk_30	fixed	factor    100.0268      1	566930	strmbdk	1	0	1
+strmbdk_31	fixed	factor    100.0485      1	566930	strmbdk	1	0	1
+strmbdk_32	fixed	factor    99.93751      1	566930	strmbdk	1	0	1
+strmbdk_33	fixed	factor    99.99905      1	566930	strmbdk	1	0	1
 pp_1_vks	log	factor    19999.00      1.42e-06	20000	vks	1	0	1
 pp_2_vks	log	factor    2301.472      1.42e-06	20000	vks	1	0	1
 pp_3_vks	log	factor    19999.00      1.42e-06	20000	vks	1	0	1
@@ -101,70 +101,70 @@ pp_11_vks	log	factor    14.51865      1.42e-06	10000	vks	1	0	1
 pp_12_vks	log	factor    176.2278      1.00e-04	10000	vks	1	0	1
 pp_13_vks	log	factor    62.33716      1.42e-06	10000	vks	1	0	1
 pp_14_vks	log	factor    690.1360      1.00e-04	2.00e+06	vks	1	0	1
-pp_15_vks	log	factor    142.6272      0.001	566930	vks	1	0	1
+pp_15_vks	fixed	factor    142.6272      0.001	566930	vks	1	0	1
 pp_16_vks	log	factor    541.6580      1.00e-04	5669.3	vks	1	0	1
 pp_17_vks	log	factor    29626.61      1.42e-06	2.00e+06	vks	1	0	1
-pp_18_vks	log	factor    741.0803      0.001	566930	vks	1	0	1
+pp_18_vks	fixed	factor    741.0803      0.001	566930	vks	1	0	1
 pp_19_vks	log	factor   4.7194934E-02  1.00e-04	5669.3	vks	1	0	1
 pp_20_vks	log	factor    21841.28      1.00e-04	566930	vks	1	0	1
 pp_21_vks	log	factor    3032.012      1.00e-04	5669.3	vks	1	0	1
 pp_22_vks	log	factor    1.460665      1.00e-04	5669.3	vks	1	0	1
-pp_23_vks	log	factor    3237.094      1.00e-04	5669.3	vks	1	0	1
+pp_23_vks	fixed	factor    3237.094      1.00e-04	5669.3	vks	1	0	1
 pp_24_vks	log	factor    262.3042      1.00e-04	10000	vks	1	0	1
 pp_25_vks	log	factor    150.4523      1.42e-06	10000	vks	1	0	1
 pp_26_vks	log	factor    5.048525      1.42e-06	10000	vks	1	0	1
-pp_27_vks	log	factor    643.1308      0.001	566930	vks	1	0	1
-pp_28_vks	log	factor    10.82398      1.00e-04	5669.3	vks	1	0	1
-pp_29_vks	log	factor   0.9941229      0.001	566930	vks	1	0	1
-pp_30_vks	log	factor    175.8037      1.00e-04	5669.3	vks	1	0	1
-pp_31_vks	log	factor   2.9119330E-04  1.42e-06	0.1417325	vks	1	0	1
-pp_32_vks	log	factor    9.948182      1.00e-04	5669.3	vks	1	0	1
+pp_27_vks	fixed	factor    643.1308      0.001	566930	vks	1	0	1
+pp_28_vks	fixed	factor    10.82398      1.00e-04	5669.3	vks	1	0	1
+pp_29_vks	fixed	factor   0.9941229      0.001	566930	vks	1	0	1
+pp_30_vks	fixed	factor    175.8037      1.00e-04	5669.3	vks	1	0	1
+pp_31_vks	fixed	factor   2.9119330E-04  1.42e-06	0.1417325	vks	1	0	1
+pp_32_vks	fixed	factor    9.948182      1.00e-04	5669.3	vks	1	0	1
 pp_33_vks	fixed	factor   2.0000000E-03  1.00e-05	566930	vks	1	0	1
 pp_34_vks	log	factor   1.4300000E-06  1.42e-06	0.1417325	vks	1	0	1
 pp_35_vks	log	factor    3.596176      1.42e-06	10000	vks	1	0	1
 pp_36_vks	log	factor    367.9230      1.42e-06	10000	vks	1	0	1
 pp_37_vks	log	factor    14.38909      1.42e-06	10000	vks	1	0	1
-pp_38_vks	log	factor    2419.727      0.001	566930	vks	1	0	1
-pp_39_vks	log	factor    102.1065      0.001	566930	vks	1	0	1
+pp_38_vks	fixed	factor    2419.727      0.001	566930	vks	1	0	1
+pp_39_vks	fixed	factor    102.1065      0.001	566930	vks	1	0	1
 pp_40_vks	log	factor    38.12185      1.42e-05	20000	vks	1	0	1
-pp_41_vks	log	factor   0.2157066      0.001	566930	vks	1	0	1
+pp_41_vks	fixed	factor   0.2157066      0.001	566930	vks	1	0	1
 pp_42_vks	log	factor    44.70146      1.00e-04	5669.3	vks	1	0	1
-pp_43_vks	log	factor    187.1350      0.001	566930	vks	1	0	1
+pp_43_vks	fixed	factor    187.1350      0.001	566930	vks	1	0	1
 pp_44_vks	log	factor    34.51591      1.00e-04	5669.3	vks	1	0	1
-pp_45_vks	log	factor    1181.182      0.001	566930	vks	1	0	1
-pp_46_vks	log	factor    483321.5      0.001	566930	vks	1	0	1
+pp_45_vks	fixed	factor    1181.182      0.001	566930	vks	1	0	1
+pp_46_vks	fixed	factor    483321.5      0.001	566930	vks	1	0	1
 pp_47_vks	log	factor    2.300297      1.00e-04	5669.3	vks	1	0	1
 pp_48_vks	fixed	factor   1.4000000E-02  0.001	566930	vks	1	0	1
 pp_49_vks	log	factor   0.9916706      1.00e-04	5669.3	vks	1	0	1
-pp_50_vks	log	factor    10.16728      0.001	566930	vks	1	0	1
+pp_50_vks	fixed	factor    10.16728      0.001	566930	vks	1	0	1
 pp_51_vks	log	factor    8960.235      0.001	566930	vks	1	0	1
-pp_52_vks	log	factor    5669.200      1.00e-04	5669.3	vks	1	0	1
-pp_53_vks	log	factor    3.909901      0.001	566930	vks	1	0	1
-pp_54_vks	log	factor    61.62237      0.001	566930	vks	1	0	1
-pp_55_vks	log	factor    4496.436      0.001	566930	vks	1	0	1
-pp_56_vks	log	factor    104.2621      1.00e-04	5669.3	vks	1	0	1
+pp_52_vks	fixed	factor    5669.200      1.00e-04	5669.3	vks	1	0	1
+pp_53_vks	fixed	factor    3.909901      0.001	566930	vks	1	0	1
+pp_54_vks	fixed	factor    61.62237      0.001	566930	vks	1	0	1
+pp_55_vks	fixed	factor    4496.436      0.001	566930	vks	1	0	1
+pp_56_vks	fixed	factor    104.2621      1.00e-04	5669.3	vks	1	0	1
 pp_57_vks	fixed	factor   1.0000000E-02  0.001	566930	vks	1	0	1
 pp_58_vks	fixed	factor   1.0000000E-02  0.001	566930	vks	1	0	1
-pp_59_vks	log	factor    108.4415      0.001	566930	vks	1	0	1
+pp_59_vks	fixed	factor    108.4415      0.001	566930	vks	1	0	1
 pp_60_vks	fixed	factor   1.0000000E-02  0.001	566930	vks	1	0	1
 pp_61_vks	fixed	factor   1.0000000E-02  0.001	566930	vks	1	0	1
 pp_62_vks	fixed	factor   1.0000000E-02  0.001	566930	vks	1	0	1
 pp_63_vks	fixed	factor   2.1200000E-03  0.001	566930	vks	1	0	1
 pp_64_vks	fixed	factor   0.1790000      0.001	566930	vks	1	0	1
 pp_65_vks	fixed	factor   0.1000000      0.01	283.465	vks	1	0	1
-pp_66_vks	log	factor    3250.051      0.001	566930	vks	1	0	1
+pp_66_vks	fixed	factor    3250.051      0.001	566930	vks	1	0	1
 pp_67_vks	fixed	factor   1.0200000E-02  0.001	566930	vks	1	0	1
-pp_68_vks	log	factor    177.1819      0.001	566930	vks	1	0	1
-pp_69_vks	log	factor    750.7403      0.01	56693	vks	1	0	1
-pp_70_vks	log	factor    2087.688      0.01	57000	vks	1	0	1
-pp_71_vks	log	factor   0.7102465      0.001	566930	vks	1	0	1
-pp_72_vks	log	factor    26210.49      0.001	566930	vks	1	0	1
+pp_68_vks	fixed	factor    177.1819      0.001	566930	vks	1	0	1
+pp_69_vks	fixed	factor    750.7403      0.01	56693	vks	1	0	1
+pp_70_vks	fixed	factor    2087.688      0.01	57000	vks	1	0	1
+pp_71_vks	fixed	factor   0.7102465      0.001	566930	vks	1	0	1
+pp_72_vks	fixed	factor    26210.49      0.001	566930	vks	1	0	1
 pp_73_vks	fixed	factor    2.380000      0.001	566930	vks	1	0	1
 pp_74_vks	fixed	factor   1.3700000E-02  0.001	566930	vks	1	0	1
 pp_75_vks	fixed	factor   1.4300000E-02  0.001	566930	vks	1	0	1
 pp_76_vks	fixed	factor   0.1370000      0.001	566930	vks	1	0	1
 pp_77_vks	fixed	factor   9.7000000E-04  1.00e-04	5669.3	vks	1	0	1
-pp_78_vks	log	factor    97883.81      0.001	566930	vks	1	0	1
+pp_78_vks	fixed	factor    97883.81      0.001	566930	vks	1	0	1
 pp_79_vks	fixed	factor   6.2400000E-02  0.001	566930	vks	1	0	1
 pp_80_vks	fixed	factor   0.2000000      0.01	283.465	vks	1	0	1
 pp_81_vks	fixed	factor   0.2000000      0.01	283.465	vks	1	0	1
@@ -181,12 +181,12 @@ pp_91_vks	fixed	factor   5.0000000E-02  0.001	566930	vks	1	0	1
 pp_92_vks	fixed	factor   0.2000000      0.01	283.465	vks	1	0	1
 pp_93_vks	fixed	factor   1.0000000E-02  1.00e-04	5669.3	vks	1	0	1
 pp_94_vks	fixed	factor   0.2000000      0.01	283.465	vks	1	0	1
-pp_95_vks	log	factor    81.45036      0.001	566930	vks	1	0	1
-pp_96_vks	log	factor    422.4277      0.001	566930	vks	1	0	1
-pp_97_vks	log	factor    11.63319      0.001	566930	vks	1	0	1
-pp_98_vks	log	factor    5559.424      0.001	566930	vks	1	0	1
-pp_99_vks	log	factor    996.0891      0.001	566930	vks	1	0	1
-pp_100_vks	log	factor    2.338619      1.00e-04	5669.3	vks	1	0	1
+pp_95_vks	fixed	factor    81.45036      0.001	566930	vks	1	0	1
+pp_96_vks	fixed	factor    422.4277      0.001	566930	vks	1	0	1
+pp_97_vks	fixed	factor    11.63319      0.001	566930	vks	1	0	1
+pp_98_vks	fixed	factor    5559.424      0.001	566930	vks	1	0	1
+pp_99_vks	fixed	factor    996.0891      0.001	566930	vks	1	0	1
+pp_100_vks	fixed	factor    2.338619      1.00e-04	5669.3	vks	1	0	1
 pp_1_l_1	log	factor   1.9900000E+08  1	2.00e+08	ppts_l1	1	0	1
 pp_2_l_1	log	factor    1125438.      1	2.00e+06	ppts_l1	1	0	1
 pp_3_l_1	log	factor    1279964.      1	2.00e+06	ppts_l1	1	0	1
@@ -201,70 +201,70 @@ pp_11_l_1	log	factor    2871.287      1	283465	ppts_l1	1	0	1
 pp_12_l_1	log	factor    19993.04      1	28346.5	ppts_l1	1	0	1
 pp_13_l_1	log	factor    28346.40      1	28346.5	ppts_l1	1	0	1
 pp_14_l_1	log	factor    999946.3      1	2.00e+06	ppts_l1	1	0	1
-pp_15_l_1	log	factor    199.9615      1	283.465	ppts_l1	1	0	1
+pp_15_l_1	fixed	factor    199.9615      1	283.465	ppts_l1	1	0	1
 pp_16_l_1	log	factor    1000025.      1	2.00e+06	ppts_l1	1	0	1
 pp_17_l_1	log	factor   1.9547562E+07  1	2.00e+08	ppts_l1	1	0	1
-pp_18_l_1	log	factor    199.8939      1	283.465	ppts_l1	1	0	1
+pp_18_l_1	fixed	factor    199.8939      1	283.465	ppts_l1	1	0	1
 pp_19_l_1	log	factor    199.8890      1	283.465	ppts_l1	1	0	1
 pp_20_l_1	log	factor    999888.9      1	2.00e+06	ppts_l1	1	0	1
 pp_21_l_1	log	factor    199.9102      1	283.465	ppts_l1	1	0	1
 pp_22_l_1	log	factor    200.1484      1	283.465	ppts_l1	1	0	1
-pp_23_l_1	log	factor    200.1061      1	283.465	ppts_l1	1	0	1
+pp_23_l_1	fixed	factor    200.1061      1	283.465	ppts_l1	1	0	1
 pp_24_l_1	log	factor    2000.178      1	20000	ppts_l1	1	0	1
 pp_25_l_1	log	factor    2475.640      1	2475.655	ppts_l1	1	0	1
 pp_26_l_1	log	factor    117.7514      1	28346.5	ppts_l1	1	0	1
-pp_27_l_1	log	factor    199.9903      1	283.465	ppts_l1	1	0	1
-pp_28_l_1	log	factor    200.0518      1	283.465	ppts_l1	1	0	1
-pp_29_l_1	log	factor    200.0121      1	283.465	ppts_l1	1	0	1
-pp_30_l_1	log	factor    199.8800      1	283.465	ppts_l1	1	0	1
-pp_31_l_1	log	factor    283.4550      1	283.465	ppts_l1	1	0	1
-pp_32_l_1	log	factor    199.8989      1	283.465	ppts_l1	1	0	1
+pp_27_l_1	fixed	factor    199.9903      1	283.465	ppts_l1	1	0	1
+pp_28_l_1	fixed	factor    200.0518      1	283.465	ppts_l1	1	0	1
+pp_29_l_1	fixed	factor    200.0121      1	283.465	ppts_l1	1	0	1
+pp_30_l_1	fixed	factor    199.8800      1	283.465	ppts_l1	1	0	1
+pp_31_l_1	fixed	factor    283.4550      1	283.465	ppts_l1	1	0	1
+pp_32_l_1	fixed	factor    199.8989      1	283.465	ppts_l1	1	0	1
 pp_33_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_34_l_1	log	factor    283.4550      1	283.465	ppts_l1	1	0	1
 pp_35_l_1	log	factor    2342.353      1	28346.5	ppts_l1	1	0	1
 pp_36_l_1	log	factor    922.7004      1	7548.08	ppts_l1	1	0	1
 pp_37_l_1	log	factor    2638.215      1	3670.53	ppts_l1	1	0	1
-pp_38_l_1	log	factor    199.8733      1	283.465	ppts_l1	1	0	1
-pp_39_l_1	log	factor    199.8686      1	283.465	ppts_l1	1	0	1
+pp_38_l_1	fixed	factor    199.8733      1	283.465	ppts_l1	1	0	1
+pp_39_l_1	fixed	factor    199.8686      1	283.465	ppts_l1	1	0	1
 pp_40_l_1	log	factor    3670.430      1	3670.53	ppts_l1	1	0	1
-pp_41_l_1	log	factor    200.0979      1	283.465	ppts_l1	1	0	1
+pp_41_l_1	fixed	factor    200.0979      1	283.465	ppts_l1	1	0	1
 pp_42_l_1	log	factor    1835.043      5	566930	ppts_l1	1	0	1
-pp_43_l_1	log	factor    199.8932      1	283.465	ppts_l1	1	0	1
+pp_43_l_1	fixed	factor    199.8932      1	283.465	ppts_l1	1	0	1
 pp_44_l_1	log	factor    295.0155      1	589.9106	ppts_l1	1	0	1
-pp_45_l_1	log	factor    200.1001      1	283.465	ppts_l1	1	0	1
-pp_46_l_1	log	factor    199.9963      5	566930	ppts_l1	1	0	1
+pp_45_l_1	fixed	factor    200.1001      1	283.465	ppts_l1	1	0	1
+pp_46_l_1	fixed	factor    199.9963      5	566930	ppts_l1	1	0	1
 pp_47_l_1	log	factor    23053.65      1	46139.38	ppts_l1	1	0	1
 pp_48_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_49_l_1	log	factor    23065.94      1	46139.38	ppts_l1	1	0	1
-pp_50_l_1	log	factor    200.0039      1	283.465	ppts_l1	1	0	1
+pp_50_l_1	fixed	factor    200.0039      1	283.465	ppts_l1	1	0	1
 pp_51_l_1	log	factor    200.0971      1	283.465	ppts_l1	1	0	1
-pp_52_l_1	log	factor    200.0536      1	283.465	ppts_l1	1	0	1
-pp_53_l_1	log	factor    200.1991      5	566930	ppts_l1	1	0	1
-pp_54_l_1	log	factor    179.8888      1	283.465	ppts_l1	1	0	1
-pp_55_l_1	log	factor    230.5816      5	566930	ppts_l1	1	0	1
-pp_56_l_1	log	factor    199.8808      5	566930	ppts_l1	1	0	1
+pp_52_l_1	fixed	factor    200.0536      1	283.465	ppts_l1	1	0	1
+pp_53_l_1	fixed	factor    200.1991      5	566930	ppts_l1	1	0	1
+pp_54_l_1	fixed	factor    179.8888      1	283.465	ppts_l1	1	0	1
+pp_55_l_1	fixed	factor    230.5816      5	566930	ppts_l1	1	0	1
+pp_56_l_1	fixed	factor    199.8808      5	566930	ppts_l1	1	0	1
 pp_57_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_58_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
-pp_59_l_1	log	factor    199.9893      5	566930	ppts_l1	1	0	1
+pp_59_l_1	fixed	factor    199.9893      5	566930	ppts_l1	1	0	1
 pp_60_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_61_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_62_l_1	fixed	factor    200.0000      5	566930	ppts_l1	1	0	1
 pp_63_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_64_l_1	fixed	factor    200.0000      5	566930	ppts_l1	1	0	1
 pp_65_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
-pp_66_l_1	log	factor    199.9665      5	566930	ppts_l1	1	0	1
+pp_66_l_1	fixed	factor    199.9665      5	566930	ppts_l1	1	0	1
 pp_67_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
-pp_68_l_1	log	factor    199.9991      5	566930	ppts_l1	1	0	1
-pp_69_l_1	log	factor    199.9903      5	566930	ppts_l1	1	0	1
-pp_70_l_1	log	factor    199.8712      5	566930	ppts_l1	1	0	1
-pp_71_l_1	log	factor    200.1061      5	566930	ppts_l1	1	0	1
-pp_72_l_1	log	factor    200.1110      5	566930	ppts_l1	1	0	1
+pp_68_l_1	fixed	factor    199.9991      5	566930	ppts_l1	1	0	1
+pp_69_l_1	fixed	factor    199.9903      5	566930	ppts_l1	1	0	1
+pp_70_l_1	fixed	factor    199.8712      5	566930	ppts_l1	1	0	1
+pp_71_l_1	fixed	factor    200.1061      5	566930	ppts_l1	1	0	1
+pp_72_l_1	fixed	factor    200.1110      5	566930	ppts_l1	1	0	1
 pp_73_l_1	fixed	factor    200.0000      5	566930	ppts_l1	1	0	1
 pp_74_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_75_l_1	fixed	factor    200.0000      5	566930	ppts_l1	1	0	1
 pp_76_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_77_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
-pp_78_l_1	log	factor    199.8683      1	283.465	ppts_l1	1	0	1
+pp_78_l_1	fixed	factor    199.8683      1	283.465	ppts_l1	1	0	1
 pp_79_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_80_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_81_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
@@ -281,12 +281,12 @@ pp_91_l_1	fixed	factor    200.0000      5	566930	ppts_l1	1	0	1
 pp_92_l_1	fixed	factor    200.0000      5	566930	ppts_l1	1	0	1
 pp_93_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
 pp_94_l_1	fixed	factor    200.0000      1	283.465	ppts_l1	1	0	1
-pp_95_l_1	log	factor    199.9102      1	283.465	ppts_l1	1	0	1
-pp_96_l_1	log	factor    200.0586      1	283.465	ppts_l1	1	0	1
-pp_97_l_1	log	factor    200.0121      1	283.465	ppts_l1	1	0	1
-pp_98_l_1	log	factor    200.0031      1	283.465	ppts_l1	1	0	1
-pp_99_l_1	log	factor    199.9773      1	283.465	ppts_l1	1	0	1
-pp_100_l_1	log	factor    199.9634      1	283.465	ppts_l1	1	0	1
+pp_95_l_1	fixed	factor    199.9102      1	283.465	ppts_l1	1	0	1
+pp_96_l_1	fixed	factor    200.0586      1	283.465	ppts_l1	1	0	1
+pp_97_l_1	fixed	factor    200.0121      1	283.465	ppts_l1	1	0	1
+pp_98_l_1	fixed	factor    200.0031      1	283.465	ppts_l1	1	0	1
+pp_99_l_1	fixed	factor    199.9773      1	283.465	ppts_l1	1	0	1
+pp_100_l_1	fixed	factor    199.9634      1	283.465	ppts_l1	1	0	1
 pp_1_l_2	log	factor   1.9900000E+07  1	2.00e+07	ppts_l2	1	0	1
 pp_2_l_2	log	factor    455489.1      1	2.00e+07	ppts_l2	1	0	1
 pp_3_l_2	log	factor    135322.2      5	2.00e+05	ppts_l2	1	0	1
@@ -301,70 +301,70 @@ pp_11_l_2	log	factor    750.6523      1	28346.5	ppts_l2	1	0	1
 pp_12_l_2	log	factor    516400.6      1	28346500	ppts_l2	1	0	1
 pp_13_l_2	log	factor    951.8184      1	2834.65	ppts_l2	1	0	1
 pp_14_l_2	log	factor    5669.200      1	5669.3	ppts_l2	1	0	1
-pp_15_l_2	log	factor    199.8932      1	283.465	ppts_l2	1	0	1
+pp_15_l_2	fixed	factor    199.8932      1	283.465	ppts_l2	1	0	1
 pp_16_l_2	log	factor    199999.0      1	2.00e+05	ppts_l2	1	0	1
 pp_17_l_2	log	factor    1.010000      1	2834.65	ppts_l2	1	0	1
-pp_18_l_2	log	factor    199.9999      1	283.465	ppts_l2	1	0	1
+pp_18_l_2	fixed	factor    199.9999      1	283.465	ppts_l2	1	0	1
 pp_19_l_2	log	factor    357.5310      1	566.93	ppts_l2	1	0	1
 pp_20_l_2	log	factor    199999.0      1	2.00e+05	ppts_l2	1	0	1
 pp_21_l_2	log	factor    5165.537      5	5669.3	ppts_l2	1	0	1
 pp_22_l_2	log	factor    283.4550      1	283.465	ppts_l2	1	0	1
-pp_23_l_2	log	factor    883.1842      1	28346.5	ppts_l2	1	0	1
+pp_23_l_2	fixed	factor    883.1842      1	28346.5	ppts_l2	1	0	1
 pp_24_l_2	log	factor    532.5037      5	56693	ppts_l2	1	0	1
 pp_25_l_2	log	factor    56692.00      5	56693	ppts_l2	1	0	1
 pp_26_l_2	log	factor    1391.011      1	2834.65	ppts_l2	1	0	1
-pp_27_l_2	log	factor    199.8848      1	283.465	ppts_l2	1	0	1
-pp_28_l_2	log	factor    84.13969      1	283.465	ppts_l2	1	0	1
-pp_29_l_2	log	factor    200.0041      5	5669.3	ppts_l2	1	0	1
-pp_30_l_2	log	factor    254.5359      1	28346.5	ppts_l2	1	0	1
-pp_31_l_2	log	factor    178.9918      1	283.465	ppts_l2	1	0	1
-pp_32_l_2	log	factor    1.114762      1	283.465	ppts_l2	1	0	1
+pp_27_l_2	fixed	factor    199.8848      1	283.465	ppts_l2	1	0	1
+pp_28_l_2	fixed	factor    84.13969      1	283.465	ppts_l2	1	0	1
+pp_29_l_2	fixed	factor    200.0041      5	5669.3	ppts_l2	1	0	1
+pp_30_l_2	fixed	factor    254.5359      1	28346.5	ppts_l2	1	0	1
+pp_31_l_2	fixed	factor    178.9918      1	283.465	ppts_l2	1	0	1
+pp_32_l_2	fixed	factor    1.114762      1	283.465	ppts_l2	1	0	1
 pp_33_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
 pp_34_l_2	log	factor    5.100000      5	5669.3	ppts_l2	1	0	1
 pp_35_l_2	log	factor    48.18759      1	2834.65	ppts_l2	1	0	1
 pp_36_l_2	log	factor    266.6967      5	56693	ppts_l2	1	0	1
 pp_37_l_2	log	factor    1.250931      1	283.465	ppts_l2	1	0	1
-pp_38_l_2	log	factor    199.9626      1	283.465	ppts_l2	1	0	1
-pp_39_l_2	log	factor    199.9577      1	283.465	ppts_l2	1	0	1
+pp_38_l_2	fixed	factor    199.9626      1	283.465	ppts_l2	1	0	1
+pp_39_l_2	fixed	factor    199.9577      1	283.465	ppts_l2	1	0	1
 pp_40_l_2	log	factor    1.100000      1	283.465	ppts_l2	1	0	1
-pp_41_l_2	log	factor    199.9828      5	5669.3	ppts_l2	1	0	1
+pp_41_l_2	fixed	factor    199.9828      5	5669.3	ppts_l2	1	0	1
 pp_42_l_2	log	factor    65.66199      5	5669.3	ppts_l2	1	0	1
-pp_43_l_2	log	factor    199.8736      1	283.465	ppts_l2	1	0	1
+pp_43_l_2	fixed	factor    199.8736      1	283.465	ppts_l2	1	0	1
 pp_44_l_2	log	factor    5.100000      5	5669.3	ppts_l2	1	0	1
-pp_45_l_2	log	factor    200.0178      1	283.465	ppts_l2	1	0	1
-pp_46_l_2	log	factor    178.1489      5	5669.3	ppts_l2	1	0	1
+pp_45_l_2	fixed	factor    200.0178      1	283.465	ppts_l2	1	0	1
+pp_46_l_2	fixed	factor    178.1489      5	5669.3	ppts_l2	1	0	1
 pp_47_l_2	log	factor    1231.010      1	1231.1072	ppts_l2	1	0	1
 pp_48_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
 pp_49_l_2	log	factor    985.9281      1	1231.1072	ppts_l2	1	0	1
-pp_50_l_2	log	factor    199.9676      5	5669.3	ppts_l2	1	0	1
+pp_50_l_2	fixed	factor    199.9676      5	5669.3	ppts_l2	1	0	1
 pp_51_l_2	log	factor    199.8720      1	283.465	ppts_l2	1	0	1
-pp_52_l_2	log	factor    1.100000      1	283.465	ppts_l2	1	0	1
-pp_53_l_2	log	factor    199.8808      5	5669.3	ppts_l2	1	0	1
-pp_54_l_2	log	factor    200.0456      5	5669.3	ppts_l2	1	0	1
-pp_55_l_2	log	factor    199.9665      5	5669.3	ppts_l2	1	0	1
-pp_56_l_2	log	factor    7.885082      5	5669.3	ppts_l2	1	0	1
+pp_52_l_2	fixed	factor    1.100000      1	283.465	ppts_l2	1	0	1
+pp_53_l_2	fixed	factor    199.8808      5	5669.3	ppts_l2	1	0	1
+pp_54_l_2	fixed	factor    200.0456      5	5669.3	ppts_l2	1	0	1
+pp_55_l_2	fixed	factor    199.9665      5	5669.3	ppts_l2	1	0	1
+pp_56_l_2	fixed	factor    7.885082      5	5669.3	ppts_l2	1	0	1
 pp_57_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
 pp_58_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
-pp_59_l_2	log	factor    5.100000      5	5669.3	ppts_l2	1	0	1
+pp_59_l_2	fixed	factor    5.100000      5	5669.3	ppts_l2	1	0	1
 pp_60_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
 pp_61_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
 pp_62_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
 pp_63_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
 pp_64_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
 pp_65_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
-pp_66_l_2	log	factor    199.9955      5	5669.3	ppts_l2	1	0	1
+pp_66_l_2	fixed	factor    199.9955      5	5669.3	ppts_l2	1	0	1
 pp_67_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
-pp_68_l_2	log	factor    5575.099      5	5669.3	ppts_l2	1	0	1
-pp_69_l_2	log	factor    5669.200      5	5669.3	ppts_l2	1	0	1
-pp_70_l_2	log	factor    5669.200      5	5669.3	ppts_l2	1	0	1
-pp_71_l_2	log	factor    199.8393      5	5669.3	ppts_l2	1	0	1
-pp_72_l_2	log	factor    230.5360      5	5669.3	ppts_l2	1	0	1
+pp_68_l_2	fixed	factor    5575.099      5	5669.3	ppts_l2	1	0	1
+pp_69_l_2	fixed	factor    5669.200      5	5669.3	ppts_l2	1	0	1
+pp_70_l_2	fixed	factor    5669.200      5	5669.3	ppts_l2	1	0	1
+pp_71_l_2	fixed	factor    199.8393      5	5669.3	ppts_l2	1	0	1
+pp_72_l_2	fixed	factor    230.5360      5	5669.3	ppts_l2	1	0	1
 pp_73_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
 pp_74_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
 pp_75_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
 pp_76_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
 pp_77_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
-pp_78_l_2	log	factor    167.5997      5	5669.3	ppts_l2	1	0	1
+pp_78_l_2	fixed	factor    167.5997      5	5669.3	ppts_l2	1	0	1
 pp_79_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
 pp_80_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
 pp_81_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
@@ -381,12 +381,12 @@ pp_91_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
 pp_92_l_2	fixed	factor    200.0000      5	5669.3	ppts_l2	1	0	1
 pp_93_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
 pp_94_l_2	fixed	factor    200.0000      1	283.465	ppts_l2	1	0	1
-pp_95_l_2	log	factor    283.4387      1	28346.5	ppts_l2	1	0	1
-pp_96_l_2	log	factor    200.0092      5	5669.3	ppts_l2	1	0	1
-pp_97_l_2	log	factor    297.0949      1	28346.5	ppts_l2	1	0	1
-pp_98_l_2	log	factor    566.9200      1	566.93	ppts_l2	1	0	1
-pp_99_l_2	log	factor    268.0491      5	5669.3	ppts_l2	1	0	1
-pp_100_l_2	log	factor    5.438102      0.01	5669.3	ppts_l2	1	0	1
+pp_95_l_2	fixed	factor    283.4387      1	28346.5	ppts_l2	1	0	1
+pp_96_l_2	fixed	factor    200.0092      5	5669.3	ppts_l2	1	0	1
+pp_97_l_2	fixed	factor    297.0949      1	28346.5	ppts_l2	1	0	1
+pp_98_l_2	fixed	factor    566.9200      1	566.93	ppts_l2	1	0	1
+pp_99_l_2	fixed	factor    268.0491      5	5669.3	ppts_l2	1	0	1
+pp_100_l_2	fixed	factor    5.438102      0.01	5669.3	ppts_l2	1	0	1
 pp_1_l_3	fixed	factor   1.0000000E-04  1.42e-08	0.0142	ppts_l3	1	0	1
 pp_2_l_3	fixed	factor   1.0000000E-04  1.42e-08	0.0142	ppts_l3	1	0	1
 pp_3_l_3	fixed	factor   1.0000000E-04  1.42e-08	0.0142	ppts_l3	1	0	1
@@ -594,13 +594,13 @@ finf_zn_04	fixed	factor   0.6067150      0.15	1.75	finf	1	0	1
 finf_zn_05	fixed	factor   0.1500000      0.001	1.75	finf	1	0	1
 finf_zn_06	fixed	factor   0.4846880      0.15	1.75	finf	1	0	1
 finf_zn_07	fixed	factor   0.1500000      0.001	1.75	finf	1	0	1
-finf_zn_08	log	factor   0.2011606      0.1	1.75	finf	1	0	1
-finf_zn_09	log	factor   0.1500728      0.001	1.75	finf	1	0	1
-finf_zn_10	log	factor    1.750452      0.15	175	finf	1	0	1
-finf_zn_11	log	factor    1.749155      0.1	175	finf	1	0	1
-finf_zn_12	log	factor    1.464466      0.1	1.75	finf	1	0	1
-surfk_lo	log	factor   0.3701599      1.00e-05	283465	surfk	1	0	1
-surfk_hi	log	factor   0.1477725      1.00e-04	283465	surfk	1	0	1
+finf_zn_08	fixed	factor   0.2011606      0.1	1.75	finf	1	0	1
+finf_zn_09	fixed	factor   0.1500728      0.001	1.75	finf	1	0	1
+finf_zn_10	fixed	factor    1.750452      0.15	175	finf	1	0	1
+finf_zn_11	fixed	factor    1.749155      0.1	175	finf	1	0	1
+finf_zn_12	fixed	factor    1.464466      0.1	1.75	finf	1	0	1
+surfk_lo	fixed	factor   0.3701599      1.00e-05	283465	surfk	1	0	1
+surfk_hi	fixed	factor   0.1477725      1.00e-04	283465	surfk	1	0	1
 pet_zn_01	fixed	factor    1.500000      0.2	1.75	pet	1	0	1
 pet_zn_02	fixed	factor    1.499990      0.2	1.75	pet	1	0	1
 pet_zn_03	fixed	factor   0.2010200      0.1	1.5	pet	1	0	1
@@ -608,538 +608,542 @@ pet_zn_04	fixed	factor    1.500000      0.2	1.75	pet	1	0	1
 pet_zn_05	fixed	factor    1.346400      0.2	1.5	pet	1	0	1
 pet_zn_06	fixed	factor   0.2000080      0.1	1.5	pet	1	0	1
 pet_zn_07	fixed	factor   0.5000000      0.2	1.5	pet	1	0	1
-pet_zn_08	log	factor   0.1998385      0.001	1.5	pet	1	0	1
-pet_zn_09	log	factor   0.1998997      0.001	1.5	pet	1	0	1
-pet_zn_10	log	factor    1.117067      0.2	1.75	pet	1	0	1
-pet_zn_11	log	factor    1.499326      0.2	1.75	pet	1	0	1
-pet_zn_12	log	factor    1.104931      0.2	1.75	pet	1	0	1
+pet_zn_08	fixed	factor   0.1998385      0.001	1.5	pet	1	0	1
+pet_zn_09	fixed	factor   0.1998997      0.001	1.5	pet	1	0	1
+pet_zn_10	fixed	factor    1.117067      0.2	1.75	pet	1	0	1
+pet_zn_11	fixed	factor    1.499326      0.2	1.75	pet	1	0	1
+pet_zn_12	fixed	factor    1.104931      0.2	1.75	pet	1	0	1
 * observation groups
-H_Obs
+H_Obs_high
+H_Obs_low
+H_Obs_no
 Lake_Obs
-Q_Obs
+Q_Obs_high
+Q_Obs_low
+Q_Obs_no
 GWET_Obs
 * observation data
-m01_20101107	253.92	1000	H_Obs
-m01_20101115	258.3	1000	H_Obs
-m01_20110203	268.87	1000	H_Obs
-m01_20110315	261.6	1000	H_Obs
-m01_20110401	271.28	1000	H_Obs
-m01_20111013	255.12	1000	H_Obs
-m01_20111014	255.12	1000	H_Obs
-m01_20111015	255.12	1000	H_Obs
-m01_20111016	255.12	1000	H_Obs
-m01_20111209	256.76	1000	H_Obs
-m01_20111220	256.26	1000	H_Obs
-m01_20111221	256.26	1000	H_Obs
-m01_20111222	256.26	1000	H_Obs
-m01_20111223	256.26	1000	H_Obs
-m01_20120203	257.7	1000	H_Obs
-m01_20120401	268.77	1000	H_Obs
-m01_20120924	254.81	1000	H_Obs
-m01_20121027	256.56	1000	H_Obs
-m01_20121229	268.88	1000	H_Obs
-m01_20130713	256.15	1000	H_Obs
-m01_20130818	255.18	1000	H_Obs
-m01_20130927	255.79	1000	H_Obs
-m01_20131105	255.05	1000	H_Obs
-m01_20131118	257.24	1000	H_Obs
-m01_20131210	255.09	1000	H_Obs
-m01_20140302	265.84	1000	H_Obs
-m01_20140331	259.07	1000	H_Obs
-m01_20140409	260.32	1000	H_Obs
-m01_20140410	260.32	1000	H_Obs
-m01_20140930	253.95	1000	H_Obs
-m02_20101029	249.13	1000	H_Obs
-m02_20110315	257.07	1000	H_Obs
-m02_20110401	267.02	1000	H_Obs
-m02_20110901	249.5	1000	H_Obs
-m02_20110926	248.82	1000	H_Obs
-m02_20111015	249.47	1000	H_Obs
-m02_20111104	249.05	1000	H_Obs
-m02_20111209	250.18	1000	H_Obs
-m02_20111227	249.6	1000	H_Obs
-m02_20120129	251.48	1000	H_Obs
-m02_20120221	250.28	1000	H_Obs
-m02_20120401	265.2	1000	H_Obs
-m02_20120711	250.03	1000	H_Obs
-m02_20120806	253.82	1000	H_Obs
-m02_20120911	251.4	1000	H_Obs
-m02_20121026	256.54	1000	H_Obs
-m02_20130109	266	1000	H_Obs
-m02_20130218	258.74	1000	H_Obs
-m02_20130702	256.92	1000	H_Obs
-m02_20130805	258.8	1000	H_Obs
-m02_20130818	256.5	1000	H_Obs
-m02_20130927	258.17	1000	H_Obs
-m02_20131104	256.74	1000	H_Obs
-m02_20140129	249.25	1000	H_Obs
-m02_20140130	249.25	1000	H_Obs
-m02_20140302	263.67	1000	H_Obs
-m02_20140331	254.37	1000	H_Obs
-m02_20140413	254.93	1000	H_Obs
-m02_20140629	248.17	1000	H_Obs
-m02_20140728	250.07	1000	H_Obs
-m03_20110315	244.76	1000	H_Obs
-m03_20110402	259.52	1000	H_Obs
-m03_20120623	241.1	1000	H_Obs
-m03_20120624	241.1	1000	H_Obs
-m03_20120711	241.83	1000	H_Obs
-m03_20120712	241.83	1000	H_Obs
-m03_20120715	241.83	1000	H_Obs
-m03_20121004	239.68	1000	H_Obs
-m03_20121021	239.84	1000	H_Obs
-m03_20121111	239.5	1000	H_Obs
-m03_20121224	253.44	1000	H_Obs
-m03_20130328	243.2	1000	H_Obs
-m03_20130421	243.91	1000	H_Obs
-m03_20130422	243.91	1000	H_Obs
-m03_20130517	243.16	1000	H_Obs
-m03_20130602	244.06	1000	H_Obs
-m03_20130709	243.1	1000	H_Obs
-m03_20130727	244.12	1000	H_Obs
-m03_20130728	244.12	1000	H_Obs
-m03_20130829	242.92	1000	H_Obs
-m03_20131008	244.36	1000	H_Obs
-m03_20140105	243.03	1000	H_Obs
-m03_20140118	243.38	1000	H_Obs
-m03_20140119	243.38	1000	H_Obs
-m03_20140131	243	1000	H_Obs
-m03_20140304	247.3	1000	H_Obs
-m03_20140629	242.86	1000	H_Obs
-m03_20140728	244.35	1000	H_Obs
-m04_20101119	236.56	1000	H_Obs
-m04_20110326	251.86	1000	H_Obs
-m04_20120115	236.39	1000	H_Obs
-m04_20120116	236.39	1000	H_Obs
-m04_20120117	236.39	1000	H_Obs
-m04_20120122	236.66	1000	H_Obs
-m04_20120314	236.32	1000	H_Obs
-m04_20120401	248.28	1000	H_Obs
-m04_20120928	236.4	1000	H_Obs
-m04_20120929	236.4	1000	H_Obs
-m04_20120930	236.4	1000	H_Obs
-m04_20121026	236.41	1000	H_Obs
-m04_20121223	247.86	1000	H_Obs
-m04_20130903	236.72	1000	H_Obs
-m04_20130904	236.72	1000	H_Obs
-m04_20130905	236.72	1000	H_Obs
-m04_20130911	236.72	1000	H_Obs
-m04_20130912	236.72	1000	H_Obs
-m04_20131028	236.96	1000	H_Obs
-m04_20131029	236.96	1000	H_Obs
-m04_20131119	236.81	1000	H_Obs
-m04_20131207	236.88	1000	H_Obs
-m04_20140107	236.7	1000	H_Obs
-m04_20140108	236.7	1000	H_Obs
-m04_20140109	236.7	1000	H_Obs
-m04_20140110	236.7	1000	H_Obs
-m04_20140111	236.7	1000	H_Obs
-m04_20140112	236.7	1000	H_Obs
-m04_20140302	246.99	1000	H_Obs
-m04_20140418	237.34	1000	H_Obs
-m04_20140419	237.34	1000	H_Obs
-m04_20140510	237.65	1000	H_Obs
-m04_20140605	236.63	1000	H_Obs
-m04_20140626	237.37	1000	H_Obs
-m04_20140627	237.37	1000	H_Obs
-m05_20101216	225.37	1000	H_Obs
-m05_20101217	225.37	1000	H_Obs
-m05_20110326	245.81	1000	H_Obs
-m05_20111115	225.28	1000	H_Obs
-m05_20111116	225.28	1000	H_Obs
-m05_20120109	228.34	1000	H_Obs
-m05_20120110	228.34	1000	H_Obs
-m05_20120320	225.15	1000	H_Obs
-m05_20120321	225.15	1000	H_Obs
-m05_20120402	236.77	1000	H_Obs
-m05_20120803	224.17	1000	H_Obs
-m05_20120809	228.08	1000	H_Obs
-m05_20120911	224.28	1000	H_Obs
-m05_20120912	224.28	1000	H_Obs
-m05_20121007	227.14	1000	H_Obs
-m05_20121120	224.89	1000	H_Obs
-m05_20121224	238.17	1000	H_Obs
-m05_20130302	229.17	1000	H_Obs
-m05_20130413	232.85	1000	H_Obs
-m05_20130613	230.99	1000	H_Obs
-m05_20130704	231.4	1000	H_Obs
-m05_20130705	231.4	1000	H_Obs
-m05_20130807	229.32	1000	H_Obs
-m05_20130903	231.65	1000	H_Obs
-m05_20131001	230.16	1000	H_Obs
-m05_20131027	231.8	1000	H_Obs
-m05_20131028	231.8	1000	H_Obs
-m05_20131204	229.55	1000	H_Obs
-m05_20131223	231.07	1000	H_Obs
-m05_20131224	231.07	1000	H_Obs
-m05_20140107	229.87	1000	H_Obs
-m05_20140108	229.87	1000	H_Obs
-m05_20140302	235.62	1000	H_Obs
-m05_20140404	230.48	1000	H_Obs
-m05_20140510	232.98	1000	H_Obs
-m05_20140605	230.89	1000	H_Obs
-m05_20140626	232.88	1000	H_Obs
-m06_20111212	223.91	1000	H_Obs
-m06_20111231	226.29	1000	H_Obs
-m06_20120207	224.15	1000	H_Obs
-m06_20120402	234.3	1000	H_Obs
-m06_20120617	224.28	1000	H_Obs
-m06_20120802	223.77	1000	H_Obs
-m06_20120820	230.78	1000	H_Obs
-m06_20120910	224.28	1000	H_Obs
-m06_20121005	229.94	1000	H_Obs
-m06_20121118	225.37	1000	H_Obs
-m06_20121224	238.71	1000	H_Obs
-m06_20130217	225.01	1000	H_Obs
-m06_20130218	225.01	1000	H_Obs
-m06_20130317	231.84	1000	H_Obs
-m06_20130605	230.92	1000	H_Obs
-m06_20130711	229.53	1000	H_Obs
-m06_20130812	226.1	1000	H_Obs
-m06_20130902	232.93	1000	H_Obs
-m06_20131026	231.97	1000	H_Obs
-m06_20131027	231.97	1000	H_Obs
-m06_20131127	227.84	1000	H_Obs
-m06_20131223	230.35	1000	H_Obs
-m06_20140110	228.11	1000	H_Obs
-m06_20140302	231.52	1000	H_Obs
-m06_20140411	227.6	1000	H_Obs
-m06_20140510	228.37	1000	H_Obs
-m06_20140605	227.38	1000	H_Obs
-m06_20140626	228.01	1000	H_Obs
-m06_20140725	227	1000	H_Obs
-m06_20140930	226.94	1000	H_Obs
-m07_20111213	220.25	1000	H_Obs
-m07_20111231	220.86	1000	H_Obs
-m07_20120101	220.86	1000	H_Obs
-m07_20120129	220.91	1000	H_Obs
-m07_20120227	220.47	1000	H_Obs
-m07_20120415	222.91	1000	H_Obs
-m07_20120805	219.68	1000	H_Obs
-m07_20120826	221.76	1000	H_Obs
-m07_20120827	221.76	1000	H_Obs
-m07_20121003	220.02	1000	H_Obs
-m07_20121121	220.05	1000	H_Obs
-m07_20121122	220.05	1000	H_Obs
-m07_20121123	220.05	1000	H_Obs
-m07_20121124	220.05	1000	H_Obs
-m07_20121224	225.13	1000	H_Obs
-m07_20130308	220.69	1000	H_Obs
-m07_20130413	222.02	1000	H_Obs
-m07_20130414	222.02	1000	H_Obs
-m07_20130523	221.18	1000	H_Obs
-m07_20130606	222.22	1000	H_Obs
-m07_20130717	222.42	1000	H_Obs
-m07_20130827	220.1	1000	H_Obs
-m07_20131027	222.63	1000	H_Obs
-m07_20131028	222.63	1000	H_Obs
-m07_20131219	220.53	1000	H_Obs
-m07_20131220	220.53	1000	H_Obs
-m07_20131225	221.58	1000	H_Obs
-m07_20140123	220.52	1000	H_Obs
-m07_20140303	222	1000	H_Obs
-m07_20140422	220.55	1000	H_Obs
-m07_20140423	220.55	1000	H_Obs
-m07_20140510	221.15	1000	H_Obs
-m07_20140605	220.49	1000	H_Obs
-m07_20140731	220.16	1000	H_Obs
-m07_20140824	220.46	1000	H_Obs
-m07_20140825	220.46	1000	H_Obs
-m07_20140925	220.23	1000	H_Obs
-m08_20101007	222.35	1000	H_Obs
-m08_20101027	222.14	1000	H_Obs
-m08_20101028	222.14	1000	H_Obs
-m08_20101229	223.9	1000	H_Obs
-m08_20110215	222.67	1000	H_Obs
-m08_20110326	227.82	1000	H_Obs
-m08_20110924	222.06	1000	H_Obs
-m08_20111004	222.32	1000	H_Obs
-m08_20111006	222.32	1000	H_Obs
-m08_20111007	222.32	1000	H_Obs
-m08_20111213	220.28	1000	H_Obs
-m08_20120128	221.1	1000	H_Obs
-m08_20120229	220.59	1000	H_Obs
-m08_20120414	223.56	1000	H_Obs
-m08_20120614	220.63	1000	H_Obs
-m08_20120722	219.74	1000	H_Obs
-m08_20121003	219.89	1000	H_Obs
-m08_20121025	220.27	1000	H_Obs
-m08_20121026	220.27	1000	H_Obs
-m08_20121121	219.95	1000	H_Obs
-m08_20121122	219.95	1000	H_Obs
-m08_20121224	225.44	1000	H_Obs
-m08_20130308	220.89	1000	H_Obs
-m08_20130412	222.42	1000	H_Obs
-m08_20130523	221.1	1000	H_Obs
-m08_20130606	222.37	1000	H_Obs
-m08_20130717	222.58	1000	H_Obs
-m08_20130828	219.9	1000	H_Obs
-m08_20131027	222.76	1000	H_Obs
-m08_20131028	222.76	1000	H_Obs
-m08_20131218	220.41	1000	H_Obs
-m08_20131219	220.41	1000	H_Obs
-m08_20131224	221.76	1000	H_Obs
-m08_20140123	220.39	1000	H_Obs
-m08_20140303	222.27	1000	H_Obs
-m08_20140423	220.54	1000	H_Obs
-m08_20140510	221.05	1000	H_Obs
-m08_20140605	220.35	1000	H_Obs
-m08_20140731	219.96	1000	H_Obs
-m08_20140913	219.99	1000	H_Obs
-m09_20101007	221.37	1000	H_Obs
-m09_20101126	221.33	1000	H_Obs
-m09_20101217	220.74	1000	H_Obs
-m09_20101218	220.74	1000	H_Obs
-m09_20101229	222.14	1000	H_Obs
-m09_20110326	226.17	1000	H_Obs
-m09_20110327	226.17	1000	H_Obs
-m09_20110624	220.96	1000	H_Obs
-m09_20110806	221.32	1000	H_Obs
-m09_20110824	220.85	1000	H_Obs
-m09_20110924	220.87	1000	H_Obs
-m09_20110929	220.87	1000	H_Obs
-m09_20111006	221.13	1000	H_Obs
-m09_20111214	219.89	1000	H_Obs
-m09_20111217	219.89	1000	H_Obs
-m09_20111218	219.89	1000	H_Obs
-m09_20120102	220.24	1000	H_Obs
-m09_20120112	219.89	1000	H_Obs
-m09_20120129	220.27	1000	H_Obs
-m09_20120224	220.06	1000	H_Obs
-m09_20120227	220.06	1000	H_Obs
-m09_20120229	220.06	1000	H_Obs
-m09_20120414	222.15	1000	H_Obs
-m09_20120805	219.01	1000	H_Obs
-m09_20120830	220.92	1000	H_Obs
-m09_20120925	219.64	1000	H_Obs
-m09_20121102	220.12	1000	H_Obs
-m09_20121123	219.62	1000	H_Obs
-m09_20121124	219.62	1000	H_Obs
-m09_20121125	219.62	1000	H_Obs
-m09_20121126	219.62	1000	H_Obs
-m09_20121127	219.62	1000	H_Obs
-m09_20121224	224.17	1000	H_Obs
-m09_20130306	220.13	1000	H_Obs
-m09_20130414	221.14	1000	H_Obs
-m09_20130415	221.14	1000	H_Obs
-m09_20130523	220.58	1000	H_Obs
-m09_20130601	220.58	1000	H_Obs
-m09_20130602	220.58	1000	H_Obs
-m09_20130606	221.21	1000	H_Obs
-m09_20130704	220.78	1000	H_Obs
-m09_20130802	221.39	1000	H_Obs
-m09_20130803	221.39	1000	H_Obs
-m09_20130827	219.6	1000	H_Obs
-m09_20131027	221.65	1000	H_Obs
-m09_20131028	221.65	1000	H_Obs
-m09_20131101	221.65	1000	H_Obs
-m09_20131225	220.83	1000	H_Obs
-m09_20140123	219.89	1000	H_Obs
-m09_20140303	221.06	1000	H_Obs
-m09_20140422	219.76	1000	H_Obs
-m09_20140510	220.5	1000	H_Obs
-m09_20140605	219.77	1000	H_Obs
-m09_20140731	219.56	1000	H_Obs
-m09_20140801	219.56	1000	H_Obs
-m09_20140807	219.56	1000	H_Obs
-m09_20140902	219.95	1000	H_Obs
-m10_20120115	211.04	1000	H_Obs
-m10_20120116	211.04	1000	H_Obs
-m10_20120117	211.04	1000	H_Obs
-m10_20120121	215.49	1000	H_Obs
-m10_20120227	211.34	1000	H_Obs
-m10_20120413	217.76	1000	H_Obs
-m10_20120815	210.24	1000	H_Obs
-m10_20120915	211.06	1000	H_Obs
-m10_20121223	219.62	1000	H_Obs
-m10_20130319	211.61	1000	H_Obs
-m10_20130320	211.61	1000	H_Obs
-m10_20130408	212.92	1000	H_Obs
-m10_20130530	211.36	1000	H_Obs
-m10_20130604	211.36	1000	H_Obs
-m10_20130606	213.35	1000	H_Obs
-m10_20130706	211.38	1000	H_Obs
-m10_20130804	216.19	1000	H_Obs
-m10_20130913	211.04	1000	H_Obs
-m10_20131029	216.44	1000	H_Obs
-m10_20131030	216.44	1000	H_Obs
-m10_20131031	216.44	1000	H_Obs
-m10_20140125	211.22	1000	H_Obs
-m10_20140302	215.7	1000	H_Obs
-m10_20140605	210.39	1000	H_Obs
-m10_20140722	211.07	1000	H_Obs
-m10_20140829	210.89	1000	H_Obs
-m10_20140918	210.61	1000	H_Obs
-v3_20101229	313.44	0	H_Obs
-v3_20110110	310.18	0	H_Obs
-v3_20110214	310.79	0	H_Obs
-v3_20110314	310.76	0	H_Obs
-v3_20110324	316.58	0	H_Obs
-v3_20110714	311.22	0	H_Obs
-v3_20110819	310.44	0	H_Obs
-v3_20110820	310.44	0	H_Obs
-v3_20110930	309.37	0	H_Obs
-v3_20111005	310.43	0	H_Obs
-v3_20111106	310.46	0	H_Obs
-v3_20120121	311.41	0	H_Obs
-v3_20120204	310.43	0	H_Obs
-v3_20120205	310.43	0	H_Obs
-v3_20120206	310.43	0	H_Obs
-v3_20120310	310.47	0	H_Obs
-v3_20120311	310.47	0	H_Obs
-v3_20120312	310.47	0	H_Obs
-v3_20120413	313.66	0	H_Obs
-v3_20120712	310.21	0	H_Obs
-v3_20120804	310.29	0	H_Obs
-v3_20120831	309.24	0	H_Obs
-v3_20120908	310.32	0	H_Obs
-v3_20121018	310.2	0	H_Obs
-v3_20121223	316.6	0	H_Obs
-v3_20130716	309.18	0	H_Obs
-v3_20130810	309.51	0	H_Obs
-v3_20130920	306.88	0	H_Obs
-v3_20131207	310.14	0	H_Obs
-v3_20140104	309.72	0	H_Obs
-v3_20140105	309.72	0	H_Obs
-v3_20140228	311.98	0	H_Obs
-v3_20140321	309.73	0	H_Obs
-v3_20140322	309.73	0	H_Obs
-v3_20140323	309.73	0	H_Obs
-v3_20140324	309.73	0	H_Obs
-v3_20140401	312.18	0	H_Obs
-v3_20140510	309.98	0	H_Obs
-v3_20140605	309.23	0	H_Obs
-v3_20140711	309.75	0	H_Obs
-v3_20140803	307.58	0	H_Obs
-v3_20140904	307.64	0	H_Obs
-v3_20140905	307.64	0	H_Obs
-v3_20140925	309.51	0	H_Obs
-v3_20140928	309.51	0	H_Obs
-v3_20140929	309.51	0	H_Obs
-v3_20140930	309.51	0	H_Obs
-v4_20101204	304.88	0	H_Obs
-v4_20101229	306.4	0	H_Obs
-v4_20110214	305.18	0	H_Obs
-v4_20110313	305.2	0	H_Obs
-v4_20110314	305.2	0	H_Obs
-v4_20110326	309.57	0	H_Obs
-v4_20110820	304.72	0	H_Obs
-v4_20111004	299.9	0	H_Obs
-v4_20111121	304.83	0	H_Obs
-v4_20111122	304.83	0	H_Obs
-v4_20111205	303.73	0	H_Obs
-v4_20111206	303.73	0	H_Obs
-v4_20120121	305.05	0	H_Obs
-v4_20120204	304.72	0	H_Obs
-v4_20120206	304.72	0	H_Obs
-v4_20120413	306.5	0	H_Obs
-v4_20120716	302.42	0	H_Obs
-v4_20120805	304.43	0	H_Obs
-v4_20120907	299.64	0	H_Obs
-v4_20120922	304.24	0	H_Obs
-v4_20121021	300.83	0	H_Obs
-v4_20121223	308.22	0	H_Obs
-v4_20130813	300.13	0	H_Obs
-v4_20130922	298.63	0	H_Obs
-v4_20131207	305.04	0	H_Obs
-v4_20140225	304.94	0	H_Obs
-v4_20140301	305.85	0	H_Obs
-v4_20140402	305.44	0	H_Obs
-v4_20140510	305.02	0	H_Obs
-v4_20140807	298.67	0	H_Obs
-v4_20140930	302.57	0	H_Obs
-v6_20101009	291.92	0	H_Obs
-v6_20101125	291.93	0	H_Obs
-v6_20101229	301.76	0	H_Obs
-v6_20110111	300.55	0	H_Obs
-v6_20110314	299.01	0	H_Obs
-v6_20110326	303.34	0	H_Obs
-v6_20111004	292.66	0	H_Obs
-v6_20111128	294.96	0	H_Obs
-v6_20111209	294.34	0	H_Obs
-v6_20120401	301.67	0	H_Obs
-v6_20120717	293.85	0	H_Obs
-v6_20120806	294.36	0	H_Obs
-v6_20120907	292.62	0	H_Obs
-v6_20120908	292.62	0	H_Obs
-v6_20120927	294.03	0	H_Obs
-v6_20120928	294.03	0	H_Obs
-v6_20121022	293.26	0	H_Obs
-v6_20121223	302.55	0	H_Obs
-v6_20130813	292.92	0	H_Obs
-v6_20130923	291.54	0	H_Obs
-v6_20131219	295.13	0	H_Obs
-v6_20140106	294.89	0	H_Obs
-v6_20140107	294.89	0	H_Obs
-v6_20140302	300.01	0	H_Obs
-v6_20140408	298.41	0	H_Obs
-v6_20140819	291.57	0	H_Obs
-v6_20140930	293.67	0	H_Obs
-a01_20110315	282.3008333	0	H_Obs
-a01_20110326	288.1125	0	H_Obs
-a01_20111023	274.8441667	0	H_Obs
-a01_20120202	278.345	0	H_Obs
-a01_20120414	285.2208333	0	H_Obs
-a01_20120930	274.6420833	0	H_Obs
-a01_20121105	274.9095833	0	H_Obs
-a01_20121224	287.1275	0	H_Obs
-a01_20131023	274.1054167	0	H_Obs
-a01_20140308	281.9633333	0	H_Obs
-a01_20140331	279.7470833	0	H_Obs
-a01_20140924	274.0470833	0	H_Obs
-a02_20110314	282.7091667	0	H_Obs
-a02_20110326	288.5741667	0	H_Obs
-a02_20111012	273.85375	0	H_Obs
-a02_20111206	276.0479167	0	H_Obs
-a02_20120131	277.8566667	0	H_Obs
-a02_20120413	285.35125	0	H_Obs
-a02_20120916	273.7466667	0	H_Obs
-a02_20121006	274.60125	0	H_Obs
-a02_20121028	274.2120833	0	H_Obs
-a02_20121223	286.5379167	0	H_Obs
-a02_20131006	272.7608333	0	H_Obs
-a02_20131231	276.36125	0	H_Obs
-a02_20140306	283.3716667	0	H_Obs
-a02_20140331	279.7716667	0	H_Obs
-a02_20140405	282.59875	0	H_Obs
-a02_20140917	272.6158333	0	H_Obs
-a03_20110314	296.6783333	0	H_Obs
-a03_20110326	300.3645833	0	H_Obs
-a03_20111006	288.6158333	0	H_Obs
-a03_20111128	291.0433333	0	H_Obs
-a03_20111211	290.2845833	0	H_Obs
-a03_20120126	292.8666667	0	H_Obs
-a03_20120413	298.4183333	0	H_Obs
-a03_20120808	290.0395833	0	H_Obs
-a03_20120910	288.4591667	0	H_Obs
-a03_20121001	289.6325	0	H_Obs
-a03_20121024	288.91875	0	H_Obs
-a03_20121223	299.5495833	0	H_Obs
-a03_20130817	288.4916667	0	H_Obs
-a03_20131004	287.73625	0	H_Obs
-a03_20131220	291.4108333	0	H_Obs
-a03_20140108	290.8620833	0	H_Obs
-a03_20140307	296.50125	0	H_Obs
-a03_20140408	296.26125	0	H_Obs
-a03_20140920	287.5633333	0	H_Obs
-a04_20110314	296.7066667	0	H_Obs
-a04_20110326	301.06625	0	H_Obs
-a04_20111006	286.55125	0	H_Obs
-a04_20111128	289.0266667	0	H_Obs
-a04_20111211	288.3104167	0	H_Obs
-a04_20120121	292.0566667	0	H_Obs
-a04_20120413	298.74875	0	H_Obs
-a04_20120909	286.44375	0	H_Obs
-a04_20120929	287.9220833	0	H_Obs
-a04_20121023	287.24	0	H_Obs
-a04_20121224	300.1016667	0	H_Obs
-a04_20130816	286.5291667	0	H_Obs
-a04_20130927	284.9204167	0	H_Obs
-a04_20131219	289.41875	0	H_Obs
-a04_20140107	288.8583333	0	H_Obs
-a04_20140303	297.0604167	0	H_Obs
-a04_20140407	296.81625	0	H_Obs
-a04_20140823	284.6341667	0	H_Obs
+m01_20101107	253.92	1000	H_Obs_low
+m01_20101115	258.3	1000	H_Obs_low
+m01_20110203	268.87	1000	H_Obs_low
+m01_20110315	261.6	1000	H_Obs_low
+m01_20110401	271.28	1000	H_Obs_low
+m01_20111013	255.12	1000	H_Obs_low
+m01_20111014	255.12	1000	H_Obs_low
+m01_20111015	255.12	1000	H_Obs_low
+m01_20111016	255.12	1000	H_Obs_low
+m01_20111209	256.76	1000	H_Obs_low
+m01_20111220	256.26	1000	H_Obs_low
+m01_20111221	256.26	1000	H_Obs_low
+m01_20111222	256.26	1000	H_Obs_low
+m01_20111223	256.26	1000	H_Obs_low
+m01_20120203	257.7	1000	H_Obs_low
+m01_20120401	268.77	1000	H_Obs_low
+m01_20120924	254.81	1000	H_Obs_low
+m01_20121027	256.56	1000	H_Obs_low
+m01_20121229	268.88	1000	H_Obs_low
+m01_20130713	256.15	1000	H_Obs_low
+m01_20130818	255.18	1000	H_Obs_low
+m01_20130927	255.79	1000	H_Obs_low
+m01_20131105	255.05	1000	H_Obs_low
+m01_20131118	257.24	1000	H_Obs_low
+m01_20131210	255.09	1000	H_Obs_low
+m01_20140302	265.84	1000	H_Obs_low
+m01_20140331	259.07	1000	H_Obs_low
+m01_20140409	260.32	1000	H_Obs_low
+m01_20140410	260.32	1000	H_Obs_low
+m01_20140930	253.95	1000	H_Obs_low
+m02_20101029	249.13	1000	H_Obs_low
+m02_20110315	257.07	1000	H_Obs_low
+m02_20110401	267.02	1000	H_Obs_low
+m02_20110901	249.5	1000	H_Obs_low
+m02_20110926	248.82	1000	H_Obs_low
+m02_20111015	249.47	1000	H_Obs_low
+m02_20111104	249.05	1000	H_Obs_low
+m02_20111209	250.18	1000	H_Obs_low
+m02_20111227	249.6	1000	H_Obs_low
+m02_20120129	251.48	1000	H_Obs_low
+m02_20120221	250.28	1000	H_Obs_low
+m02_20120401	265.2	1000	H_Obs_low
+m02_20120711	250.03	1000	H_Obs_low
+m02_20120806	253.82	1000	H_Obs_low
+m02_20120911	251.4	1000	H_Obs_low
+m02_20121026	256.54	1000	H_Obs_low
+m02_20130109	266	1000	H_Obs_low
+m02_20130218	258.74	1000	H_Obs_low
+m02_20130702	256.92	1000	H_Obs_low
+m02_20130805	258.8	1000	H_Obs_low
+m02_20130818	256.5	1000	H_Obs_low
+m02_20130927	258.17	1000	H_Obs_low
+m02_20131104	256.74	1000	H_Obs_low
+m02_20140129	249.25	1000	H_Obs_low
+m02_20140130	249.25	1000	H_Obs_low
+m02_20140302	263.67	1000	H_Obs_low
+m02_20140331	254.37	1000	H_Obs_low
+m02_20140413	254.93	1000	H_Obs_low
+m02_20140629	248.17	1000	H_Obs_low
+m02_20140728	250.07	1000	H_Obs_low
+m03_20110315	244.76	1000	H_Obs_low
+m03_20110402	259.52	1000	H_Obs_low
+m03_20120623	241.1	1000	H_Obs_low
+m03_20120624	241.1	1000	H_Obs_low
+m03_20120711	241.83	1000	H_Obs_low
+m03_20120712	241.83	1000	H_Obs_low
+m03_20120715	241.83	1000	H_Obs_low
+m03_20121004	239.68	1000	H_Obs_low
+m03_20121021	239.84	1000	H_Obs_low
+m03_20121111	239.5	1000	H_Obs_low
+m03_20121224	253.44	1000	H_Obs_low
+m03_20130328	243.2	1000	H_Obs_low
+m03_20130421	243.91	1000	H_Obs_low
+m03_20130422	243.91	1000	H_Obs_low
+m03_20130517	243.16	1000	H_Obs_low
+m03_20130602	244.06	1000	H_Obs_low
+m03_20130709	243.1	1000	H_Obs_low
+m03_20130727	244.12	1000	H_Obs_low
+m03_20130728	244.12	1000	H_Obs_low
+m03_20130829	242.92	1000	H_Obs_low
+m03_20131008	244.36	1000	H_Obs_low
+m03_20140105	243.03	1000	H_Obs_low
+m03_20140118	243.38	1000	H_Obs_low
+m03_20140119	243.38	1000	H_Obs_low
+m03_20140131	243	1000	H_Obs_low
+m03_20140304	247.3	1000	H_Obs_low
+m03_20140629	242.86	1000	H_Obs_low
+m03_20140728	244.35	1000	H_Obs_low
+m04_20101119	236.56	2000	H_Obs_high
+m04_20110326	251.86	2000	H_Obs_high
+m04_20120115	236.39	2000	H_Obs_high
+m04_20120116	236.39	2000	H_Obs_high
+m04_20120117	236.39	2000	H_Obs_high
+m04_20120122	236.66	2000	H_Obs_high
+m04_20120314	236.32	2000	H_Obs_high
+m04_20120401	248.28	2000	H_Obs_high
+m04_20120928	236.4	2000	H_Obs_high
+m04_20120929	236.4	2000	H_Obs_high
+m04_20120930	236.4	2000	H_Obs_high
+m04_20121026	236.41	2000	H_Obs_high
+m04_20121223	247.86	2000	H_Obs_high
+m04_20130903	236.72	2000	H_Obs_high
+m04_20130904	236.72	2000	H_Obs_high
+m04_20130905	236.72	2000	H_Obs_high
+m04_20130911	236.72	2000	H_Obs_high
+m04_20130912	236.72	2000	H_Obs_high
+m04_20131028	236.96	2000	H_Obs_high
+m04_20131029	236.96	2000	H_Obs_high
+m04_20131119	236.81	2000	H_Obs_high
+m04_20131207	236.88	2000	H_Obs_high
+m04_20140107	236.7	2000	H_Obs_high
+m04_20140108	236.7	2000	H_Obs_high
+m04_20140109	236.7	2000	H_Obs_high
+m04_20140110	236.7	2000	H_Obs_high
+m04_20140111	236.7	2000	H_Obs_high
+m04_20140112	236.7	2000	H_Obs_high
+m04_20140302	246.99	2000	H_Obs_high
+m04_20140418	237.34	2000	H_Obs_high
+m04_20140419	237.34	2000	H_Obs_high
+m04_20140510	237.65	2000	H_Obs_high
+m04_20140605	236.63	2000	H_Obs_high
+m04_20140626	237.37	2000	H_Obs_high
+m04_20140627	237.37	2000	H_Obs_high
+m05_20101216	225.37	2000	H_Obs_high
+m05_20101217	225.37	2000	H_Obs_high
+m05_20110326	245.81	2000	H_Obs_high
+m05_20111115	225.28	2000	H_Obs_high
+m05_20111116	225.28	2000	H_Obs_high
+m05_20120109	228.34	2000	H_Obs_high
+m05_20120110	228.34	2000	H_Obs_high
+m05_20120320	225.15	2000	H_Obs_high
+m05_20120321	225.15	2000	H_Obs_high
+m05_20120402	236.77	2000	H_Obs_high
+m05_20120803	224.17	2000	H_Obs_high
+m05_20120809	228.08	2000	H_Obs_high
+m05_20120911	224.28	2000	H_Obs_high
+m05_20120912	224.28	2000	H_Obs_high
+m05_20121007	227.14	2000	H_Obs_high
+m05_20121120	224.89	2000	H_Obs_high
+m05_20121224	238.17	2000	H_Obs_high
+m05_20130302	229.17	2000	H_Obs_high
+m05_20130413	232.85	2000	H_Obs_high
+m05_20130613	230.99	2000	H_Obs_high
+m05_20130704	231.4	2000	H_Obs_high
+m05_20130705	231.4	2000	H_Obs_high
+m05_20130807	229.32	2000	H_Obs_high
+m05_20130903	231.65	2000	H_Obs_high
+m05_20131001	230.16	2000	H_Obs_high
+m05_20131027	231.8	2000	H_Obs_high
+m05_20131028	231.8	2000	H_Obs_high
+m05_20131204	229.55	2000	H_Obs_high
+m05_20131223	231.07	2000	H_Obs_high
+m05_20131224	231.07	2000	H_Obs_high
+m05_20140107	229.87	2000	H_Obs_high
+m05_20140108	229.87	2000	H_Obs_high
+m05_20140302	235.62	2000	H_Obs_high
+m05_20140404	230.48	2000	H_Obs_high
+m05_20140510	232.98	2000	H_Obs_high
+m05_20140605	230.89	2000	H_Obs_high
+m05_20140626	232.88	2000	H_Obs_high
+m06_20111212	223.91	2000	H_Obs_high
+m06_20111231	226.29	2000	H_Obs_high
+m06_20120207	224.15	2000	H_Obs_high
+m06_20120402	234.3	2000	H_Obs_high
+m06_20120617	224.28	2000	H_Obs_high
+m06_20120802	223.77	2000	H_Obs_high
+m06_20120820	230.78	2000	H_Obs_high
+m06_20120910	224.28	2000	H_Obs_high
+m06_20121005	229.94	2000	H_Obs_high
+m06_20121118	225.37	2000	H_Obs_high
+m06_20121224	238.71	2000	H_Obs_high
+m06_20130217	225.01	2000	H_Obs_high
+m06_20130218	225.01	2000	H_Obs_high
+m06_20130317	231.84	2000	H_Obs_high
+m06_20130605	230.92	2000	H_Obs_high
+m06_20130711	229.53	2000	H_Obs_high
+m06_20130812	226.1	2000	H_Obs_high
+m06_20130902	232.93	2000	H_Obs_high
+m06_20131026	231.97	2000	H_Obs_high
+m06_20131027	231.97	2000	H_Obs_high
+m06_20131127	227.84	2000	H_Obs_high
+m06_20131223	230.35	2000	H_Obs_high
+m06_20140110	228.11	2000	H_Obs_high
+m06_20140302	231.52	2000	H_Obs_high
+m06_20140411	227.6	2000	H_Obs_high
+m06_20140510	228.37	2000	H_Obs_high
+m06_20140605	227.38	2000	H_Obs_high
+m06_20140626	228.01	2000	H_Obs_high
+m06_20140725	227	2000	H_Obs_high
+m06_20140930	226.94	2000	H_Obs_high
+m07_20111213	220.25	1000	H_Obs_low
+m07_20111231	220.86	1000	H_Obs_low
+m07_20120101	220.86	1000	H_Obs_low
+m07_20120129	220.91	1000	H_Obs_low
+m07_20120227	220.47	1000	H_Obs_low
+m07_20120415	222.91	1000	H_Obs_low
+m07_20120805	219.68	1000	H_Obs_low
+m07_20120826	221.76	1000	H_Obs_low
+m07_20120827	221.76	1000	H_Obs_low
+m07_20121003	220.02	1000	H_Obs_low
+m07_20121121	220.05	1000	H_Obs_low
+m07_20121122	220.05	1000	H_Obs_low
+m07_20121123	220.05	1000	H_Obs_low
+m07_20121124	220.05	1000	H_Obs_low
+m07_20121224	225.13	1000	H_Obs_low
+m07_20130308	220.69	1000	H_Obs_low
+m07_20130413	222.02	1000	H_Obs_low
+m07_20130414	222.02	1000	H_Obs_low
+m07_20130523	221.18	1000	H_Obs_low
+m07_20130606	222.22	1000	H_Obs_low
+m07_20130717	222.42	1000	H_Obs_low
+m07_20130827	220.1	1000	H_Obs_low
+m07_20131027	222.63	1000	H_Obs_low
+m07_20131028	222.63	1000	H_Obs_low
+m07_20131219	220.53	1000	H_Obs_low
+m07_20131220	220.53	1000	H_Obs_low
+m07_20131225	221.58	1000	H_Obs_low
+m07_20140123	220.52	1000	H_Obs_low
+m07_20140303	222	1000	H_Obs_low
+m07_20140422	220.55	1000	H_Obs_low
+m07_20140423	220.55	1000	H_Obs_low
+m07_20140510	221.15	1000	H_Obs_low
+m07_20140605	220.49	1000	H_Obs_low
+m07_20140731	220.16	1000	H_Obs_low
+m07_20140824	220.46	1000	H_Obs_low
+m07_20140825	220.46	1000	H_Obs_low
+m07_20140925	220.23	1000	H_Obs_low
+m08_20101007	222.35	2000	H_Obs_high
+m08_20101027	222.14	2000	H_Obs_high
+m08_20101028	222.14	2000	H_Obs_high
+m08_20101229	223.9	2000	H_Obs_high
+m08_20110215	222.67	2000	H_Obs_high
+m08_20110326	227.82	2000	H_Obs_high
+m08_20110924	222.06	2000	H_Obs_high
+m08_20111004	222.32	2000	H_Obs_high
+m08_20111006	222.32	2000	H_Obs_high
+m08_20111007	222.32	2000	H_Obs_high
+m08_20111213	220.28	2000	H_Obs_high
+m08_20120128	221.1	2000	H_Obs_high
+m08_20120229	220.59	2000	H_Obs_high
+m08_20120414	223.56	2000	H_Obs_high
+m08_20120614	220.63	2000	H_Obs_high
+m08_20120722	219.74	2000	H_Obs_high
+m08_20121003	219.89	2000	H_Obs_high
+m08_20121025	220.27	2000	H_Obs_high
+m08_20121026	220.27	2000	H_Obs_high
+m08_20121121	219.95	2000	H_Obs_high
+m08_20121122	219.95	2000	H_Obs_high
+m08_20121224	225.44	2000	H_Obs_high
+m08_20130308	220.89	2000	H_Obs_high
+m08_20130412	222.42	2000	H_Obs_high
+m08_20130523	221.1	2000	H_Obs_high
+m08_20130606	222.37	2000	H_Obs_high
+m08_20130717	222.58	2000	H_Obs_high
+m08_20130828	219.9	2000	H_Obs_high
+m08_20131027	222.76	2000	H_Obs_high
+m08_20131028	222.76	2000	H_Obs_high
+m08_20131218	220.41	2000	H_Obs_high
+m08_20131219	220.41	2000	H_Obs_high
+m08_20131224	221.76	2000	H_Obs_high
+m08_20140123	220.39	2000	H_Obs_high
+m08_20140303	222.27	2000	H_Obs_high
+m08_20140423	220.54	2000	H_Obs_high
+m08_20140510	221.05	2000	H_Obs_high
+m08_20140605	220.35	2000	H_Obs_high
+m08_20140731	219.96	2000	H_Obs_high
+m08_20140913	219.99	2000	H_Obs_high
+m09_20101007	221.37	2000	H_Obs_high
+m09_20101126	221.33	2000	H_Obs_high
+m09_20101217	220.74	2000	H_Obs_high
+m09_20101218	220.74	2000	H_Obs_high
+m09_20101229	222.14	2000	H_Obs_high
+m09_20110326	226.17	2000	H_Obs_high
+m09_20110327	226.17	2000	H_Obs_high
+m09_20110624	220.96	2000	H_Obs_high
+m09_20110806	221.32	2000	H_Obs_high
+m09_20110824	220.85	2000	H_Obs_high
+m09_20110924	220.87	2000	H_Obs_high
+m09_20110929	220.87	2000	H_Obs_high
+m09_20111006	221.13	2000	H_Obs_high
+m09_20111214	219.89	2000	H_Obs_high
+m09_20111217	219.89	2000	H_Obs_high
+m09_20111218	219.89	2000	H_Obs_high
+m09_20120102	220.24	2000	H_Obs_high
+m09_20120112	219.89	2000	H_Obs_high
+m09_20120129	220.27	2000	H_Obs_high
+m09_20120224	220.06	2000	H_Obs_high
+m09_20120227	220.06	2000	H_Obs_high
+m09_20120229	220.06	2000	H_Obs_high
+m09_20120414	222.15	2000	H_Obs_high
+m09_20120805	219.01	2000	H_Obs_high
+m09_20120830	220.92	2000	H_Obs_high
+m09_20120925	219.64	2000	H_Obs_high
+m09_20121102	220.12	2000	H_Obs_high
+m09_20121123	219.62	2000	H_Obs_high
+m09_20121124	219.62	2000	H_Obs_high
+m09_20121125	219.62	2000	H_Obs_high
+m09_20121126	219.62	2000	H_Obs_high
+m09_20121127	219.62	2000	H_Obs_high
+m09_20121224	224.17	2000	H_Obs_high
+m09_20130306	220.13	2000	H_Obs_high
+m09_20130414	221.14	2000	H_Obs_high
+m09_20130415	221.14	2000	H_Obs_high
+m09_20130523	220.58	2000	H_Obs_high
+m09_20130601	220.58	2000	H_Obs_high
+m09_20130602	220.58	2000	H_Obs_high
+m09_20130606	221.21	2000	H_Obs_high
+m09_20130704	220.78	2000	H_Obs_high
+m09_20130802	221.39	2000	H_Obs_high
+m09_20130803	221.39	2000	H_Obs_high
+m09_20130827	219.6	2000	H_Obs_high
+m09_20131027	221.65	2000	H_Obs_high
+m09_20131028	221.65	2000	H_Obs_high
+m09_20131101	221.65	2000	H_Obs_high
+m09_20131225	220.83	2000	H_Obs_high
+m09_20140123	219.89	2000	H_Obs_high
+m09_20140303	221.06	2000	H_Obs_high
+m09_20140422	219.76	2000	H_Obs_high
+m09_20140510	220.5	2000	H_Obs_high
+m09_20140605	219.77	2000	H_Obs_high
+m09_20140731	219.56	2000	H_Obs_high
+m09_20140801	219.56	2000	H_Obs_high
+m09_20140807	219.56	2000	H_Obs_high
+m09_20140902	219.95	2000	H_Obs_high
+m10_20120115	211.04	1000	H_Obs_low
+m10_20120116	211.04	1000	H_Obs_low
+m10_20120117	211.04	1000	H_Obs_low
+m10_20120121	215.49	1000	H_Obs_low
+m10_20120227	211.34	1000	H_Obs_low
+m10_20120413	217.76	1000	H_Obs_low
+m10_20120815	210.24	1000	H_Obs_low
+m10_20120915	211.06	1000	H_Obs_low
+m10_20121223	219.62	1000	H_Obs_low
+m10_20130319	211.61	1000	H_Obs_low
+m10_20130320	211.61	1000	H_Obs_low
+m10_20130408	212.92	1000	H_Obs_low
+m10_20130530	211.36	1000	H_Obs_low
+m10_20130604	211.36	1000	H_Obs_low
+m10_20130606	213.35	1000	H_Obs_low
+m10_20130706	211.38	1000	H_Obs_low
+m10_20130804	216.19	1000	H_Obs_low
+m10_20130913	211.04	1000	H_Obs_low
+m10_20131029	216.44	1000	H_Obs_low
+m10_20131030	216.44	1000	H_Obs_low
+m10_20131031	216.44	1000	H_Obs_low
+m10_20140125	211.22	1000	H_Obs_low
+m10_20140302	215.7	1000	H_Obs_low
+m10_20140605	210.39	1000	H_Obs_low
+m10_20140722	211.07	1000	H_Obs_low
+m10_20140829	210.89	1000	H_Obs_low
+m10_20140918	210.61	1000	H_Obs_low
+v3_20101229	313.44	0	H_Obs_low
+v3_20110110	310.18	0	H_Obs_low
+v3_20110214	310.79	0	H_Obs_low
+v3_20110314	310.76	0	H_Obs_low
+v3_20110324	316.58	0	H_Obs_low
+v3_20110714	311.22	0	H_Obs_low
+v3_20110819	310.44	0	H_Obs_low
+v3_20110820	310.44	0	H_Obs_low
+v3_20110930	309.37	0	H_Obs_low
+v3_20111005	310.43	0	H_Obs_low
+v3_20111106	310.46	0	H_Obs_low
+v3_20120121	311.41	0	H_Obs_low
+v3_20120204	310.43	0	H_Obs_low
+v3_20120205	310.43	0	H_Obs_low
+v3_20120206	310.43	0	H_Obs_low
+v3_20120310	310.47	0	H_Obs_low
+v3_20120311	310.47	0	H_Obs_low
+v3_20120312	310.47	0	H_Obs_low
+v3_20120413	313.66	0	H_Obs_low
+v3_20120712	310.21	0	H_Obs_low
+v3_20120804	310.29	0	H_Obs_low
+v3_20120831	309.24	0	H_Obs_low
+v3_20120908	310.32	0	H_Obs_low
+v3_20121018	310.2	0	H_Obs_low
+v3_20121223	316.6	0	H_Obs_low
+v3_20130716	309.18	0	H_Obs_low
+v3_20130810	309.51	0	H_Obs_low
+v3_20130920	306.88	0	H_Obs_low
+v3_20131207	310.14	0	H_Obs_low
+v3_20140104	309.72	0	H_Obs_low
+v3_20140105	309.72	0	H_Obs_low
+v3_20140228	311.98	0	H_Obs_low
+v3_20140321	309.73	0	H_Obs_low
+v3_20140322	309.73	0	H_Obs_low
+v3_20140323	309.73	0	H_Obs_low
+v3_20140324	309.73	0	H_Obs_low
+v3_20140401	312.18	0	H_Obs_low
+v3_20140510	309.98	0	H_Obs_low
+v3_20140605	309.23	0	H_Obs_low
+v3_20140711	309.75	0	H_Obs_low
+v3_20140803	307.58	0	H_Obs_low
+v3_20140904	307.64	0	H_Obs_low
+v3_20140905	307.64	0	H_Obs_low
+v3_20140925	309.51	0	H_Obs_low
+v3_20140928	309.51	0	H_Obs_low
+v3_20140929	309.51	0	H_Obs_low
+v3_20140930	309.51	0	H_Obs_low
+v4_20101204	304.88	0	H_Obs_low
+v4_20101229	306.4	0	H_Obs_low
+v4_20110214	305.18	0	H_Obs_low
+v4_20110313	305.2	0	H_Obs_low
+v4_20110314	305.2	0	H_Obs_low
+v4_20110326	309.57	0	H_Obs_low
+v4_20110820	304.72	0	H_Obs_low
+v4_20111004	299.9	0	H_Obs_low
+v4_20111121	304.83	0	H_Obs_low
+v4_20111122	304.83	0	H_Obs_low
+v4_20111205	303.73	0	H_Obs_low
+v4_20111206	303.73	0	H_Obs_low
+v4_20120121	305.05	0	H_Obs_low
+v4_20120204	304.72	0	H_Obs_low
+v4_20120206	304.72	0	H_Obs_low
+v4_20120413	306.5	0	H_Obs_low
+v4_20120716	302.42	0	H_Obs_low
+v4_20120805	304.43	0	H_Obs_low
+v4_20120907	299.64	0	H_Obs_low
+v4_20120922	304.24	0	H_Obs_low
+v4_20121021	300.83	0	H_Obs_low
+v4_20121223	308.22	0	H_Obs_low
+v4_20130813	300.13	0	H_Obs_low
+v4_20130922	298.63	0	H_Obs_low
+v4_20131207	305.04	0	H_Obs_low
+v4_20140225	304.94	0	H_Obs_low
+v4_20140301	305.85	0	H_Obs_low
+v4_20140402	305.44	0	H_Obs_low
+v4_20140510	305.02	0	H_Obs_low
+v4_20140807	298.67	0	H_Obs_low
+v4_20140930	302.57	0	H_Obs_low
+v6_20101009	291.92	0	H_Obs_no
+v6_20101125	291.93	0	H_Obs_no
+v6_20101229	301.76	0	H_Obs_no
+v6_20110111	300.55	0	H_Obs_no
+v6_20110314	299.01	0	H_Obs_no
+v6_20110326	303.34	0	H_Obs_no
+v6_20111004	292.66	0	H_Obs_no
+v6_20111128	294.96	0	H_Obs_no
+v6_20111209	294.34	0	H_Obs_no
+v6_20120401	301.67	0	H_Obs_no
+v6_20120717	293.85	0	H_Obs_no
+v6_20120806	294.36	0	H_Obs_no
+v6_20120907	292.62	0	H_Obs_no
+v6_20120908	292.62	0	H_Obs_no
+v6_20120927	294.03	0	H_Obs_no
+v6_20120928	294.03	0	H_Obs_no
+v6_20121022	293.26	0	H_Obs_no
+v6_20121223	302.55	0	H_Obs_no
+v6_20130813	292.92	0	H_Obs_no
+v6_20130923	291.54	0	H_Obs_no
+v6_20131219	295.13	0	H_Obs_no
+v6_20140106	294.89	0	H_Obs_no
+v6_20140107	294.89	0	H_Obs_no
+v6_20140302	300.01	0	H_Obs_no
+v6_20140408	298.41	0	H_Obs_no
+v6_20140819	291.57	0	H_Obs_no
+v6_20140930	293.67	0	H_Obs_no
+a01_20110315	282.3008333	0	H_Obs_no
+a01_20110326	288.1125	0	H_Obs_no
+a01_20111023	274.8441667	0	H_Obs_no
+a01_20120202	278.345	0	H_Obs_no
+a01_20120414	285.2208333	0	H_Obs_no
+a01_20120930	274.6420833	0	H_Obs_no
+a01_20121105	274.9095833	0	H_Obs_no
+a01_20121224	287.1275	0	H_Obs_no
+a01_20131023	274.1054167	0	H_Obs_no
+a01_20140308	281.9633333	0	H_Obs_no
+a01_20140331	279.7470833	0	H_Obs_no
+a01_20140924	274.0470833	0	H_Obs_no
+a02_20110314	282.7091667	0	H_Obs_no
+a02_20110326	288.5741667	0	H_Obs_no
+a02_20111012	273.85375	0	H_Obs_no
+a02_20111206	276.0479167	0	H_Obs_no
+a02_20120131	277.8566667	0	H_Obs_no
+a02_20120413	285.35125	0	H_Obs_no
+a02_20120916	273.7466667	0	H_Obs_no
+a02_20121006	274.60125	0	H_Obs_no
+a02_20121028	274.2120833	0	H_Obs_no
+a02_20121223	286.5379167	0	H_Obs_no
+a02_20131006	272.7608333	0	H_Obs_no
+a02_20131231	276.36125	0	H_Obs_no
+a02_20140306	283.3716667	0	H_Obs_no
+a02_20140331	279.7716667	0	H_Obs_no
+a02_20140405	282.59875	0	H_Obs_no
+a02_20140917	272.6158333	0	H_Obs_no
+a03_20110314	296.6783333	0	H_Obs_no
+a03_20110326	300.3645833	0	H_Obs_no
+a03_20111006	288.6158333	0	H_Obs_no
+a03_20111128	291.0433333	0	H_Obs_no
+a03_20111211	290.2845833	0	H_Obs_no
+a03_20120126	292.8666667	0	H_Obs_no
+a03_20120413	298.4183333	0	H_Obs_no
+a03_20120808	290.0395833	0	H_Obs_no
+a03_20120910	288.4591667	0	H_Obs_no
+a03_20121001	289.6325	0	H_Obs_no
+a03_20121024	288.91875	0	H_Obs_no
+a03_20121223	299.5495833	0	H_Obs_no
+a03_20130817	288.4916667	0	H_Obs_no
+a03_20131004	287.73625	0	H_Obs_no
+a03_20131220	291.4108333	0	H_Obs_no
+a03_20140108	290.8620833	0	H_Obs_no
+a03_20140307	296.50125	0	H_Obs_no
+a03_20140408	296.26125	0	H_Obs_no
+a03_20140920	287.5633333	0	H_Obs_no
+a04_20110314	296.7066667	0	H_Obs_no
+a04_20110326	301.06625	0	H_Obs_no
+a04_20111006	286.55125	0	H_Obs_no
+a04_20111128	289.0266667	0	H_Obs_no
+a04_20111211	288.3104167	0	H_Obs_no
+a04_20120121	292.0566667	0	H_Obs_no
+a04_20120413	298.74875	0	H_Obs_no
+a04_20120909	286.44375	0	H_Obs_no
+a04_20120929	287.9220833	0	H_Obs_no
+a04_20121023	287.24	0	H_Obs_no
+a04_20121224	300.1016667	0	H_Obs_no
+a04_20130816	286.5291667	0	H_Obs_no
+a04_20130927	284.9204167	0	H_Obs_no
+a04_20131219	289.41875	0	H_Obs_no
+a04_20140107	288.8583333	0	H_Obs_no
+a04_20140303	297.0604167	0	H_Obs_no
+a04_20140407	296.81625	0	H_Obs_no
+a04_20140823	284.6341667	0	H_Obs_no
 lk_01_20101001	-999	0	Lake_Obs
 lk_02_20101001	-999	0	Lake_Obs
 lk_03_20110504	177.2391667	0	Lake_Obs
@@ -1485,286 +1489,286 @@ lk_12_20140529	677.2	0	Lake_Obs
 lk_12_20140530	677.2	0	Lake_Obs
 lk_12_20140531	677.2	0	Lake_Obs
 lk_12_20140601	677.2	0	Lake_Obs
-s1_20101001	-999	0	Q_obs
-s2_20101001	-999	0	Q_obs
-s3_20101219	55186272	0	Q_Obs
-s3_20101224	4023648	0	Q_Obs
-s3_20101229	69146784	0	Q_Obs
-s3_20110101	7149600	0	Q_Obs
-s3_20110102	21149856	0	Q_Obs
-s3_20110126	1044576	0	Q_Obs
-s3_20110218	68232672	0	Q_Obs
-s3_20110223	8277120	0	Q_Obs
-s3_20110225	164165184	0	Q_Obs
-s3_20110305	4463424	0	Q_Obs
-s3_20110307	5633280	0	Q_Obs
-s3_20110312	2714688	0	Q_Obs
-s3_20110320	152988480	0	Q_Obs
-s3_20110322	34261920	0	Q_Obs
-s3_20110324	200391840	0	Q_Obs
-s3_20110928	79488	0	Q_Obs
-s3_20120317	16475616	0	Q_Obs
-s3_20120330	2550528	0	Q_Obs
-s3_20120401	11244960	0	Q_Obs
-s3_20120411	1493856	0	Q_Obs
-s3_20120413	58681152	0	Q_Obs
-s3_20120808	18144	0	Q_Obs
-s3_20121202	98070048	0	Q_Obs
-s3_20121212	1085184	0	Q_Obs
-s3_20121223	117178272	0	Q_Obs
-s3_20130730	19872	0	Q_Obs
-s3_20140228	16561152	0	Q_Obs
-s4_20101219	10471680	0	Q_Obs
-s4_20101223	1247040	0	Q_Obs
-s4_20101229	11439360	0	Q_Obs
-s4_20110123	204480	0	Q_Obs
-s4_20110218	8000640	0	Q_Obs
-s4_20110223	1630080	0	Q_Obs
-s4_20110225	17591040	0	Q_Obs
-s4_20110308	1048320	0	Q_Obs
-s4_20110320	20445120	0	Q_Obs
-s4_20110322	7378560	0	Q_Obs
-s4_20110324	22046400	0	Q_Obs
-s4_20111005	17280	0	Q_Obs
-s4_20120413	7424640	0	Q_Obs
-s4_20120807	0	0	Q_Obs
-s4_20121202	9334079.997	0	Q_Obs
-s4_20121212	144000	0	Q_Obs
-s4_20121223	16640640	0	Q_Obs
-s4_20131113	0	0	Q_Obs
-s4_20140930	0	0	Q_Obs
-s5_20110326	71197920	0	Q_Obs
-s5_20110408	18833472	0	Q_Obs
-s5_20110413	18885312	0	Q_Obs
-s5_20110509	8577792	0	Q_Obs
-s5_20120229	3456	0	Q_Obs
-s5_20121229	17561664	0	Q_Obs
-s6_20101219	34090848	0	Q_Obs
-s6_20101224	2269728	0	Q_Obs
-s6_20101228	23134464	0	Q_Obs
-s6_20110215	441504	0	Q_Obs
-s6_20110218	22483872	0	Q_Obs
-s6_20110223	3777408	0	Q_Obs
-s6_20110225	50671872	0	Q_Obs
-s6_20110309	2107296	0	Q_Obs
-s6_20110320	42144192	0	Q_Obs
-s6_20110322	13708224	0	Q_Obs
-s6_20110324	70757280	0	Q_Obs
-s6_20110923	12096	0	Q_Obs
-s6_20120316	6594912	0	Q_Obs
-s6_20120324	539136	0	Q_Obs
-s6_20120401	5998752	0	Q_Obs
-s6_20120411	649728	0	Q_Obs
-s6_20120413	16958592	0	Q_Obs
-s6_20120808	6912	0	Q_Obs
-s6_20121202	32731776	0	Q_Obs
-s6_20121212	332640	0	Q_Obs
-s6_20121223	58064256	0	Q_Obs
-s6_20130729	0	0	Q_Obs
-s6_20140301	5400000	0	Q_Obs
-s6_20140930	0	0	Q_Obs
-s7_20101219	6502464	0	Q_Obs
-s7_20101223	39744	0	Q_Obs
-s7_20101228	14121216	0	Q_Obs
-s7_20110123	24192	0	Q_Obs
-s7_20110218	7863264	0	Q_Obs
-s7_20110223	26784	0	Q_Obs
-s7_20110225	34013088	0	Q_Obs
-s7_20110307	38016	0	Q_Obs
-s7_20110320	38070432	0	Q_Obs
-s7_20110322	14884128	0	Q_Obs
-s7_20110324	59163264	0	Q_Obs
-s7_20110930	10368	0	Q_Obs
-s7_20120401	5263488	0	Q_Obs
-s7_20120407	628128	0	Q_Obs
-s7_20120413	7647264	0	Q_Obs
-s7_20120807	6912	0	Q_Obs
-s7_20121202	26822880	0	Q_Obs
-s7_20121212	304992	0	Q_Obs
-s7_20121223	62158752	0	Q_Obs
-s7_20130729	0	0	Q_Obs
-s7_20140301	4960224	0	Q_Obs
-s7_20140930	0	0	Q_Obs
-s8_20101219	11941344	0	Q_Obs
-s8_20101223	208224	0	Q_Obs
-s8_20101228	24379488	0	Q_Obs
-s8_20110218	8445600	0	Q_Obs
-s8_20110223	1300320	0	Q_Obs
-s8_20110225	51280992	0	Q_Obs
-s8_20110308	247968	0	Q_Obs
-s8_20110320	53506656	0	Q_Obs
-s8_20110322	20168352	0	Q_Obs
-s8_20110326	100971360	0	Q_Obs
-s8_20111024	10368	0	Q_Obs
-s8_20120401	6618240	0	Q_Obs
-s8_20120411	908064	0	Q_Obs
-s8_20120413	13072320	0	Q_Obs
-s8_20120808	75168	0	Q_Obs
-s8_20121202	42601248	0	Q_Obs
-s8_20121212	318816	0	Q_Obs
-s8_20121223	84195936	0	Q_Obs
-s8_20130106	16638048	0	Q_Obs
-s8_20130810	17280	0	Q_Obs
-s8_20140301	5520960	0.001	Q_Obs
-s9_20101219	14882400	0.001	Q_Obs
-s9_20101223	301536	0.001	Q_Obs
-s9_20101228	24006240	0.001	Q_Obs
-s9_20110218	10429344	0.001	Q_Obs
-s9_20110223	1422144	0.001	Q_Obs
-s9_20110225	63592128	0.001	Q_Obs
-s9_20110315	1479168	0.001	Q_Obs
-s9_20110320	52280640	0.001	Q_Obs
-s9_20110322	16654464	0.001	Q_Obs
-s9_20110326	124315776	0.001	Q_Obs
-s9_20110515	6063552	0.001	Q_Obs
-s9_20111031	45792	0.001	Q_Obs
-s9_20120401	7592832	0.001	Q_Obs
-s9_20120411	949536	0.001	Q_Obs
-s9_20120413	16263936	0.001	Q_Obs
-s9_20120808	65664	0.001	Q_Obs
-s9_20121202	71743104	0.001	Q_Obs
-s9_20121212	603072	0.001	Q_Obs
-s9_20121223	114486048	0.001	Q_Obs
-s9_20121225	17607456	0.001	Q_Obs
-s9_20130810	50112	0.001	Q_Obs
-s9_20140301	5832000	0.001	Q_Obs
-s9_20140616	47520	0.001	Q_Obs
-s10_20101024	26086752	0	Q_Obs
-s10_20101106	1400544	0	Q_Obs
-s10_20101120	32491584	0	Q_Obs
-s10_20101204	2000160	0	Q_Obs
-s10_20101219	123071616	0	Q_Obs
-s10_20101223	6028992	0	Q_Obs
-s10_20101229	74525184	0	Q_Obs
-s10_20110122	2996352	0	Q_Obs
-s10_20110219	59981472	0	Q_Obs
-s10_20110222	8132832	0	Q_Obs
-s10_20110225	143036064	0	Q_Obs
-s10_20110308	5499360	0	Q_Obs
-s10_20110320	189819072	0	Q_Obs
-s10_20110322	108152928	0	Q_Obs
-s10_20110324	529947360	0	Q_Obs
-s10_20110901	2417472	0	Q_Obs
-s10_20120120	45556992	0	Q_Obs
-s10_20120218	2958336	0	Q_Obs
-s10_20120316	41235264	0	Q_Obs
-s10_20120319	3414528	0	Q_Obs
-s10_20120325	29992032	0	Q_Obs
-s10_20120404	4726944	0	Q_Obs
-s10_20120413	91382688	0	Q_Obs
-s10_20120806	1192320	0	Q_Obs
-s10_20121202	212644224	0	Q_Obs
-s10_20121213	2574720	0	Q_Obs
-s10_20121223	230618016	0	Q_Obs
-s10_20130609	2053728	0	Q_Obs
-s10_20131120	30740256	0	Q_Obs
-s10_20131230	947808	0	Q_Obs
-s10_20140209	43003008	0	Q_Obs
-s10_20140218	1139616	0	Q_Obs
-s10_20140228	45569088	0	Q_Obs
-s10_20140615	1313280	0	Q_Obs
-s11_20101219	11448864	0.001	Q_Obs
-s11_20101223	0	0.001	Q_Obs
-s11_20101227	0	0.001	Q_Obs
-s11_20101229	16503264	0.001	Q_Obs
-s11_20110123	708480	0.001	Q_Obs
-s11_20110218	6861024	0.001	Q_Obs
-s11_20110222	519264	0.001	Q_Obs
-s11_20110225	66833856	0.001	Q_Obs
-s11_20110308	11232	0.001	Q_Obs
-s11_20110320	64792224	0.001	Q_Obs
-s11_20110322	16007328	0.001	Q_Obs
-s11_20110326	149001984	0.001	Q_Obs
-s11_20110429	12418272	0.001	Q_Obs
-s11_20110501	12629952	0.001	Q_Obs
-s11_20111023	0	0.001	Q_Obs
-s11_20120401	6528384	0.001	Q_Obs
-s11_20120407	0	0.001	Q_Obs
-s11_20120413	16886016	0.001	Q_Obs
-s11_20120808	0	0.001	Q_Obs
-s11_20121201	0	0.001	Q_Obs
-s11_20121202	65670912	0.001	Q_Obs
-s11_20121212	0	0.001	Q_Obs
-s11_20121223	132166080	0.001	Q_Obs
-s11_20121225	18226080	0.001	Q_Obs
-s11_20130106	16761600	0.001	Q_Obs
-s11_20130113	15507072	0.001	Q_Obs
-s11_20131124	0	0.001	Q_Obs
-s11_20140930	0	0.001	Q_Obs
-s12_20101219	12423456	0.001	Q_Obs
-s12_20101223	354240	0.001	Q_Obs
-s12_20101229	22470048	0.001	Q_Obs
-s12_20110123	975456	0.001	Q_Obs
-s12_20110218	8420544	0.001	Q_Obs
-s12_20110222	1108512	0.001	Q_Obs
-s12_20110225	68206752	0.001	Q_Obs
-s12_20110308	902880	0.001	Q_Obs
-s12_20110320	73165248	0.001	Q_Obs
-s12_20110322	22314528	0.001	Q_Obs
-s12_20110326	158899104	0.001	Q_Obs
-s12_20110501	17016480	0.001	Q_Obs
-s12_20110515	5780160	0.001	Q_Obs
-s12_20111023	17280	0.001	Q_Obs
-s12_20120401	6679584	0.001	Q_Obs
-s12_20120407	11232	0.001	Q_Obs
-s12_20120413	19154880	0.001	Q_Obs
-s12_20120808	0	0.001	Q_Obs
-s12_20121201	0	0.001	Q_Obs
-s12_20121202	58280256	0.001	Q_Obs
-s12_20121223	125784576	0.001	Q_Obs
-s12_20121225	19575648	0.001	Q_Obs
-s12_20130104	17994528	0.001	Q_Obs
-s12_20130106	18588096	0.001	Q_Obs
-s12_20131124	0	0.001	Q_Obs
-s12_20140930	0	0.001	Q_Obs
-s14_20101217	0	0.001	Q_Obs
-s14_20101219	11880864	0.001	Q_Obs
-s14_20101221	0	0.001	Q_Obs
-s14_20101224	0	0.001	Q_Obs
-s14_20101227	0	0.001	Q_Obs
-s14_20101229	16935264	0.001	Q_Obs
-s14_20110101	434592	0.001	Q_Obs
-s14_20110112	1433376	0.001	Q_Obs
-s14_20110118	1168128	0.001	Q_Obs
-s14_20110131	870048	0.001	Q_Obs
-s14_20110201	1028160	0.001	Q_Obs
-s14_20110205	627264	0.001	Q_Obs
-s14_20110209	1054080	0.001	Q_Obs
-s14_20110215	578880	0.001	Q_Obs
-s14_20110218	7293024	0.001	Q_Obs
-s14_20110223	760320	0.001	Q_Obs
-s14_20110225	66833856	0.001	Q_Obs
-s14_20110307	433728	0.001	Q_Obs
-s14_20110320	64792224	0.001	Q_Obs
-s14_20110322	16439328	0.001	Q_Obs
-s14_20110326	149001984	0.001	Q_Obs
-s14_20110429	12850272	0.001	Q_Obs
-s14_20110501	13061952	0.001	Q_Obs
-s14_20110602	518400	0.001	Q_Obs
-s14_20110605	590976	0.001	Q_Obs
-s14_20110607	0	0.001	Q_Obs
-s14_20111107	0	0.001	Q_Obs
-s14_20120324	0	0.001	Q_Obs
-s14_20120325	686016	0.001	Q_Obs
-s14_20120401	6960384	0.001	Q_Obs
-s14_20120408	0	0.001	Q_Obs
-s14_20120411	0	0.001	Q_Obs
-s14_20120413	17318016	0.001	Q_Obs
-s14_20120810	0	0.001	Q_Obs
-s14_20121201	0	0.001	Q_Obs
-s14_20121202	65670912	0.001	Q_Obs
-s14_20121209	0	0.001	Q_Obs
-s14_20121212	0	0.001	Q_Obs
-s14_20121216	0	0.001	Q_Obs
-s14_20121220	432864	0.001	Q_Obs
-s14_20121223	132166080	0.001	Q_Obs
-s14_20121225	18226080	0.001	Q_Obs
-s14_20130106	17193600	0.001	Q_Obs
-s14_20130113	15939072	0.001	Q_Obs
-s14_20130202	0	0.001	Q_Obs
-s14_20130816	0	0.001	Q_Obs
-s14_20140227	0	0.001	Q_Obs
-s14_20140301	2276640	0.001	Q_Obs
+s1_20101001	-999	0	Q_obs_no
+s2_20101001	-999	0	Q_obs_no
+s3_20101219	55186272	0	Q_obs_no
+s3_20101224	4023648	0	Q_obs_no
+s3_20101229	69146784	0	Q_obs_no
+s3_20110101	7149600	0	Q_obs_no
+s3_20110102	21149856	0	Q_obs_no
+s3_20110126	1044576	0	Q_obs_no
+s3_20110218	68232672	0	Q_obs_no
+s3_20110223	8277120	0	Q_obs_no
+s3_20110225	164165184	0	Q_obs_no
+s3_20110305	4463424	0	Q_obs_no
+s3_20110307	5633280	0	Q_obs_no
+s3_20110312	2714688	0	Q_obs_no
+s3_20110320	152988480	0	Q_obs_no
+s3_20110322	34261920	0	Q_obs_no
+s3_20110324	200391840	0	Q_obs_no
+s3_20110928	79488	0	Q_obs_no
+s3_20120317	16475616	0	Q_obs_no
+s3_20120330	2550528	0	Q_obs_no
+s3_20120401	11244960	0	Q_obs_no
+s3_20120411	1493856	0	Q_obs_no
+s3_20120413	58681152	0	Q_obs_no
+s3_20120808	18144	0	Q_obs_no
+s3_20121202	98070048	0	Q_obs_no
+s3_20121212	1085184	0	Q_obs_no
+s3_20121223	117178272	0	Q_obs_no
+s3_20130730	19872	0	Q_obs_no
+s3_20140228	16561152	0	Q_obs_no
+s4_20101219	10471680	0	Q_obs_no
+s4_20101223	1247040	0	Q_obs_no
+s4_20101229	11439360	0	Q_obs_no
+s4_20110123	204480	0	Q_obs_no
+s4_20110218	8000640	0	Q_obs_no
+s4_20110223	1630080	0	Q_obs_no
+s4_20110225	17591040	0	Q_obs_no
+s4_20110308	1048320	0	Q_obs_no
+s4_20110320	20445120	0	Q_obs_no
+s4_20110322	7378560	0	Q_obs_no
+s4_20110324	22046400	0	Q_obs_no
+s4_20111005	17280	0	Q_obs_no
+s4_20120413	7424640	0	Q_obs_no
+s4_20120807	0	0	Q_obs_no
+s4_20121202	9334079.997	0	Q_obs_no
+s4_20121212	144000	0	Q_obs_no
+s4_20121223	16640640	0	Q_obs_no
+s4_20131113	0	0	Q_obs_no
+s4_20140930	0	0	Q_obs_no
+s5_20110326	71197920	0	Q_obs_no
+s5_20110408	18833472	0	Q_obs_no
+s5_20110413	18885312	0	Q_obs_no
+s5_20110509	8577792	0	Q_obs_no
+s5_20120229	3456	0	Q_obs_no
+s5_20121229	17561664	0	Q_obs_no
+s6_20101219	34090848	0	Q_obs_no
+s6_20101224	2269728	0	Q_obs_no
+s6_20101228	23134464	0	Q_obs_no
+s6_20110215	441504	0	Q_obs_no
+s6_20110218	22483872	0	Q_obs_no
+s6_20110223	3777408	0	Q_obs_no
+s6_20110225	50671872	0	Q_obs_no
+s6_20110309	2107296	0	Q_obs_no
+s6_20110320	42144192	0	Q_obs_no
+s6_20110322	13708224	0	Q_obs_no
+s6_20110324	70757280	0	Q_obs_no
+s6_20110923	12096	0	Q_obs_no
+s6_20120316	6594912	0	Q_obs_no
+s6_20120324	539136	0	Q_obs_no
+s6_20120401	5998752	0	Q_obs_no
+s6_20120411	649728	0	Q_obs_no
+s6_20120413	16958592	0	Q_obs_no
+s6_20120808	6912	0	Q_obs_no
+s6_20121202	32731776	0	Q_obs_no
+s6_20121212	332640	0	Q_obs_no
+s6_20121223	58064256	0	Q_obs_no
+s6_20130729	0	0	Q_obs_no
+s6_20140301	5400000	0	Q_obs_no
+s6_20140930	0	0	Q_obs_no
+s7_20101219	6502464	0	Q_obs_no
+s7_20101223	39744	0	Q_obs_no
+s7_20101228	14121216	0	Q_obs_no
+s7_20110123	24192	0	Q_obs_no
+s7_20110218	7863264	0	Q_obs_no
+s7_20110223	26784	0	Q_obs_no
+s7_20110225	34013088	0	Q_obs_no
+s7_20110307	38016	0	Q_obs_no
+s7_20110320	38070432	0	Q_obs_no
+s7_20110322	14884128	0	Q_obs_no
+s7_20110324	59163264	0	Q_obs_no
+s7_20110930	10368	0	Q_obs_no
+s7_20120401	5263488	0	Q_obs_no
+s7_20120407	628128	0	Q_obs_no
+s7_20120413	7647264	0	Q_obs_no
+s7_20120807	6912	0	Q_obs_no
+s7_20121202	26822880	0	Q_obs_no
+s7_20121212	304992	0	Q_obs_no
+s7_20121223	62158752	0	Q_obs_no
+s7_20130729	0	0	Q_obs_no
+s7_20140301	4960224	0	Q_obs_no
+s7_20140930	0	0	Q_obs_no
+s8_20101219	11941344	0	Q_obs_no
+s8_20101223	208224	0	Q_obs_no
+s8_20101228	24379488	0	Q_obs_no
+s8_20110218	8445600	0	Q_obs_no
+s8_20110223	1300320	0	Q_obs_no
+s8_20110225	51280992	0	Q_obs_no
+s8_20110308	247968	0	Q_obs_no
+s8_20110320	53506656	0	Q_obs_no
+s8_20110322	20168352	0	Q_obs_no
+s8_20110326	100971360	0	Q_obs_no
+s8_20111024	10368	0	Q_obs_no
+s8_20120401	6618240	0	Q_obs_no
+s8_20120411	908064	0	Q_obs_no
+s8_20120413	13072320	0	Q_obs_no
+s8_20120808	75168	0	Q_obs_no
+s8_20121202	42601248	0	Q_obs_no
+s8_20121212	318816	0	Q_obs_no
+s8_20121223	84195936	0	Q_obs_no
+s8_20130106	16638048	0	Q_obs_no
+s8_20130810	17280	0	Q_obs_no
+s8_20140301	5520960	0	Q_obs_no
+s9_20101219	14882400	0.002	Q_Obs_high
+s9_20101223	301536	0.002	Q_Obs_high
+s9_20101228	24006240	0.002	Q_Obs_high
+s9_20110218	10429344	0.002	Q_Obs_high
+s9_20110223	1422144	0.002	Q_Obs_high
+s9_20110225	63592128	0.002	Q_Obs_high
+s9_20110315	1479168	0.002	Q_Obs_high
+s9_20110320	52280640	0.002	Q_Obs_high
+s9_20110322	16654464	0.002	Q_Obs_high
+s9_20110326	124315776	0.002	Q_Obs_high
+s9_20110515	6063552	0.002	Q_Obs_high
+s9_20111031	45792	0.002	Q_Obs_high
+s9_20120401	7592832	0.002	Q_Obs_high
+s9_20120411	949536	0.002	Q_Obs_high
+s9_20120413	16263936	0.002	Q_Obs_high
+s9_20120808	65664	0.002	Q_Obs_high
+s9_20121202	71743104	0.002	Q_Obs_high
+s9_20121212	603072	0.002	Q_Obs_high
+s9_20121223	114486048	0.002	Q_Obs_high
+s9_20121225	17607456	0.002	Q_Obs_high
+s9_20130810	50112	0.002	Q_Obs_high
+s9_20140301	5832000	0.002	Q_Obs_high
+s9_20140616	47520	0.002	Q_Obs_high
+s10_20101024	26086752	0	Q_obs_no
+s10_20101106	1400544	0	Q_obs_no
+s10_20101120	32491584	0	Q_obs_no
+s10_20101204	2000160	0	Q_obs_no
+s10_20101219	123071616	0	Q_obs_no
+s10_20101223	6028992	0	Q_obs_no
+s10_20101229	74525184	0	Q_obs_no
+s10_20110122	2996352	0	Q_obs_no
+s10_20110219	59981472	0	Q_obs_no
+s10_20110222	8132832	0	Q_obs_no
+s10_20110225	143036064	0	Q_obs_no
+s10_20110308	5499360	0	Q_obs_no
+s10_20110320	189819072	0	Q_obs_no
+s10_20110322	108152928	0	Q_obs_no
+s10_20110324	529947360	0	Q_obs_no
+s10_20110901	2417472	0	Q_obs_no
+s10_20120120	45556992	0	Q_obs_no
+s10_20120218	2958336	0	Q_obs_no
+s10_20120316	41235264	0	Q_obs_no
+s10_20120319	3414528	0	Q_obs_no
+s10_20120325	29992032	0	Q_obs_no
+s10_20120404	4726944	0	Q_obs_no
+s10_20120413	91382688	0	Q_obs_no
+s10_20120806	1192320	0	Q_obs_no
+s10_20121202	212644224	0	Q_obs_no
+s10_20121213	2574720	0	Q_obs_no
+s10_20121223	230618016	0	Q_obs_no
+s10_20130609	2053728	0	Q_obs_no
+s10_20131120	30740256	0	Q_obs_no
+s10_20131230	947808	0	Q_obs_no
+s10_20140209	43003008	0	Q_obs_no
+s10_20140218	1139616	0	Q_obs_no
+s10_20140228	45569088	0	Q_obs_no
+s10_20140615	1313280	0	Q_obs_no
+s11_20101219	11448864	0.002	Q_Obs_high
+s11_20101223	0	0.002	Q_Obs_high
+s11_20101227	0	0.002	Q_Obs_high
+s11_20101229	16503264	0.002	Q_Obs_high
+s11_20110123	708480	0.002	Q_Obs_high
+s11_20110218	6861024	0.002	Q_Obs_high
+s11_20110222	519264	0.002	Q_Obs_high
+s11_20110225	66833856	0.002	Q_Obs_high
+s11_20110308	11232	0.002	Q_Obs_high
+s11_20110320	64792224	0.002	Q_Obs_high
+s11_20110322	16007328	0.002	Q_Obs_high
+s11_20110326	149001984	0.002	Q_Obs_high
+s11_20110429	12418272	0.002	Q_Obs_high
+s11_20110501	12629952	0.002	Q_Obs_high
+s11_20111023	0	0.002	Q_Obs_high
+s11_20120401	6528384	0.002	Q_Obs_high
+s11_20120407	0	0.002	Q_Obs_high
+s11_20120413	16886016	0.002	Q_Obs_high
+s11_20120808	0	0.002	Q_Obs_high
+s11_20121201	0	0.002	Q_Obs_high
+s11_20121202	65670912	0.002	Q_Obs_high
+s11_20121212	0	0.002	Q_Obs_high
+s11_20121223	132166080	0.002	Q_Obs_high
+s11_20121225	18226080	0.002	Q_Obs_high
+s11_20130106	16761600	0.002	Q_Obs_high
+s11_20130113	15507072	0.002	Q_Obs_high
+s11_20131124	0	0.002	Q_Obs_high
+s11_20140930	0	0.002	Q_Obs_high
+s12_20101219	12423456	0.001	Q_Obs_low
+s12_20101223	354240	0.001	Q_Obs_low
+s12_20101229	22470048	0.001	Q_Obs_low
+s12_20110123	975456	0.001	Q_Obs_low
+s12_20110218	8420544	0.001	Q_Obs_low
+s12_20110222	1108512	0.001	Q_Obs_low
+s12_20110225	68206752	0.001	Q_Obs_low
+s12_20110308	902880	0.001	Q_Obs_low
+s12_20110320	73165248	0.001	Q_Obs_low
+s12_20110322	22314528	0.001	Q_Obs_low
+s12_20110326	158899104	0.001	Q_Obs_low
+s12_20110501	17016480	0.001	Q_Obs_low
+s12_20110515	5780160	0.001	Q_Obs_low
+s12_20111023	17280	0.001	Q_Obs_low
+s12_20120401	6679584	0.001	Q_Obs_low
+s12_20120407	11232	0.001	Q_Obs_low
+s12_20120413	19154880	0.001	Q_Obs_low
+s12_20120808	0	0.001	Q_Obs_low
+s12_20121201	0	0.001	Q_Obs_low
+s12_20121202	58280256	0.001	Q_Obs_low
+s12_20121223	125784576	0.001	Q_Obs_low
+s12_20121225	19575648	0.001	Q_Obs_low
+s12_20130104	17994528	0.001	Q_Obs_low
+s12_20130106	18588096	0.001	Q_Obs_low
+s12_20131124	0	0.001	Q_Obs_low
+s12_20140930	0	0.001	Q_Obs_low
+s14_20101217	0	0.001	Q_Obs_low
+s14_20101219	11880864	0.001	Q_Obs_low
+s14_20101221	0	0.001	Q_Obs_low
+s14_20101224	0	0.001	Q_Obs_low
+s14_20101227	0	0.001	Q_Obs_low
+s14_20101229	16935264	0.001	Q_Obs_low
+s14_20110101	434592	0.001	Q_Obs_low
+s14_20110112	1433376	0.001	Q_Obs_low
+s14_20110118	1168128	0.001	Q_Obs_low
+s14_20110131	870048	0.001	Q_Obs_low
+s14_20110201	1028160	0.001	Q_Obs_low
+s14_20110205	627264	0.001	Q_Obs_low
+s14_20110209	1054080	0.001	Q_Obs_low
+s14_20110215	578880	0.001	Q_Obs_low
+s14_20110218	7293024	0.001	Q_Obs_low
+s14_20110223	760320	0.001	Q_Obs_low
+s14_20110225	66833856	0.001	Q_Obs_low
+s14_20110307	433728	0.001	Q_Obs_low
+s14_20110320	64792224	0.001	Q_Obs_low
+s14_20110322	16439328	0.001	Q_Obs_low
+s14_20110326	149001984	0.001	Q_Obs_low
+s14_20110429	12850272	0.001	Q_Obs_low
+s14_20110501	13061952	0.001	Q_Obs_low
+s14_20110602	518400	0.001	Q_Obs_low
+s14_20110605	590976	0.001	Q_Obs_low
+s14_20110607	0	0.001	Q_Obs_low
+s14_20111107	0	0.001	Q_Obs_low
+s14_20120324	0	0.001	Q_Obs_low
+s14_20120325	686016	0.001	Q_Obs_low
+s14_20120401	6960384	0.001	Q_Obs_low
+s14_20120408	0	0.001	Q_Obs_low
+s14_20120411	0	0.001	Q_Obs_low
+s14_20120413	17318016	0.001	Q_Obs_low
+s14_20120810	0	0.001	Q_Obs_low
+s14_20121201	0	0.001	Q_Obs_low
+s14_20121202	65670912	0.001	Q_Obs_low
+s14_20121209	0	0.001	Q_Obs_low
+s14_20121212	0	0.001	Q_Obs_low
+s14_20121216	0	0.001	Q_Obs_low
+s14_20121220	432864	0.001	Q_Obs_low
+s14_20121223	132166080	0.001	Q_Obs_low
+s14_20121225	18226080	0.001	Q_Obs_low
+s14_20130106	17193600	0.001	Q_Obs_low
+s14_20130113	15939072	0.001	Q_Obs_low
+s14_20130202	0	0.001	Q_Obs_low
+s14_20130816	0	0.001	Q_Obs_low
+s14_20140227	0	0.001	Q_Obs_low
+s14_20140301	2276640	0.001	Q_Obs_low
 gwet_cmp2obs	4109520000	0	GWET_Obs
 * model command line
 _RunModel_tr_gsflow.bat
